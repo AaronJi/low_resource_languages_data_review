@@ -1,0 +1,76 @@
+{
+  "CC100": [
+    "CC100-XL.json",
+    "CC100.json"
+  ],
+  "HPLT": [
+    "HPLT_v2.0.json",
+    "HPLT_3.0.json"
+  ],
+  "Dolma": [
+    "dolma3_pool.json",
+    "dolma3_mix-6T.json",
+    "dolma3_5_pool.json",
+    "Dolma.json"
+  ],
+  "FineWeb2": [
+    "fineweb-2.json",
+    "FineWeb-HQ.json",
+    "FineWeb2-HQ.json",
+    "FineWeb2-embedded.json",
+    "mmBERT-pretrain-p2-fineweb2-remaining.json",
+    "Fineweb-Edu-Chinese-V2_1.json",
+    "fineweb-edu-translated.json",
+    "FineFineWeb.json",
+    "FineFineWeb-sample.json",
+    "Ultra-FineWeb.json",
+    "Ultra-FineWeb-L1.json",
+    "Ultra-FineWeb-L3.json",
+    "Fineweb-2.json"
+  ],
+  "AutoMathText": [
+    "AutoMathText-V2.json",
+    "AutoMathText-2_5.json"
+  ],
+  "Alpaca": [
+    "Alpaca.json",
+    "Code Alpaca.json",
+    "GPT-4-Alpaca.json"
+  ],
+  "Glaive Code Assistant": [
+    "glaive_toolcall_en.json",
+    "Glaive Code Assistant.json",
+    "Glaive Code Assistant v2.json",
+    "Glaive Code Assistant v3.json"
+  ],
+  "Open Assistant": [
+    "Open Assistant.json",
+    "Open Assistant OctoPack.json",
+    "Open Assistant v2.json"
+  ],
+  "WizardLM Evol-Instruct": [
+    "WizardLM Evol-Instruct.json",
+    "WizardLM Evol-Instruct V2.json"
+  ],
+  "OpenMathInstruct": [
+    "OpenMathInstruct-1.json",
+    "OpenMathInstruct-2.json"
+  ],
+  "Nemotron-CC": [
+    "Nemotron-CC-v2.json",
+    "Nemotron-CC-v2_1.json"
+  ],
+  "MMLU family": [
+    "mmlu-redux-2_0.json",
+    "mmlu-prox-eval-predictions.json",
+    "MMMLU.json"
+  ],
+  "TxT360": [
+    "TxT360.json",
+    "TxT360-v2.json"
+  ],
+  "SWE-rebench": [
+    "SWE-rebench-V2.json",
+    "SWE-rebench-V2-PRs.json"
+  ]
+}

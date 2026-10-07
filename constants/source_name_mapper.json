@@ -1,0 +1,1909 @@
+{
+    "": [
+        "?",
+        "No",
+        "no"
+    ],
+    "vatex": [
+        "vatex"
+    ],
+    "huggingface.co/datasets/discovery": [
+        "https://huggingface.co/datasets/discovery"
+    ],
+    "zujuan.xkw.com": [
+        "http://zujuan.xkw.com/"
+    ],
+    "stackexchange.com": [
+        "https://stackexchange.com/",
+        "stack exchange",
+        "stackexchange",
+        "stackexchange (cooking)",
+        "stackexchange (investment category)"
+    ],
+    "sciencedaily": [
+        "sciencedaily"
+    ],
+    "wikisource": [
+        "wikisource"
+    ],
+    "finqa (chen et al 2021": [
+        "finqa (chen et al 2021"
+    ],
+    "infotabs.github.io": [
+        "https://infotabs.github.io/"
+    ],
+    "europarl": [
+        "europarl",
+        "europarl language model data news language model data",
+        "europarl parallel corpus french",
+        "europarl3"
+    ],
+    "turkcorpus": [
+        "turkcorpus"
+    ],
+    "movie reviews": [
+        "movie reviews"
+    ],
+    "service websites": [
+        "service websites"
+    ],
+    "gre exams": [
+        "gre exams",
+        "gre websites"
+    ],
+    "datasets: distnli": [
+        "datasets: distnli"
+    ],
+    "kdedoc": [
+        "kdedoc"
+    ],
+    "nips.cc": [
+        "https://nips.cc/"
+    ],
+    "crowdsourced": [
+        "crodwsourced",
+        "crowdsourced",
+        "crowdsourced (amt",
+        "crowdsourced (daemo",
+        "crowdsourcing",
+        "crowsourcing"
+    ],
+    "jeopardy": [
+        "jeopardy"
+    ],
+    "french-english 109 corpus": [
+        "french-english 109 corpus"
+    ],
+    "tabfact": [
+        "tabfact"
+    ],
+    "ict localisation data": [
+        "ict localisation data"
+    ],
+    "mrpc": [
+        "mrpc"
+    ],
+    "ck12.org": [
+        "books scraped from ck12.org",
+        "ck-12 foundation",
+        "ck12.org",
+        "https://www.ck12.org/",
+        "https://www.ck12.org/student/"
+    ],
+    "database operations": [
+        "database operations"
+    ],
+    "sst": [
+        "sst"
+    ],
+    "inf.uni-hamburg.de/en/inst/ab/lt/resources/data/depcc.html": [
+        "https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/depcc.html"
+    ],
+    "fiction e-books": [
+        "fiction e-books"
+    ],
+    "anc corpus": [
+        "anc corpus"
+    ],
+    "tehran english-persian parallel corpus": [
+        "tehran english-persian parallel corpus"
+    ],
+    "cnn.com": [
+        "20 news sources (cnn",
+        "20 news sources (cnn)",
+        "cnn",
+        "cnn.com",
+        "http://www.cnn.com/"
+    ],
+    "quizziz;study.com;proprofs": [
+        "quizziz;study.com;proprofs"
+    ],
+    "wiktionary.org": [
+        "https://www.wiktionary.org/",
+        "https://www.wiktionary.org/ ; stories",
+        "wikitionary",
+        "wiktionary"
+    ],
+    "imsdb.com": [
+        "https://imsdb.com/"
+    ],
+    "gab.com": [
+        "gab forum",
+        "https://gab.com/"
+    ],
+    "common knowledge sources.": [
+        "common knowledge sources."
+    ],
+    "slate magazine": [
+        "slate magazine"
+    ],
+    "friends tv show": [
+        "friends tv show"
+    ],
+    "verbatim magazine": [
+        "verbatim magazine"
+    ],
+    "abc": [
+        "abc"
+    ],
+    "semeval 2012 task 2": [
+        "semeval 2012 task 2"
+    ],
+    "encyclopedic articles": [
+        "encyclopedic articles"
+    ],
+    "toefl": [
+        "toefl"
+    ],
+    "pubmed": [
+        "datasets: pubmed",
+        "pubmed"
+    ],
+    "khanacademy.org": [
+        "https://www.khanacademy.org",
+        "khan academy"
+    ],
+    "mpqa": [
+        "mpqa"
+    ],
+    "neet pg exams": [
+        "neet pg exams"
+    ],
+    "geotext": [
+        "geotext"
+    ],
+    "lsmdc": [
+        "lsmdc"
+    ],
+    "paws dataset": [
+        "paws dataset"
+    ],
+    "udacity.com": [
+        "https://www.udacity.com",
+        "udacity"
+    ],
+    "the national university of singapore (nus) sms corpus": [
+        "the national university of singapore (nus) sms corpus"
+    ],
+    "reddit": [
+        "eli5 dataset",
+        "reddit",
+        "reddit web",
+        "reddit;web"
+    ],
+    "wsj": [
+        "wsj"
+    ],
+    "pmc": [
+        "pmc"
+    ],
+    "wikireading": [
+        "wikireading"
+    ],
+    "amazon.com": [
+        "amazon",
+        "amazon reviews",
+        "amazon.com"
+    ],
+    "ecqa": [
+        "ecqa"
+    ],
+    "wanli": [
+        "wanli"
+    ],
+    "mctest": [
+        "mctest",
+        "mctest children stories",
+        "mctest stories"
+    ],
+    "setimes": [
+        "setimes"
+    ],
+    "family feud": [
+        "family feud"
+    ],
+    "fullfact": [
+        "fullfact"
+    ],
+    "Google Translate": [
+        "google translate",
+        "partially (google translate)"
+    ],
+    "shopping websites": [
+        "shopping websites"
+    ],
+    "goodreads.com": [
+        "goodreads"
+    ],
+    "cosql": [
+        "cosql"
+    ],
+    "ibm-rank-30k": [
+        "ibm-rank-30k"
+    ],
+    "nielsen-netratings.com": [
+        "http://www.nielsen-netratings.com/"
+    ],
+    "cleaned e2e": [
+        "cleaned e2e"
+    ],
+    "daily jugontor": [
+        "daily jugontor"
+    ],
+    "creative commons license texts": [
+        "creative commons license texts"
+    ],
+    "xlnet_base": [
+        "xlnet_base"
+    ],
+    "drop": [
+        "drop"
+    ],
+    "grover_base": [
+        "grover_base"
+    ],
+    "fetaqa": [
+        "fetaqa"
+    ],
+    "tatoeba": [
+        "tatoeba"
+    ],
+    "msnbc.com": [
+        "http://newsbot.msnbc.msn.com/",
+        "msnbc"
+    ],
+    "microsoft research paraphrase identification corpus": [
+        "microsoft research paraphrase identification corpus"
+    ],
+    "travel.stackexchange.com": [
+        "https://travel.stackexchange.com/"
+    ],
+    "ehuhac": [
+        "ehuhac"
+    ],
+    "anthropic": [
+        "anthropic"
+    ],
+    "worldtree": [
+        "worldtree",
+        "worldtree corpus"
+    ],
+    "web exams": [
+        "college english test",
+        "college exams",
+        "employment exams",
+        "english exams",
+        "english exams for middle and high school chinese students",
+        "exam",
+        "exams",
+        "exams (www.21cnjy.com",
+        "national college entrance examination",
+        "online listening exams",
+        "public english test",
+        "standardized exams",
+        "university exams"
+    ],
+    "qed": [
+        "qed"
+    ],
+    "taskmaster-1 dataset": [
+        "taskmaster-1 dataset"
+    ],
+    "Yes": [
+        "Test",
+        "Yes",
+        "part translated",
+        "partially",
+        "test",
+        "yes",
+        "yes partially"
+    ],
+    "flickr": [
+        "flickr",
+        "flickr  web",
+        "flickr30k"
+    ],
+    "findory.com": [
+        "http://www.findory.com/"
+    ],
+    "wikibooks": [
+        "wikibooks"
+    ],
+    "wikidata": [
+        "wikidata"
+    ],
+    "5utk.ks5u.com": [
+        "http://5utk.ks5u.com/"
+    ],
+    "mr": [
+        "mr"
+    ],
+    "verbosity": [
+        "verbosity"
+    ],
+    "entertainment websites": [
+        "entertainment websites"
+    ],
+    "politifact.com": [
+        "politifact",
+        "politifact.com"
+    ],
+    "spc": [
+        "spc"
+    ],
+    "nlpcc-dbqa dataset": [
+        "nlpcc-dbqa dataset"
+    ],
+    "asdiv-a dataset (miao et al 2020": [
+        "asdiv-a dataset (miao et al 2020"
+    ],
+    "media.mit.edu/projects/": [
+        "https://www.media.mit.edu/projects/open-mind-common-sense/overview/"
+    ],
+    "spontaneanation podcast": [
+        "spontaneanation podcast"
+    ],
+    "the president's commission report on the JFK assassination": [
+        "report of the president's commission on the assassination of president kennedy"
+    ],
+    "masc dataset": [
+        "masc dataset"
+    ],
+    "craigslist.org": [
+        "craigslist",
+        "n sfbay.craigslist.org"
+    ],
+    "qa-zre": [
+        "qa-zre"
+    ],
+    "tribunemag.co.uk": [
+        "tribunemag.co.uk"
+    ],
+    "ucat tests": [
+        "ucat tests"
+    ],
+    "evidence inference": [
+        "evidence inference"
+    ],
+    "grover_large": [
+        "grover_large"
+    ],
+    "hrenwac": [
+        "hrenwac"
+    ],
+    "komi": [
+        "komi"
+    ],
+    "sanidad.gob.es": [
+        "https://www.sanidad.gob.es/"
+    ],
+    "wiki headlines": [
+        "wiki headlines",
+        "wiki headlines parallel corpus"
+    ],
+    "webnlg 2017": [
+        "webnlg 2017"
+    ],
+    "opus books": [
+        "opus books"
+    ],
+    "omcs corpus (singh et al 2002": [
+        "omcs corpus (singh et al 2002)"
+    ],
+    "javabkoo.com": [
+        "http://javabkoo.com/"
+    ],
+    "mnli": [
+        "mnli",
+        "mnli corpus"
+    ],
+    "factcheck": [
+        "factcheck"
+    ],
+    "hyatt.com": [
+        "hyatt"
+    ],
+    "newswire": [
+        "newswire"
+    ],
+    "debatepedia.org": [
+        "http://www.debatepedia.org/"
+    ],
+    "opus news-commentary": [
+        "news commentary parallel corpus french",
+        "news commentary v11",
+        "news-commentary"
+    ],
+    "multimodalqa": [
+        "multimodalqa"
+    ],
+    "word parallel corpus": [
+        "word parallel corpus"
+    ],
+    "rottentomatoes.com": [
+        "https://www.rottentomatoes.com/",
+        "rottentomatoes.com"
+    ],
+    "baidu ai studio": [
+        "baidu ai studio"
+    ],
+    "kattis": [
+        "kattis"
+    ],
+    "daily nayadiganta": [
+        "daily nayadiganta"
+    ],
+    "huggingface.co/datasets/allenai/s2orc": [
+        "https://huggingface.co/datasets/allenai/s2orc"
+    ],
+    "lemurproject.org/clueweb09.php": [
+        "clueweb09",
+        "http://lemurproject.org/clueweb09.php/"
+    ],
+    "sardware": [
+        "sardware"
+    ],
+    "movies": [
+        "movie subtitles",
+        "movies",
+        "movies captions"
+    ],
+    "ada83": [
+        "ada83"
+    ],
+    "xlm": [
+        "xlm"
+    ],
+    "conll.org/2016": [
+        "http://www.conll.org/2016"
+    ],
+    "maptask": [
+        "maptask"
+    ],
+    "information websites": [
+        "information websites"
+    ],
+    "templates": [
+        "rules-based",
+        "template",
+        "template-based",
+        "template-based generation",
+        "templates"
+    ],
+    "eurovoc thesaurus": [
+        "eurovoc thesaurus"
+    ],
+    "semantic scholar articles": [
+        "semantic scholar articles"
+    ],
+    "OpenAI GPT-3": [
+        "gpt-3",
+        "gpt3",
+        "openai gpt-3"
+    ],
+    "casetext company": [
+        "casetext company"
+    ],
+    "fiqa dataset": [
+        "fiqa dataset"
+    ],
+    "sql2text": [
+        "sql2text"
+    ],
+    "wikitq": [
+        "wikitq"
+    ],
+    "squad": [
+        "squad"
+    ],
+    "quora": [
+        "https://www.kaggle.com/c/quora-question-pairs(english)",
+        "quora",
+        "quoref"
+    ],
+    "drupal.org/project/civilcomments": [
+        "https://www.drupal.org/project/civilcomments"
+    ],
+    "memat": [
+        "memat"
+    ],
+    "emea": [
+        "emea"
+    ],
+    "wikimedia": [
+        "wikimedia"
+    ],
+    "verbmobil": [
+        "verbmobil"
+    ],
+    "github.com/commonsense/omcs": [
+        "open mind common sense database"
+    ],
+    "lexisnexis database": [
+        "lexisnexis database"
+    ],
+    "plos articles": [
+        "plos articles"
+    ],
+    "narrativeqa": [
+        "narrativeqa"
+    ],
+    "cooking.stackexchange.com": [
+        "https://cooking.stackexchange.com/"
+    ],
+    "financezhidao dataset": [
+        "financezhidao dataset"
+    ],
+    "press releases": [
+        "press releases"
+    ],
+    "dgt": [
+        "dgt"
+    ],
+    "the science - history of the universe": [
+        "the science - history of the universe"
+    ],
+    "rf": [
+        "rf"
+    ],
+    "instructables": [
+        "instructables"
+    ],
+    "codechef.com": [
+        "https://www.codechef.com"
+    ],
+    "von news": [
+        "von news"
+    ],
+    "dainik jugasankha": [
+        "dainik jugasankha"
+    ],
+    "compwebq": [
+        "compwebq"
+    ],
+    "select thai websites": [
+        "select thai websites"
+    ],
+    "idebate.com": [
+        "idebate.com"
+    ],
+    "atcoder.jp": [
+        "atcoder",
+        "https://atcoder.jp"
+    ],
+    "dihana": [
+        "dihana"
+    ],
+    "travel": [
+        "travel"
+    ],
+    "commoncrawl.org": [
+        "common craw",
+        "common crawl",
+        "common crawl parallel corpus",
+        "commoncrawl",
+        "commoncrawl.",
+        "http://commoncrawl.org/",
+        "https://huggingface.co/datasets/c4",
+        "monolingual data sets from commoncrawl."
+    ],
+    "ted.com": [
+        "https://www.ted.com/",
+        "ted talks",
+        "ted talks transcripts",
+        "ted2013",
+        "tedtalks"
+    ],
+    "tourist information dialogs": [
+        "tourist information dialogs"
+    ],
+    "open movie database": [
+        "open movie database"
+    ],
+    "creative commons license textbooks": [
+        "creative commons license textbooks"
+    ],
+    "virtual reality collection": [
+        "virtual reality collection"
+    ],
+    "evalution (santus et al.": [
+        "evalution (santus et al."
+    ],
+    "ukwac": [
+        "ukwac"
+    ],
+    "giga-fren": [
+        "giga-fren"
+    ],
+    "lsac.org/lsat": [
+        "https://www.lsac.org/lsat"
+    ],
+    "medline.com": [
+        "https://www.medline.com/"
+    ],
+    "iwslt": [
+        "iwslt"
+    ],
+    "rocstories dataset": [
+        "rocstories corpus (mostafazadeh et al 2016",
+        "rocstories corpus (mostafazadeh et al 2016)",
+        "rocstories dataset"
+    ],
+    "activitynet": [
+        "activitynet",
+        "activitynet captions"
+    ],
+    "rte": [
+        "rte",
+        "rte2-rte4"
+    ],
+    "9/11 reports": [
+        "9/11 reports"
+    ],
+    "berlitz travel guide": [
+        "berlitz travel guide"
+    ],
+    "etv bangla": [
+        "etv bangla"
+    ],
+    "glosses": [
+        "glosses"
+    ],
+    "and deutsche welle": [
+        "and deutsche welle"
+    ],
+    "kde4": [
+        "kde4"
+    ],
+    "s2orc": [
+        "s2orc"
+    ],
+    "tiwall.com": [
+        "https://www.tiwall.com/"
+    ],
+    "arxiv.org": [
+        "arxiv papers",
+        "https://arxiv.org/"
+    ],
+    "pmindia.gov.in/en/mann-ki-baat": [
+        "https://www.pmindia.gov.in/en/mann-ki-baat/"
+    ],
+    "openreview.net": [
+        "http://openreview.net",
+        "https://openreview.net/"
+    ],
+    "boolq": [
+        "boolq"
+    ],
+    "bbc": [
+        "bbc",
+        "bbc articles",
+        "bbc yoruba",
+        "http://www.bbcworld.com/"
+    ],
+    "race exams": [
+        "race exams"
+    ],
+    "forum posts": [
+        "forum posts"
+    ],
+    "mwsc": [
+        "mwsc"
+    ],
+    "us congressional bills": [
+        "us congressional bills"
+    ],
+    "restaurant information dialogs": [
+        "restaurant information dialogs"
+    ],
+    "multiwoz": [
+        "multiwoz"
+    ],
+    "newsinessence.com": [
+        "http://www.newsinessence.com/"
+    ],
+    "eitb-parcc": [
+        "eitb-parcc"
+    ],
+    "other": [
+        "other",
+        "others"
+    ],
+    "switchboard": [
+        "switchboard"
+    ],
+    "cluscite": [
+        "cluscite"
+    ],
+    "baike.baidu.com": [
+        "baidubake",
+        "baike.baidu.com/",
+        "baikeqa dataset",
+        "https://baike.baidu.com/"
+    ],
+    "hate sites": [
+        "hate sites"
+    ],
+    "arts and crafts essays": [
+        "arts and crafts essays"
+    ],
+    "mcql": [
+        "mcql"
+    ],
+    "manybooks.net/categories/ccl": [
+        "http://manybooks.net/categories/ccl"
+    ],
+    "eubookshop": [
+        "eubookshop"
+    ],
+    "spectator.co.uk": [
+        "spectator.co.uk"
+    ],
+    "unpc": [
+        "unpc"
+    ],
+    "theweek.com": [
+        "theweek.com"
+    ],
+    "washington post": [
+        "washington post"
+    ],
+    "wordnet": [
+        "wordnet"
+    ],
+    "facebook": [
+        "facebook groups",
+        "facebook pages and groups"
+    ],
+    "dart": [
+        "dart"
+    ],
+    "finlex": [
+        "finlex"
+    ],
+    "lecturio.com/usmle-step-1": [
+        "https://www.lecturio.com/usmle-step-1"
+    ],
+    "bible-uedin": [
+        "bible-uedin"
+    ],
+    "imdb.com": [
+        "https://www.imdb.com/",
+        "imdb"
+    ],
+    "grover_mega": [
+        "grover_mega"
+    ],
+    "opencyc": [
+        "opencyc"
+    ],
+    "qa-srl": [
+        "qa-srl"
+    ],
+    "wikipedia.org": [
+        "english wikipedia + google translate",
+        "fever",
+        "https://en.wikipedia.org/",
+        "https://www.wikipedia.org/",
+        "parallel wikipedia simplification (pwkp) corpus",
+        "parallel wikipedia simplification (pwkp) corpus (zhu et al., 2010)",
+        "persian wikipedia",
+        "spanish wikipedia",
+        "wikipedia",
+        "wikipedia (english and thai",
+        "wikipedia headlines provided by cmu",
+        "wikipedia medicine portal",
+        "wikipedia tables",
+        "wizard of wikipedia"
+    ],
+    "arithmetic word problems": [
+        "arithmetic word problems"
+    ],
+    "online newspaper articles": [
+        "online newspaper articles"
+    ],
+    "original": [
+        "original"
+    ],
+    "trivia": [
+        "trivia"
+    ],
+    "dbpedia": [
+        "dbpedia"
+    ],
+    "european union": [
+        "european union"
+    ],
+    "movies.stackexchange.com": [
+        "https://movies.stackexchange.com/"
+    ],
+    "schema2qa datasets (xu et al 2020": [
+        "schema2qa datasets (xu et al 2020"
+    ],
+    "sec.gov/edgar/about": [
+        "contracts https://www.sec.gov/edgar/about"
+    ],
+    "sqa": [
+        "sqa"
+    ],
+    "bond fm radio": [
+        "bond fm radio"
+    ],
+    "broadcast conversation": [
+        "broadcast conversation"
+    ],
+    "tildemodel": [
+        "tildemodel"
+    ],
+    "wikiqa dataset": [
+        "wikiqa dataset"
+    ],
+    "syntax textbooks": [
+        "syntax textbooks"
+    ],
+    "OpenAI GPT-1": [
+        "gpt-1",
+        "openai gpt"
+    ],
+    "totto": [
+        "totto"
+    ],
+    "lenci/benotto dataset (benotto 2015)": [
+        "lenci/benotto (benotto 2015)"
+    ],
+    "ap news": [
+        "ap",
+        "associated press worldstream"
+    ],
+    "mozilla common voice dataset": [
+        "mozilla common voice dataset"
+    ],
+    "nli diagnostics": [
+        "nli diagnostics"
+    ],
+    "mscoco": [
+        "mscoco"
+    ],
+    "iclr.cc/archive/www/2017.html": [
+        "https://iclr.cc/archive/www/2017.html"
+    ],
+    "infopankki": [
+        "infopankki"
+    ],
+    "multiun": [
+        "multiun"
+    ],
+    "bing search queries": [
+        "bing search queries"
+    ],
+    "comve": [
+        "comve"
+    ],
+    "e-snli": [
+        "e-snli"
+    ],
+    "the seven wonders of the ancient world": [
+        "the seven wonders of the ancient world"
+    ],
+    "chinese psychological exam": [
+        "chinese psychological exam"
+    ],
+    "icwsm.org/data": [
+        "https://www.icwsm.org/data/"
+    ],
+    "online novels": [
+        "online novels"
+    ],
+    "inference rule candidates": [
+        "inference rule candidates"
+    ],
+    "patents.google.com": [
+        "dataset: google patents",
+        "google patents"
+    ],
+    "model generated negative candidates using adversarial filtering": [
+        "model generated negative candidates using adversarial filtering"
+    ],
+    "gv news": [
+        "gv news"
+    ],
+    "yandex": [
+        "russian-english parallel data provided by yandex",
+        "yandex 1m parallel corpus"
+    ],
+    "romanian europarl": [
+        "romanian europarl"
+    ],
+    "judge.u-aizu.ac.jp": [
+        "https://judge.u-aizu.ac.jp"
+    ],
+    "dailymail.co.uk": [
+        "cnn/dailymail corpus",
+        "cnn/dm",
+        "daily mail",
+        "dailymail",
+        "dailymail.co.uk"
+    ],
+    "books": [
+        "books"
+    ],
+    "opensubtitles.org": [
+        "dataset: opus",
+        "opensubtitles",
+        "opensubtitles.org",
+        "opus",
+        "setimes2 from opus for romanian\u2013english and turkish\u2013english",
+        "tep subtitles",
+        "tep:tehran english-persian  parallel  corpus(https://opus.nlpl.eu/tep.php",
+        "tep:tehran english-persian  parallel  corpus(https://opus.nlpl.eu/tep.php)"
+    ],
+    "law and justice": [
+        "law and justice"
+    ],
+    "funpedia": [
+        "funpedia"
+    ],
+    "socialiqa": [
+        "socialiqa"
+    ],
+    "travel websites": [
+        "travel websites"
+    ],
+    "wikimatrix corpus": [
+        "wikimatrix corpus"
+    ],
+    "CTRL": [
+        "conditional transformer language model  (ctrl) generated reviews",
+        "ctrl"
+    ],
+    "channelnewsasia.com": [
+        "http://www.channelnewsasia.com/"
+    ],
+    "news.google.com": [
+        "google news",
+        "http://news.google.com/"
+    ],
+    "cr": [
+        "cr"
+    ],
+    "webtextqa dataset": [
+        "webtextqa dataset"
+    ],
+    "babi": [
+        "babi"
+    ],
+    "answers.com": [
+        "https://www.answers.com/"
+    ],
+    "bengali news articles (daily prothom alo": [
+        "bengali news articles (daily prothom alo"
+    ],
+    "protobowl.com": [
+        "https://protobowl.com/"
+    ],
+    "enron corporation": [
+        "enron corportation"
+    ],
+    "kaptest.com/sat/books": [
+        "https://www.kaptest.com/sat/books"
+    ],
+    "mbs": [
+        "mbs"
+    ],
+    "opus software projects": [
+        "opus software projects"
+    ],
+    "poems written by children in grades 1 to 12": [
+        "poems written by children in grades 1 to 12"
+    ],
+    "debate.org": [
+        "debate.org"
+    ],
+    "montenegrinsubs": [
+        "montenegrinsubs"
+    ],
+    "u.s. government reports": [
+        "u.s. government reports"
+    ],
+    "php": [
+        "php"
+    ],
+    "human": [
+        "human",
+        "human annotators",
+        "human writers",
+        "manually created",
+        "manually designed"
+    ],
+    "quran": [
+        "quran"
+    ],
+    "the chronicles of newgate": [
+        "the chronicles of newgate"
+    ],
+    "videos": [
+        "videos"
+    ],
+    "blog authorship corpus": [
+        "blog authorship corpus"
+    ],
+    "mcscript": [
+        "mcscript"
+    ],
+    "student answers": [
+        "student answers"
+    ],
+    "ai2 science questions": [
+        "ai2 science questions"
+    ],
+    "digikala.com": [
+        "https://www.digikala.com/"
+    ],
+    "wmt": [
+        "fair_wmt19",
+        "fair_wmt20",
+        "wmt"
+    ],
+    "verbnet": [
+        "verbnet"
+    ],
+    "wikihow.com": [
+        "https://www.wikihow.com/",
+        "ttps://www.wikihow.com/",
+        "wikihow"
+    ],
+    "cosmosqa": [
+        "cosmosqa"
+    ],
+    "dream": [
+        "dream"
+    ],
+    "fiskmo": [
+        "fiskmo"
+    ],
+    "sick": [
+        "sick"
+    ],
+    "national commission on terrorist attacks reports": [
+        "report from the national commission on terrorist attacks upon the united states"
+    ],
+    "cbt": [
+        "cbt"
+    ],
+    "sadilar": [
+        "sadilar"
+    ],
+    "national civil servants examination of china": [
+        "publically available questions of the national civil servants examination of china"
+    ],
+    "dailydialog": [
+        "dailydialog"
+    ],
+    "shtfplan.com": [
+        "shtfplan.com"
+    ],
+    "bless (baroni and lenci 2011)": [
+        "bless (baroni and lenci 2011)"
+    ],
+    "customer service queries": [
+        "customer service queries"
+    ],
+    "trec": [
+        "trec"
+    ],
+    "conceptnet": [
+        "conceptne",
+        "conceptnet"
+    ],
+    "OpenAI GPT-2": [
+        "gpt-2",
+        "gpt-2_large",
+        "gpt-2_medium",
+        "gpt-2_pytorch",
+        "gpt-2_small",
+        "gpt-2_xl",
+        "gpt2",
+        "openai gpt-2",
+        "pplm_gpt2"
+    ],
+    "tweet-news pairs": [
+        "tweet-news pairs"
+    ],
+    "zhihu": [
+        "zhihu"
+    ],
+    "iranian": [
+        "iranian"
+    ],
+    "custom model/code generated": [
+        "custom model/code generated"
+    ],
+    "gnome": [
+        "gnome"
+    ],
+    "news (ntv": [
+        "news (ntv"
+    ],
+    "undisclosed web": [
+        "undisclosed web",
+        "web"
+    ],
+    "headlines": [
+        "headlines"
+    ],
+    "mcat tests": [
+        "mcat tests"
+    ],
+    "quizdb.org": [
+        "https://www.quizdb.org/"
+    ],
+    "spider": [
+        "spider"
+    ],
+    "opus": [
+        "https://opus.nlpl.eu/tep.php"
+    ],
+    "dataset: copa": [
+        "copa dataset (roemmele et al 2011)",
+        "dataset: copa"
+    ],
+    "france24": [
+        "france24",
+        "france24..."
+    ],
+    "huggingface.co/datasets/bookcorpus": [
+        "https://huggingface.co/datasets/bookcorpus"
+    ],
+    "multirc": [
+        "multirc",
+        "multirc (cnn"
+    ],
+    "tanzil": [
+        "tanzil"
+    ],
+    "webqsp": [
+        "webqsp"
+    ],
+    "elhuyar": [
+        "elhuyar"
+    ],
+    "health news reviews (hnr": [
+        "health news reviews (hnr"
+    ],
+    "logic2text": [
+        "logic2text"
+    ],
+    "ohchr.org": [
+        "ohchr.org"
+    ],
+    "bigbench": [
+        "bigbench"
+    ],
+    "bnc": [
+        "bnc"
+    ],
+    "marion harland's cookery for beginners": [
+        "marion harland's cookery for beginners"
+    ],
+    "spanish section of the ancora corpus": [
+        "spanish section of the ancora corpus"
+    ],
+    "eu legistlative texts": [
+        "eu legistlative texts"
+    ],
+    "capes": [
+        "capes"
+    ],
+    "medical dialog": [
+        "medical dialog",
+        "medical dialog dataset"
+    ],
+    "zee news": [
+        "zee news"
+    ],
+    "george lakoff\u2019s conceptual metaphor list": [
+        "george lakoff\u2019s conceptual metaphor list"
+    ],
+    "theonion.com": [
+        "https://www.theonion.com/",
+        "the onion"
+    ],
+    "quizzlet": [
+        "quizzlet"
+    ],
+    "sentences written by english language learners for the toefl exam": [
+        "sentences written by english language learners for the toefl exam"
+    ],
+    "step1.medbullets.com": [
+        "https://step1.medbullets.com"
+    ],
+    "yoruba proverbs": [
+        "yoruba proverbs"
+    ],
+    "nps.gov": [
+        "nps.gov"
+    ],
+    "google search": [
+        "google search",
+        "google search engine queries",
+        "google search queries",
+        "google search questions"
+    ],
+    "academic paper reviews": [
+        "papers + reviews (nips, acl, iclr, conll, arxiv)"
+    ],
+    "huggingface.co/datasets/trec": [
+        "https://huggingface.co/datasets/trec"
+    ],
+    "imppres": [
+        "imppres"
+    ],
+    "hybridqa": [
+        "hybridqa"
+    ],
+    "frankfurter rundshau newspaper": [
+        "frankfurter rundshau newspaper"
+    ],
+    "healthtap.com": [
+        "https://www.healthtap.com/"
+    ],
+    "groupdiscussionideas.com": [
+        "groupdiscussionideas.com"
+    ],
+    "articles on history and anthropology": [
+        "articles on history and anthropology"
+    ],
+    "los angeles times": [
+        "los angeles times"
+    ],
+    "wikisql": [
+        "wikisql"
+    ],
+    "moniteur belge/belgisch staatsblad": [
+        "moniteur belge/belgisch staatsblad"
+    ],
+    "pullum and huddleston 2002 for premises": [
+        "pullum and huddleston 2002 for premises"
+    ],
+    "yahoo": [
+        "http://news.yahoo.com/",
+        "yahoo answers"
+    ],
+    "openstax.org": [
+        "openstax.org"
+    ],
+    "arc corpus": [
+        "arc corpus"
+    ],
+    "mcrae norms collection": [
+        "mcrae norms collection"
+    ],
+    "nahj al-balagha": [
+        "nahj al-balagha"
+    ],
+    "xlnet_large": [
+        "xlnet_large"
+    ],
+    "diplomacy (online game": [
+        "diplomacy (online game"
+    ],
+    "parallel meaning bank": [
+        "parallel mean bank",
+        "parallel meaning bank"
+    ],
+    "czeng parallel corpus": [
+        "czeng parallel corpus"
+    ],
+    "eur-lex portal": [
+        "eur-lex portal"
+    ],
+    "callhome spanish": [
+        "callhome spanish"
+    ],
+    "civil service exams of china": [
+        "civil service exams of china"
+    ],
+    "debatewise.org": [
+        "debatewise.org"
+    ],
+    "ebm-nlp corpus (nye et al 2018": [
+        "ebm-nlp corpus (nye et al 2018"
+    ],
+    "aclanthology.org": [
+        "acl anthology",
+        "http://acl2017.org/",
+        "https://aclanthology.org/"
+    ],
+    "brainzilla.com": [
+        "brainzilla.com"
+    ],
+    "coursera.org": [
+        "coursera",
+        "https://www.coursera.org"
+    ],
+    "project gutenberg": [
+        "books (project gutenberg)",
+        "gutenberg",
+        "gutenberg project stories",
+        "project gutenberg",
+        "project gutenberg books"
+    ],
+    "wikianswers": [
+        "wikianswers"
+    ],
+    "sports portal": [
+        "sports portal"
+    ],
+    "image descriptions": [
+        "image descriptions"
+    ],
+    "stackoverflow.com": [
+        "https://stackoverflow.com/",
+        "stackoverflow"
+    ],
+    "storycloze": [
+        "storycloze"
+    ],
+    "freebase": [
+        "freebase"
+    ],
+    "github": [
+        "github"
+    ],
+    "allegro.pl": [
+        "allegro.pl"
+    ],
+    "sparc": [
+        "sparc"
+    ],
+    "xhosanavy": [
+        "xhosanavy"
+    ],
+    "ofispublik": [
+        "ofispublik"
+    ],
+    "voa": [
+        "voa",
+        "voa hausa"
+    ],
+    "searchenginewatch.com": [
+        "http://searchenginewatch.com/"
+    ],
+    "anandabazar patrika": [
+        "anandabazar patrika"
+    ],
+    "geeksforgeeks.org": [
+        "https://www.geeksforgeeks.org/"
+    ],
+    "huggingface.co/datasets/story_cloze": [
+        "https://huggingface.co/datasets/story_cloze"
+    ],
+    "conference on the future of europe": [
+        "conference on the future of europe"
+    ],
+    "catalog.ldc.upenn.edu/ldc2011t07 agence france-presse": [
+        "https://catalog.ldc.upenn.edu/ldc2011t07 agence france-presse"
+    ],
+    "wayne magnuson english idioms sayings & slang": [
+        "wayne magnuson english idioms sayings & slang"
+    ],
+    "economist.com": [
+        "economist.com"
+    ],
+    "rednova.com": [
+        "http://www.rednova.com/"
+    ],
+    "e-marketing-news.co.uk/aug04-greg.html": [
+        "http://www.e-marketing-news.co.uk/aug04-greg.html"
+    ],
+    "onestopenglish corpus": [
+        "onestopenglish corpus"
+    ],
+    "huggingface.co/datasets/aqua_rat": [
+        "https://huggingface.co/datasets/aqua_rat"
+    ],
+    "maxwellforbes.com/social-chemistry/": [
+        "https://maxwellforbes.com/social-chemistry/"
+    ],
+    "open-assistant.io": [
+        "https://open-assistant.io/"
+    ],
+    "huggingface.co/datasets/winograd_wsc": [
+        "https://huggingface.co/datasets/winograd_wsc"
+    ],
+    "jigsaw civil comments": [
+        "jigsaw civil comments"
+    ],
+    "mutual": [
+        "mutual"
+    ],
+    "linkedin": [
+        "linkedin"
+    ],
+    "aiims pg exams": [
+        "aiims pg exams"
+    ],
+    "euconst": [
+        "euconst"
+    ],
+    "genia": [
+        "genia"
+    ],
+    "jon.dehdari.org/corpora": [
+        "https://jon.dehdari.org/corpora/"
+    ],
+    "pirt tests": [
+        "pirt tests"
+    ],
+    "wikidoc encyclopedia": [
+        "wikidoc encyclopedia"
+    ],
+    "openoffice": [
+        "openoffice"
+    ],
+    "annotation from native speaker annotators": [
+        "annotation from native speaker annotators"
+    ],
+    "spanish efe news agency": [
+        "spanish efe news agency"
+    ],
+    "XLNet": [
+        "xlnet"
+    ],
+    "vdare.com": [
+        "vdare.com"
+    ],
+    "mtop": [
+        "mtop"
+    ],
+    "theguardian.com": [
+        "theguardian.com"
+    ],
+    "newsela": [
+        "newsela"
+    ],
+    "livejournal": [
+        "livejournal"
+    ],
+    "niv2": [
+        "niv2"
+    ],
+    "central news agency of taiwan": [
+        "central news agency of taiwan"
+    ],
+    "sbic": [
+        "sbic"
+    ],
+    "youtube": [
+        "youtube",
+        "youtube captions"
+    ],
+    "wenshu.court.gov.cn": [
+        "http://wenshu.court.gov.cn/"
+    ],
+    "bloomberg news": [
+        "bloomberg newswire"
+    ],
+    "jrcacquis": [
+        "jrcacquis"
+    ],
+    "articles on society": [
+        "articles on society"
+    ],
+    "discussion forums": [
+        "discussion forums"
+    ],
+    "academic papers": [
+        "academic papers",
+        "scientific papers"
+    ],
+    "amara.org": [
+        "https://amara.org/"
+    ],
+    "globalvoices.org": [
+        "global voices",
+        "global voices dataset(https://globalvoices.org/",
+        "global voices dataset(https://globalvoices.org/)",
+        "globalvoices",
+        "https://globalvoices.org/"
+    ],
+    "hindi-english parallel corpus": [
+        "hindi-english parallel corpus"
+    ],
+    "webdunia.comlaunchpad.net": [
+        "webdunia.comlaunchpad.net"
+    ],
+    "convai2": [
+        "convai2"
+    ],
+    "datasets: squad": [
+        "datasets: squad"
+    ],
+    "transformer_xl": [
+        "transformer_xl"
+    ],
+    "flan-t5": [
+        "flan-t5"
+    ],
+    "european central bank": [
+        "european central bank"
+    ],
+    "github.com/christos-c/bible-corpus": [
+        "https://github.com/christos-c/bible-corpus"
+    ],
+    "opus dogc corpus": [
+        "dogc"
+    ],
+    "kaggle.com/datasets/atharvjairath/personachat": [
+        "https://www.kaggle.com/datasets/atharvjairath/personachat"
+    ],
+    "subj": [
+        "subj"
+    ],
+    "and social media": [
+        "and social media"
+    ],
+    "nytmes": [
+        "new york times",
+        "new york times newswire service (nyt_eng)",
+        "nyt",
+        "nytmes"
+    ],
+    "frontpagemag.com": [
+        "frontpagemag.com"
+    ],
+    "tieba.baidu.com": [
+        "https://tieba.baidu.com/f?kw=%E5%BC%B1%E6%99%BA"
+    ],
+    "translated movie subtitiles": [
+        "translated movie subtitiles"
+    ],
+    "T5": [
+        "t5"
+    ],
+    "huffpost.com": [
+        "https://www.huffpost.com/",
+        "huffington post"
+    ],
+    "allenai.org/data/cord-19": [
+        "https://allenai.org/data/cord-19"
+    ],
+    "ilisten": [
+        "ilisten"
+    ],
+    "tripadvisor": [
+        "tripadvisor"
+    ],
+    "out of his mind (book": [
+        "out of his mind (book"
+    ],
+    "riddlewot.com": [
+        "riddlewot.com"
+    ],
+    "yelp": [
+        "yelp",
+        "yelp reviews"
+    ],
+    "ubuntu": [
+        "ubuntu"
+    ],
+    "light": [
+        "light"
+    ],
+    "grailqa": [
+        "grailqa"
+    ],
+    "hackerearth.com": [
+        "https://www.hackerearth.com"
+    ],
+    "cooking websites": [
+        "cooking websites"
+    ],
+    "dime": [
+        "dime"
+    ],
+    "grammar-based": [
+        "grammar-based",
+        "grammar-based for hypotheses"
+    ],
+    "gmat": [
+        "gmat",
+        "gmat exams",
+        "gmat websites"
+    ],
+    "hosted by scholastic corporation.": [
+        "hosted by scholastic corporation."
+    ],
+    "snli": [
+        "snli"
+    ],
+    "cmu movie plots": [
+        "cmu movie plots"
+    ],
+    "multi-news": [
+        "multi-news"
+    ],
+    "truthorfiction": [
+        "truthorfiction"
+    ],
+    "wikitablequestions": [
+        "wikitablequestions"
+    ],
+    "penn treebank 2 corpus (wsj included": [
+        "penn treebank 2 corpus (wsj included"
+    ],
+    "monolingual news data": [
+        "monolingual news data"
+    ],
+    "scielo": [
+        "scielo"
+    ],
+    "voanews.com": [
+        "voice of america",
+        "voice of america news"
+    ],
+    "public websites without copyright": [
+        "public websites \"without copyright"
+    ],
+    "chinese legal advice qa": [
+        "chinese legal advice qa"
+    ],
+    "stormfront": [
+        "stormfront"
+    ],
+    "kvret": [
+        "kvret"
+    ],
+    "cos-e": [
+        "cos-e"
+    ],
+    "acn.cat": [
+        "acn.cat"
+    ],
+    "twitter": [
+        "twitter"
+    ],
+    "sciq": [
+        "sciq"
+    ],
+    "prompts": [
+        "prompts"
+    ],
+    "vol. 5: biology": [
+        "vol. 5: biology"
+    ],
+    "emails": [
+        "emails"
+    ],
+    "loria": [
+        "loria"
+    ],
+    "legalqa dataset": [
+        "legalqa dataset"
+    ],
+    "snopes.com": [
+        "https://www.snopes.com",
+        "snopes"
+    ],
+    "pri": [
+        "pri"
+    ],
+    "pplm_distil": [
+        "pplm_distil"
+    ],
+    "thai government documents": [
+        "thai government documents"
+    ],
+    "cometomyhead": [
+        "cometomyhead"
+    ],
+    "winograd schema challenge dataset": [
+        "winograd schema challenge dataset"
+    ],
+    "msrvid": [
+        "msrvid"
+    ],
+    "news": [
+        "broadcast news",
+        "journals",
+        "news",
+        "news articles"
+    ],
+    "propara": [
+        "propara"
+    ],
+    "web search queries": [
+        "web search queries",
+        "web searches"
+    ],
+    "mixed": [
+        "mixed"
+    ],
+    "the fireside chats of franklin delano roosevelt": [
+        "the fireside chats of franklin delano roosevelt"
+    ],
+    "dataset: google natural questions": [
+        "dataset: google natural questions"
+    ],
+    "california state bills": [
+        "california state bills"
+    ],
+    "huggingface.co/datasets/generics_kb": [
+        "https://huggingface.co/datasets/generics_kb"
+    ],
+    "amboss.com/us/usmle": [
+        "https://www.amboss.com/us/usmle"
+    ],
+    "moniteur belge newspaper": [
+        "moniteur belge newspaper"
+    ],
+    "paracrawl": [
+        "multiparacrawl",
+        "paracrawl"
+    ],
+    "woz": [
+        "woz"
+    ],
+    "lsat": [
+        "lsat"
+    ],
+    "whitehouse.gov": [
+        "whitehouse.gov"
+    ],
+    "ecb": [
+        "ecb"
+    ],
+    "codeforces.com": [
+        "codeforces",
+        "https://codeforces.com"
+    ],
+    "pib.gov.in/indexd.aspx": [
+        "https://pib.gov.in/indexd.aspx"
+    ],
+    "conceptual captions": [
+        "conceptual captions"
+    ],
+    "wikinews": [
+        "wikinews"
+    ],
+    "business letters": [
+        "business letters"
+    ],
+    "cyc.com": [
+        "cyc.com"
+    ],
+    "triviaqa": [
+        "triviaqa"
+    ],
+    "imagechat": [
+        "imagechat"
+    ],
+    "procon.org": [
+        "procon.org"
+    ],
+    "search-engine(google) auto-complete": [
+        "search-engine(google) auto-complete"
+    ],
+    "de morgen newspaper": [
+        "de morgen newspaper"
+    ],
+    "xinhua news agency": [
+        "xinhua news agency"
+    ],
+    "Grover": [
+        "grover"
+    ],
+    "codewars": [
+        "codewars"
+    ],
+    "lenta.ru": [
+        "lenta.ru"
+    ],
+    "reuters.com": [
+        "http://www.reuters.com/",
+        "reuters"
+    ],
+    "boston.com": [
+        "http://www.boston.com/"
+    ],
+    "jw300": [
+        "jw300"
+    ],
+    "bianet": [
+        "bianet"
+    ],
+    "github.com/miras-tech/mirastext": [
+        "https://github.com/miras-tech/mirastext"
+    ],
+    "blogs": [
+        "blogs"
+    ],
+    "english service": [
+        "english service (afp_eng",
+        "english service (apw_eng",
+        "english service (cna_eng",
+        "english service (xin_eng"
+    ],
+    "wikem encyclopedia": [
+        "wikem encyclopedia"
+    ],
+    "editorials": [
+        "editorials"
+    ],
+    "huggingface.co/datasets/discofuse": [
+        "https://huggingface.co/datasets/discofuse"
+    ],
+    "tep": [
+        "tep"
+    ],
+    "biomed articles": [
+        "biomed articles",
+        "medical abstracts"
+    ],
+    "jw news": [
+        "jw news"
+    ],
+    "bapra.bg": [
+        "https://bapra.bg/"
+    ],
+    "nlm.nih.gov/databases/download/pubmed_medline.html": [
+        "https://www.nlm.nih.gov/databases/download/pubmed_medline.html"
+    ],
+    "etv": [
+        "etv"
+    ],
+    "chinese online forums": [
+        "chinese online forums"
+    ],
+    "anc.org": [
+        "https://anc.org/",
+        "open american national corpus"
+    ],
+    "huggingface.co/datasets/facebook/babi_qa": [
+        "https://huggingface.co/datasets/facebook/babi_qa"
+    ],
+    "msmarco.org": [
+        "ms marco retrieval corpus",
+        "msmarco.org"
+    ],
+    "sports web articles": [
+        "sports web articles"
+    ],
+    "czeng v1.6pre": [
+        "czeng v1.6pre"
+    ],
+    "united nations": [
+        "un",
+        "united nations",
+        "united nations parallel corpus"
+    ],
+    "OpenAI ChatGPT": [
+        "chat gpt api (wasn't specified from what i could tell)",
+        "chatgpt",
+        "instructgpt",
+        "openai chatgpt"
+    ],
+    "harvard caselaw project": [
+        "harvard caselaw project"
+    ]
+}

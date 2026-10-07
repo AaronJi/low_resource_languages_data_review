@@ -1,0 +1,450 @@
+{
+    "dolmino-mix-1124-dm-dclm": {
+        "Unique Dataset Identifier": "dolmino-mix-1124-dm-dclm",
+        "Dataset Name": "allenai/dolmino-mix-1124-dm-dclm",
+        "Paper Title": "OLMo 2: Open Language Model 2",
+        "Dataset URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2501.00656",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "dolmino-mix-1124",
+        "Collection URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "DCLM"
+        ],
+        "Creators": [
+            "allenai"
+        ],
+        "Licenses": [
+            {
+                "License": "ODC BY 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "dm-dclm"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 25949,
+            "Crawled Likes": 102,
+            "Created At": "2024-11-23",
+            "Last Modified": "2025-10-29",
+            "Size Category": "100M<n<1B",
+            "Description": "DOLMino dataset mix for OLMo2 stage 2 annealing training.\n\t\n\nMixture of high-quality data used for the second stage of OLMo2 training. \n\n\t\n\t\t\n\t\tSource Sizes\n\t\n\n\n\t\n\t\t\nName\nCategory\nTokens\nBytes (uncompressed)\nDocuments\nLicense\n\n\n\t\t\nDCLM\nHQ Web Pages\n752B\n4.56TB\n606M\nCC-BY-4.0\n\n\nFlan\nHQ Web Pages\n17.0B\n98.2GB\n57.3M\nODC-BY\n\n\nPes2o\nSTEM Papers\n58.6B\n413GB\n38.8M\nODC-BY\n\n\nWiki\nEncyclopedic\n3.7B\n16.2GB\n6.17M\nODC-BY\n\n\nStackExchange\nCodeText\n1.26B\n7.72GB\n2.48M\nCC-BY-SA-{2.5, 3.0, 4.0}… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolmino-mix-1124.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "dm-dclm",
+            "HF Config License": "",
+            "HF Dataset": "allenai/dolmino-mix-1124",
+            "HF Date": "2024-11-23",
+            "HF Downloads (September 2026)": 25949,
+            "HF Likes (September 2026)": 102,
+            "HF Yaml License": [
+                "ODC BY 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 8830233
+        }
+    },
+    "dolmino-mix-1124-dm-flan": {
+        "Unique Dataset Identifier": "dolmino-mix-1124-dm-flan",
+        "Dataset Name": "allenai/dolmino-mix-1124-dm-flan",
+        "Paper Title": "OLMo 2: Open Language Model 2",
+        "Dataset URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2501.00656",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "dolmino-mix-1124",
+        "Collection URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "ML Datasets"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot",
+            "Few-shot",
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Flan"
+        ],
+        "Creators": [
+            "allenai"
+        ],
+        "Licenses": [
+            {
+                "License": "ODC BY 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "dm-flan"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 25949,
+            "Crawled Likes": 102,
+            "Created At": "2024-11-23",
+            "Last Modified": "2025-10-29",
+            "Size Category": "100M<n<1B",
+            "Description": "DOLMino dataset mix for OLMo2 stage 2 annealing training.\n\t\n\nMixture of high-quality data used for the second stage of OLMo2 training. \n\n\t\n\t\t\n\t\tSource Sizes\n\t\n\n\n\t\n\t\t\nName\nCategory\nTokens\nBytes (uncompressed)\nDocuments\nLicense\n\n\n\t\t\nDCLM\nHQ Web Pages\n752B\n4.56TB\n606M\nCC-BY-4.0\n\n\nFlan\nHQ Web Pages\n17.0B\n98.2GB\n57.3M\nODC-BY\n\n\nPes2o\nSTEM Papers\n58.6B\n413GB\n38.8M\nODC-BY\n\n\nWiki\nEncyclopedic\n3.7B\n16.2GB\n6.17M\nODC-BY\n\n\nStackExchange\nCodeText\n1.26B\n7.72GB\n2.48M\nCC-BY-SA-{2.5, 3.0, 4.0}… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolmino-mix-1124.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "dm-flan",
+            "HF Config License": "",
+            "HF Dataset": "allenai/dolmino-mix-1124",
+            "HF Date": "2024-11-23",
+            "HF Downloads (September 2026)": 25949,
+            "HF Likes (September 2026)": 102,
+            "HF Yaml License": [
+                "ODC BY 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 8830233
+        }
+    },
+    "dolmino-mix-1124-dm-math": {
+        "Unique Dataset Identifier": "dolmino-mix-1124-dm-math",
+        "Dataset Name": "allenai/dolmino-mix-1124-dm-math",
+        "Paper Title": "OLMo 2: Open Language Model 2",
+        "Dataset URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2501.00656",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "dolmino-mix-1124",
+        "Collection URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "Template Generated"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Chain-of-Thought",
+            "Program-of-Thought",
+            "Multi-step Reasoning"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "TuluMath",
+            "DolminoSynthMath",
+            "TinyGSM-MIND",
+            "MathCoder2",
+            "Metamath-owmfilter",
+            "CodeSearchNet-owmfilter",
+            "GSM8K"
+        ],
+        "Creators": [
+            "allenai"
+        ],
+        "Licenses": [
+            {
+                "License": "ODC BY 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "dm-math"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 25949,
+            "Crawled Likes": 102,
+            "Created At": "2024-11-23",
+            "Last Modified": "2025-10-29",
+            "Size Category": "100M<n<1B",
+            "Description": "DOLMino dataset mix for OLMo2 stage 2 annealing training.\n\t\n\nMixture of high-quality data used for the second stage of OLMo2 training. \n\n\t\n\t\t\n\t\tSource Sizes\n\t\n\n\n\t\n\t\t\nName\nCategory\nTokens\nBytes (uncompressed)\nDocuments\nLicense\n\n\n\t\t\nDCLM\nHQ Web Pages\n752B\n4.56TB\n606M\nCC-BY-4.0\n\n\nFlan\nHQ Web Pages\n17.0B\n98.2GB\n57.3M\nODC-BY\n\n\nPes2o\nSTEM Papers\n58.6B\n413GB\n38.8M\nODC-BY\n\n\nWiki\nEncyclopedic\n3.7B\n16.2GB\n6.17M\nODC-BY\n\n\nStackExchange\nCodeText\n1.26B\n7.72GB\n2.48M\nCC-BY-SA-{2.5, 3.0, 4.0}… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolmino-mix-1124.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "dm-math",
+            "HF Config License": "",
+            "HF Dataset": "allenai/dolmino-mix-1124",
+            "HF Date": "2024-11-23",
+            "HF Downloads (September 2026)": 25949,
+            "HF Likes (September 2026)": 102,
+            "HF Yaml License": [
+                "ODC BY 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 8830233
+        }
+    },
+    "dolmino-mix-1124-dm-pes2o": {
+        "Unique Dataset Identifier": "dolmino-mix-1124-dm-pes2o",
+        "Dataset Name": "allenai/dolmino-mix-1124-dm-pes2o",
+        "Paper Title": "OLMo 2: Open Language Model 2",
+        "Dataset URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2501.00656",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "dolmino-mix-1124",
+        "Collection URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Academic Papers"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "peS2o"
+        ],
+        "Creators": [
+            "allenai"
+        ],
+        "Licenses": [
+            {
+                "License": "ODC BY 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "dm-pes2o"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 25949,
+            "Crawled Likes": 102,
+            "Created At": "2024-11-23",
+            "Last Modified": "2025-10-29",
+            "Size Category": "100M<n<1B",
+            "Description": "DOLMino dataset mix for OLMo2 stage 2 annealing training.\n\t\n\nMixture of high-quality data used for the second stage of OLMo2 training. \n\n\t\n\t\t\n\t\tSource Sizes\n\t\n\n\n\t\n\t\t\nName\nCategory\nTokens\nBytes (uncompressed)\nDocuments\nLicense\n\n\n\t\t\nDCLM\nHQ Web Pages\n752B\n4.56TB\n606M\nCC-BY-4.0\n\n\nFlan\nHQ Web Pages\n17.0B\n98.2GB\n57.3M\nODC-BY\n\n\nPes2o\nSTEM Papers\n58.6B\n413GB\n38.8M\nODC-BY\n\n\nWiki\nEncyclopedic\n3.7B\n16.2GB\n6.17M\nODC-BY\n\n\nStackExchange\nCodeText\n1.26B\n7.72GB\n2.48M\nCC-BY-SA-{2.5, 3.0, 4.0}… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolmino-mix-1124.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "dm-pes2o",
+            "HF Config License": "",
+            "HF Dataset": "allenai/dolmino-mix-1124",
+            "HF Date": "2024-11-23",
+            "HF Downloads (September 2026)": 25949,
+            "HF Likes (September 2026)": 102,
+            "HF Yaml License": [
+                "ODC BY 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 8830233
+        }
+    },
+    "dolmino-mix-1124-dm-stackexchange": {
+        "Unique Dataset Identifier": "dolmino-mix-1124-dm-stackexchange",
+        "Dataset Name": "allenai/dolmino-mix-1124-dm-stackexchange",
+        "Paper Title": "OLMo 2: Open Language Model 2",
+        "Dataset URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2501.00656",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "dolmino-mix-1124",
+        "Collection URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Social Media",
+            "Code"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "StackExchange"
+        ],
+        "Creators": [
+            "allenai"
+        ],
+        "Licenses": [
+            {
+                "License": "ODC BY 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "dm-stackexchange"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 25949,
+            "Crawled Likes": 102,
+            "Created At": "2024-11-23",
+            "Last Modified": "2025-10-29",
+            "Size Category": "100M<n<1B",
+            "Description": "DOLMino dataset mix for OLMo2 stage 2 annealing training.\n\t\n\nMixture of high-quality data used for the second stage of OLMo2 training. \n\n\t\n\t\t\n\t\tSource Sizes\n\t\n\n\n\t\n\t\t\nName\nCategory\nTokens\nBytes (uncompressed)\nDocuments\nLicense\n\n\n\t\t\nDCLM\nHQ Web Pages\n752B\n4.56TB\n606M\nCC-BY-4.0\n\n\nFlan\nHQ Web Pages\n17.0B\n98.2GB\n57.3M\nODC-BY\n\n\nPes2o\nSTEM Papers\n58.6B\n413GB\n38.8M\nODC-BY\n\n\nWiki\nEncyclopedic\n3.7B\n16.2GB\n6.17M\nODC-BY\n\n\nStackExchange\nCodeText\n1.26B\n7.72GB\n2.48M\nCC-BY-SA-{2.5, 3.0, 4.0}… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolmino-mix-1124.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "dm-stackexchange",
+            "HF Config License": "",
+            "HF Dataset": "allenai/dolmino-mix-1124",
+            "HF Date": "2024-11-23",
+            "HF Downloads (September 2026)": 25949,
+            "HF Likes (September 2026)": 102,
+            "HF Yaml License": [
+                "ODC BY 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 8830233
+        }
+    },
+    "dolmino-mix-1124-dm-wiki": {
+        "Unique Dataset Identifier": "dolmino-mix-1124-dm-wiki",
+        "Dataset Name": "allenai/dolmino-mix-1124-dm-wiki",
+        "Paper Title": "OLMo 2: Open Language Model 2",
+        "Dataset URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2501.00656",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "dolmino-mix-1124",
+        "Collection URL": "https://huggingface.co/datasets/allenai/dolmino-mix-1124",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Encyclopedias"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Wikipedia"
+        ],
+        "Creators": [
+            "allenai"
+        ],
+        "Licenses": [
+            {
+                "License": "ODC BY 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "dm-wiki"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 25949,
+            "Crawled Likes": 102,
+            "Created At": "2024-11-23",
+            "Last Modified": "2025-10-29",
+            "Size Category": "100M<n<1B",
+            "Description": "DOLMino dataset mix for OLMo2 stage 2 annealing training.\n\t\n\nMixture of high-quality data used for the second stage of OLMo2 training. \n\n\t\n\t\t\n\t\tSource Sizes\n\t\n\n\n\t\n\t\t\nName\nCategory\nTokens\nBytes (uncompressed)\nDocuments\nLicense\n\n\n\t\t\nDCLM\nHQ Web Pages\n752B\n4.56TB\n606M\nCC-BY-4.0\n\n\nFlan\nHQ Web Pages\n17.0B\n98.2GB\n57.3M\nODC-BY\n\n\nPes2o\nSTEM Papers\n58.6B\n413GB\n38.8M\nODC-BY\n\n\nWiki\nEncyclopedic\n3.7B\n16.2GB\n6.17M\nODC-BY\n\n\nStackExchange\nCodeText\n1.26B\n7.72GB\n2.48M\nCC-BY-SA-{2.5, 3.0, 4.0}… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolmino-mix-1124.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "dm-wiki",
+            "HF Config License": "",
+            "HF Dataset": "allenai/dolmino-mix-1124",
+            "HF Date": "2024-11-23",
+            "HF Downloads (September 2026)": 25949,
+            "HF Likes (September 2026)": 102,
+            "HF Yaml License": [
+                "ODC BY 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 8830233
+        }
+    }
+}

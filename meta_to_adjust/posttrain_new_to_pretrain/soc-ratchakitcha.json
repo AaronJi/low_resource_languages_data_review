@@ -1,0 +1,294 @@
+{
+    "soc-ratchakitcha-meta": {
+        "Unique Dataset Identifier": "soc-ratchakitcha-meta",
+        "Dataset Name": "open-law-data-thailand/soc-ratchakitcha-meta",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/open-law-data-thailand/soc-ratchakitcha",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/open-law-data-thailand/soc-ratchakitcha",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "soc-ratchakitcha",
+        "Collection URL": "https://huggingface.co/datasets/open-law-data-thailand/soc-ratchakitcha",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Miscellaneous",
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Governments",
+            "Legal"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "open-law-data-thailand"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "meta"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 24665,
+            "Crawled Likes": 13,
+            "Created At": "2025-10-29",
+            "Last Modified": "2026-09-20",
+            "Size Category": "1M<n<10M",
+            "Description": "Royal Gazette Thailand (Ratchakitcha) Dataset\n\t\n\nชุดข้อมูลราชกิจจานุเบกษา (แบบ Machine Readable)\nโครงการ Open Law Data Thailand ร่วมกับคณะกรรมาธิการการพาณิชย์และการอุตสาหกรรม วุฒิสภา ได้รับความอนุเคราะห์ข้อมูลจาก สำนักเลขาธิการคณะรัฐมนตรี (สลค.) เพื่อเผยแพร่ข้อมูลกฎหมายไทยสู่สาธารณะในรูปแบบที่ประมวลผลได้ด้วยคอมพิวเตอร์ (Machine Readable) เพื่อส่งเสริมนวัตกรรม Legal Tech และ AI ของประเทศไทย\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\nชุดข้อมูลนี้รวบรวมรายการประกาศในราชกิจจานุเบกษา… See the full description on the dataset page: https://hf-mirror.com/datasets/open-law-data-thailand/soc-ratchakitcha.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "meta",
+            "HF Config License": "",
+            "HF Dataset": "open-law-data-thailand/soc-ratchakitcha",
+            "HF Date": "2025-10-29",
+            "HF Downloads (September 2026)": 24665,
+            "HF Likes (September 2026)": 13,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1390487
+        }
+    },
+    "soc-ratchakitcha-openlawdata": {
+        "Unique Dataset Identifier": "soc-ratchakitcha-openlawdata",
+        "Dataset Name": "open-law-data-thailand/soc-ratchakitcha-openlawdata",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/open-law-data-thailand/soc-ratchakitcha",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/open-law-data-thailand/soc-ratchakitcha",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "soc-ratchakitcha",
+        "Collection URL": "https://huggingface.co/datasets/open-law-data-thailand/soc-ratchakitcha",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Miscellaneous",
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Governments",
+            "Legal"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "open-law-data-thailand"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "openlawdata"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 24665,
+            "Crawled Likes": 13,
+            "Created At": "2025-10-29",
+            "Last Modified": "2026-09-20",
+            "Size Category": "1M<n<10M",
+            "Description": "Royal Gazette Thailand (Ratchakitcha) Dataset\n\t\n\nชุดข้อมูลราชกิจจานุเบกษา (แบบ Machine Readable)\nโครงการ Open Law Data Thailand ร่วมกับคณะกรรมาธิการการพาณิชย์และการอุตสาหกรรม วุฒิสภา ได้รับความอนุเคราะห์ข้อมูลจาก สำนักเลขาธิการคณะรัฐมนตรี (สลค.) เพื่อเผยแพร่ข้อมูลกฎหมายไทยสู่สาธารณะในรูปแบบที่ประมวลผลได้ด้วยคอมพิวเตอร์ (Machine Readable) เพื่อส่งเสริมนวัตกรรม Legal Tech และ AI ของประเทศไทย\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\nชุดข้อมูลนี้รวบรวมรายการประกาศในราชกิจจานุเบกษา… See the full description on the dataset page: https://hf-mirror.com/datasets/open-law-data-thailand/soc-ratchakitcha.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "openlawdata",
+            "HF Config License": "",
+            "HF Dataset": "open-law-data-thailand/soc-ratchakitcha",
+            "HF Date": "2025-10-29",
+            "HF Downloads (September 2026)": 24665,
+            "HF Likes (September 2026)": 13,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 464509
+        }
+    },
+    "soc-ratchakitcha-iapp": {
+        "Unique Dataset Identifier": "soc-ratchakitcha-iapp",
+        "Dataset Name": "open-law-data-thailand/soc-ratchakitcha-iapp",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/open-law-data-thailand/soc-ratchakitcha",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/open-law-data-thailand/soc-ratchakitcha",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "soc-ratchakitcha",
+        "Collection URL": "https://huggingface.co/datasets/open-law-data-thailand/soc-ratchakitcha",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Miscellaneous",
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Governments",
+            "Legal"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "open-law-data-thailand"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "iapp"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 24665,
+            "Crawled Likes": 13,
+            "Created At": "2025-10-29",
+            "Last Modified": "2026-09-20",
+            "Size Category": "1M<n<10M",
+            "Description": "Royal Gazette Thailand (Ratchakitcha) Dataset\n\t\n\nชุดข้อมูลราชกิจจานุเบกษา (แบบ Machine Readable)\nโครงการ Open Law Data Thailand ร่วมกับคณะกรรมาธิการการพาณิชย์และการอุตสาหกรรม วุฒิสภา ได้รับความอนุเคราะห์ข้อมูลจาก สำนักเลขาธิการคณะรัฐมนตรี (สลค.) เพื่อเผยแพร่ข้อมูลกฎหมายไทยสู่สาธารณะในรูปแบบที่ประมวลผลได้ด้วยคอมพิวเตอร์ (Machine Readable) เพื่อส่งเสริมนวัตกรรม Legal Tech และ AI ของประเทศไทย\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\nชุดข้อมูลนี้รวบรวมรายการประกาศในราชกิจจานุเบกษา… See the full description on the dataset page: https://hf-mirror.com/datasets/open-law-data-thailand/soc-ratchakitcha.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "iapp",
+            "HF Config License": "",
+            "HF Dataset": "open-law-data-thailand/soc-ratchakitcha",
+            "HF Date": "2025-10-29",
+            "HF Downloads (September 2026)": 24665,
+            "HF Likes (September 2026)": 13,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2667578
+        }
+    },
+    "soc-ratchakitcha-taxonomy": {
+        "Unique Dataset Identifier": "soc-ratchakitcha-taxonomy",
+        "Dataset Name": "open-law-data-thailand/soc-ratchakitcha-taxonomy",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/open-law-data-thailand/soc-ratchakitcha",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/open-law-data-thailand/soc-ratchakitcha",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "soc-ratchakitcha",
+        "Collection URL": "https://huggingface.co/datasets/open-law-data-thailand/soc-ratchakitcha",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Miscellaneous",
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Governments",
+            "Legal"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "open-law-data-thailand"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "taxonomy"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 24665,
+            "Crawled Likes": 13,
+            "Created At": "2025-10-29",
+            "Last Modified": "2026-09-20",
+            "Size Category": "1M<n<10M",
+            "Description": "Royal Gazette Thailand (Ratchakitcha) Dataset\n\t\n\nชุดข้อมูลราชกิจจานุเบกษา (แบบ Machine Readable)\nโครงการ Open Law Data Thailand ร่วมกับคณะกรรมาธิการการพาณิชย์และการอุตสาหกรรม วุฒิสภา ได้รับความอนุเคราะห์ข้อมูลจาก สำนักเลขาธิการคณะรัฐมนตรี (สลค.) เพื่อเผยแพร่ข้อมูลกฎหมายไทยสู่สาธารณะในรูปแบบที่ประมวลผลได้ด้วยคอมพิวเตอร์ (Machine Readable) เพื่อส่งเสริมนวัตกรรม Legal Tech และ AI ของประเทศไทย\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\nชุดข้อมูลนี้รวบรวมรายการประกาศในราชกิจจานุเบกษา… See the full description on the dataset page: https://hf-mirror.com/datasets/open-law-data-thailand/soc-ratchakitcha.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "taxonomy",
+            "HF Config License": "",
+            "HF Dataset": "open-law-data-thailand/soc-ratchakitcha",
+            "HF Date": "2025-10-29",
+            "HF Downloads (September 2026)": 24665,
+            "HF Likes (September 2026)": 13,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 812582
+        }
+    }
+}

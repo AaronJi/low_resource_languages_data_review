@@ -1,0 +1,19 @@
+pretrain:
+  cluster_attributes: ["Num Unicode Characters log10", "Expert-Created/proportion", "Human-Created/proportion", "Collect-Existed/proportion", "Human-Audited/proportion", "Machine-Generated/proportion"]
+  alpha: 0.1
+  n_clusters: 3
+  init: k-means++
+  n_init: 50
+  max_iter: 300
+  tol: 1e-4
+  random_state: 42
+
+posttrain:
+  cluster_attributes: ["Num Dialogs log10", "Expert-Created/proportion", "Human-Created/proportion", "Collect-Existed/proportion", "Human-Audited/proportion", "Machine-Generated/proportion"]
+  alpha: 0.155
+  n_clusters: 4
+  init: k-means++
+  n_init: 50
+  max_iter: 300
+  tol: 1e-4
+  random_state: 42

@@ -1,0 +1,148 @@
+{
+    "arctic-comments": {
+        "Unique Dataset Identifier": "arctic-comments",
+        "Dataset Name": "open-index/arctic-comments",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/open-index/arctic",
+        "GitHub URL": "https://github.com/ArthurHeitmann/arctic_shift",
+        "Hugging Face URL": "https://huggingface.co/datasets/open-index/arctic",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "arctic",
+        "Collection URL": "https://huggingface.co/datasets/open-index/arctic",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Text Classification",
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "Social Media"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "open-index"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "comments"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 89667,
+            "Crawled Likes": 29,
+            "Created At": "2026-03-14",
+            "Last Modified": "2026-08-06",
+            "Size Category": "1B<n<10B",
+            "Description": "Arctic Shift Reddit Archive\n\t\n\n\nEvery Reddit comment and submission since 2005, organized as monthly Parquet shards\n\n\n\t\n\t\t\n\t\n\t\n\t\tWhat is it?\n\t\n\nThe full Reddit archive from Arctic Shift, converted to Parquet and hosted here for easy access. Covers every public subreddit from 2005-12 through 2026-02.\nRight now the archive has 15.7B items (12.9B comments, 2.8B submissions) in 1.3 TB of compressed Parquet. Comments and submissions are stored as separate datasets, split into monthly… See the full description on the dataset page: https://hf-mirror.com/datasets/open-index/arctic.",
+            "Crawler Notes": "原文52706字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "comments",
+            "HF Config License": "",
+            "HF Dataset": "open-index/arctic",
+            "HF Date": "2026-03-14",
+            "HF Downloads (September 2026)": 89667,
+            "HF Likes (September 2026)": 29,
+            "HF Yaml License": [
+                "Unspecified"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 15700000000
+        }
+    },
+    "arctic-submissions": {
+        "Unique Dataset Identifier": "arctic-submissions",
+        "Dataset Name": "open-index/arctic-submissions",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/open-index/arctic",
+        "GitHub URL": "https://github.com/ArthurHeitmann/arctic_shift",
+        "Hugging Face URL": "https://huggingface.co/datasets/open-index/arctic",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "arctic",
+        "Collection URL": "https://huggingface.co/datasets/open-index/arctic",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Text Classification",
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "Social Media"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "open-index"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "submissions"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 89667,
+            "Crawled Likes": 29,
+            "Created At": "2026-03-14",
+            "Last Modified": "2026-08-06",
+            "Size Category": "1B<n<10B",
+            "Description": "Arctic Shift Reddit Archive\n\t\n\n\nEvery Reddit comment and submission since 2005, organized as monthly Parquet shards\n\n\n\t\n\t\t\n\t\n\t\n\t\tWhat is it?\n\t\n\nThe full Reddit archive from Arctic Shift, converted to Parquet and hosted here for easy access. Covers every public subreddit from 2005-12 through 2026-02.\nRight now the archive has 15.7B items (12.9B comments, 2.8B submissions) in 1.3 TB of compressed Parquet. Comments and submissions are stored as separate datasets, split into monthly… See the full description on the dataset page: https://hf-mirror.com/datasets/open-index/arctic.",
+            "Crawler Notes": "原文52706字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "submissions",
+            "HF Config License": "",
+            "HF Dataset": "open-index/arctic",
+            "HF Date": "2026-03-14",
+            "HF Downloads (September 2026)": 89667,
+            "HF Likes (September 2026)": 29,
+            "HF Yaml License": [
+                "Unspecified"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 15700000000
+        }
+    }
+}

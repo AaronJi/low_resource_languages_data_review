@@ -1,0 +1,3147 @@
+{
+    "nemotron-cc-translated-bos": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-bos",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-bos",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Bosnian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "bos"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "bos",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2005.66,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 12801,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-bul": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-bul",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-bul",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Bulgarian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "bul"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "bul",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2321.23,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14835,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-cat": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-cat",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-cat",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Catalan"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "cat"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "cat",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2434.72,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 16119,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-ces": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-ces",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-ces",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Czech"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ces"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ces",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2121.84,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 13734,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-dan": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-dan",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-dan",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Danish"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "dan"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "dan",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2248.74,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14785,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-deu": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-deu",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-deu",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "German"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "deu"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "deu",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2511.45,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 16746,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-ell": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-ell",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-ell",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Modern Greek (1453-)"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ell"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ell",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2509.85,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 15976,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 17,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-eng": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-eng",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-eng",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "eng"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "eng",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2243.85,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14766,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-est": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-est",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-est",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Estonian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "est"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "est",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2142.38,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14290,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-eus": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-eus",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-eus",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Basque"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "eus"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "eus",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2058.59,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 13347,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-fin": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-fin",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-fin",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Finnish"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "fin"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "fin",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2316.2,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 15146,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-fra": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-fra",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-fra",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "French"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "fra"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "fra",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2554.84,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 16624,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-gle": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-gle",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-gle",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Irish"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "gle"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "gle",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2428.76,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 15460,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-glg": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-glg",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-glg",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Galician"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "glg"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "glg",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2348.59,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 15411,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-hrv": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-hrv",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-hrv",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Croatian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "hrv"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "hrv",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2162.57,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14257,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 5,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-hun": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-hun",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-hun",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Hungarian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "hun"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "hun",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2293.27,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 15079,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-isl": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-isl",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-isl",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Icelandic"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "isl"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "isl",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2078.6,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 13367,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-ita": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-ita",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-ita",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Italian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ita"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ita",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2458.8,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 15961,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 6,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-kat": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-kat",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-kat",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Georgian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "kat"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "kat",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2212.22,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14764,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 6,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-lav": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-lav",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-lav",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Latvian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "lav"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "lav",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2186.51,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14166,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-lit": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-lit",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-lit",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Lithuanian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "lit"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "lit",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2217.64,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14655,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-mkd": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-mkd",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-mkd",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Macedonian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "mkd"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "mkd",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2316.55,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 15297,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-mlt": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-mlt",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-mlt",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Maltese"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "mlt"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "mlt",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2365.76,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 15374,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-nld": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-nld",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-nld",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Dutch"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "nld"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "nld",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2440.47,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 16347,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 6,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-nno": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-nno",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-nno",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Norwegian Nynorsk"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "nno"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "nno",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2199.4,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14356,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-nob": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-nob",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-nob",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Norwegian Bokmål"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "nob"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "nob",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2213.42,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14654,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-pol": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-pol",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-pol",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Polish"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "pol"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "pol",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2297.93,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 15093,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-por": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-por",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-por",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Portuguese"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "por"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "por",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2398.08,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 15663,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 6,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-ron": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-ron",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-ron",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Romanian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ron"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ron",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2435.02,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 15906,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-slk": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-slk",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-slk",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Slovak"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "slk"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "slk",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2166.21,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14208,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-slv": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-slv",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-slv",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Slovenian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "slv"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "slv",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2152.58,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14073,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-spa": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-spa",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-spa",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Spanish"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "spa"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "spa",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2480.76,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 16163,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-sqi": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-sqi",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-sqi",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Albanian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "sqi"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "sqi",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2396.73,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 15473,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-srp_Cyrl": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-srp_Cyrl",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-srp_Cyrl",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Serbian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "srp_Cyrl"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "srp_Cyrl",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2133.11,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14139,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-swe": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-swe",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-swe",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Swedish"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "swe"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "swe",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2233.53,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14766,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 5,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-tur": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-tur",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-tur",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Turkish"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "tur"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "tur",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2233.86,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14368,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "nemotron-cc-translated-ukr": {
+        "Unique Dataset Identifier": "nemotron-cc-translated-ukr",
+        "Dataset Name": "Helsinki-NLP/nemotron-cc-translated-ukr",
+        "Paper Title": "Nemotron-CC: Transforming Common Crawl into a Refined Long-Horizon Pretraining Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "GitHub URL": "https://github.com/Helsinki-NLP/OPUS-MT",
+        "Hugging Face URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "nemotron-cc-translated",
+        "Collection URL": "https://huggingface.co/datasets/Helsinki-NLP/nemotron-cc-translated",
+        "Languages": [
+            "Ukrainian"
+        ],
+        "Task Categories": [
+            "Translation",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [
+            "OPUS-MT",
+            "HPLT-MT"
+        ],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "nemotron-cc"
+        ],
+        "Creators": [
+            "Helsinki-NLP"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ukr"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 55878,
+            "Crawled Likes": 4,
+            "Created At": "2025-10-07",
+            "Last Modified": "2026-04-27",
+            "Size Category": "1B<n<10B",
+            "Description": "Helsinki-NLP/nemotron-cc-translated\n\t\n\nnemotron-cc-tanslated is a collection of automatically translated documents from nemotron-cc taken out of the high-quality subset.\nTranslations are based on OPUS-MT and HPLT-MT models.\nThe data in v1.0 covers 156,431,999 documents with over 70 billion space-searated tokens of English data translated into 36 languages.\nThe total v1.0 data set includes over 2.4 trillion tokens and the translated documents are aligned across all languages.\nv1.1… See the full description on the dataset page: https://hf-mirror.com/datasets/Helsinki-NLP/nemotron-cc-translated.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ukr",
+            "HF Config License": "",
+            "HF Dataset": "Helsinki-NLP/nemotron-cc-translated",
+            "HF Date": "2025-10-07",
+            "HF Downloads (September 2026)": 55878,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2242.05,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 14679,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 3,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    }
+}

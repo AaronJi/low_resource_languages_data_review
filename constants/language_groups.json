@@ -1,0 +1,5517 @@
+{
+    "Chinese": [
+        "Cantonese",
+        "Chinese",
+        "Chinese (Hong Kong)",
+        "Chinese (Simplified)",
+        "Chinese (Traditional)",
+        "Mandarin Chinese",
+        "Yue Chinese"
+    ],
+    "Korean": [
+        "Korean"
+    ],
+    "German": [
+        "German"
+    ],
+    "Code": [
+        "ABAP",
+        "ANTLR",
+        "API Blueprint",
+        "APL",
+        "ASP",
+        "ATS",
+        "ActionScript",
+        "Ada",
+        "Agda",
+        "ApacheConf",
+        "AppleScript",
+        "Arc",
+        "Arduino",
+        "AsciiDoc",
+        "AspectJ",
+        "Assembly",
+        "Augeas",
+        "AutoHotkey",
+        "Awk",
+        "Batchfile",
+        "BitBake",
+        "BlitzMax",
+        "Bluespec",
+        "Boo",
+        "Brainfuck",
+        "Bro",
+        "C",
+        "C#",
+        "C++",
+        "C2hs Haskell",
+        "CMake",
+        "CSS",
+        "CSV",
+        "Cap'n Proto",
+        "CartoCSS",
+        "Ceylon",
+        "Chapel",
+        "Clean",
+        "Clojure",
+        "Code",
+        "CoffeeScript",
+        "ColdFusion",
+        "ColdFusion CFC",
+        "Common Lisp",
+        "Creole",
+        "Crystal",
+        "Csound",
+        "Cucumber",
+        "Cuda",
+        "Cython",
+        "DIGITAL Command Language",
+        "DM",
+        "DNS Zone",
+        "Dart",
+        "Diff",
+        "Dockerfile",
+        "Dylan",
+        "ECL",
+        "Eagle",
+        "Eiffel",
+        "Elixir",
+        "Elm",
+        "Emacs Lisp",
+        "EmberScript",
+        "Erlang",
+        "F#",
+        "FLUX",
+        "FORTRAN",
+        "Factor",
+        "Fancy",
+        "Forth",
+        "FreeMarker",
+        "G-code",
+        "GAS",
+        "GDScript",
+        "GLSL",
+        "Genshi",
+        "Gentoo Ebuild",
+        "Gettext Catalog",
+        "Gnuplot",
+        "Go",
+        "GraphQL",
+        "Graphviz (DOT)",
+        "Groff",
+        "Groovy",
+        "Groovy Server Pages",
+        "HCL",
+        "HLSL",
+        "HTML",
+        "HTML+Django",
+        "HTML+EEX",
+        "HTML+ERB",
+        "HTML+PHP",
+        "HTTP",
+        "Haml",
+        "Handlebars",
+        "Harbour",
+        "Haskell",
+        "Haxe",
+        "Hy",
+        "IGOR Pro",
+        "INI",
+        "Idris",
+        "Inform 7",
+        "Inno Setup",
+        "Io",
+        "Ioke",
+        "Isabelle",
+        "JFlex",
+        "JSON",
+        "JSON5",
+        "JSONLD",
+        "JSONiq",
+        "JSX",
+        "Jade",
+        "Jasmin",
+        "Java",
+        "Java Server Pages",
+        "JavaScript",
+        "Julia",
+        "Jupyter Notebook",
+        "KRL",
+        "Kotlin",
+        "LFE",
+        "LLVM",
+        "LSL",
+        "Latte",
+        "Lean",
+        "Less",
+        "LilyPond",
+        "Linker Script",
+        "Liquid",
+        "Literate Agda",
+        "Literate CoffeeScript",
+        "Literate Haskell",
+        "LiveScript",
+        "Logos",
+        "Logtalk",
+        "Lua",
+        "M4",
+        "MTML",
+        "Makefile",
+        "Mako",
+        "Maple",
+        "Markdown",
+        "Mask",
+        "Mathematica",
+        "MediaWiki",
+        "Metal",
+        "Mirah",
+        "Modelica",
+        "Module Management System",
+        "Monkey",
+        "MoonScript",
+        "NSIS",
+        "NetLinx",
+        "Nginx",
+        "Nimrod",
+        "Ninja",
+        "Nit",
+        "Nix",
+        "Nu",
+        "OCaml",
+        "Objective-C++",
+        "OpenCL",
+        "OpenSCAD",
+        "Org",
+        "Oz",
+        "PAWN",
+        "PHP",
+        "POV-Ray SDL",
+        "Pan",
+        "Parrot Assembly",
+        "Parrot Internal Representation",
+        "Pascal",
+        "Perl",
+        "Perl6",
+        "PigLatin",
+        "Pike",
+        "Pod",
+        "Pony",
+        "PostScript",
+        "PowerShell",
+        "Processing",
+        "Propeller Spin",
+        "Protocol Buffer",
+        "Pure Data",
+        "PureBasic",
+        "PureScript",
+        "Python",
+        "QML",
+        "QMake",
+        "R",
+        "RAML",
+        "RDoc",
+        "RHTML",
+        "Racket",
+        "Ragel in Ruby Host",
+        "Rebol",
+        "Red",
+        "Ren'Py",
+        "RobotFramework",
+        "Rouge",
+        "Ruby",
+        "Rust",
+        "SAS",
+        "SCSS",
+        "SMT",
+        "SPARQL",
+        "SQF",
+        "SQL",
+        "STON",
+        "SVG",
+        "Sage",
+        "SaltStack",
+        "Sass",
+        "Scala",
+        "Scaml",
+        "Scheme",
+        "Scilab",
+        "Shell",
+        "Slash",
+        "Slim",
+        "Smalltalk",
+        "Smarty",
+        "Solidity",
+        "SourcePawn",
+        "Squirrel",
+        "Standard ML",
+        "Stata",
+        "Stylus",
+        "SuperCollider",
+        "Swift",
+        "SystemVerilog",
+        "TOML",
+        "Tcl",
+        "Tcsh",
+        "TeX",
+        "Text",
+        "Textile",
+        "Thrift",
+        "Turtle",
+        "Twig",
+        "TypeScript",
+        "Unity3D Asset",
+        "Uno",
+        "UnrealScript",
+        "UrWeb",
+        "VCL",
+        "VHDL",
+        "Vala",
+        "VimL",
+        "Visual Basic",
+        "Volt",
+        "Vue",
+        "WebIDL",
+        "XML",
+        "XPages",
+        "XProc",
+        "XQuery",
+        "XS",
+        "XSLT",
+        "Xtend",
+        "YAML",
+        "YANG",
+        "Yacc",
+        "Zephir",
+        "Zig",
+        "desktop",
+        "edn",
+        "fish",
+        "mupad",
+        "nesC",
+        "ooc",
+        "reStructuredText",
+        "unknown",
+        "wisp",
+        "xBase"
+    ],
+    "Turkish": [
+        "Turkish"
+    ],
+    "Spanish": [
+        "Spanish"
+    ],
+    "Austroasiatic": [
+        "Burmese",
+        "Khmer",
+        "Standard Malay",
+        "Thai",
+        "Vietnamese"
+    ],
+    "Hindi": [
+        "Hindi"
+    ],
+    "Indian Peninsula": [
+        "Assamese",
+        "Bangla",
+        "Bengali",
+        "Bhojpuri",
+        "Central Kanuri (Latin script)",
+        "Chhattisgarhi",
+        "Eastern Panjabi",
+        "Gujarati",
+        "Kashmiri (Devanagari script)",
+        "Kurdish",
+        "Maithili",
+        "Marathi",
+        "Meitei (Bengali script)",
+        "Nepali",
+        "Odia",
+        "Panjabi",
+        "Punjabi",
+        "Tamil",
+        "Telugu"
+    ],
+    "Low Resource Languages": [
+        "Acehnese (Arabic script)",
+        "Acehnese (Latin script)",
+        "Afrikaans",
+        "Akan",
+        "Albanian",
+        "Albanian (Tosk)",
+        "Amharic",
+        "Armenian",
+        "Asturian",
+        "Awadhi",
+        "Ayacucho Quechua",
+        "Azerbaijani",
+        "Balinese",
+        "Bambara",
+        "Banjar (Arabic script)",
+        "Bashkir",
+        "Basque",
+        "Belarusian",
+        "Bemba",
+        "Bosnian",
+        "Breton",
+        "Burmese",
+        "Central Atlas Tamazight",
+        "Central Aymara",
+        "Central Kanuri (Arabic script)",
+        "Central Kurdish",
+        "Chamorro",
+        "Chichewa",
+        "Chokwe",
+        "Chuvash",
+        "Cornish",
+        "Crimean Tatar",
+        "Dari",
+        "Dyula",
+        "Dzongkha",
+        "Eastern Yiddish",
+        "Esperanto",
+        "Ewe",
+        "Faroese",
+        "Fijian",
+        "Filipino",
+        "Flemish",
+        "Fon",
+        "Friulian",
+        "Gaelic",
+        "Ganda",
+        "Georgian",
+        "Ghanaian Pidgin English",
+        "Guarani",
+        "Haitian",
+        "Haitian Creole",
+        "Halh Mongolian",
+        "Hausa",
+        "Hebrew",
+        "Hmong",
+        "Hungarian",
+        "Ido",
+        "Igbo",
+        "Ilocano",
+        "Interlingua",
+        "Interlingue",
+        "Irish",
+        "Jingpho",
+        "Kabiyè",
+        "Kabuverdianu",
+        "Kabyle",
+        "Kamba",
+        "Kannada",
+        "Kashmiri (Arabic script)",
+        "Kazakh",
+        "Khmer",
+        "Kikongo",
+        "Kikuyu",
+        "Kimbundu",
+        "Kinyarwanda",
+        "Kirghiz",
+        "Kiswahili",
+        "Kyrgyz",
+        "Lao",
+        "Latgalian",
+        "Ligurian",
+        "Limburgish",
+        "Lingala",
+        "Lombard",
+        "Luba-Kasai",
+        "Luo",
+        "Magahi",
+        "Malay",
+        "Malayalam",
+        "Maltese",
+        "Marwari",
+        "Minangkabau (Arabic script)",
+        "Minangkabau (Latin script)",
+        "Mizo",
+        "Mongolian",
+        "Mossi",
+        "Myanmar",
+        "Najdi Arabic",
+        "Nigerian Fulfulde",
+        "Nigerian Pidgin English",
+        "North Azerbaijani",
+        "Northern Kurdish",
+        "Northern Ndebele",
+        "Northern Sotho",
+        "Northern Uzbek",
+        "Nuer",
+        "Nyanja",
+        "Occitan",
+        "Oromo",
+        "Pangasinan",
+        "Papiamento",
+        "Pashto",
+        "Pashto (Southern)",
+        "Plateau Malagasy",
+        "Pulaar",
+        "Pushto",
+        "Quechua",
+        "Rundi",
+        "Sango",
+        "Sanskrit",
+        "Santali",
+        "Sardinian",
+        "Scottish Gaelic",
+        "Serbian",
+        "Serbian (Latin script)",
+        "Shan",
+        "Shona",
+        "Sicilian",
+        "Silesian",
+        "Sindhi",
+        "Sinhala",
+        "Sinhalese",
+        "South Azerbaijani",
+        "Southern Pashto",
+        "Southern Sotho",
+        "Southwestern Dinka",
+        "Standard Latvian",
+        "Standard Tibetan",
+        "Sundanese",
+        "Swahili",
+        "Swati",
+        "Tagalog",
+        "Tajik",
+        "Tamasheq (Latin script)",
+        "Tamasheq (Tifinagh script)",
+        "Tatar",
+        "Tok Pisin",
+        "Tsonga",
+        "Tswana",
+        "Tulu",
+        "Tumbuka",
+        "Tunisian Arabic",
+        "Turkmen",
+        "Twi",
+        "Uighur",
+        "Umbundu",
+        "Urdu",
+        "Uyghur",
+        "Uzbek",
+        "Venda",
+        "Venetian",
+        "Volapük",
+        "Welsh",
+        "West Central Oromo",
+        "Western Armenian",
+        "Western Frisian",
+        "Wolof",
+        "Xhosa",
+        "Yiddish",
+        "Yoruba",
+        "Zhuang",
+        "Zulu"
+    ],
+    "Arabic": [
+        "Arabic",
+        "Egyptian Arabic",
+        "Hassaniya Arabic",
+        "Mesopotamian Arabic",
+        "Modern Standard Arabic",
+        "Modern Standard Arabic (Romanized)",
+        "Moroccan Arabic",
+        "North Levantine Arabic",
+        "South Levantine Arabic",
+        "Ta’izzi-Adeni Arabic"
+    ],
+    "Japanese": [
+        "Japanese"
+    ],
+    "Scandinavian": [
+        "Danish",
+        "Finnish",
+        "Icelandic",
+        "Norwegian",
+        "Norwegian Bokmål",
+        "Norwegian Nynorsk",
+        "Swedish"
+    ],
+    "Afro-Asiatic": [
+        "Shilha",
+        "Somali",
+        "Tigrinya"
+    ],
+    "English": [
+        "English"
+    ],
+    "Other Indo-European": [
+        "Belarusian",
+        "Bulgarian",
+        "Castilian",
+        "Catalan",
+        "Croatian",
+        "Czech",
+        "Divehi",
+        "Dutch",
+        "Estonian",
+        "Galician",
+        "Greek",
+        "Latin",
+        "Latvian",
+        "Lithuanian",
+        "Luxembourgish",
+        "Macedonian",
+        "Modern Greek",
+        "Polish",
+        "Portugese (Brazilian)",
+        "Portuguese",
+        "Romanian",
+        "Romano-Serbian",
+        "Russian",
+        "Serbian",
+        "Serbo-Croatian",
+        "Slovak",
+        "Slovenian",
+        "Sorani",
+        "Tosk Albanian",
+        "Ukrainian"
+    ],
+    "French": [
+        "French"
+    ],
+    "Persian": [
+        "Farsi",
+        "Iranian Persian",
+        "Persian",
+        "Western Persian"
+    ],
+    "Italian": [
+        "Italian"
+    ],
+    "Austronesian": [
+        "Ambonese Malay",
+        "Banjar (Latin script)",
+        "Buginese",
+        "Cebuano",
+        "Dayak",
+        "Indonesian",
+        "Javanese",
+        "Kunduvadi",
+        "Makasar",
+        "Malagasy",
+        "Maori",
+        "Samoan",
+        "Tagalog",
+        "Tahitian",
+        "Tonga",
+        "Uab Meto",
+        "Waray"
+    ],
+    "Maltese": [
+        "Maltese"
+    ],
+    "'Auhelawa": [
+        "'Auhelawa"
+    ],
+    "Abau": [
+        "Abau"
+    ],
+    "Abaza": [
+        "Abaza"
+    ],
+    "Abidji": [
+        "Abidji"
+    ],
+    "Abkhazian": [
+        "Abkhazian"
+    ],
+    "Abua": [
+        "Abua"
+    ],
+    "Abui": [
+        "Abui"
+    ],
+    "Abun": [
+        "Abun"
+    ],
+    "Abé": [
+        "Abé"
+    ],
+    "Achagua": [
+        "Achagua"
+    ],
+    "Achang": [
+        "Achang"
+    ],
+    "Achi": [
+        "Achi"
+    ],
+    "Achinese": [
+        "Achinese"
+    ],
+    "Achuar-Shiwiar": [
+        "Achuar-Shiwiar"
+    ],
+    "Aché": [
+        "Aché"
+    ],
+    "Acoli": [
+        "Acoli"
+    ],
+    "Adamawa Fulfulde": [
+        "Adamawa Fulfulde"
+    ],
+    "Adangme": [
+        "Adangme"
+    ],
+    "Adele": [
+        "Adele"
+    ],
+    "Adhola": [
+        "Adhola"
+    ],
+    "Adi": [
+        "Adi"
+    ],
+    "Adilabad Gondi": [
+        "Adilabad Gondi"
+    ],
+    "Adioukrou": [
+        "Adioukrou"
+    ],
+    "Adyghe": [
+        "Adyghe"
+    ],
+    "Adzera": [
+        "Adzera"
+    ],
+    "Agarabi": [
+        "Agarabi"
+    ],
+    "Aghul": [
+        "Aghul"
+    ],
+    "Aguacateco": [
+        "Aguacateco"
+    ],
+    "Aguaruna": [
+        "Aguaruna"
+    ],
+    "Agutaynen": [
+        "Agutaynen"
+    ],
+    "Ahanta": [
+        "Ahanta"
+    ],
+    "Aimol": [
+        "Aimol"
+    ],
+    "Ainu (Japan)": [
+        "Ainu (Japan)"
+    ],
+    "Aja (Benin)": [
+        "Aja (Benin)"
+    ],
+    "Ajië": [
+        "Ajië"
+    ],
+    "Ajyíninka Apurucayali": [
+        "Ajyíninka Apurucayali"
+    ],
+    "Akawaio": [
+        "Akawaio"
+    ],
+    "Akeu": [
+        "Akeu"
+    ],
+    "Akha": [
+        "Akha"
+    ],
+    "Akoose": [
+        "Akoose"
+    ],
+    "Akukem": [
+        "Akukem"
+    ],
+    "Alacatlatzala Mixtec": [
+        "Alacatlatzala Mixtec"
+    ],
+    "Alamblak": [
+        "Alamblak"
+    ],
+    "Alangan": [
+        "Alangan"
+    ],
+    "Alekano": [
+        "Alekano"
+    ],
+    "Algerian Arabic": [
+        "Algerian Arabic"
+    ],
+    "Algonquin": [
+        "Algonquin"
+    ],
+    "Alune": [
+        "Alune"
+    ],
+    "Alur": [
+        "Alur"
+    ],
+    "Alyawarr": [
+        "Alyawarr"
+    ],
+    "Ama (Papua New Guinea)": [
+        "Ama (Papua New Guinea)"
+    ],
+    "Amanab": [
+        "Amanab"
+    ],
+    "Amarakaeri": [
+        "Amarakaeri"
+    ],
+    "Amarasi": [
+        "Amarasi"
+    ],
+    "Amatlán Zapotec": [
+        "Amatlán Zapotec"
+    ],
+    "Ambai": [
+        "Ambai"
+    ],
+    "Ambo-Pasco Quechua": [
+        "Ambo-Pasco Quechua"
+    ],
+    "Ambulas": [
+        "Ambulas"
+    ],
+    "Amele": [
+        "Amele"
+    ],
+    "Amganad Ifugao": [
+        "Amganad Ifugao"
+    ],
+    "Amis": [
+        "Amis"
+    ],
+    "Amri Karbi": [
+        "Amri Karbi"
+    ],
+    "Anal": [
+        "Anal"
+    ],
+    "Ancient Greek (to 1453)": [
+        "Ancient Greek (to 1453)"
+    ],
+    "Ancient Hebrew": [
+        "Ancient Hebrew"
+    ],
+    "Aneme Wake": [
+        "Aneme Wake"
+    ],
+    "Angaataha": [
+        "Angaataha"
+    ],
+    "Angal Heneng": [
+        "Angal Heneng"
+    ],
+    "Angami Naga": [
+        "Angami Naga"
+    ],
+    "Angguruk Yali": [
+        "Angguruk Yali"
+    ],
+    "Angika": [
+        "Angika"
+    ],
+    "Angloromani": [
+        "Angloromani"
+    ],
+    "Angor": [
+        "Angor"
+    ],
+    "Anindilyakwa": [
+        "Anindilyakwa"
+    ],
+    "Anjam": [
+        "Anjam"
+    ],
+    "Ankave": [
+        "Ankave"
+    ],
+    "Anmatyerre": [
+        "Anmatyerre"
+    ],
+    "Antankarana Malagasy": [
+        "Antankarana Malagasy"
+    ],
+    "Anufo": [
+        "Anufo"
+    ],
+    "Anuki": [
+        "Anuki"
+    ],
+    "Anyin": [
+        "Anyin"
+    ],
+    "Ao Naga": [
+        "Ao Naga"
+    ],
+    "Apalaí": [
+        "Apalaí"
+    ],
+    "Apasco-Apoala Mixtec": [
+        "Apasco-Apoala Mixtec"
+    ],
+    "Apatani": [
+        "Apatani"
+    ],
+    "Apinayé": [
+        "Apinayé"
+    ],
+    "Apurinã": [
+        "Apurinã"
+    ],
+    "Arabela": [
+        "Arabela"
+    ],
+    "Aragonese": [
+        "Aragonese"
+    ],
+    "Aralle-Tabulahan": [
+        "Aralle-Tabulahan"
+    ],
+    "Arapaho": [
+        "Arapaho"
+    ],
+    "Are": [
+        "Are"
+    ],
+    "Arifama-Miniafia": [
+        "Arifama-Miniafia"
+    ],
+    "Aringa": [
+        "Aringa"
+    ],
+    "Arop-Lokep": [
+        "Arop-Lokep"
+    ],
+    "Arosi": [
+        "Arosi"
+    ],
+    "Arpitan": [
+        "Arpitan"
+    ],
+    "Aruamu": [
+        "Aruamu"
+    ],
+    "Asháninka": [
+        "Asháninka"
+    ],
+    "Ashéninka Pajonal": [
+        "Ashéninka Pajonal"
+    ],
+    "Ashéninka Perené": [
+        "Ashéninka Perené"
+    ],
+    "Assyrian Neo-Aramaic": [
+        "Assyrian Neo-Aramaic"
+    ],
+    "Ata Manobo": [
+        "Ata Manobo"
+    ],
+    "Atatláhuca Mixtec": [
+        "Atatláhuca Mixtec"
+    ],
+    "Atayal": [
+        "Atayal"
+    ],
+    "Atikamekw": [
+        "Atikamekw"
+    ],
+    "Attié": [
+        "Attié"
+    ],
+    "Au": [
+        "Au"
+    ],
+    "Avaric": [
+        "Avaric"
+    ],
+    "Avatime": [
+        "Avatime"
+    ],
+    "Avokaya": [
+        "Avokaya"
+    ],
+    "Awa (Papua New Guinea)": [
+        "Awa (Papua New Guinea)"
+    ],
+    "Awa-Cuaiquer": [
+        "Awa-Cuaiquer"
+    ],
+    "Awara": [
+        "Awara"
+    ],
+    "Awiyaana": [
+        "Awiyaana"
+    ],
+    "Ayautla Mazatec": [
+        "Ayautla Mazatec"
+    ],
+    "Ayoreo": [
+        "Ayoreo"
+    ],
+    "Ayutla Mixtec": [
+        "Ayutla Mixtec"
+    ],
+    "Baatonum": [
+        "Baatonum"
+    ],
+    "Baba Malay": [
+        "Baba Malay"
+    ],
+    "Babanki": [
+        "Babanki"
+    ],
+    "Bada (Indonesia)": [
+        "Bada (Indonesia)"
+    ],
+    "Baeggu": [
+        "Baeggu"
+    ],
+    "Baelelea": [
+        "Baelelea"
+    ],
+    "Bafia": [
+        "Bafia"
+    ],
+    "Bafut": [
+        "Bafut"
+    ],
+    "Baga Sitemu": [
+        "Baga Sitemu"
+    ],
+    "Bahnar": [
+        "Bahnar"
+    ],
+    "Baka (South Sudan)": [
+        "Baka (South Sudan)"
+    ],
+    "Bakairí": [
+        "Bakairí"
+    ],
+    "Balangao": [
+        "Balangao"
+    ],
+    "Balantak": [
+        "Balantak"
+    ],
+    "Balkan Romani": [
+        "Balkan Romani"
+    ],
+    "Baltic Romani": [
+        "Baltic Romani"
+    ],
+    "Bambam": [
+        "Bambam"
+    ],
+    "Bana": [
+        "Bana"
+    ],
+    "Bandial": [
+        "Bandial"
+    ],
+    "Banggai": [
+        "Banggai"
+    ],
+    "Baniwa": [
+        "Baniwa"
+    ],
+    "Banjar": [
+        "Banjar"
+    ],
+    "Bantoanon": [
+        "Bantoanon"
+    ],
+    "Baoulé": [
+        "Baoulé"
+    ],
+    "Barai": [
+        "Barai"
+    ],
+    "Barasana-Eduria": [
+        "Barasana-Eduria"
+    ],
+    "Bargam": [
+        "Bargam"
+    ],
+    "Bariai": [
+        "Bariai"
+    ],
+    "Baruya": [
+        "Baruya"
+    ],
+    "Basa (Cameroon)": [
+        "Basa (Cameroon)"
+    ],
+    "Bassa": [
+        "Bassa"
+    ],
+    "Bassari": [
+        "Bassari"
+    ],
+    "Batad Ifugao": [
+        "Batad Ifugao"
+    ],
+    "Batak Angkola": [
+        "Batak Angkola"
+    ],
+    "Batak Dairi": [
+        "Batak Dairi"
+    ],
+    "Batak Karo": [
+        "Batak Karo"
+    ],
+    "Batak Simalungun": [
+        "Batak Simalungun"
+    ],
+    "Batak Toba": [
+        "Batak Toba"
+    ],
+    "Bauzi": [
+        "Bauzi"
+    ],
+    "Bavarian": [
+        "Bavarian"
+    ],
+    "Bawm Chin": [
+        "Bawm Chin"
+    ],
+    "Beaver": [
+        "Beaver"
+    ],
+    "Bedjond": [
+        "Bedjond"
+    ],
+    "Beembe": [
+        "Beembe"
+    ],
+    "Bekwarra": [
+        "Bekwarra"
+    ],
+    "Belize Kriol English": [
+        "Belize Kriol English"
+    ],
+    "Bemba (Zambia)": [
+        "Bemba (Zambia)"
+    ],
+    "Benabena": [
+        "Benabena"
+    ],
+    "Berik": [
+        "Berik"
+    ],
+    "Berom": [
+        "Berom"
+    ],
+    "Betawi": [
+        "Betawi"
+    ],
+    "Bete-Bendi": [
+        "Bete-Bendi"
+    ],
+    "Biak": [
+        "Biak"
+    ],
+    "Biangai": [
+        "Biangai"
+    ],
+    "Biatah Bidayuh": [
+        "Biatah Bidayuh"
+    ],
+    "Biete": [
+        "Biete"
+    ],
+    "Bima": [
+        "Bima"
+    ],
+    "Bimin": [
+        "Bimin"
+    ],
+    "Bimoba": [
+        "Bimoba"
+    ],
+    "Binandere": [
+        "Binandere"
+    ],
+    "Bine": [
+        "Bine"
+    ],
+    "Bini": [
+        "Bini"
+    ],
+    "Binukid": [
+        "Binukid"
+    ],
+    "Binumarien": [
+        "Binumarien"
+    ],
+    "Bishnupriya": [
+        "Bishnupriya"
+    ],
+    "Bislama": [
+        "Bislama"
+    ],
+    "Bissa": [
+        "Bissa"
+    ],
+    "Bisu": [
+        "Bisu"
+    ],
+    "Bo-Ung": [
+        "Bo-Ung"
+    ],
+    "Bodo (India)": [
+        "Bodo (India)"
+    ],
+    "Boko (Benin)": [
+        "Boko (Benin)"
+    ],
+    "Bokobaru": [
+        "Bokobaru"
+    ],
+    "Bola": [
+        "Bola"
+    ],
+    "Bolinao": [
+        "Bolinao"
+    ],
+    "Bomu": [
+        "Bomu"
+    ],
+    "Bora": [
+        "Bora"
+    ],
+    "Border Kuna": [
+        "Border Kuna"
+    ],
+    "Borei": [
+        "Borei"
+    ],
+    "Borgu Fulfulde": [
+        "Borgu Fulfulde"
+    ],
+    "Borong": [
+        "Borong"
+    ],
+    "Botolan Sambal": [
+        "Botolan Sambal"
+    ],
+    "Brahui": [
+        "Brahui"
+    ],
+    "Bribri": [
+        "Bribri"
+    ],
+    "Brooke's Point Palawano": [
+        "Brooke's Point Palawano"
+    ],
+    "Buamu": [
+        "Buamu"
+    ],
+    "Bugawac": [
+        "Bugawac"
+    ],
+    "Bughotu": [
+        "Bughotu"
+    ],
+    "Buglere": [
+        "Buglere"
+    ],
+    "Buhid": [
+        "Buhid"
+    ],
+    "Buhutu": [
+        "Buhutu"
+    ],
+    "Bukar-Sadung Bidayuh": [
+        "Bukar-Sadung Bidayuh"
+    ],
+    "Bukiyip": [
+        "Bukiyip"
+    ],
+    "Buli (Ghana)": [
+        "Buli (Ghana)"
+    ],
+    "Bulu (Cameroon)": [
+        "Bulu (Cameroon)"
+    ],
+    "Bum": [
+        "Bum"
+    ],
+    "Bunama": [
+        "Bunama"
+    ],
+    "Burarra": [
+        "Burarra"
+    ],
+    "Busa": [
+        "Busa"
+    ],
+    "Bwaidoka": [
+        "Bwaidoka"
+    ],
+    "Bwanabwana": [
+        "Bwanabwana"
+    ],
+    "Cabécar": [
+        "Cabécar"
+    ],
+    "Cacua": [
+        "Cacua"
+    ],
+    "Cajamarca Quechua": [
+        "Cajamarca Quechua"
+    ],
+    "Cajonos Zapotec": [
+        "Cajonos Zapotec"
+    ],
+    "Calamian Tagbanwa": [
+        "Calamian Tagbanwa"
+    ],
+    "Caluyanun": [
+        "Caluyanun"
+    ],
+    "Caló": [
+        "Caló"
+    ],
+    "Cameroon Mambila": [
+        "Cameroon Mambila"
+    ],
+    "Cameroon Pidgin": [
+        "Cameroon Pidgin"
+    ],
+    "Camsá": [
+        "Camsá"
+    ],
+    "Candoshi-Shapra": [
+        "Candoshi-Shapra"
+    ],
+    "Capanahua": [
+        "Capanahua"
+    ],
+    "Caquinte": [
+        "Caquinte"
+    ],
+    "Car Nicobarese": [
+        "Car Nicobarese"
+    ],
+    "Carapana": [
+        "Carapana"
+    ],
+    "Caribbean Hindustani": [
+        "Caribbean Hindustani"
+    ],
+    "Caribbean Javanese": [
+        "Caribbean Javanese"
+    ],
+    "Carpathian Romani": [
+        "Carpathian Romani"
+    ],
+    "Carrier": [
+        "Carrier"
+    ],
+    "Cashibo-Cacataibo": [
+        "Cashibo-Cacataibo"
+    ],
+    "Cashinahua": [
+        "Cashinahua"
+    ],
+    "Casiguran Dumagat Agta": [
+        "Casiguran Dumagat Agta"
+    ],
+    "Cavineña": [
+        "Cavineña"
+    ],
+    "Cañar Highland Quichua": [
+        "Cañar Highland Quichua"
+    ],
+    "Central Bikol": [
+        "Central Bikol"
+    ],
+    "Central Bontok": [
+        "Central Bontok"
+    ],
+    "Central Cagayan Agta": [
+        "Central Cagayan Agta"
+    ],
+    "Central Huasteca Nahuatl": [
+        "Central Huasteca Nahuatl"
+    ],
+    "Central Kanuri": [
+        "Central Kanuri"
+    ],
+    "Central Malay": [
+        "Central Malay"
+    ],
+    "Central Mazahua": [
+        "Central Mazahua"
+    ],
+    "Central Mnong": [
+        "Central Mnong"
+    ],
+    "Central Puebla Nahuatl": [
+        "Central Puebla Nahuatl"
+    ],
+    "Central Sama": [
+        "Central Sama"
+    ],
+    "Central Siberian Yupik": [
+        "Central Siberian Yupik"
+    ],
+    "Central Subanen": [
+        "Central Subanen"
+    ],
+    "Central Tarahumara": [
+        "Central Tarahumara"
+    ],
+    "Central Tunebo": [
+        "Central Tunebo"
+    ],
+    "Central Yupik": [
+        "Central Yupik"
+    ],
+    "Central-Eastern Niger Fulfulde": [
+        "Central-Eastern Niger Fulfulde"
+    ],
+    "Cerma": [
+        "Cerma"
+    ],
+    "Chachi": [
+        "Chachi"
+    ],
+    "Chadian Arabic": [
+        "Chadian Arabic"
+    ],
+    "Chakma": [
+        "Chakma"
+    ],
+    "Chamacoco": [
+        "Chamacoco"
+    ],
+    "Chang Naga": [
+        "Chang Naga"
+    ],
+    "Chavacano": [
+        "Chavacano"
+    ],
+    "Chayahuita": [
+        "Chayahuita"
+    ],
+    "Chayuco Mixtec": [
+        "Chayuco Mixtec"
+    ],
+    "Chechen": [
+        "Chechen"
+    ],
+    "Cherokee": [
+        "Cherokee"
+    ],
+    "Chicahuaxtla Triqui": [
+        "Chicahuaxtla Triqui"
+    ],
+    "Chichicapan Zapotec": [
+        "Chichicapan Zapotec"
+    ],
+    "Chiga": [
+        "Chiga"
+    ],
+    "Chimborazo Highland Quichua": [
+        "Chimborazo Highland Quichua"
+    ],
+    "Chipaya": [
+        "Chipaya"
+    ],
+    "Chiquihuitlán Mazatec": [
+        "Chiquihuitlán Mazatec"
+    ],
+    "Chiquitano": [
+        "Chiquitano"
+    ],
+    "Chiripá": [
+        "Chiripá"
+    ],
+    "Choapan Zapotec": [
+        "Choapan Zapotec"
+    ],
+    "Choctaw": [
+        "Choctaw"
+    ],
+    "Chokri Naga": [
+        "Chokri Naga"
+    ],
+    "Chol": [
+        "Chol"
+    ],
+    "Chopi": [
+        "Chopi"
+    ],
+    "Chortí": [
+        "Chortí"
+    ],
+    "Chothe Naga": [
+        "Chothe Naga"
+    ],
+    "Chuave": [
+        "Chuave"
+    ],
+    "Chuj": [
+        "Chuj"
+    ],
+    "Chukot": [
+        "Chukot"
+    ],
+    "Chumburung": [
+        "Chumburung"
+    ],
+    "Church Slavic": [
+        "Church Slavic"
+    ],
+    "Chuukese": [
+        "Chuukese"
+    ],
+    "Chuwabu": [
+        "Chuwabu"
+    ],
+    "Chácobo": [
+        "Chácobo"
+    ],
+    "Cishingini": [
+        "Cishingini"
+    ],
+    "Classical Syriac": [
+        "Classical Syriac"
+    ],
+    "Coatecas Altas Zapotec": [
+        "Coatecas Altas Zapotec"
+    ],
+    "Coatlán Mixe": [
+        "Coatlán Mixe"
+    ],
+    "Coatzospan Mixtec": [
+        "Coatzospan Mixtec"
+    ],
+    "Cofán": [
+        "Cofán"
+    ],
+    "Cogui": [
+        "Cogui"
+    ],
+    "Colorado": [
+        "Colorado"
+    ],
+    "Comaltepec Chinantec": [
+        "Comaltepec Chinantec"
+    ],
+    "Congo Swahili": [
+        "Congo Swahili"
+    ],
+    "Copala Triqui": [
+        "Copala Triqui"
+    ],
+    "Coptic": [
+        "Coptic"
+    ],
+    "Corsican": [
+        "Corsican"
+    ],
+    "Cotabato Manobo": [
+        "Cotabato Manobo"
+    ],
+    "Coyutla Totonac": [
+        "Coyutla Totonac"
+    ],
+    "Creek": [
+        "Creek"
+    ],
+    "Cubeo": [
+        "Cubeo"
+    ],
+    "Cuiba": [
+        "Cuiba"
+    ],
+    "Culina": [
+        "Culina"
+    ],
+    "Cusco Quechua": [
+        "Cusco Quechua"
+    ],
+    "Da'a Kaili": [
+        "Da'a Kaili"
+    ],
+    "Dadibi": [
+        "Dadibi"
+    ],
+    "Daga": [
+        "Daga"
+    ],
+    "Dagbani": [
+        "Dagbani"
+    ],
+    "Dakota": [
+        "Dakota"
+    ],
+    "Dan": [
+        "Dan"
+    ],
+    "Dangaléat": [
+        "Dangaléat"
+    ],
+    "Dangaura Tharu": [
+        "Dangaura Tharu"
+    ],
+    "Dano": [
+        "Dano"
+    ],
+    "Dargwa": [
+        "Dargwa"
+    ],
+    "Darlong": [
+        "Darlong"
+    ],
+    "Datooga": [
+        "Datooga"
+    ],
+    "Dawawa": [
+        "Dawawa"
+    ],
+    "Dawro": [
+        "Dawro"
+    ],
+    "Dedua": [
+        "Dedua"
+    ],
+    "Deg": [
+        "Deg"
+    ],
+    "Dehu": [
+        "Dehu"
+    ],
+    "Dela-Oenale": [
+        "Dela-Oenale"
+    ],
+    "Delo": [
+        "Delo"
+    ],
+    "Dendi (Benin)": [
+        "Dendi (Benin)"
+    ],
+    "Denya": [
+        "Denya"
+    ],
+    "Desano": [
+        "Desano"
+    ],
+    "Dhangu-Djangu": [
+        "Dhangu-Djangu"
+    ],
+    "Dhao": [
+        "Dhao"
+    ],
+    "Dhivehi": [
+        "Dhivehi"
+    ],
+    "Dibabawon Manobo": [
+        "Dibabawon Manobo"
+    ],
+    "Didinga": [
+        "Didinga"
+    ],
+    "Digo": [
+        "Digo"
+    ],
+    "Dii": [
+        "Dii"
+    ],
+    "Dimasa": [
+        "Dimasa"
+    ],
+    "Dimli (individual language)": [
+        "Dimli (individual language)"
+    ],
+    "Diriku": [
+        "Diriku"
+    ],
+    "Ditammari": [
+        "Ditammari"
+    ],
+    "Diuxi-Tilantongo Mixtec": [
+        "Diuxi-Tilantongo Mixtec"
+    ],
+    "Djambarrpuyngu": [
+        "Djambarrpuyngu"
+    ],
+    "Djimini Senoufo": [
+        "Djimini Senoufo"
+    ],
+    "Dobu": [
+        "Dobu"
+    ],
+    "Dogosé": [
+        "Dogosé"
+    ],
+    "Dogri (macrolanguage)": [
+        "Dogri (macrolanguage)"
+    ],
+    "Dogrib": [
+        "Dogrib"
+    ],
+    "Doromu-Koki": [
+        "Doromu-Koki"
+    ],
+    "Dotyali": [
+        "Dotyali"
+    ],
+    "Doyayo": [
+        "Doyayo"
+    ],
+    "Duala": [
+        "Duala"
+    ],
+    "Dungan": [
+        "Dungan"
+    ],
+    "Dupaninan Agta": [
+        "Dupaninan Agta"
+    ],
+    "Duri": [
+        "Duri"
+    ],
+    "Duruma": [
+        "Duruma"
+    ],
+    "East Ambae": [
+        "East Ambae"
+    ],
+    "East Futuna": [
+        "East Futuna"
+    ],
+    "East Kewa": [
+        "East Kewa"
+    ],
+    "Eastern Apurímac Quechua": [
+        "Eastern Apurímac Quechua"
+    ],
+    "Eastern Arrernte": [
+        "Eastern Arrernte"
+    ],
+    "Eastern Bolivian Guaraní": [
+        "Eastern Bolivian Guaraní"
+    ],
+    "Eastern Bontok": [
+        "Eastern Bontok"
+    ],
+    "Eastern Bru": [
+        "Eastern Bru"
+    ],
+    "Eastern Canadian Inuktitut": [
+        "Eastern Canadian Inuktitut"
+    ],
+    "Eastern Highland Chatino": [
+        "Eastern Highland Chatino"
+    ],
+    "Eastern Highland Otomi": [
+        "Eastern Highland Otomi"
+    ],
+    "Eastern Huasteca Nahuatl": [
+        "Eastern Huasteca Nahuatl"
+    ],
+    "Eastern Karaboro": [
+        "Eastern Karaboro"
+    ],
+    "Eastern Khumi Chin": [
+        "Eastern Khumi Chin"
+    ],
+    "Eastern Krahn": [
+        "Eastern Krahn"
+    ],
+    "Eastern Mari": [
+        "Eastern Mari"
+    ],
+    "Eastern Maroon Creole": [
+        "Eastern Maroon Creole"
+    ],
+    "Eastern Oromo": [
+        "Eastern Oromo"
+    ],
+    "Eastern Tamang": [
+        "Eastern Tamang"
+    ],
+    "Edolo": [
+        "Edolo"
+    ],
+    "Efik": [
+        "Efik"
+    ],
+    "Ejagham": [
+        "Ejagham"
+    ],
+    "Ekajuk": [
+        "Ekajuk"
+    ],
+    "El Nayar Cora": [
+        "El Nayar Cora"
+    ],
+    "Emberá-Catío": [
+        "Emberá-Catío"
+    ],
+    "Enga": [
+        "Enga"
+    ],
+    "Enlhet": [
+        "Enlhet"
+    ],
+    "Enxet": [
+        "Enxet"
+    ],
+    "Epena": [
+        "Epena"
+    ],
+    "Erzya": [
+        "Erzya"
+    ],
+    "Esan": [
+        "Esan"
+    ],
+    "Ese": [
+        "Ese"
+    ],
+    "Ese Ejja": [
+        "Ese Ejja"
+    ],
+    "Estado de México Otomi": [
+        "Estado de México Otomi"
+    ],
+    "Eton (Cameroon)": [
+        "Eton (Cameroon)"
+    ],
+    "Even": [
+        "Even"
+    ],
+    "Ewage-Notu": [
+        "Ewage-Notu"
+    ],
+    "Ewondo": [
+        "Ewondo"
+    ],
+    "Extremaduran": [
+        "Extremaduran"
+    ],
+    "Ezaa": [
+        "Ezaa"
+    ],
+    "Faiwol": [
+        "Faiwol"
+    ],
+    "Falam Chin": [
+        "Falam Chin"
+    ],
+    "Fanamaket": [
+        "Fanamaket"
+    ],
+    "Fang (Equatorial Guinea)": [
+        "Fang (Equatorial Guinea)"
+    ],
+    "Fanti": [
+        "Fanti"
+    ],
+    "Far Western Muria": [
+        "Far Western Muria"
+    ],
+    "Farefare": [
+        "Farefare"
+    ],
+    "Fasu": [
+        "Fasu"
+    ],
+    "Fataleka": [
+        "Fataleka"
+    ],
+    "Fataluku": [
+        "Fataluku"
+    ],
+    "Fiji Hindi": [
+        "Fiji Hindi"
+    ],
+    "Folopa": [
+        "Folopa"
+    ],
+    "Fordata": [
+        "Fordata"
+    ],
+    "Fore": [
+        "Fore"
+    ],
+    "Francisco León Zoque": [
+        "Francisco León Zoque"
+    ],
+    "Ga": [
+        "Ga"
+    ],
+    "Ga'dang": [
+        "Ga'dang"
+    ],
+    "Gagauz": [
+        "Gagauz"
+    ],
+    "Galela": [
+        "Galela"
+    ],
+    "Galibi Carib": [
+        "Galibi Carib"
+    ],
+    "Galo": [
+        "Galo"
+    ],
+    "Gamo": [
+        "Gamo"
+    ],
+    "Gangte": [
+        "Gangte"
+    ],
+    "Gapapaiwa": [
+        "Gapapaiwa"
+    ],
+    "Garifuna": [
+        "Garifuna"
+    ],
+    "Garo": [
+        "Garo"
+    ],
+    "Garrwa": [
+        "Garrwa"
+    ],
+    "Gbagyi": [
+        "Gbagyi"
+    ],
+    "Gela": [
+        "Gela"
+    ],
+    "Gen": [
+        "Gen"
+    ],
+    "Ghayavi": [
+        "Ghayavi"
+    ],
+    "Gheg Albanian": [
+        "Gheg Albanian"
+    ],
+    "Ghomálá'": [
+        "Ghomálá'"
+    ],
+    "Gidar": [
+        "Gidar"
+    ],
+    "Gikyode": [
+        "Gikyode"
+    ],
+    "Gilaki": [
+        "Gilaki"
+    ],
+    "Gilbertese": [
+        "Gilbertese"
+    ],
+    "Girawa": [
+        "Girawa"
+    ],
+    "Giryama": [
+        "Giryama"
+    ],
+    "Gitonga": [
+        "Gitonga"
+    ],
+    "Goan Konkani": [
+        "Goan Konkani"
+    ],
+    "Gofa": [
+        "Gofa"
+    ],
+    "Gogo": [
+        "Gogo"
+    ],
+    "Gokana": [
+        "Gokana"
+    ],
+    "Golin": [
+        "Golin"
+    ],
+    "Gonja": [
+        "Gonja"
+    ],
+    "Gor": [
+        "Gor"
+    ],
+    "Gorontalo": [
+        "Gorontalo"
+    ],
+    "Gothic": [
+        "Gothic"
+    ],
+    "Gourmanchéma": [
+        "Gourmanchéma"
+    ],
+    "Gronings": [
+        "Gronings"
+    ],
+    "Guadeloupean Creole French": [
+        "Guadeloupean Creole French"
+    ],
+    "Guahibo": [
+        "Guahibo"
+    ],
+    "Guajajára": [
+        "Guajajára"
+    ],
+    "Guambiano": [
+        "Guambiano"
+    ],
+    "Guanano": [
+        "Guanano"
+    ],
+    "Guarayu": [
+        "Guarayu"
+    ],
+    "Guayabero": [
+        "Guayabero"
+    ],
+    "Gude": [
+        "Gude"
+    ],
+    "Guerrero Amuzgo": [
+        "Guerrero Amuzgo"
+    ],
+    "Guerrero Nahuatl": [
+        "Guerrero Nahuatl"
+    ],
+    "Guevea De Humboldt Zapotec": [
+        "Guevea De Humboldt Zapotec"
+    ],
+    "Guhu-Samane": [
+        "Guhu-Samane"
+    ],
+    "Guianese Creole French": [
+        "Guianese Creole French"
+    ],
+    "Gulay": [
+        "Gulay"
+    ],
+    "Gumatj": [
+        "Gumatj"
+    ],
+    "Gumuz": [
+        "Gumuz"
+    ],
+    "Gun": [
+        "Gun"
+    ],
+    "Gungu": [
+        "Gungu"
+    ],
+    "Gurani": [
+        "Gurani"
+    ],
+    "Guro": [
+        "Guro"
+    ],
+    "Gusii": [
+        "Gusii"
+    ],
+    "Gwahatike": [
+        "Gwahatike"
+    ],
+    "Gwere": [
+        "Gwere"
+    ],
+    "Gwichʼin": [
+        "Gwichʼin"
+    ],
+    "Hakha Chin": [
+        "Hakha Chin"
+    ],
+    "Hakka Chinese": [
+        "Hakka Chinese"
+    ],
+    "Halia": [
+        "Halia"
+    ],
+    "Hamer-Banna": [
+        "Hamer-Banna"
+    ],
+    "Hanga": [
+        "Hanga"
+    ],
+    "Hanga Hundi": [
+        "Hanga Hundi"
+    ],
+    "Hanunoo": [
+        "Hanunoo"
+    ],
+    "Haruai": [
+        "Haruai"
+    ],
+    "Havu": [
+        "Havu"
+    ],
+    "Hawai'i Creole English": [
+        "Hawai'i Creole English"
+    ],
+    "Hawaiian": [
+        "Hawaiian"
+    ],
+    "Haya": [
+        "Haya"
+    ],
+    "Hdi": [
+        "Hdi"
+    ],
+    "Hehe": [
+        "Hehe"
+    ],
+    "Helong": [
+        "Helong"
+    ],
+    "Herero": [
+        "Herero"
+    ],
+    "Highland Oaxaca Chontal": [
+        "Highland Oaxaca Chontal"
+    ],
+    "Highland Popoluca": [
+        "Highland Popoluca"
+    ],
+    "Highland Puebla Nahuatl": [
+        "Highland Puebla Nahuatl"
+    ],
+    "Highland Totonac": [
+        "Highland Totonac"
+    ],
+    "Hiligaynon": [
+        "Hiligaynon"
+    ],
+    "Hiri Motu": [
+        "Hiri Motu"
+    ],
+    "Hixkaryána": [
+        "Hixkaryána"
+    ],
+    "Hmar": [
+        "Hmar"
+    ],
+    "Hmong Daw": [
+        "Hmong Daw"
+    ],
+    "Hmong Njua": [
+        "Hmong Njua"
+    ],
+    "Hopi": [
+        "Hopi"
+    ],
+    "Hote": [
+        "Hote"
+    ],
+    "Hrangkhol": [
+        "Hrangkhol"
+    ],
+    "Huallaga Huánuco Quechua": [
+        "Huallaga Huánuco Quechua"
+    ],
+    "Huamalíes-Dos de Mayo Huánuco Quechua": [
+        "Huamalíes-Dos de Mayo Huánuco Quechua"
+    ],
+    "Huambisa": [
+        "Huambisa"
+    ],
+    "Huarijio": [
+        "Huarijio"
+    ],
+    "Huastec": [
+        "Huastec"
+    ],
+    "Huautla Mazatec": [
+        "Huautla Mazatec"
+    ],
+    "Huaylas Ancash Quechua": [
+        "Huaylas Ancash Quechua"
+    ],
+    "Huaylla Wanca Quechua": [
+        "Huaylla Wanca Quechua"
+    ],
+    "Huehuetla Tepehua": [
+        "Huehuetla Tepehua"
+    ],
+    "Huichol": [
+        "Huichol"
+    ],
+    "Huli": [
+        "Huli"
+    ],
+    "Hunsrik": [
+        "Hunsrik"
+    ],
+    "Iamalele": [
+        "Iamalele"
+    ],
+    "Iatmul": [
+        "Iatmul"
+    ],
+    "Iban": [
+        "Iban"
+    ],
+    "Ibanag": [
+        "Ibanag"
+    ],
+    "Ibatan": [
+        "Ibatan"
+    ],
+    "Idoma": [
+        "Idoma"
+    ],
+    "Iduna": [
+        "Iduna"
+    ],
+    "Ifè": [
+        "Ifè"
+    ],
+    "Igede": [
+        "Igede"
+    ],
+    "Ignaciano": [
+        "Ignaciano"
+    ],
+    "Ika": [
+        "Ika"
+    ],
+    "Ikwere": [
+        "Ikwere"
+    ],
+    "Ikwo": [
+        "Ikwo"
+    ],
+    "Ila": [
+        "Ila"
+    ],
+    "Ilianen Manobo": [
+        "Ilianen Manobo"
+    ],
+    "Iloko": [
+        "Iloko"
+    ],
+    "Imbabura Highland Quichua": [
+        "Imbabura Highland Quichua"
+    ],
+    "Imbongu": [
+        "Imbongu"
+    ],
+    "Inabaknon": [
+        "Inabaknon"
+    ],
+    "Inari Sami": [
+        "Inari Sami"
+    ],
+    "Inga": [
+        "Inga"
+    ],
+    "Ingush": [
+        "Ingush"
+    ],
+    "Inoke-Yate": [
+        "Inoke-Yate"
+    ],
+    "Inpui Naga": [
+        "Inpui Naga"
+    ],
+    "Interlingua (International Auxiliary Language Association)": [
+        "Interlingua (International Auxiliary Language Association)"
+    ],
+    "Inuinnaqtun": [
+        "Inuinnaqtun"
+    ],
+    "Ipili": [
+        "Ipili"
+    ],
+    "Iraqw": [
+        "Iraqw"
+    ],
+    "Iraya": [
+        "Iraya"
+    ],
+    "Islander Creole English": [
+        "Islander Creole English"
+    ],
+    "Isnag": [
+        "Isnag"
+    ],
+    "Isoko": [
+        "Isoko"
+    ],
+    "Isthmus Mixe": [
+        "Isthmus Mixe"
+    ],
+    "Isthmus Zapotec": [
+        "Isthmus Zapotec"
+    ],
+    "Isthmus-Cosoleacaque Nahuatl": [
+        "Isthmus-Cosoleacaque Nahuatl"
+    ],
+    "Isthmus-Mecayapan Nahuatl": [
+        "Isthmus-Mecayapan Nahuatl"
+    ],
+    "Itawit": [
+        "Itawit"
+    ],
+    "Iu Mien": [
+        "Iu Mien"
+    ],
+    "Ivatan": [
+        "Ivatan"
+    ],
+    "Ivbie North-Okpela-Arhe": [
+        "Ivbie North-Okpela-Arhe"
+    ],
+    "Iwal": [
+        "Iwal"
+    ],
+    "Ixil": [
+        "Ixil"
+    ],
+    "Iyo": [
+        "Iyo"
+    ],
+    "Iyojwa'ja Chorote": [
+        "Iyojwa'ja Chorote"
+    ],
+    "Izere": [
+        "Izere"
+    ],
+    "Izii": [
+        "Izii"
+    ],
+    "Jalapa De Díaz Mazatec": [
+        "Jalapa De Díaz Mazatec"
+    ],
+    "Jamaican Creole English": [
+        "Jamaican Creole English"
+    ],
+    "Jamamadí": [
+        "Jamamadí"
+    ],
+    "Jamiltepec Mixtec": [
+        "Jamiltepec Mixtec"
+    ],
+    "Jarai": [
+        "Jarai"
+    ],
+    "Jola-Fonyi": [
+        "Jola-Fonyi"
+    ],
+    "Jola-Kasa": [
+        "Jola-Kasa"
+    ],
+    "Juang": [
+        "Juang"
+    ],
+    "Jukun Takum": [
+        "Jukun Takum"
+    ],
+    "Juquila Mixe": [
+        "Juquila Mixe"
+    ],
+    "Jur Modo": [
+        "Jur Modo"
+    ],
+    "Juǀʼhoan": [
+        "Juǀʼhoan"
+    ],
+    "Jèrriais": [
+        "Jèrriais"
+    ],
+    "K'iche'": [
+        "K'iche'"
+    ],
+    "Kaansa": [
+        "Kaansa"
+    ],
+    "Kaba": [
+        "Kaba"
+    ],
+    "Kabardian": [
+        "Kabardian"
+    ],
+    "Kachin": [
+        "Kachin"
+    ],
+    "Kadazan Dusun": [
+        "Kadazan Dusun"
+    ],
+    "Kadiwéu": [
+        "Kadiwéu"
+    ],
+    "Kafa": [
+        "Kafa"
+    ],
+    "Kagayanen": [
+        "Kagayanen"
+    ],
+    "Kagulu": [
+        "Kagulu"
+    ],
+    "Kahua": [
+        "Kahua"
+    ],
+    "Kaingang": [
+        "Kaingang"
+    ],
+    "Kaiwá": [
+        "Kaiwá"
+    ],
+    "Kakabai": [
+        "Kakabai"
+    ],
+    "Kako": [
+        "Kako"
+    ],
+    "Kakwa": [
+        "Kakwa"
+    ],
+    "Kala Lagaw Ya": [
+        "Kala Lagaw Ya"
+    ],
+    "Kalaallisut": [
+        "Kalaallisut"
+    ],
+    "Kalagan": [
+        "Kalagan"
+    ],
+    "Kalam": [
+        "Kalam"
+    ],
+    "Kalanga": [
+        "Kalanga"
+    ],
+    "Kalanguya": [
+        "Kalanguya"
+    ],
+    "Kalmyk": [
+        "Kalmyk"
+    ],
+    "Kaluli": [
+        "Kaluli"
+    ],
+    "Kamano": [
+        "Kamano"
+    ],
+    "Kamasau": [
+        "Kamasau"
+    ],
+    "Kamba (Kenya)": [
+        "Kamba (Kenya)"
+    ],
+    "Kambaata": [
+        "Kambaata"
+    ],
+    "Kambera": [
+        "Kambera"
+    ],
+    "Kamula": [
+        "Kamula"
+    ],
+    "Kamwe": [
+        "Kamwe"
+    ],
+    "Kanasi": [
+        "Kanasi"
+    ],
+    "Kandas": [
+        "Kandas"
+    ],
+    "Kandawo": [
+        "Kandawo"
+    ],
+    "Kaninuwa": [
+        "Kaninuwa"
+    ],
+    "Kanite": [
+        "Kanite"
+    ],
+    "Kankanaey": [
+        "Kankanaey"
+    ],
+    "Kanyok": [
+        "Kanyok"
+    ],
+    "Kaonde": [
+        "Kaonde"
+    ],
+    "Kapingamarangi": [
+        "Kapingamarangi"
+    ],
+    "Kaqchikel": [
+        "Kaqchikel"
+    ],
+    "Kara (Papua New Guinea)": [
+        "Kara (Papua New Guinea)"
+    ],
+    "Kara-Kalpak": [
+        "Kara-Kalpak"
+    ],
+    "Karachay-Balkar": [
+        "Karachay-Balkar"
+    ],
+    "Karaim": [
+        "Karaim"
+    ],
+    "Karajá": [
+        "Karajá"
+    ],
+    "Karamojong": [
+        "Karamojong"
+    ],
+    "Karbi": [
+        "Karbi"
+    ],
+    "Karelian": [
+        "Karelian"
+    ],
+    "Karkar-Yuri": [
+        "Karkar-Yuri"
+    ],
+    "Karon": [
+        "Karon"
+    ],
+    "Kasem": [
+        "Kasem"
+    ],
+    "Kashmiri": [
+        "Kashmiri"
+    ],
+    "Kashubian": [
+        "Kashubian"
+    ],
+    "Kasua": [
+        "Kasua"
+    ],
+    "Kaulong": [
+        "Kaulong"
+    ],
+    "Kayabí": [
+        "Kayabí"
+    ],
+    "Kayapó": [
+        "Kayapó"
+    ],
+    "Keapara": [
+        "Keapara"
+    ],
+    "Kei": [
+        "Kei"
+    ],
+    "Kein": [
+        "Kein"
+    ],
+    "Kekchí": [
+        "Kekchí"
+    ],
+    "Keley-I Kallahan": [
+        "Keley-I Kallahan"
+    ],
+    "Keliko": [
+        "Keliko"
+    ],
+    "Kendayan": [
+        "Kendayan"
+    ],
+    "Kenga": [
+        "Kenga"
+    ],
+    "Kenyang": [
+        "Kenyang"
+    ],
+    "Kera": [
+        "Kera"
+    ],
+    "Keyagana": [
+        "Keyagana"
+    ],
+    "Khakas": [
+        "Khakas"
+    ],
+    "Khana": [
+        "Khana"
+    ],
+    "Khanty": [
+        "Khanty"
+    ],
+    "Khasi": [
+        "Khasi"
+    ],
+    "Khiamniungan Naga": [
+        "Khiamniungan Naga"
+    ],
+    "Khoekhoe": [
+        "Khoekhoe"
+    ],
+    "Khumi Chin": [
+        "Khumi Chin"
+    ],
+    "Kilivila": [
+        "Kilivila"
+    ],
+    "Kim": [
+        "Kim"
+    ],
+    "Kimré": [
+        "Kimré"
+    ],
+    "Kinaray-A": [
+        "Kinaray-A"
+    ],
+    "Kipsigis": [
+        "Kipsigis"
+    ],
+    "Kire": [
+        "Kire"
+    ],
+    "Kirmanjki (individual language)": [
+        "Kirmanjki (individual language)"
+    ],
+    "Kisar": [
+        "Kisar"
+    ],
+    "Kituba (Democratic Republic of Congo)": [
+        "Kituba (Democratic Republic of Congo)"
+    ],
+    "Klingon": [
+        "Klingon"
+    ],
+    "Kobon": [
+        "Kobon"
+    ],
+    "Kok Borok": [
+        "Kok Borok"
+    ],
+    "Kom (India)": [
+        "Kom (India)"
+    ],
+    "Koma": [
+        "Koma"
+    ],
+    "Komba": [
+        "Komba"
+    ],
+    "Kombio": [
+        "Kombio"
+    ],
+    "Komi-Permyak": [
+        "Komi-Permyak"
+    ],
+    "Komi-Zyrian": [
+        "Komi-Zyrian"
+    ],
+    "Konai": [
+        "Konai"
+    ],
+    "Kongo": [
+        "Kongo"
+    ],
+    "Konkomba": [
+        "Konkomba"
+    ],
+    "Kono (Sierra Leone)": [
+        "Kono (Sierra Leone)"
+    ],
+    "Konso": [
+        "Konso"
+    ],
+    "Konyak Naga": [
+        "Konyak Naga"
+    ],
+    "Konzo": [
+        "Konzo"
+    ],
+    "Koongo": [
+        "Koongo"
+    ],
+    "Koonzime": [
+        "Koonzime"
+    ],
+    "Koorete": [
+        "Koorete"
+    ],
+    "Korafe-Yegha": [
+        "Korafe-Yegha"
+    ],
+    "Koreguaje": [
+        "Koreguaje"
+    ],
+    "Koronadal Blaan": [
+        "Koronadal Blaan"
+    ],
+    "Korupun-Sela": [
+        "Korupun-Sela"
+    ],
+    "Kosarek Yale": [
+        "Kosarek Yale"
+    ],
+    "Kosena": [
+        "Kosena"
+    ],
+    "Kosraean": [
+        "Kosraean"
+    ],
+    "Kotava": [
+        "Kotava"
+    ],
+    "Koti": [
+        "Koti"
+    ],
+    "Kouya": [
+        "Kouya"
+    ],
+    "Koya": [
+        "Koya"
+    ],
+    "Koyraboro Senni Songhai": [
+        "Koyraboro Senni Songhai"
+    ],
+    "Kpelle": [
+        "Kpelle"
+    ],
+    "Krio": [
+        "Krio"
+    ],
+    "Kriol": [
+        "Kriol"
+    ],
+    "Kuanua": [
+        "Kuanua"
+    ],
+    "Kuanyama": [
+        "Kuanyama"
+    ],
+    "Kube": [
+        "Kube"
+    ],
+    "Kukele": [
+        "Kukele"
+    ],
+    "Kuku-Yalanji": [
+        "Kuku-Yalanji"
+    ],
+    "Kulung (Nepal)": [
+        "Kulung (Nepal)"
+    ],
+    "Kumam": [
+        "Kumam"
+    ],
+    "Kuman (Papua New Guinea)": [
+        "Kuman (Papua New Guinea)"
+    ],
+    "Kumyk": [
+        "Kumyk"
+    ],
+    "Kuni-Boazi": [
+        "Kuni-Boazi"
+    ],
+    "Kunimaipa": [
+        "Kunimaipa"
+    ],
+    "Kuo": [
+        "Kuo"
+    ],
+    "Kuot": [
+        "Kuot"
+    ],
+    "Kupang Malay": [
+        "Kupang Malay"
+    ],
+    "Kupsabiny": [
+        "Kupsabiny"
+    ],
+    "Kuranko": [
+        "Kuranko"
+    ],
+    "Kuria": [
+        "Kuria"
+    ],
+    "Kurti": [
+        "Kurti"
+    ],
+    "Kurukh": [
+        "Kurukh"
+    ],
+    "Kusaal": [
+        "Kusaal"
+    ],
+    "Kutep": [
+        "Kutep"
+    ],
+    "Kutu": [
+        "Kutu"
+    ],
+    "Kuwaa": [
+        "Kuwaa"
+    ],
+    "Kuwaataay": [
+        "Kuwaataay"
+    ],
+    "Kven Finnish": [
+        "Kven Finnish"
+    ],
+    "Kwaio": [
+        "Kwaio"
+    ],
+    "Kwamera": [
+        "Kwamera"
+    ],
+    "Kwanga": [
+        "Kwanga"
+    ],
+    "Kwangali": [
+        "Kwangali"
+    ],
+    "Kwara'ae": [
+        "Kwara'ae"
+    ],
+    "Kwere": [
+        "Kwere"
+    ],
+    "Kwoma": [
+        "Kwoma"
+    ],
+    "Kyaka": [
+        "Kyaka"
+    ],
+    "Kyenele": [
+        "Kyenele"
+    ],
+    "Kâte": [
+        "Kâte"
+    ],
+    "Kölsch": [
+        "Kölsch"
+    ],
+    "Laari": [
+        "Laari"
+    ],
+    "Label": [
+        "Label"
+    ],
+    "Labuk-Kinabatangan Kadazan": [
+        "Labuk-Kinabatangan Kadazan"
+    ],
+    "Lacandon": [
+        "Lacandon"
+    ],
+    "Lachiguiri Zapotec": [
+        "Lachiguiri Zapotec"
+    ],
+    "Lachixío Zapotec": [
+        "Lachixío Zapotec"
+    ],
+    "Ladakhi": [
+        "Ladakhi"
+    ],
+    "Ladin": [
+        "Ladin"
+    ],
+    "Ladino": [
+        "Ladino"
+    ],
+    "Lahu": [
+        "Lahu"
+    ],
+    "Lahu Shi": [
+        "Lahu Shi"
+    ],
+    "Lak": [
+        "Lak"
+    ],
+    "Laka (Chad)": [
+        "Laka (Chad)"
+    ],
+    "Laki": [
+        "Laki"
+    ],
+    "Lalana Chinantec": [
+        "Lalana Chinantec"
+    ],
+    "Lamba": [
+        "Lamba"
+    ],
+    "Lambayeque Quechua": [
+        "Lambayeque Quechua"
+    ],
+    "Lambya": [
+        "Lambya"
+    ],
+    "Lamkang": [
+        "Lamkang"
+    ],
+    "Lampung Api": [
+        "Lampung Api"
+    ],
+    "Lango (Uganda)": [
+        "Lango (Uganda)"
+    ],
+    "Lashi": [
+        "Lashi"
+    ],
+    "Lealao Chinantec": [
+        "Lealao Chinantec"
+    ],
+    "Ledo Kaili": [
+        "Ledo Kaili"
+    ],
+    "Lega-Mwenga": [
+        "Lega-Mwenga"
+    ],
+    "Lele (Chad)": [
+        "Lele (Chad)"
+    ],
+    "Lelemi": [
+        "Lelemi"
+    ],
+    "Lenje": [
+        "Lenje"
+    ],
+    "Lewo": [
+        "Lewo"
+    ],
+    "Lezghian": [
+        "Lezghian"
+    ],
+    "Liangmai Naga": [
+        "Liangmai Naga"
+    ],
+    "Limbu": [
+        "Limbu"
+    ],
+    "Limbum": [
+        "Limbum"
+    ],
+    "Limburgan": [
+        "Limburgan"
+    ],
+    "Limos Kalinga": [
+        "Limos Kalinga"
+    ],
+    "Lingua Franca Nova": [
+        "Lingua Franca Nova"
+    ],
+    "Lisu": [
+        "Lisu"
+    ],
+    "Literary Chinese": [
+        "Literary Chinese"
+    ],
+    "Liv": [
+        "Liv"
+    ],
+    "Livvi": [
+        "Livvi"
+    ],
+    "Lobala": [
+        "Lobala"
+    ],
+    "Lobi": [
+        "Lobi"
+    ],
+    "Logo": [
+        "Logo"
+    ],
+    "Lojban": [
+        "Lojban"
+    ],
+    "Lokaa": [
+        "Lokaa"
+    ],
+    "Loko": [
+        "Loko"
+    ],
+    "Lole": [
+        "Lole"
+    ],
+    "Lolo": [
+        "Lolo"
+    ],
+    "Loma (Liberia)": [
+        "Loma (Liberia)"
+    ],
+    "Lomwe": [
+        "Lomwe"
+    ],
+    "Lote": [
+        "Lote"
+    ],
+    "Low German": [
+        "Low German"
+    ],
+    "Lower Sorbian": [
+        "Lower Sorbian"
+    ],
+    "Lowland Tarahumara": [
+        "Lowland Tarahumara"
+    ],
+    "Lozi": [
+        "Lozi"
+    ],
+    "Luang": [
+        "Luang"
+    ],
+    "Luba-Katanga": [
+        "Luba-Katanga"
+    ],
+    "Luba-Lulua": [
+        "Luba-Lulua"
+    ],
+    "Ludian": [
+        "Ludian"
+    ],
+    "Lugbara": [
+        "Lugbara"
+    ],
+    "Luguru": [
+        "Luguru"
+    ],
+    "Lukpa": [
+        "Lukpa"
+    ],
+    "Lule Sami": [
+        "Lule Sami"
+    ],
+    "Lunda": [
+        "Lunda"
+    ],
+    "Lundayeh": [
+        "Lundayeh"
+    ],
+    "Luo (Kenya and Tanzania)": [
+        "Luo (Kenya and Tanzania)"
+    ],
+    "Lushai": [
+        "Lushai"
+    ],
+    "Luvale": [
+        "Luvale"
+    ],
+    "Luwo": [
+        "Luwo"
+    ],
+    "Lyélé": [
+        "Lyélé"
+    ],
+    "Láadan": [
+        "Láadan"
+    ],
+    "Ma'anyan": [
+        "Ma'anyan"
+    ],
+    "Ma'di": [
+        "Ma'di"
+    ],
+    "Maasina Fulfulde": [
+        "Maasina Fulfulde"
+    ],
+    "Mabaan": [
+        "Mabaan"
+    ],
+    "Maca": [
+        "Maca"
+    ],
+    "Macedo-Romanian": [
+        "Macedo-Romanian"
+    ],
+    "Machame": [
+        "Machame"
+    ],
+    "Machiguenga": [
+        "Machiguenga"
+    ],
+    "Macuna": [
+        "Macuna"
+    ],
+    "Macushi": [
+        "Macushi"
+    ],
+    "Mada (Nigeria)": [
+        "Mada (Nigeria)"
+    ],
+    "Madak": [
+        "Madak"
+    ],
+    "Madurese": [
+        "Madurese"
+    ],
+    "Mafa": [
+        "Mafa"
+    ],
+    "Mag-antsi Ayta": [
+        "Mag-antsi Ayta"
+    ],
+    "Magdalena Peñasco Mixtec": [
+        "Magdalena Peñasco Mixtec"
+    ],
+    "Maiadomu": [
+        "Maiadomu"
+    ],
+    "Maiwa (Papua New Guinea)": [
+        "Maiwa (Papua New Guinea)"
+    ],
+    "Makaa": [
+        "Makaa"
+    ],
+    "Makasae": [
+        "Makasae"
+    ],
+    "Makhuwa": [
+        "Makhuwa"
+    ],
+    "Makhuwa-Meetto": [
+        "Makhuwa-Meetto"
+    ],
+    "Makhuwa-Shirima": [
+        "Makhuwa-Shirima"
+    ],
+    "Makonde": [
+        "Makonde"
+    ],
+    "Malawi Sena": [
+        "Malawi Sena"
+    ],
+    "Malay (macrolanguage)": [
+        "Malay (macrolanguage)"
+    ],
+    "Malba Birifor": [
+        "Malba Birifor"
+    ],
+    "Male (Ethiopia)": [
+        "Male (Ethiopia)"
+    ],
+    "Malinaltepec Me'phaa": [
+        "Malinaltepec Me'phaa"
+    ],
+    "Malvi": [
+        "Malvi"
+    ],
+    "Mam": [
+        "Mam"
+    ],
+    "Mamanwa": [
+        "Mamanwa"
+    ],
+    "Mamara Senoufo": [
+        "Mamara Senoufo"
+    ],
+    "Mamasa": [
+        "Mamasa"
+    ],
+    "Mambwe-Lungu": [
+        "Mambwe-Lungu"
+    ],
+    "Mampruli": [
+        "Mampruli"
+    ],
+    "Manado Malay": [
+        "Manado Malay"
+    ],
+    "Manam": [
+        "Manam"
+    ],
+    "Mandinka": [
+        "Mandinka"
+    ],
+    "Manga Kanuri": [
+        "Manga Kanuri"
+    ],
+    "Mangareva": [
+        "Mangareva"
+    ],
+    "Mangga Buang": [
+        "Mangga Buang"
+    ],
+    "Manggarai": [
+        "Manggarai"
+    ],
+    "Mangseng": [
+        "Mangseng"
+    ],
+    "Manikion": [
+        "Manikion"
+    ],
+    "Manipuri": [
+        "Manipuri"
+    ],
+    "Mankanya": [
+        "Mankanya"
+    ],
+    "Mano": [
+        "Mano"
+    ],
+    "Mansaka": [
+        "Mansaka"
+    ],
+    "Mansi": [
+        "Mansi"
+    ],
+    "Manx": [
+        "Manx"
+    ],
+    "Manyawa": [
+        "Manyawa"
+    ],
+    "Maore Comorian": [
+        "Maore Comorian"
+    ],
+    "Mape": [
+        "Mape"
+    ],
+    "Mapos Buang": [
+        "Mapos Buang"
+    ],
+    "Mapudungun": [
+        "Mapudungun"
+    ],
+    "Maram Naga": [
+        "Maram Naga"
+    ],
+    "Maranao": [
+        "Maranao"
+    ],
+    "Marba": [
+        "Marba"
+    ],
+    "Margos-Yarowilca-Lauricocha Quechua": [
+        "Margos-Yarowilca-Lauricocha Quechua"
+    ],
+    "Marik": [
+        "Marik"
+    ],
+    "Maring Naga": [
+        "Maring Naga"
+    ],
+    "Markweeta": [
+        "Markweeta"
+    ],
+    "Marshallese": [
+        "Marshallese"
+    ],
+    "Maru": [
+        "Maru"
+    ],
+    "Masaaba": [
+        "Masaaba"
+    ],
+    "Masai": [
+        "Masai"
+    ],
+    "Masana": [
+        "Masana"
+    ],
+    "Masbatenyo": [
+        "Masbatenyo"
+    ],
+    "Maskelynes": [
+        "Maskelynes"
+    ],
+    "Matal": [
+        "Matal"
+    ],
+    "Matigsalug Manobo": [
+        "Matigsalug Manobo"
+    ],
+    "Mato": [
+        "Mato"
+    ],
+    "Matsés": [
+        "Matsés"
+    ],
+    "Maung": [
+        "Maung"
+    ],
+    "Mauwake": [
+        "Mauwake"
+    ],
+    "Maxakalí": [
+        "Maxakalí"
+    ],
+    "Mayangna": [
+        "Mayangna"
+    ],
+    "Mayo": [
+        "Mayo"
+    ],
+    "Mayoyao Ifugao": [
+        "Mayoyao Ifugao"
+    ],
+    "Mazanderani": [
+        "Mazanderani"
+    ],
+    "Mazatlán Mixe": [
+        "Mazatlán Mixe"
+    ],
+    "Mbay": [
+        "Mbay"
+    ],
+    "Mbuko": [
+        "Mbuko"
+    ],
+    "Mbukushu": [
+        "Mbukushu"
+    ],
+    "Mbula": [
+        "Mbula"
+    ],
+    "Mbunda": [
+        "Mbunda"
+    ],
+    "Mbyá Guaraní": [
+        "Mbyá Guaraní"
+    ],
+    "Medumba": [
+        "Medumba"
+    ],
+    "Mekeo": [
+        "Mekeo"
+    ],
+    "Melpa": [
+        "Melpa"
+    ],
+    "Mende (Papua New Guinea)": [
+        "Mende (Papua New Guinea)"
+    ],
+    "Mende (Sierra Leone)": [
+        "Mende (Sierra Leone)"
+    ],
+    "Mengen": [
+        "Mengen"
+    ],
+    "Mentawai": [
+        "Mentawai"
+    ],
+    "Merey": [
+        "Merey"
+    ],
+    "Meru": [
+        "Meru"
+    ],
+    "Meta'": [
+        "Meta'"
+    ],
+    "Metlatónoc Mixtec": [
+        "Metlatónoc Mixtec"
+    ],
+    "Meyah": [
+        "Meyah"
+    ],
+    "Mezquital Otomi": [
+        "Mezquital Otomi"
+    ],
+    "Mi'kmaq": [
+        "Mi'kmaq"
+    ],
+    "Miahuatlán Zapotec": [
+        "Miahuatlán Zapotec"
+    ],
+    "Mian": [
+        "Mian"
+    ],
+    "Michoacán Nahuatl": [
+        "Michoacán Nahuatl"
+    ],
+    "Middle English (1100-1500)": [
+        "Middle English (1100-1500)"
+    ],
+    "Middle High German (ca. 1050-1500)": [
+        "Middle High German (ca. 1050-1500)"
+    ],
+    "Middle Newar": [
+        "Middle Newar"
+    ],
+    "Migabac": [
+        "Migabac"
+    ],
+    "Min Nan Chinese": [
+        "Min Nan Chinese"
+    ],
+    "Minangkabau": [
+        "Minangkabau"
+    ],
+    "Minaveha": [
+        "Minaveha"
+    ],
+    "Mingrelian": [
+        "Mingrelian"
+    ],
+    "Minica Huitoto": [
+        "Minica Huitoto"
+    ],
+    "Mirandese": [
+        "Mirandese"
+    ],
+    "Misima-Panaeati": [
+        "Misima-Panaeati"
+    ],
+    "Mising": [
+        "Mising"
+    ],
+    "Mitla Zapotec": [
+        "Mitla Zapotec"
+    ],
+    "Mixtepec Zapotec": [
+        "Mixtepec Zapotec"
+    ],
+    "Miyobe": [
+        "Miyobe"
+    ],
+    "Moba": [
+        "Moba"
+    ],
+    "Mochi": [
+        "Mochi"
+    ],
+    "Mocoví": [
+        "Mocoví"
+    ],
+    "Modern Greek (1453-)": [
+        "Modern Greek (1453-)"
+    ],
+    "Mofu-Gudur": [
+        "Mofu-Gudur"
+    ],
+    "Mogofin": [
+        "Mogofin"
+    ],
+    "Mohawk": [
+        "Mohawk"
+    ],
+    "Mokole": [
+        "Mokole"
+    ],
+    "Moksha": [
+        "Moksha"
+    ],
+    "Molima": [
+        "Molima"
+    ],
+    "Mon": [
+        "Mon"
+    ],
+    "Mongo": [
+        "Mongo"
+    ],
+    "Mongondow": [
+        "Mongondow"
+    ],
+    "Monsang Naga": [
+        "Monsang Naga"
+    ],
+    "Moose Cree": [
+        "Moose Cree"
+    ],
+    "Mopán Maya": [
+        "Mopán Maya"
+    ],
+    "Morisyen": [
+        "Morisyen"
+    ],
+    "Moro": [
+        "Moro"
+    ],
+    "Morokodo": [
+        "Morokodo"
+    ],
+    "Motu": [
+        "Motu"
+    ],
+    "Mountain Koiali": [
+        "Mountain Koiali"
+    ],
+    "Moyon Naga": [
+        "Moyon Naga"
+    ],
+    "Mro-Khimi Chin": [
+        "Mro-Khimi Chin"
+    ],
+    "Mufian": [
+        "Mufian"
+    ],
+    "Muinane": [
+        "Muinane"
+    ],
+    "Multilingual": [
+        "Multilingual"
+    ],
+    "Mumuye": [
+        "Mumuye"
+    ],
+    "Muna": [
+        "Muna"
+    ],
+    "Mundang": [
+        "Mundang"
+    ],
+    "Mundani": [
+        "Mundani"
+    ],
+    "Mundurukú": [
+        "Mundurukú"
+    ],
+    "Murle": [
+        "Murle"
+    ],
+    "Murrinh-Patha": [
+        "Murrinh-Patha"
+    ],
+    "Murui Huitoto": [
+        "Murui Huitoto"
+    ],
+    "Musey": [
+        "Musey"
+    ],
+    "Musgu": [
+        "Musgu"
+    ],
+    "Musi": [
+        "Musi"
+    ],
+    "Mussau-Emira": [
+        "Mussau-Emira"
+    ],
+    "Mutu": [
+        "Mutu"
+    ],
+    "Muyang": [
+        "Muyang"
+    ],
+    "Muyuw": [
+        "Muyuw"
+    ],
+    "Mwaghavul": [
+        "Mwaghavul"
+    ],
+    "Mwan": [
+        "Mwan"
+    ],
+    "Mwani": [
+        "Mwani"
+    ],
+    "Ménik": [
+        "Ménik"
+    ],
+    "Mískito": [
+        "Mískito"
+    ],
+    "Mün Chin": [
+        "Mün Chin"
+    ],
+    "Mündü": [
+        "Mündü"
+    ],
+    "N'Ko": [
+        "N'Ko"
+    ],
+    "Naasioi": [
+        "Naasioi"
+    ],
+    "Nabak": [
+        "Nabak"
+    ],
+    "Nadëb": [
+        "Nadëb"
+    ],
+    "Nafaanra": [
+        "Nafaanra"
+    ],
+    "Nakanai": [
+        "Nakanai"
+    ],
+    "Nali": [
+        "Nali"
+    ],
+    "Namiae": [
+        "Namiae"
+    ],
+    "Nande": [
+        "Nande"
+    ],
+    "Napo Lowland Quechua": [
+        "Napo Lowland Quechua"
+    ],
+    "Napu": [
+        "Napu"
+    ],
+    "Naro": [
+        "Naro"
+    ],
+    "Narom": [
+        "Narom"
+    ],
+    "Natügu": [
+        "Natügu"
+    ],
+    "Navajo": [
+        "Navajo"
+    ],
+    "Nawdm": [
+        "Nawdm"
+    ],
+    "Nawuri": [
+        "Nawuri"
+    ],
+    "Ndali": [
+        "Ndali"
+    ],
+    "Ndamba": [
+        "Ndamba"
+    ],
+    "Ndau": [
+        "Ndau"
+    ],
+    "Ndogo": [
+        "Ndogo"
+    ],
+    "Ndonga": [
+        "Ndonga"
+    ],
+    "Neapolitan": [
+        "Neapolitan"
+    ],
+    "Nehan": [
+        "Nehan"
+    ],
+    "Nek": [
+        "Nek"
+    ],
+    "Nenets": [
+        "Nenets"
+    ],
+    "Nepali (individual language)": [
+        "Nepali (individual language)"
+    ],
+    "Nepali (macrolanguage)": [
+        "Nepali (macrolanguage)"
+    ],
+    "Newari": [
+        "Newari"
+    ],
+    "Ngaju": [
+        "Ngaju"
+    ],
+    "Ngambay": [
+        "Ngambay"
+    ],
+    "Nganasan": [
+        "Nganasan"
+    ],
+    "Ngando (Democratic Republic of Congo)": [
+        "Ngando (Democratic Republic of Congo)"
+    ],
+    "Ngangam": [
+        "Ngangam"
+    ],
+    "Ngawn Chin": [
+        "Ngawn Chin"
+    ],
+    "Ngazidja Comorian": [
+        "Ngazidja Comorian"
+    ],
+    "Nggem": [
+        "Nggem"
+    ],
+    "Ngiemboon": [
+        "Ngiemboon"
+    ],
+    "Ngindo": [
+        "Ngindo"
+    ],
+    "Ngiti": [
+        "Ngiti"
+    ],
+    "Ngombe (Democratic Republic of Congo)": [
+        "Ngombe (Democratic Republic of Congo)"
+    ],
+    "Ngulu": [
+        "Ngulu"
+    ],
+    "Ngäbere": [
+        "Ngäbere"
+    ],
+    "Nhengatu": [
+        "Nhengatu"
+    ],
+    "Nias": [
+        "Nias"
+    ],
+    "Nigeria Mambila": [
+        "Nigeria Mambila"
+    ],
+    "Nigerian Pidgin": [
+        "Nigerian Pidgin"
+    ],
+    "Nii": [
+        "Nii"
+    ],
+    "Nilamba": [
+        "Nilamba"
+    ],
+    "Nimoa": [
+        "Nimoa"
+    ],
+    "Ninzo": [
+        "Ninzo"
+    ],
+    "Niuean": [
+        "Niuean"
+    ],
+    "Nivaclé": [
+        "Nivaclé"
+    ],
+    "Nkonya": [
+        "Nkonya"
+    ],
+    "Nobonob": [
+        "Nobonob"
+    ],
+    "Nocte Naga": [
+        "Nocte Naga"
+    ],
+    "Nogai": [
+        "Nogai"
+    ],
+    "Nomaande": [
+        "Nomaande"
+    ],
+    "Nomatsiguenga": [
+        "Nomatsiguenga"
+    ],
+    "Noon": [
+        "Noon"
+    ],
+    "Noone": [
+        "Noone"
+    ],
+    "Nopala Chatino": [
+        "Nopala Chatino"
+    ],
+    "North Alaskan Inupiatun": [
+        "North Alaskan Inupiatun"
+    ],
+    "North Bolivian Quechua": [
+        "North Bolivian Quechua"
+    ],
+    "North Junín Quechua": [
+        "North Junín Quechua"
+    ],
+    "North Marquesan": [
+        "North Marquesan"
+    ],
+    "North Mesopotamian Arabic": [
+        "North Mesopotamian Arabic"
+    ],
+    "North Mofu": [
+        "North Mofu"
+    ],
+    "North Ndebele": [
+        "North Ndebele"
+    ],
+    "North Tairora": [
+        "North Tairora"
+    ],
+    "North Tanna": [
+        "North Tanna"
+    ],
+    "North Wahgi": [
+        "North Wahgi"
+    ],
+    "Northern Bobo Madaré": [
+        "Northern Bobo Madaré"
+    ],
+    "Northern Conchucos Ancash Quechua": [
+        "Northern Conchucos Ancash Quechua"
+    ],
+    "Northern Dagara": [
+        "Northern Dagara"
+    ],
+    "Northern East Cree": [
+        "Northern East Cree"
+    ],
+    "Northern Emberá": [
+        "Northern Emberá"
+    ],
+    "Northern Frisian": [
+        "Northern Frisian"
+    ],
+    "Northern Grebo": [
+        "Northern Grebo"
+    ],
+    "Northern Kankanay": [
+        "Northern Kankanay"
+    ],
+    "Northern Katang": [
+        "Northern Katang"
+    ],
+    "Northern Khmer": [
+        "Northern Khmer"
+    ],
+    "Northern Kissi": [
+        "Northern Kissi"
+    ],
+    "Northern Luri": [
+        "Northern Luri"
+    ],
+    "Northern Ngbandi": [
+        "Northern Ngbandi"
+    ],
+    "Northern Oaxaca Nahuatl": [
+        "Northern Oaxaca Nahuatl"
+    ],
+    "Northern Paiute": [
+        "Northern Paiute"
+    ],
+    "Northern Pame": [
+        "Northern Pame"
+    ],
+    "Northern Pastaza Quichua": [
+        "Northern Pastaza Quichua"
+    ],
+    "Northern Puebla Nahuatl": [
+        "Northern Puebla Nahuatl"
+    ],
+    "Northern Rengma Naga": [
+        "Northern Rengma Naga"
+    ],
+    "Northern Sami": [
+        "Northern Sami"
+    ],
+    "Northern Tepehuan": [
+        "Northern Tepehuan"
+    ],
+    "Northern Thai": [
+        "Northern Thai"
+    ],
+    "Northern Tlaxiaco Mixtec": [
+        "Northern Tlaxiaco Mixtec"
+    ],
+    "Northwest Alaska Inupiatun": [
+        "Northwest Alaska Inupiatun"
+    ],
+    "Northwest Gbaya": [
+        "Northwest Gbaya"
+    ],
+    "Northwestern Ojibwa": [
+        "Northwestern Ojibwa"
+    ],
+    "Novial": [
+        "Novial"
+    ],
+    "Nsenga": [
+        "Nsenga"
+    ],
+    "Ntcham": [
+        "Ntcham"
+    ],
+    "Nukna": [
+        "Nukna"
+    ],
+    "Numanggang": [
+        "Numanggang"
+    ],
+    "Nunggubuyu": [
+        "Nunggubuyu"
+    ],
+    "Nyabwa": [
+        "Nyabwa"
+    ],
+    "Nyakyusa-Ngonde": [
+        "Nyakyusa-Ngonde"
+    ],
+    "Nyamwanga": [
+        "Nyamwanga"
+    ],
+    "Nyaneka": [
+        "Nyaneka"
+    ],
+    "Nyankole": [
+        "Nyankole"
+    ],
+    "Nyaturu": [
+        "Nyaturu"
+    ],
+    "Nyemba": [
+        "Nyemba"
+    ],
+    "Nyindrou": [
+        "Nyindrou"
+    ],
+    "Nyishi": [
+        "Nyishi"
+    ],
+    "Nyole": [
+        "Nyole"
+    ],
+    "Nyoro": [
+        "Nyoro"
+    ],
+    "Nyungwe": [
+        "Nyungwe"
+    ],
+    "Nzima": [
+        "Nzima"
+    ],
+    "Obo Manobo": [
+        "Obo Manobo"
+    ],
+    "Obolo": [
+        "Obolo"
+    ],
+    "Occitan (post 1500)": [
+        "Occitan (post 1500)"
+    ],
+    "Ocotepec Mixtec": [
+        "Ocotepec Mixtec"
+    ],
+    "Ocotlán Zapotec": [
+        "Ocotlán Zapotec"
+    ],
+    "Odoodee": [
+        "Odoodee"
+    ],
+    "Ogea": [
+        "Ogea"
+    ],
+    "Ojitlán Chinantec": [
+        "Ojitlán Chinantec"
+    ],
+    "Okpe (Southwestern Edo)": [
+        "Okpe (Southwestern Edo)"
+    ],
+    "Oksapmin": [
+        "Oksapmin"
+    ],
+    "Oku": [
+        "Oku"
+    ],
+    "Old English (ca. 450-1100)": [
+        "Old English (ca. 450-1100)"
+    ],
+    "Old French (842-ca. 1400)": [
+        "Old French (842-ca. 1400)"
+    ],
+    "Old High German (ca. 750-1050)": [
+        "Old High German (ca. 750-1050)"
+    ],
+    "Old Norse": [
+        "Old Norse"
+    ],
+    "Old Russian": [
+        "Old Russian"
+    ],
+    "Olo": [
+        "Olo"
+    ],
+    "Ono": [
+        "Ono"
+    ],
+    "Orokaiva": [
+        "Orokaiva"
+    ],
+    "Orya": [
+        "Orya"
+    ],
+    "Ossetian": [
+        "Ossetian"
+    ],
+    "Ot Danum": [
+        "Ot Danum"
+    ],
+    "Ottawa": [
+        "Ottawa"
+    ],
+    "Ottoman Turkish (1500-1928)": [
+        "Ottoman Turkish (1500-1928)"
+    ],
+    "Owa": [
+        "Owa"
+    ],
+    "Ozolotepec Zapotec": [
+        "Ozolotepec Zapotec"
+    ],
+    "Ozumacín Chinantec": [
+        "Ozumacín Chinantec"
+    ],
+    "Pa'o Karen": [
+        "Pa'o Karen"
+    ],
+    "Paama": [
+        "Paama"
+    ],
+    "Paasaal": [
+        "Paasaal"
+    ],
+    "Paicî": [
+        "Paicî"
+    ],
+    "Paite Chin": [
+        "Paite Chin"
+    ],
+    "Paiwan": [
+        "Paiwan"
+    ],
+    "Palantla Chinantec": [
+        "Palantla Chinantec"
+    ],
+    "Palauan": [
+        "Palauan"
+    ],
+    "Palikúr": [
+        "Palikúr"
+    ],
+    "Pamona": [
+        "Pamona"
+    ],
+    "Pampanga": [
+        "Pampanga"
+    ],
+    "Pamplona Atta": [
+        "Pamplona Atta"
+    ],
+    "Panao Huánuco Quechua": [
+        "Panao Huánuco Quechua"
+    ],
+    "Papantla Totonac": [
+        "Papantla Totonac"
+    ],
+    "Paraguayan Guaraní": [
+        "Paraguayan Guaraní"
+    ],
+    "Paranan": [
+        "Paranan"
+    ],
+    "Parecís": [
+        "Parecís"
+    ],
+    "Parkwa": [
+        "Parkwa"
+    ],
+    "Patamona": [
+        "Patamona"
+    ],
+    "Patep": [
+        "Patep"
+    ],
+    "Patpatar": [
+        "Patpatar"
+    ],
+    "Paumarí": [
+        "Paumarí"
+    ],
+    "Pedi": [
+        "Pedi"
+    ],
+    "Pele-Ata": [
+        "Pele-Ata"
+    ],
+    "Pennsylvania German": [
+        "Pennsylvania German"
+    ],
+    "Pere": [
+        "Pere"
+    ],
+    "Peñoles Mixtec": [
+        "Peñoles Mixtec"
+    ],
+    "Pfaelzisch": [
+        "Pfaelzisch"
+    ],
+    "Phende": [
+        "Phende"
+    ],
+    "Phimbi": [
+        "Phimbi"
+    ],
+    "Phom Naga": [
+        "Phom Naga"
+    ],
+    "Piapoco": [
+        "Piapoco"
+    ],
+    "Picard": [
+        "Picard"
+    ],
+    "Pichis Ashéninka": [
+        "Pichis Ashéninka"
+    ],
+    "Piemontese": [
+        "Piemontese"
+    ],
+    "Pijin": [
+        "Pijin"
+    ],
+    "Pilagá": [
+        "Pilagá"
+    ],
+    "Pinotepa Nacional Mixtec": [
+        "Pinotepa Nacional Mixtec"
+    ],
+    "Pinyin": [
+        "Pinyin"
+    ],
+    "Piratapuyo": [
+        "Piratapuyo"
+    ],
+    "Pisaflores Tepehua": [
+        "Pisaflores Tepehua"
+    ],
+    "Pitjantjatjara": [
+        "Pitjantjatjara"
+    ],
+    "Plains Cree": [
+        "Plains Cree"
+    ],
+    "Plapo Krumen": [
+        "Plapo Krumen"
+    ],
+    "Plautdietsch": [
+        "Plautdietsch"
+    ],
+    "Pochuri Naga": [
+        "Pochuri Naga"
+    ],
+    "Pogolo": [
+        "Pogolo"
+    ],
+    "Pohnpeian": [
+        "Pohnpeian"
+    ],
+    "Pokomo": [
+        "Pokomo"
+    ],
+    "Pontic": [
+        "Pontic"
+    ],
+    "Popti'": [
+        "Popti'"
+    ],
+    "Poqomchi'": [
+        "Poqomchi'"
+    ],
+    "Potawatomi": [
+        "Potawatomi"
+    ],
+    "Poumei Naga": [
+        "Poumei Naga"
+    ],
+    "Prussian": [
+        "Prussian"
+    ],
+    "Psikye": [
+        "Psikye"
+    ],
+    "Puinave": [
+        "Puinave"
+    ],
+    "Pular": [
+        "Pular"
+    ],
+    "Purepecha": [
+        "Purepecha"
+    ],
+    "Pwo Northern Karen": [
+        "Pwo Northern Karen"
+    ],
+    "Páez": [
+        "Páez"
+    ],
+    "Q'anjob'al": [
+        "Q'anjob'al"
+    ],
+    "Qaqet": [
+        "Qaqet"
+    ],
+    "Querétaro Otomi": [
+        "Querétaro Otomi"
+    ],
+    "Quetzaltepec Mixe": [
+        "Quetzaltepec Mixe"
+    ],
+    "Quiavicuzas Zapotec": [
+        "Quiavicuzas Zapotec"
+    ],
+    "Quioquitani-Quierí Zapotec": [
+        "Quioquitani-Quierí Zapotec"
+    ],
+    "Quiotepec Chinantec": [
+        "Quiotepec Chinantec"
+    ],
+    "Rade": [
+        "Rade"
+    ],
+    "Rajbanshi": [
+        "Rajbanshi"
+    ],
+    "Ramoaaina": [
+        "Ramoaaina"
+    ],
+    "Ranglong": [
+        "Ranglong"
+    ],
+    "Rapanui": [
+        "Rapanui"
+    ],
+    "Rarotongan": [
+        "Rarotongan"
+    ],
+    "Rawa": [
+        "Rawa"
+    ],
+    "Rawang": [
+        "Rawang"
+    ],
+    "Rejang": [
+        "Rejang"
+    ],
+    "Rendille": [
+        "Rendille"
+    ],
+    "Riang (India)": [
+        "Riang (India)"
+    ],
+    "Rigwe": [
+        "Rigwe"
+    ],
+    "Rikbaktsa": [
+        "Rikbaktsa"
+    ],
+    "Rincón Zapotec": [
+        "Rincón Zapotec"
+    ],
+    "Ringgou": [
+        "Ringgou"
+    ],
+    "Rohingya": [
+        "Rohingya"
+    ],
+    "Romansh": [
+        "Romansh"
+    ],
+    "Ronga": [
+        "Ronga"
+    ],
+    "Rongmei Naga": [
+        "Rongmei Naga"
+    ],
+    "Rotokas": [
+        "Rotokas"
+    ],
+    "Rotuman": [
+        "Rotuman"
+    ],
+    "Roviana": [
+        "Roviana"
+    ],
+    "Rukai": [
+        "Rukai"
+    ],
+    "Rungus": [
+        "Rungus"
+    ],
+    "Russia Buriat": [
+        "Russia Buriat"
+    ],
+    "Rusyn": [
+        "Rusyn"
+    ],
+    "Ruund": [
+        "Ruund"
+    ],
+    "Réunion Creole French": [
+        "Réunion Creole French"
+    ],
+    "S'gaw Karen": [
+        "S'gaw Karen"
+    ],
+    "Sa'a": [
+        "Sa'a"
+    ],
+    "Saamia": [
+        "Saamia"
+    ],
+    "Sabaot": [
+        "Sabaot"
+    ],
+    "Sabu": [
+        "Sabu"
+    ],
+    "Sadri": [
+        "Sadri"
+    ],
+    "Safeyoka": [
+        "Safeyoka"
+    ],
+    "Saint Lucian Creole French": [
+        "Saint Lucian Creole French"
+    ],
+    "Sakalava Malagasy": [
+        "Sakalava Malagasy"
+    ],
+    "Sakizaya": [
+        "Sakizaya"
+    ],
+    "Salasaca Highland Quichua": [
+        "Salasaca Highland Quichua"
+    ],
+    "Saliba": [
+        "Saliba"
+    ],
+    "Salt-Yui": [
+        "Salt-Yui"
+    ],
+    "Saluan": [
+        "Saluan"
+    ],
+    "Samba Leko": [
+        "Samba Leko"
+    ],
+    "Sambal": [
+        "Sambal"
+    ],
+    "Samberigi": [
+        "Samberigi"
+    ],
+    "Samogitian": [
+        "Samogitian"
+    ],
+    "Sampang": [
+        "Sampang"
+    ],
+    "San Blas Kuna": [
+        "San Blas Kuna"
+    ],
+    "San Jerónimo Tecóatl Mazatec": [
+        "San Jerónimo Tecóatl Mazatec"
+    ],
+    "San Juan Atzingo Popoloca": [
+        "San Juan Atzingo Popoloca"
+    ],
+    "San Juan Colorado Mixtec": [
+        "San Juan Colorado Mixtec"
+    ],
+    "San Luís Temalacayuca Popoloca": [
+        "San Luís Temalacayuca Popoloca"
+    ],
+    "San Marcos Tlacoyalco Popoloca": [
+        "San Marcos Tlacoyalco Popoloca"
+    ],
+    "San Martín Itunyoso Triqui": [
+        "San Martín Itunyoso Triqui"
+    ],
+    "San Martín Quechua": [
+        "San Martín Quechua"
+    ],
+    "San Mateo Del Mar Huave": [
+        "San Mateo Del Mar Huave"
+    ],
+    "San Miguel El Grande Mixtec": [
+        "San Miguel El Grande Mixtec"
+    ],
+    "San Pedro Amuzgos Amuzgo": [
+        "San Pedro Amuzgos Amuzgo"
+    ],
+    "San Salvador Kongo": [
+        "San Salvador Kongo"
+    ],
+    "San Vicente Coatlán Zapotec": [
+        "San Vicente Coatlán Zapotec"
+    ],
+    "Sangir": [
+        "Sangir"
+    ],
+    "Sangtam Naga": [
+        "Sangtam Naga"
+    ],
+    "Saniyo-Hiyewe": [
+        "Saniyo-Hiyewe"
+    ],
+    "Sankaran Maninka": [
+        "Sankaran Maninka"
+    ],
+    "Santa María Quiegolani Zapotec": [
+        "Santa María Quiegolani Zapotec"
+    ],
+    "Santa María Zacatepec Mixtec": [
+        "Santa María Zacatepec Mixtec"
+    ],
+    "Santa Teresa Cora": [
+        "Santa Teresa Cora"
+    ],
+    "Santiago del Estero Quichua": [
+        "Santiago del Estero Quichua"
+    ],
+    "Santo Domingo Albarradas Zapotec": [
+        "Santo Domingo Albarradas Zapotec"
+    ],
+    "Sanumá": [
+        "Sanumá"
+    ],
+    "Saposa": [
+        "Saposa"
+    ],
+    "Sar": [
+        "Sar"
+    ],
+    "Saraiki": [
+        "Saraiki"
+    ],
+    "Saramaccan": [
+        "Saramaccan"
+    ],
+    "Sarangani Blaan": [
+        "Sarangani Blaan"
+    ],
+    "Sarangani Manobo": [
+        "Sarangani Manobo"
+    ],
+    "Sasak": [
+        "Sasak"
+    ],
+    "Sassarese Sardinian": [
+        "Sassarese Sardinian"
+    ],
+    "Saterfriesisch": [
+        "Saterfriesisch"
+    ],
+    "Sateré-Mawé": [
+        "Sateré-Mawé"
+    ],
+    "Sayula Popoluca": [
+        "Sayula Popoluca"
+    ],
+    "Scots": [
+        "Scots"
+    ],
+    "Sea Island Creole English": [
+        "Sea Island Creole English"
+    ],
+    "Sebat Bet Gurage": [
+        "Sebat Bet Gurage"
+    ],
+    "Secoya": [
+        "Secoya"
+    ],
+    "Sediq": [
+        "Sediq"
+    ],
+    "Sehwi": [
+        "Sehwi"
+    ],
+    "Seimat": [
+        "Seimat"
+    ],
+    "Sekpele": [
+        "Sekpele"
+    ],
+    "Selee": [
+        "Selee"
+    ],
+    "Selepet": [
+        "Selepet"
+    ],
+    "Semandang": [
+        "Semandang"
+    ],
+    "Sena": [
+        "Sena"
+    ],
+    "Sepik Iwam": [
+        "Sepik Iwam"
+    ],
+    "Serer": [
+        "Serer"
+    ],
+    "Seselwa Creole French": [
+        "Seselwa Creole French"
+    ],
+    "Shambala": [
+        "Shambala"
+    ],
+    "Sharanahua": [
+        "Sharanahua"
+    ],
+    "Sherpa": [
+        "Sherpa"
+    ],
+    "Shilluk": [
+        "Shilluk"
+    ],
+    "Shipibo-Conibo": [
+        "Shipibo-Conibo"
+    ],
+    "Shor": [
+        "Shor"
+    ],
+    "Shuar": [
+        "Shuar"
+    ],
+    "Shughni": [
+        "Shughni"
+    ],
+    "Siane": [
+        "Siane"
+    ],
+    "Sidamo": [
+        "Sidamo"
+    ],
+    "Sierra Negra Nahuatl": [
+        "Sierra Negra Nahuatl"
+    ],
+    "Sierra de Juárez Zapotec": [
+        "Sierra de Juárez Zapotec"
+    ],
+    "Siksika": [
+        "Siksika"
+    ],
+    "Silacayoapan Mixtec": [
+        "Silacayoapan Mixtec"
+    ],
+    "Simte": [
+        "Simte"
+    ],
+    "Sinaugoro": [
+        "Sinaugoro"
+    ],
+    "Sinte Romani": [
+        "Sinte Romani"
+    ],
+    "Sio": [
+        "Sio"
+    ],
+    "Siona": [
+        "Siona"
+    ],
+    "Siriano": [
+        "Siriano"
+    ],
+    "Sirionó": [
+        "Sirionó"
+    ],
+    "Siroi": [
+        "Siroi"
+    ],
+    "Sissala": [
+        "Sissala"
+    ],
+    "Siwu": [
+        "Siwu"
+    ],
+    "Siyin Chin": [
+        "Siyin Chin"
+    ],
+    "Skolt Sami": [
+        "Skolt Sami"
+    ],
+    "Sochiapam Chinantec": [
+        "Sochiapam Chinantec"
+    ],
+    "Soga": [
+        "Soga"
+    ],
+    "Soli": [
+        "Soli"
+    ],
+    "Somba-Siawari": [
+        "Somba-Siawari"
+    ],
+    "Songe": [
+        "Songe"
+    ],
+    "Songomeno": [
+        "Songomeno"
+    ],
+    "Sop": [
+        "Sop"
+    ],
+    "South Bolivian Quechua": [
+        "South Bolivian Quechua"
+    ],
+    "South Fali": [
+        "South Fali"
+    ],
+    "South Giziga": [
+        "South Giziga"
+    ],
+    "South Ndebele": [
+        "South Ndebele"
+    ],
+    "South Tairora": [
+        "South Tairora"
+    ],
+    "South Ucayali Ashéninka": [
+        "South Ucayali Ashéninka"
+    ],
+    "Southeast Ambrym": [
+        "Southeast Ambrym"
+    ],
+    "Southeastern Dinka": [
+        "Southeastern Dinka"
+    ],
+    "Southeastern Puebla Nahuatl": [
+        "Southeastern Puebla Nahuatl"
+    ],
+    "Southeastern Tepehuan": [
+        "Southeastern Tepehuan"
+    ],
+    "Southern Altai": [
+        "Southern Altai"
+    ],
+    "Southern Birifor": [
+        "Southern Birifor"
+    ],
+    "Southern Bobo Madaré": [
+        "Southern Bobo Madaré"
+    ],
+    "Southern Carrier": [
+        "Southern Carrier"
+    ],
+    "Southern Conchucos Ancash Quechua": [
+        "Southern Conchucos Ancash Quechua"
+    ],
+    "Southern Dagaare": [
+        "Southern Dagaare"
+    ],
+    "Southern East Cree": [
+        "Southern East Cree"
+    ],
+    "Southern Kalinga": [
+        "Southern Kalinga"
+    ],
+    "Southern Kisi": [
+        "Southern Kisi"
+    ],
+    "Southern Kurdish": [
+        "Southern Kurdish"
+    ],
+    "Southern Nambikuára": [
+        "Southern Nambikuára"
+    ],
+    "Southern Nuni": [
+        "Southern Nuni"
+    ],
+    "Southern Pastaza Quechua": [
+        "Southern Pastaza Quechua"
+    ],
+    "Southern Puebla Mixtec": [
+        "Southern Puebla Mixtec"
+    ],
+    "Southern Rengma Naga": [
+        "Southern Rengma Naga"
+    ],
+    "Southern Rincon Zapotec": [
+        "Southern Rincon Zapotec"
+    ],
+    "Southern Sami": [
+        "Southern Sami"
+    ],
+    "Southern Samo": [
+        "Southern Samo"
+    ],
+    "Southern Toussian": [
+        "Southern Toussian"
+    ],
+    "Southern Uzbek": [
+        "Southern Uzbek"
+    ],
+    "Southwest Gbaya": [
+        "Southwest Gbaya"
+    ],
+    "Southwest Tanna": [
+        "Southwest Tanna"
+    ],
+    "Sranan Tongo": [
+        "Sranan Tongo"
+    ],
+    "Standard Arabic": [
+        "Standard Arabic"
+    ],
+    "Standard Estonian": [
+        "Standard Estonian"
+    ],
+    "Standard Moroccan Tamazight": [
+        "Standard Moroccan Tamazight"
+    ],
+    "Suau": [
+        "Suau"
+    ],
+    "Suba": [
+        "Suba"
+    ],
+    "Subiya": [
+        "Subiya"
+    ],
+    "Sudest": [
+        "Sudest"
+    ],
+    "Suena": [
+        "Suena"
+    ],
+    "Sukuma": [
+        "Sukuma"
+    ],
+    "Sulka": [
+        "Sulka"
+    ],
+    "Sumi Naga": [
+        "Sumi Naga"
+    ],
+    "Sunwar": [
+        "Sunwar"
+    ],
+    "Supyire Senoufo": [
+        "Supyire Senoufo"
+    ],
+    "Sursurunga": [
+        "Sursurunga"
+    ],
+    "Susu": [
+        "Susu"
+    ],
+    "Swabian": [
+        "Swabian"
+    ],
+    "Swahili (individual language)": [
+        "Swahili (individual language)"
+    ],
+    "Swahili (macrolanguage)": [
+        "Swahili (macrolanguage)"
+    ],
+    "Swampy Cree": [
+        "Swampy Cree"
+    ],
+    "Swiss German": [
+        "Swiss German"
+    ],
+    "Sylheti": [
+        "Sylheti"
+    ],
+    "Taabwa": [
+        "Taabwa"
+    ],
+    "Tabaa Zapotec": [
+        "Tabaa Zapotec"
+    ],
+    "Tabaru": [
+        "Tabaru"
+    ],
+    "Tabasco Chontal": [
+        "Tabasco Chontal"
+    ],
+    "Tabassaran": [
+        "Tabassaran"
+    ],
+    "Tabo": [
+        "Tabo"
+    ],
+    "Tacana": [
+        "Tacana"
+    ],
+    "Tachelhit": [
+        "Tachelhit"
+    ],
+    "Tagabawa": [
+        "Tagabawa"
+    ],
+    "Tagbanwa": [
+        "Tagbanwa"
+    ],
+    "Tai": [
+        "Tai"
+    ],
+    "Takia": [
+        "Takia"
+    ],
+    "Takuu": [
+        "Takuu"
+    ],
+    "Takwane": [
+        "Takwane"
+    ],
+    "Talinga-Bwisi": [
+        "Talinga-Bwisi"
+    ],
+    "Talossan": [
+        "Talossan"
+    ],
+    "Talysh": [
+        "Talysh"
+    ],
+    "Tamasheq": [
+        "Tamasheq"
+    ],
+    "Tampulma": [
+        "Tampulma"
+    ],
+    "Tangkhul Naga (India)": [
+        "Tangkhul Naga (India)"
+    ],
+    "Tangoa": [
+        "Tangoa"
+    ],
+    "Tanimuca-Retuarã": [
+        "Tanimuca-Retuarã"
+    ],
+    "Tarao Naga": [
+        "Tarao Naga"
+    ],
+    "Tase Naga": [
+        "Tase Naga"
+    ],
+    "Tataltepec Chatino": [
+        "Tataltepec Chatino"
+    ],
+    "Tatuyo": [
+        "Tatuyo"
+    ],
+    "Taupota": [
+        "Taupota"
+    ],
+    "Tausug": [
+        "Tausug"
+    ],
+    "Tawala": [
+        "Tawala"
+    ],
+    "Tawallammat Tamajaq": [
+        "Tawallammat Tamajaq"
+    ],
+    "Tboli": [
+        "Tboli"
+    ],
+    "Tedim Chin": [
+        "Tedim Chin"
+    ],
+    "Tektiteko": [
+        "Tektiteko"
+    ],
+    "Telefol": [
+        "Telefol"
+    ],
+    "Tem": [
+        "Tem"
+    ],
+    "Tena Lowland Quichua": [
+        "Tena Lowland Quichua"
+    ],
+    "Tenango Otomi": [
+        "Tenango Otomi"
+    ],
+    "Tenharim": [
+        "Tenharim"
+    ],
+    "Tepetotutla Chinantec": [
+        "Tepetotutla Chinantec"
+    ],
+    "Tepeuxila Cuicatec": [
+        "Tepeuxila Cuicatec"
+    ],
+    "Tepo Krumen": [
+        "Tepo Krumen"
+    ],
+    "Tereno": [
+        "Tereno"
+    ],
+    "Teribe": [
+        "Teribe"
+    ],
+    "Termanu": [
+        "Termanu"
+    ],
+    "Teso": [
+        "Teso"
+    ],
+    "Tetela": [
+        "Tetela"
+    ],
+    "Tetelcingo Nahuatl": [
+        "Tetelcingo Nahuatl"
+    ],
+    "Tetum": [
+        "Tetum"
+    ],
+    "Teutila Cuicatec": [
+        "Teutila Cuicatec"
+    ],
+    "Tewa (USA)": [
+        "Tewa (USA)"
+    ],
+    "Tewe": [
+        "Tewe"
+    ],
+    "Texmelucan Zapotec": [
+        "Texmelucan Zapotec"
+    ],
+    "Tezoatlán Mixtec": [
+        "Tezoatlán Mixtec"
+    ],
+    "Thado Chin": [
+        "Thado Chin"
+    ],
+    "Tharaka": [
+        "Tharaka"
+    ],
+    "Tibetan": [
+        "Tibetan"
+    ],
+    "Ticuna": [
+        "Ticuna"
+    ],
+    "Tifal": [
+        "Tifal"
+    ],
+    "Tigon Mbembe": [
+        "Tigon Mbembe"
+    ],
+    "Tigre": [
+        "Tigre"
+    ],
+    "Tii": [
+        "Tii"
+    ],
+    "Tikar": [
+        "Tikar"
+    ],
+    "Timbe": [
+        "Timbe"
+    ],
+    "Timne": [
+        "Timne"
+    ],
+    "Timugon Murut": [
+        "Timugon Murut"
+    ],
+    "Tinputz": [
+        "Tinputz"
+    ],
+    "Tiruray": [
+        "Tiruray"
+    ],
+    "Tiv": [
+        "Tiv"
+    ],
+    "Tlachichilco Tepehua": [
+        "Tlachichilco Tepehua"
+    ],
+    "Tlahuitoltepec Mixe": [
+        "Tlahuitoltepec Mixe"
+    ],
+    "To'abaita": [
+        "To'abaita"
+    ],
+    "Toaripi": [
+        "Toaripi"
+    ],
+    "Toba": [
+        "Toba"
+    ],
+    "Tobelo": [
+        "Tobelo"
+    ],
+    "Tohono O'odham": [
+        "Tohono O'odham"
+    ],
+    "Tojolabal": [
+        "Tojolabal"
+    ],
+    "Tokelau": [
+        "Tokelau"
+    ],
+    "Toki Pona": [
+        "Toki Pona"
+    ],
+    "Tol": [
+        "Tol"
+    ],
+    "Toma": [
+        "Toma"
+    ],
+    "Tonga (Nyasa)": [
+        "Tonga (Nyasa)"
+    ],
+    "Tonga (Tonga Islands)": [
+        "Tonga (Tonga Islands)"
+    ],
+    "Tonga (Zambia)": [
+        "Tonga (Zambia)"
+    ],
+    "Tooro": [
+        "Tooro"
+    ],
+    "Toraja-Sa'dan": [
+        "Toraja-Sa'dan"
+    ],
+    "Tornedalen Finnish": [
+        "Tornedalen Finnish"
+    ],
+    "Toro So Dogon": [
+        "Toro So Dogon"
+    ],
+    "Torres Strait Creole": [
+        "Torres Strait Creole"
+    ],
+    "Totontepec Mixe": [
+        "Totontepec Mixe"
+    ],
+    "Toura (Côte d'Ivoire)": [
+        "Toura (Côte d'Ivoire)"
+    ],
+    "Trinitario": [
+        "Trinitario"
+    ],
+    "Tsakhur": [
+        "Tsakhur"
+    ],
+    "Tsikimba": [
+        "Tsikimba"
+    ],
+    "Tsimané": [
+        "Tsimané"
+    ],
+    "Tsishingini": [
+        "Tsishingini"
+    ],
+    "Tswa": [
+        "Tswa"
+    ],
+    "Tucano": [
+        "Tucano"
+    ],
+    "Tula": [
+        "Tula"
+    ],
+    "Tuma-Irumu": [
+        "Tuma-Irumu"
+    ],
+    "Tumak": [
+        "Tumak"
+    ],
+    "Tumulung Sisaala": [
+        "Tumulung Sisaala"
+    ],
+    "Tungag": [
+        "Tungag"
+    ],
+    "Tupuri": [
+        "Tupuri"
+    ],
+    "Tupí": [
+        "Tupí"
+    ],
+    "Turkana": [
+        "Turkana"
+    ],
+    "Tuvalu": [
+        "Tuvalu"
+    ],
+    "Tuvinian": [
+        "Tuvinian"
+    ],
+    "Tuwali Ifugao": [
+        "Tuwali Ifugao"
+    ],
+    "Tuwuli": [
+        "Tuwuli"
+    ],
+    "Tuyuca": [
+        "Tuyuca"
+    ],
+    "Tyap": [
+        "Tyap"
+    ],
+    "Tz'utujil": [
+        "Tz'utujil"
+    ],
+    "Tzeltal": [
+        "Tzeltal"
+    ],
+    "Tzotzil": [
+        "Tzotzil"
+    ],
+    "Uare": [
+        "Uare"
+    ],
+    "Ubir": [
+        "Ubir"
+    ],
+    "Ucayali-Yurúa Ashéninka": [
+        "Ucayali-Yurúa Ashéninka"
+    ],
+    "Udmurt": [
+        "Udmurt"
+    ],
+    "Uduk": [
+        "Uduk"
+    ],
+    "Uma": [
+        "Uma"
+    ],
+    "Umanakaina": [
+        "Umanakaina"
+    ],
+    "Umbu-Ungu": [
+        "Umbu-Ungu"
+    ],
+    "Ume Sami": [
+        "Ume Sami"
+    ],
+    "Umiray Dumaget Agta": [
+        "Umiray Dumaget Agta"
+    ],
+    "Una": [
+        "Una"
+    ],
+    "Upper Guinea Crioulo": [
+        "Upper Guinea Crioulo"
+    ],
+    "Upper Necaxa Totonac": [
+        "Upper Necaxa Totonac"
+    ],
+    "Upper Sorbian": [
+        "Upper Sorbian"
+    ],
+    "Urak Lawoi'": [
+        "Urak Lawoi'"
+    ],
+    "Urarina": [
+        "Urarina"
+    ],
+    "Urat": [
+        "Urat"
+    ],
+    "Urhobo": [
+        "Urhobo"
+    ],
+    "Uri": [
+        "Uri"
+    ],
+    "Urim": [
+        "Urim"
+    ],
+    "Uripiv-Wala-Rano-Atchin": [
+        "Uripiv-Wala-Rano-Atchin"
+    ],
+    "Urubú-Kaapor": [
+        "Urubú-Kaapor"
+    ],
+    "Usan": [
+        "Usan"
+    ],
+    "Usarufa": [
+        "Usarufa"
+    ],
+    "Usila Chinantec": [
+        "Usila Chinantec"
+    ],
+    "Uspanteco": [
+        "Uspanteco"
+    ],
+    "Vagla": [
+        "Vagla"
+    ],
+    "Vaiphei": [
+        "Vaiphei"
+    ],
+    "Vengo": [
+        "Vengo"
+    ],
+    "Veps": [
+        "Veps"
+    ],
+    "Vidunda": [
+        "Vidunda"
+    ],
+    "Vlaams": [
+        "Vlaams"
+    ],
+    "Vlax Romani": [
+        "Vlax Romani"
+    ],
+    "Votic": [
+        "Votic"
+    ],
+    "Vunjo": [
+        "Vunjo"
+    ],
+    "Vute": [
+        "Vute"
+    ],
+    "Võro": [
+        "Võro"
+    ],
+    "Wa": [
+        "Wa"
+    ],
+    "Waama": [
+        "Waama"
+    ],
+    "Waffa": [
+        "Waffa"
+    ],
+    "Wagi": [
+        "Wagi"
+    ],
+    "Wahau Kenyah": [
+        "Wahau Kenyah"
+    ],
+    "Waima": [
+        "Waima"
+    ],
+    "Waimaha": [
+        "Waimaha"
+    ],
+    "Wala": [
+        "Wala"
+    ],
+    "Wali (Ghana)": [
+        "Wali (Ghana)"
+    ],
+    "Wallisian": [
+        "Wallisian"
+    ],
+    "Walloon": [
+        "Walloon"
+    ],
+    "Walmajarri": [
+        "Walmajarri"
+    ],
+    "Wamey": [
+        "Wamey"
+    ],
+    "Wancho Naga": [
+        "Wancho Naga"
+    ],
+    "Wandala": [
+        "Wandala"
+    ],
+    "Wanga": [
+        "Wanga"
+    ],
+    "Wantoat": [
+        "Wantoat"
+    ],
+    "Waorani": [
+        "Waorani"
+    ],
+    "Wapishana": [
+        "Wapishana"
+    ],
+    "Warao": [
+        "Warao"
+    ],
+    "Waray (Philippines)": [
+        "Waray (Philippines)"
+    ],
+    "Waris": [
+        "Waris"
+    ],
+    "Warlpiri": [
+        "Warlpiri"
+    ],
+    "Waskia": [
+        "Waskia"
+    ],
+    "Wayampi": [
+        "Wayampi"
+    ],
+    "Wayana": [
+        "Wayana"
+    ],
+    "Wayuu": [
+        "Wayuu"
+    ],
+    "Wedau": [
+        "Wedau"
+    ],
+    "Wejewa": [
+        "Wejewa"
+    ],
+    "Weri": [
+        "Weri"
+    ],
+    "West Kewa": [
+        "West Kewa"
+    ],
+    "West-Central Limba": [
+        "West-Central Limba"
+    ],
+    "Western Apache": [
+        "Western Apache"
+    ],
+    "Western Arrarnta": [
+        "Western Arrarnta"
+    ],
+    "Western Bolivian Guaraní": [
+        "Western Bolivian Guaraní"
+    ],
+    "Western Bukidnon Manobo": [
+        "Western Bukidnon Manobo"
+    ],
+    "Western Dani": [
+        "Western Dani"
+    ],
+    "Western Highland Chatino": [
+        "Western Highland Chatino"
+    ],
+    "Western Huasteca Nahuatl": [
+        "Western Huasteca Nahuatl"
+    ],
+    "Western Kanjobal": [
+        "Western Kanjobal"
+    ],
+    "Western Kayah": [
+        "Western Kayah"
+    ],
+    "Western Lawa": [
+        "Western Lawa"
+    ],
+    "Western Mari": [
+        "Western Mari"
+    ],
+    "Western Niger Fulfulde": [
+        "Western Niger Fulfulde"
+    ],
+    "Western Panjabi": [
+        "Western Panjabi"
+    ],
+    "Western Penan": [
+        "Western Penan"
+    ],
+    "Western Subanon": [
+        "Western Subanon"
+    ],
+    "Western Tlacolula Valley Zapotec": [
+        "Western Tlacolula Valley Zapotec"
+    ],
+    "Whitesands": [
+        "Whitesands"
+    ],
+    "Wichí Lhamtés Güisnay": [
+        "Wichí Lhamtés Güisnay"
+    ],
+    "Wichí Lhamtés Nocten": [
+        "Wichí Lhamtés Nocten"
+    ],
+    "Wichí Lhamtés Vejoz": [
+        "Wichí Lhamtés Vejoz"
+    ],
+    "Wik-Mungkan": [
+        "Wik-Mungkan"
+    ],
+    "Wipi": [
+        "Wipi"
+    ],
+    "Wiru": [
+        "Wiru"
+    ],
+    "Wolaytta": [
+        "Wolaytta"
+    ],
+    "Woun Meu": [
+        "Woun Meu"
+    ],
+    "Wu Chinese": [
+        "Wu Chinese"
+    ],
+    "Wuvulu-Aua": [
+        "Wuvulu-Aua"
+    ],
+    "Wè Northern": [
+        "Wè Northern"
+    ],
+    "Xaasongaxango": [
+        "Xaasongaxango"
+    ],
+    "Xavánte": [
+        "Xavánte"
+    ],
+    "Xibe": [
+        "Xibe"
+    ],
+    "Xicotepec De Juárez Totonac": [
+        "Xicotepec De Juárez Totonac"
+    ],
+    "Yabem": [
+        "Yabem"
+    ],
+    "Yagua": [
+        "Yagua"
+    ],
+    "Yakan": [
+        "Yakan"
+    ],
+    "Yakut": [
+        "Yakut"
+    ],
+    "Yalunka": [
+        "Yalunka"
+    ],
+    "Yalálag Zapotec": [
+        "Yalálag Zapotec"
+    ],
+    "Yamba": [
+        "Yamba"
+    ],
+    "Yambeta": [
+        "Yambeta"
+    ],
+    "Yaminahua": [
+        "Yaminahua"
+    ],
+    "Yanesha'": [
+        "Yanesha'"
+    ],
+    "Yanomamö": [
+        "Yanomamö"
+    ],
+    "Yao": [
+        "Yao"
+    ],
+    "Yaouré": [
+        "Yaouré"
+    ],
+    "Yapese": [
+        "Yapese"
+    ],
+    "Yaqui": [
+        "Yaqui"
+    ],
+    "Yareba": [
+        "Yareba"
+    ],
+    "Yareni Zapotec": [
+        "Yareni Zapotec"
+    ],
+    "Yatee Zapotec": [
+        "Yatee Zapotec"
+    ],
+    "Yatzachi Zapotec": [
+        "Yatzachi Zapotec"
+    ],
+    "Yau (Morobe Province)": [
+        "Yau (Morobe Province)"
+    ],
+    "Yawa": [
+        "Yawa"
+    ],
+    "Yaweyuha": [
+        "Yaweyuha"
+    ],
+    "Yele": [
+        "Yele"
+    ],
+    "Yemba": [
+        "Yemba"
+    ],
+    "Yessan-Mayo": [
+        "Yessan-Mayo"
+    ],
+    "Yimchungru Naga": [
+        "Yimchungru Naga"
+    ],
+    "Yine": [
+        "Yine"
+    ],
+    "Yocoboué Dida": [
+        "Yocoboué Dida"
+    ],
+    "Yombe": [
+        "Yombe"
+    ],
+    "Yongbei Zhuang": [
+        "Yongbei Zhuang"
+    ],
+    "Yongkom": [
+        "Yongkom"
+    ],
+    "Yopno": [
+        "Yopno"
+    ],
+    "Yosondúa Mixtec": [
+        "Yosondúa Mixtec"
+    ],
+    "Yucateco": [
+        "Yucateco"
+    ],
+    "Yucuna": [
+        "Yucuna"
+    ],
+    "Yukpa": [
+        "Yukpa"
+    ],
+    "Yuracare": [
+        "Yuracare"
+    ],
+    "Zacatlán-Ahuacatlán-Tepetzintla Nahuatl": [
+        "Zacatlán-Ahuacatlán-Tepetzintla Nahuatl"
+    ],
+    "Zaiwa": [
+        "Zaiwa"
+    ],
+    "Zande (individual language)": [
+        "Zande (individual language)"
+    ],
+    "Zarma": [
+        "Zarma"
+    ],
+    "Zeeuws": [
+        "Zeeuws"
+    ],
+    "Zemba": [
+        "Zemba"
+    ],
+    "Zeme Naga": [
+        "Zeme Naga"
+    ],
+    "Zia": [
+        "Zia"
+    ],
+    "Zigula": [
+        "Zigula"
+    ],
+    "Zoogocho Zapotec": [
+        "Zoogocho Zapotec"
+    ],
+    "Zotung Chin": [
+        "Zotung Chin"
+    ],
+    "Zou": [
+        "Zou"
+    ],
+    "Zulgo-Gemzek": [
+        "Zulgo-Gemzek"
+    ],
+    "Zyphe Chin": [
+        "Zyphe Chin"
+    ],
+    "daf": [
+        "daf"
+    ],
+    "eml": [
+        "eml"
+    ],
+    "kzj": [
+        "kzj"
+    ],
+    "nah": [
+        "nah"
+    ],
+    "oto": [
+        "oto"
+    ],
+    "ut-Hun": [
+        "ut-Hun"
+    ],
+    "Ömie": [
+        "Ömie"
+    ]
+}

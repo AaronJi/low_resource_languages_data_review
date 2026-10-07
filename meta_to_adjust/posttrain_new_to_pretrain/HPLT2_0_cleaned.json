@@ -1,0 +1,3458 @@
+{
+    "HPLT2_0_cleaned-ace_Arab": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-ace_Arab",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-ace_Arab",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Achinese"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ace_Arab"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ace_Arab",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 16
+        }
+    },
+    "HPLT2_0_cleaned-ace_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-ace_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-ace_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Achinese"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ace_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ace_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 12930
+        }
+    },
+    "HPLT2_0_cleaned-afr_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-afr_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-afr_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Afrikaans"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "afr_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "afr_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1457165
+        }
+    },
+    "HPLT2_0_cleaned-als_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-als_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-als_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Tosk Albanian"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "als_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "als_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 5385262
+        }
+    },
+    "HPLT2_0_cleaned-amh_Ethi": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-amh_Ethi",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-amh_Ethi",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Amharic"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "amh_Ethi"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "amh_Ethi",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 295542
+        }
+    },
+    "HPLT2_0_cleaned-ara_Arab": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-ara_Arab",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-ara_Arab",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Arabic"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ara_Arab"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ara_Arab",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 82670005
+        }
+    },
+    "HPLT2_0_cleaned-asm_Beng": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-asm_Beng",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-asm_Beng",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Assamese"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "asm_Beng"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "asm_Beng",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 175709
+        }
+    },
+    "HPLT2_0_cleaned-ast_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-ast_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-ast_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Asturian"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ast_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ast_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 273237
+        }
+    },
+    "HPLT2_0_cleaned-awa_Deva": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-awa_Deva",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-awa_Deva",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Awadhi"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "awa_Deva"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "awa_Deva",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 7281
+        }
+    },
+    "HPLT2_0_cleaned-ayr_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-ayr_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-ayr_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Central Aymara"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ayr_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ayr_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 9223
+        }
+    },
+    "HPLT2_0_cleaned-azb_Arab": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-azb_Arab",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-azb_Arab",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "South Azerbaijani"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "azb_Arab"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "azb_Arab",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 66112
+        }
+    },
+    "HPLT2_0_cleaned-azj_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-azj_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-azj_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "North Azerbaijani"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "azj_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "azj_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 6484902
+        }
+    },
+    "HPLT2_0_cleaned-bak_Cyrl": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-bak_Cyrl",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-bak_Cyrl",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Bashkir"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "bak_Cyrl"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "bak_Cyrl",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 170822
+        }
+    },
+    "HPLT2_0_cleaned-ban_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-ban_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-ban_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Balinese"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ban_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ban_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 10700
+        }
+    },
+    "HPLT2_0_cleaned-bel_Cyrl": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-bel_Cyrl",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-bel_Cyrl",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Belarusian"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "bel_Cyrl"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "bel_Cyrl",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2319619
+        }
+    },
+    "HPLT2_0_cleaned-bem_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-bem_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-bem_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Bemba (Zambia)"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "bem_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "bem_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 6136
+        }
+    },
+    "HPLT2_0_cleaned-ben_Beng": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-ben_Beng",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-ben_Beng",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Bengali"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ben_Beng"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ben_Beng",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 11043918
+        }
+    },
+    "HPLT2_0_cleaned-bho_Deva": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-bho_Deva",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-bho_Deva",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Bhojpuri"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "bho_Deva"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "bho_Deva",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 28643
+        }
+    },
+    "HPLT2_0_cleaned-bjn_Arab": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-bjn_Arab",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-bjn_Arab",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Banjar"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "bjn_Arab"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "bjn_Arab",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1112
+        }
+    },
+    "HPLT2_0_cleaned-bjn_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-bjn_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-bjn_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Banjar"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "bjn_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "bjn_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 18764
+        }
+    },
+    "HPLT2_0_cleaned-bod_Tibt": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-bod_Tibt",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-bod_Tibt",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Tibetan"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "bod_Tibt"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "bod_Tibt",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 27444
+        }
+    },
+    "HPLT2_0_cleaned-bos_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-bos_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-bos_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Bosnian"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "bos_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "bos_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 14613088
+        }
+    },
+    "HPLT2_0_cleaned-bug_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-bug_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-bug_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Buginese"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "bug_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "bug_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2023
+        }
+    },
+    "HPLT2_0_cleaned-bul_Cyrl": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-bul_Cyrl",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-bul_Cyrl",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Bulgarian"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "bul_Cyrl"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "bul_Cyrl",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 28087181
+        }
+    },
+    "HPLT2_0_cleaned-cat_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-cat_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-cat_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Catalan"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "cat_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "cat_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 18553883
+        }
+    },
+    "HPLT2_0_cleaned-ceb_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-ceb_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-ceb_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Cebuano"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ceb_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ceb_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 138838
+        }
+    },
+    "HPLT2_0_cleaned-ces_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-ces_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-ces_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Czech"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ces_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ces_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 75288021
+        }
+    },
+    "HPLT2_0_cleaned-cjk_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-cjk_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-cjk_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Chokwe"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "cjk_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "cjk_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1196
+        }
+    },
+    "HPLT2_0_cleaned-ckb_Arab": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-ckb_Arab",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-ckb_Arab",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Central Kurdish"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ckb_Arab"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ckb_Arab",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 273745
+        }
+    },
+    "HPLT2_0_cleaned-crh_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-crh_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-crh_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Crimean Tatar"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "crh_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "crh_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 122744
+        }
+    },
+    "HPLT2_0_cleaned-cym_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-cym_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-cym_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Welsh"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "cym_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "cym_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 758127
+        }
+    },
+    "HPLT2_0_cleaned-dan_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-dan_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-dan_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Danish"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "dan_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "dan_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 33841408
+        }
+    },
+    "HPLT2_0_cleaned-deu_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-deu_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-deu_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "German"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "deu_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "deu_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 482053407
+        }
+    },
+    "HPLT2_0_cleaned-dik_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-dik_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-dik_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Southwestern Dinka"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "dik_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "dik_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2325
+        }
+    },
+    "HPLT2_0_cleaned-dyu_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-dyu_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-dyu_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Dyula"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "dyu_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "dyu_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1390
+        }
+    },
+    "HPLT2_0_cleaned-dzo_Tibt": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-dzo_Tibt",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-dzo_Tibt",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Dzongkha"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "dzo_Tibt"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "dzo_Tibt",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1626
+        }
+    },
+    "HPLT2_0_cleaned-ell_Grek": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-ell_Grek",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-ell_Grek",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Modern Greek (1453-)"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ell_Grek"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ell_Grek",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 70328890
+        }
+    },
+    "HPLT2_0_cleaned-eng_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-eng_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-eng_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "eng_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "eng_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 5272038036
+        }
+    },
+    "HPLT2_0_cleaned-epo_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-epo_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-epo_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Esperanto"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "epo_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "epo_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 818878
+        }
+    },
+    "HPLT2_0_cleaned-est_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-est_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-est_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Estonian"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "est_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "est_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 8449320
+        }
+    },
+    "HPLT2_0_cleaned-eus_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-eus_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-eus_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Basque"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "eus_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "eus_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1974218
+        }
+    },
+    "HPLT2_0_cleaned-ewe_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-ewe_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-ewe_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Ewe"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ewe_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ewe_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 3772
+        }
+    },
+    "HPLT2_0_cleaned-fao_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-fao_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-fao_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Faroese"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "fao_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "fao_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 239923
+        }
+    },
+    "HPLT2_0_cleaned-fij_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-fij_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-fij_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Fijian"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "fij_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "fij_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 8914
+        }
+    },
+    "HPLT2_0_cleaned-fin_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-fin_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-fin_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Finnish"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "fin_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "fin_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 34815601
+        }
+    },
+    "HPLT2_0_cleaned-fon_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-fon_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-fon_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Fon"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "fon_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "fon_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1226
+        }
+    },
+    "HPLT2_0_cleaned-fra_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-fra_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-fra_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "French"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "fra_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "fra_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 401831660
+        }
+    },
+    "HPLT2_0_cleaned-fur_Latn": {
+        "Unique Dataset Identifier": "HPLT2_0_cleaned-fur_Latn",
+        "Dataset Name": "HPLT/HPLT2.0_cleaned-fur_Latn",
+        "Paper Title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+        "Dataset URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "GitHub URL": "https://github.com/huggingface/lighteval",
+        "Hugging Face URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2503.10267",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "HPLT2_0_cleaned",
+        "Collection URL": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+        "Languages": [
+            "Friulian"
+        ],
+        "Task Categories": [
+            "Language Modeling",
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "HPLT"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "fur_Latn"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 173742,
+            "Crawled Likes": 45,
+            "Created At": "2024-10-19",
+            "Last Modified": "2026-06-11",
+            "Size Category": "1B<n<10B",
+            "Description": "NB: HPLT2.0 is now superseded by a newer release:\nHPLT3.0\nWe recommed switching to v3.0, unless you have a compelling reason to stay on 2.0.\nThis is a large-scale collection of web-crawled documents in 191 world languages, produced by the HPLT project. \nThe source of the data is mostly Internet Archive with some additions from Common Crawl.\nFor a detailed description of the dataset, please refer to our website and our pre-print.\n\n\t\n\t\t\n\t\n\t\n\t\tThe Cleaned variant of HPLT Datasets v2.0\n\t\n\nThis is… See the full description on the dataset page: https://hf-mirror.com/datasets/HPLT/HPLT2.0_cleaned.",
+            "Crawler Notes": "原文63140字符，超出Excel上限已截断",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "fur_Latn",
+            "HF Config License": "",
+            "HF Dataset": "HPLT/HPLT2.0_cleaned",
+            "HF Date": "2024-10-19",
+            "HF Downloads (September 2026)": 173742,
+            "HF Likes (September 2026)": 45,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 36666
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "MaLA": [
+    "MaLA_monolingual_corpus.json",
+    "MaLA_translation_corpus.json"
+  ],
+  "Flan Collection": [
+    "Flan Collection (Chain-of-Thought).json",
+    "Flan Collection (Dialog).json",
+    "Flan Collection (Flan 2021).json",
+    "Flan Collection (P3).json",
+    "Flan Collection (Super-NaturalInstructions).json"
+  ],
+  "HC3": [
+    "HC3 (Chinese).json",
+    "HC3 (English).json"
+  ],
+  "UltraChat": [
+    "UltraChat.json",
+    "UltraChat_200k.json"
+  ],
+  "UltraData": [
+    "UltraData-Code.json",
+    "UltraData-Math.json",
+    "UltraData-SFT-2605.json"
+  ],
+  "SWE-smith": [
+    "SWE-smith.json",
+    "SWE-smith-py.json"
+  ],
+  "Orca": [
+    "Open Orca.json",
+    "Orca-Math.json"
+  ]
+}

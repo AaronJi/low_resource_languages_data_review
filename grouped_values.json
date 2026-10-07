@@ -1,0 +1,46 @@
+{
+  "pretrain": {
+    "group id list": "Languages",
+    "aggredated": {
+      "unique id": "Unique Dataset Identifier",
+      "unique_string": [
+        "Collection"
+      ],
+      "list_string": [
+        "Text Source Categories",
+        "Task Macro Categories",
+        "Format"
+      ],
+      "quanity": [
+        {
+          "Text Metrics": [
+            "Num Unicode Characters",
+            "Num Unicode Characters 95% LB",
+            "Num Unicode Characters 95% UB"
+          ]
+        }
+      ]
+    }
+  },
+  "posttrain": {
+    "group id list": "Languages",
+    "aggredated": {
+      "unique id": "Unique Dataset Identifier",
+      "unique_string": [
+        "Collection"
+      ],
+      "list_string": [
+        "Text Source Categories",
+        "Task Macro Categories",
+        "Format"
+      ],
+      "quanity": [
+        {
+          "Text Metrics": [
+            "Num Dialogs"
+          ]
+        }
+      ]
+    }
+  }
+}

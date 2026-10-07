@@ -1,0 +1,107 @@
+{
+    "Social Media & User-Generated Content": [
+        "Facebook",
+        "Flickr",
+        "Instagram",
+        "Internet Video",
+        "Social Media",
+        "Tumblr",
+        "Vine",
+        "YouDescribe",
+        "youdescribe",
+        "YouTube",
+        "Youtube",
+        "YoutubeVideo",
+        "youtube",
+        "flickr",
+        "facebook",
+        "vine",
+        "metacafe",
+        "peeks",
+        "vimeo",
+        "Vimeo",
+        "tumblr",
+        "tiktok",
+        "instagram",
+        "Podcast",
+        "Reviews",
+        "Peeks",
+        "Code"
+    ],
+    "News websites": [
+        "BBC",
+        "bbc",
+        "The Weather Channel",
+        "weather channel",
+        "News"
+    ],
+    "Multi-Media Entertainment Content": [
+        "Audiobooks",
+        "Entertainment",
+        "Movies",
+        "Prelinger archive",
+        "Radio",
+        "TED Talks",
+        "TV",
+        "VideoBlocks",
+        "Visual Novels",
+        "movies",
+        "prelinger archive"
+    ],
+    "Synthetic": [
+        "Models",
+        "Template Generated"
+    ],
+    "Other": [
+        "Others",
+        "Unclear",
+        "Unsure"
+    ],
+    "General Web Scraped": [
+        "Bing,\r\nGiphy",
+        "General Web",
+        "General web",
+        "Giphy\"",
+        "Google Videos",
+        "GoogleImage",
+        "Metacafe",
+        "Search Queries",
+        "undisclosed web",
+        "videoblocks",
+        "google videos",
+        "bing videos",
+        "giphy",
+        "getty-images",
+        "and Getty-Images",
+        "Getty-Images",
+        "Commerce",
+        "Earnings Calls",
+        "Encyclopedias"
+    ],
+    "Books & Academic": [
+        "Academic Papers",
+        "Biomedical",
+        "Education",
+        "Exams",
+        "ML Datasets",
+        "Books"
+    ],
+    "Government Documents": [
+        "Governments",
+        "Legal",
+        "Parliament"
+    ],
+    "Human / Crowdsourced": [
+        "Calling Platform",
+        "Conversations",
+        "Crowd-Sourcing",
+        "Human",
+        "Human Participants",
+        "Meetings",
+        "Phone Calls",
+        "Video Calls",
+        "crowd-sourced",
+        "human",
+        "crowdsourced"
+    ]
+}

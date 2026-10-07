@@ -1,0 +1,25 @@
+| Provenance type | SNI `Source` / source family |
+|---|---|
+| **ML Datasets** | `super_glue`, `glue`, `senteval`, `multirc`, `mctaco`, `break`, `mocha`, `parsinlu`, `farstail`, `scitail`, `sick`, `xcopa`, `copa_hr`, `trianglecopa`, `wscfixed`, `enhanced_wsc`, `hans`, `imppres`, `cola`, `cb`, `root09`, `conll2002`, `qa_srl`, `ro_sts_parallel`, `opus100`, `flores`, `hindienglish_corpora`, `hind_encorp`, `menyo20k`, `mizan`, `tep`, `spl`, `pib`, `alt`, `tecla`, `cdt`, `para_pdt`, `limit` |
+| **Search Queries** | `gooaq`, `web_questions`, `google_wellformed_query`, `aqa1.0`, `com_qa`, `inquisitive` |
+| **Social Media** | `sentiment140`, `twitter_emotion`, `hateeval`, `contextualabusedetection`, `help_advice`, `sbic`, `hate_speech_offensive`, `ethos`, `catalonia_independence_corpus`, `btc`, Bengali hate-speech corpora, `yahoo_answers_topics`, `cedr_ru` |
+| **General Web** | `opus_paracrawl`, `cc_aligned` / `cc_alligned`, `triviaqa`, `adversarial_qa`, `persianqa`, `openpi`, `ollie`, `qa_zre`, `doqa`, `doqa2.1` |
+| **Encyclopedias** | `quoref`, `squad1.1`, `hotpotqa`, `iirc`, `asset`, `wiki_qa`, `wiki_hop`, `wiki_cloze`, `wiki_auto`, `xquad`, `xquad-ca`, `cmrc2018`, `paws`, `pawsx`, `gap`, `ropes`, `hybridqa` |
+| **Entertainment** | `moviesqa`, `open_subtitles`, `dream`, `poki`, `mickey` |
+| **Biomedical** | `ohsumed`, `ncbi_disease`, `bc5cdr`, `ADE`, `healthfact`, `medical_question_pair_dataset`, `emea`, `coda19` / `CORD-19` |
+| **Unsure** | `miscellaneous`, `afs`, `tomqa`, `participant_extraction`, `odd-man-out`, `dais`, `lhoestq`, `preposition`, `zest`* |
+| **Education** | `sciq`, `qasc`, `openbookqa`, `quartz`, `quarel`, `essential_terms`, `wiqa`, `propara` |
+| **Exams** | `race`, `mmlu` / `mmmlu`, `head_qa` |
+| **News** | `record`, `matres`, `torque`, `xsum`, `cnn_dailymail`, `multi_news`, `newscomm` / News Commentary, `gigaword`, `semeval_headline` |
+| **Human** | `winogrande`, `piqa`, `commonsenseqa`, `cosmosqa`, `socialiqa`, `scruples`, `codah`, `com2sense`, `anli`, `snli`, `mnli`, `esnli`, `story_cloze` / `rocstories`, `abductivenli`, `timetravel`, `tellmewhy`, `prost`, `event2mind`, `glucose`, `stereoset`, `crows-pairs`, `winomt`, `regard`, `md_gender_bias`, `peixian_equity_evaluation_corpus`, `argument_stance`, `argument_consequence`, `circa` |
+| **Commerce** | `financial_phrasebank` |
+| **Models** | `para-nmt`, `detoxifying-lms` |
+| **Others** | `qed_amara`, `ted`, `librispeech_asr`, `ljspeech`, `facts2story`, `msr_text_compression`, `msr_sqa` |
+| **Reviews** | `yelp_polarity`, `yelp_review_full`, `amazonreview`, `amazon_reviews_multi`, `amazon_us_reviews`, `amazonfood`, `products_reviews`, `allegro_reviews`, `review_polarity`, `deceptive_opinion_spam`, `subjqa`, `amazon_and_yelp_summarization_dataset`, `allocine`, `paper_reviews` |
+| **Conversations** | `daily_dialog`, `multi_woz`, `air_dialogue`, `curiosity_dialogs`, `conv_ai_2`, `convai3`, `schema_guided_dstc8`, `dstc3`, `casino`, `diplomacy`, `dialogre`, `coached_conv_pref`, `samsum` |
+| **Template Generated** | `babi`, `scan`, `ruletaker`, `numer_sense`, `synthetic`, `unnatural_addsub_arithmetic`, `translated_symbol_arithmetic`, `new_operator_addsub_arithmetic`, `equation_learner_algebra`, `check_prime_classification`, `first_i_elements`, `all_elements_except_first_i`, `all_elements_except_last_i`, `all_elements_from_index_i_to_j`, `reverse_elements_between_index_i_and_j`, `concatenate_all_elements_from_index_i_to_j`, `reverse_and_concatenate_all_elements_from_index_i_to_j`, `count_frequency_of_letter`, `is_the_given_word_longest`, `logic2text` |
+| **Code** | `conala`, `leetcode`, `splash`, `kde4`, programming-related `bigbench` tasks |
+| **Legal** | `eurlex`, `cuad`, `overruling`, `online_privacy_policy` / `OPP-115`, `cail2018` |
+| **Governments** | `europarl`, `billsum`, `europa_ecdc_tm` |
+| **Academic Papers** | `scifact`, `qasper` |
+| **Books** | `narrativeqa`, `storycommonsense`, `opus_books`, `bible`, `quran` |

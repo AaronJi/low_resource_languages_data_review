@@ -1,0 +1,526 @@
+{
+    "OpenAlex-authors": {
+        "Unique Dataset Identifier": "OpenAlex-authors",
+        "Dataset Name": "Mearman/OpenAlex-authors",
+        "Paper Title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+        "Dataset URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "GitHub URL": "https://github.com/Mearman/OpenAlex",
+        "Hugging Face URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2205.01833",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenAlex",
+        "Collection URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "Academic Papers"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Mearman"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "authors"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 53818,
+            "Crawled Likes": 5,
+            "Created At": "2026-01-31",
+            "Last Modified": "2026-06-11",
+            "Size Category": "10B<n<100B",
+            "Description": "OpenAlex Snapshot\n\t\n\nMirror of the OpenAlex scholarly metadata snapshot — a free, open catalogue of 250M+ scholarly works, 100M+ authors, and related entities.\nHosted on HuggingFace via Xet for content-addressable deduplication.\nSource: s3://openalex (public, anonymous S3 bucket)\n\n\t\n\t\t\n\t\n\t\n\t\tDataset subsets\n\t\n\nEach entity type is a separate subset (config). For each entity, there is:\n\nOne __source subset containing the raw .jsonl.gz source files\nOne subset per extracted… See the full description on the dataset page: https://hf-mirror.com/datasets/Mearman/OpenAlex.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "authors",
+            "HF Config License": "",
+            "HF Dataset": "Mearman/OpenAlex",
+            "HF Date": "2026-06-05",
+            "HF Downloads (September 2026)": 53818,
+            "HF Likes (September 2026)": 5,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 113641286
+        }
+    },
+    "OpenAlex-awards": {
+        "Unique Dataset Identifier": "OpenAlex-awards",
+        "Dataset Name": "Mearman/OpenAlex-awards",
+        "Paper Title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+        "Dataset URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "GitHub URL": "https://github.com/Mearman/OpenAlex",
+        "Hugging Face URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2205.01833",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenAlex",
+        "Collection URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "Academic Papers"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Mearman"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "awards"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 53818,
+            "Crawled Likes": 5,
+            "Created At": "2026-01-31",
+            "Last Modified": "2026-06-11",
+            "Size Category": "10B<n<100B",
+            "Description": "OpenAlex Snapshot\n\t\n\nMirror of the OpenAlex scholarly metadata snapshot — a free, open catalogue of 250M+ scholarly works, 100M+ authors, and related entities.\nHosted on HuggingFace via Xet for content-addressable deduplication.\nSource: s3://openalex (public, anonymous S3 bucket)\n\n\t\n\t\t\n\t\n\t\n\t\tDataset subsets\n\t\n\nEach entity type is a separate subset (config). For each entity, there is:\n\nOne __source subset containing the raw .jsonl.gz source files\nOne subset per extracted… See the full description on the dataset page: https://hf-mirror.com/datasets/Mearman/OpenAlex.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "awards",
+            "HF Config License": "",
+            "HF Dataset": "Mearman/OpenAlex",
+            "HF Date": "2026-06-05",
+            "HF Downloads (September 2026)": 53818,
+            "HF Likes (September 2026)": 5,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 12156262
+        }
+    },
+    "OpenAlex-concepts": {
+        "Unique Dataset Identifier": "OpenAlex-concepts",
+        "Dataset Name": "Mearman/OpenAlex-concepts",
+        "Paper Title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+        "Dataset URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "GitHub URL": "https://github.com/Mearman/OpenAlex",
+        "Hugging Face URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2205.01833",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenAlex",
+        "Collection URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "Academic Papers"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Mearman"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "concepts"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 53818,
+            "Crawled Likes": 5,
+            "Created At": "2026-01-31",
+            "Last Modified": "2026-06-11",
+            "Size Category": "10B<n<100B",
+            "Description": "OpenAlex Snapshot\n\t\n\nMirror of the OpenAlex scholarly metadata snapshot — a free, open catalogue of 250M+ scholarly works, 100M+ authors, and related entities.\nHosted on HuggingFace via Xet for content-addressable deduplication.\nSource: s3://openalex (public, anonymous S3 bucket)\n\n\t\n\t\t\n\t\n\t\n\t\tDataset subsets\n\t\n\nEach entity type is a separate subset (config). For each entity, there is:\n\nOne __source subset containing the raw .jsonl.gz source files\nOne subset per extracted… See the full description on the dataset page: https://hf-mirror.com/datasets/Mearman/OpenAlex.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "concepts",
+            "HF Config License": "",
+            "HF Dataset": "Mearman/OpenAlex",
+            "HF Date": "2026-06-05",
+            "HF Downloads (September 2026)": 53818,
+            "HF Likes (September 2026)": 5,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 65026
+        }
+    },
+    "OpenAlex-continents": {
+        "Unique Dataset Identifier": "OpenAlex-continents",
+        "Dataset Name": "Mearman/OpenAlex-continents",
+        "Paper Title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+        "Dataset URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "GitHub URL": "https://github.com/Mearman/OpenAlex",
+        "Hugging Face URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2205.01833",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenAlex",
+        "Collection URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "Academic Papers"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Mearman"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "continents"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 53818,
+            "Crawled Likes": 5,
+            "Created At": "2026-01-31",
+            "Last Modified": "2026-06-11",
+            "Size Category": "10B<n<100B",
+            "Description": "OpenAlex Snapshot\n\t\n\nMirror of the OpenAlex scholarly metadata snapshot — a free, open catalogue of 250M+ scholarly works, 100M+ authors, and related entities.\nHosted on HuggingFace via Xet for content-addressable deduplication.\nSource: s3://openalex (public, anonymous S3 bucket)\n\n\t\n\t\t\n\t\n\t\n\t\tDataset subsets\n\t\n\nEach entity type is a separate subset (config). For each entity, there is:\n\nOne __source subset containing the raw .jsonl.gz source files\nOne subset per extracted… See the full description on the dataset page: https://hf-mirror.com/datasets/Mearman/OpenAlex.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "continents",
+            "HF Config License": "",
+            "HF Dataset": "Mearman/OpenAlex",
+            "HF Date": "2026-06-05",
+            "HF Downloads (September 2026)": 53818,
+            "HF Likes (September 2026)": 5,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 7
+        }
+    },
+    "OpenAlex-countries": {
+        "Unique Dataset Identifier": "OpenAlex-countries",
+        "Dataset Name": "Mearman/OpenAlex-countries",
+        "Paper Title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+        "Dataset URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "GitHub URL": "https://github.com/Mearman/OpenAlex",
+        "Hugging Face URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2205.01833",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenAlex",
+        "Collection URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "Academic Papers"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Mearman"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "countries"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 53818,
+            "Crawled Likes": 5,
+            "Created At": "2026-01-31",
+            "Last Modified": "2026-06-11",
+            "Size Category": "10B<n<100B",
+            "Description": "OpenAlex Snapshot\n\t\n\nMirror of the OpenAlex scholarly metadata snapshot — a free, open catalogue of 250M+ scholarly works, 100M+ authors, and related entities.\nHosted on HuggingFace via Xet for content-addressable deduplication.\nSource: s3://openalex (public, anonymous S3 bucket)\n\n\t\n\t\t\n\t\n\t\n\t\tDataset subsets\n\t\n\nEach entity type is a separate subset (config). For each entity, there is:\n\nOne __source subset containing the raw .jsonl.gz source files\nOne subset per extracted… See the full description on the dataset page: https://hf-mirror.com/datasets/Mearman/OpenAlex.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "countries",
+            "HF Config License": "",
+            "HF Dataset": "Mearman/OpenAlex",
+            "HF Date": "2026-06-05",
+            "HF Downloads (September 2026)": 53818,
+            "HF Likes (September 2026)": 5,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 247
+        }
+    },
+    "OpenAlex-domains": {
+        "Unique Dataset Identifier": "OpenAlex-domains",
+        "Dataset Name": "Mearman/OpenAlex-domains",
+        "Paper Title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+        "Dataset URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "GitHub URL": "https://github.com/Mearman/OpenAlex",
+        "Hugging Face URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2205.01833",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenAlex",
+        "Collection URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "Academic Papers"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Mearman"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "domains"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 53818,
+            "Crawled Likes": 5,
+            "Created At": "2026-01-31",
+            "Last Modified": "2026-06-11",
+            "Size Category": "10B<n<100B",
+            "Description": "OpenAlex Snapshot\n\t\n\nMirror of the OpenAlex scholarly metadata snapshot — a free, open catalogue of 250M+ scholarly works, 100M+ authors, and related entities.\nHosted on HuggingFace via Xet for content-addressable deduplication.\nSource: s3://openalex (public, anonymous S3 bucket)\n\n\t\n\t\t\n\t\n\t\n\t\tDataset subsets\n\t\n\nEach entity type is a separate subset (config). For each entity, there is:\n\nOne __source subset containing the raw .jsonl.gz source files\nOne subset per extracted… See the full description on the dataset page: https://hf-mirror.com/datasets/Mearman/OpenAlex.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "domains",
+            "HF Config License": "",
+            "HF Dataset": "Mearman/OpenAlex",
+            "HF Date": "2026-06-05",
+            "HF Downloads (September 2026)": 53818,
+            "HF Likes (September 2026)": 5,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 4
+        }
+    },
+    "OpenAlex-works": {
+        "Unique Dataset Identifier": "OpenAlex-works",
+        "Dataset Name": "Mearman/OpenAlex-works",
+        "Paper Title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+        "Dataset URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "GitHub URL": "https://github.com/Mearman/OpenAlex",
+        "Hugging Face URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2205.01833",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenAlex",
+        "Collection URL": "https://huggingface.co/datasets/Mearman/OpenAlex",
+        "Languages": [
+            "Arabic",
+            "Bulgarian",
+            "Catalan",
+            "Chinese",
+            "Croatian",
+            "Czech",
+            "Danish",
+            "Dutch",
+            "English",
+            "Esperanto",
+            "Estonian",
+            "Finnish",
+            "French",
+            "German",
+            "Hungarian",
+            "Indonesian",
+            "Italian",
+            "Japanese",
+            "Korean",
+            "Latvian",
+            "Lithuanian",
+            "Malay (macrolanguage)",
+            "Middle English (1100-1500)",
+            "Norwegian",
+            "Persian",
+            "Polish",
+            "Portuguese",
+            "Romanian",
+            "Russian",
+            "Serbo-Croatian",
+            "Spanish",
+            "Swedish",
+            "Turkish",
+            "Ukrainian",
+            "Uzbek"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "Academic Papers"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Mearman"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "works"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 53818,
+            "Crawled Likes": 5,
+            "Created At": "2026-01-31",
+            "Last Modified": "2026-06-11",
+            "Size Category": "10B<n<100B",
+            "Description": "OpenAlex Snapshot\n\t\n\nMirror of the OpenAlex scholarly metadata snapshot — a free, open catalogue of 250M+ scholarly works, 100M+ authors, and related entities.\nHosted on HuggingFace via Xet for content-addressable deduplication.\nSource: s3://openalex (public, anonymous S3 bucket)\n\n\t\n\t\t\n\t\n\t\n\t\tDataset subsets\n\t\n\nEach entity type is a separate subset (config). For each entity, there is:\n\nOne __source subset containing the raw .jsonl.gz source files\nOne subset per extracted… See the full description on the dataset page: https://hf-mirror.com/datasets/Mearman/OpenAlex.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "works__work_main",
+            "HF Config License": "",
+            "HF Dataset": "Mearman/OpenAlex",
+            "HF Date": "2026-06-05",
+            "HF Downloads (September 2026)": 53818,
+            "HF Likes (September 2026)": 5,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 191338788
+        }
+    }
+}
