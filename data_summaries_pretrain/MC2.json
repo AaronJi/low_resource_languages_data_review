@@ -1,0 +1,1287 @@
+{
+  "MC2-bod": {
+    "Unique Dataset Identifier": "MC2-bod",
+    "Dataset Name": "MC2-bod",
+    "Collection": "MC2",
+    "Languages": [
+      "bod"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "Hugging Face URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.acl-long.479/",
+    "Official Dataset Identifiers": [
+      "luciusssss/mc2_corpus",
+      "pkupie/mc2_corpus"
+    ],
+    "Dataset Filter IDs": [
+      "bod_Tibt",
+      "full/wikipedia/bod"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "pkupie/mc2_corpus",
+        "Official Subset": "bod_Tibt",
+        "Part": "crawl-Tibt",
+        "Original Language Identifier": "bod_Tibt",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://github.com/luciusssss/mc2_corpus"
+        ],
+        "Notes": "官方 crawl 下载部分；full 的 CulturaX/Wikipedia 语言对应关系暂不展开。"
+      },
+      {
+        "Official Dataset Identifier": "luciusssss/mc2_corpus",
+        "Official Subset": "full/wikipedia/bod",
+        "Part": "wikipedia",
+        "Original Language Identifier": "bod",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://github.com/luciusssss/mc2_corpus/blob/main/scripts/wiki_to_json.py"
+        ],
+        "Notes": "full 继承 Wikipedia；脚本明确 bo/ug/kk，哈萨克语为自动文字转换。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "bod"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "sampled_no_compatible_official_total",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "pkupie/mc2_corpus",
+            "Config": "bo-crawl-only-release-20231112.jsonl",
+            "Split": "crawl-only",
+            "Revision": "709a7735de3abef2ec57242f53a05bb13e7f1a0c",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/bo-crawl-only-release-20231112.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Authenticated fixed-revision crawl-only JSONL release. Bounded prefix/buffer sample; the conditional interval excludes source-order bias. Full MC2 may also include Wikipedia/CulturaX.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/bo-crawl-only-release-20231112.jsonl",
+            "Conversion Factors": {
+              "r_byte": 0.33278372503178705,
+              "r_doc": 1622.72,
+              "r_sent": 397.72549019607845,
+              "r_word": 96.87880597014926
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.33278372503178705,
+          "r_doc": 1622.72,
+          "r_sent": 397.72549019607845
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "MC2 crawl-only component; partial scope of full MC2",
+        "Elapsed Seconds": 5.17,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T06:00:40.498810+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [],
+      "MC2 Scope": "full MC2 composition; current sample covers crawl-only text"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": 517961,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 408,
+      "Num Bytes Sampled": 487620,
+      "Num WhiteSpaces Sampled": 1675,
+      "Num Unicode Characters Sampled": 162272
+    }
+  },
+  "MC2-crawl-bod": {
+    "Unique Dataset Identifier": "MC2-crawl-bod",
+    "Dataset Name": "MC2-crawl-bod",
+    "Collection": "MC2",
+    "Languages": [
+      "bod"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "Hugging Face URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.acl-long.479/",
+    "Official Dataset Identifiers": [
+      "pkupie/mc2_corpus"
+    ],
+    "Dataset Filter IDs": [
+      "bod_Tibt"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "pkupie/mc2_corpus",
+        "Official Subset": "bod_Tibt",
+        "Part": "crawl-Tibt",
+        "Original Language Identifier": "bod_Tibt",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://github.com/luciusssss/mc2_corpus"
+        ],
+        "Notes": "官方 crawl 下载部分；full 的 CulturaX/Wikipedia 语言对应关系暂不展开。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "bod"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "MC2 Scope": "official published crawl-only release; excludes full-release additions",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": 1719753010,
+      "Num Tokens": null,
+      "Official Metric Components": [
+        {
+          "Dataset": "pkupie/mc2_corpus",
+          "Config": "bo-crawl-only-release-20231112.jsonl",
+          "Split": "crawl-only",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": null,
+            "Storage Size": 1719753010,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released crawl-only JSONL row",
+            "storage_format": "uncompressed JSONL file bytes including keys, metadata and line delimiters",
+            "storage_match": true
+          },
+          "Evidence": "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/bo-crawl-only-release-20231112.jsonl"
+        }
+      ],
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "pkupie/mc2_corpus",
+            "Config": "bo-crawl-only-release-20231112.jsonl",
+            "Split": "crawl-only",
+            "Revision": "709a7735de3abef2ec57242f53a05bb13e7f1a0c",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/bo-crawl-only-release-20231112.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Authenticated fixed-revision crawl-only JSONL release. Bounded prefix/buffer sample; the conditional interval excludes source-order bias. Full MC2 may also include Wikipedia/CulturaX.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 1719753010,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/bo-crawl-only-release-20231112.jsonl",
+            "Conversion Factors": {
+              "r_byte": 0.33278372503178705,
+              "r_doc": 1622.72,
+              "r_sent": 397.72549019607845,
+              "r_word": 96.87880597014926
+            },
+            "Estimation Basis": "Storage Size",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.33278372503178705,
+          "r_doc": 1622.72,
+          "r_sent": 397.72549019607845
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete published MC2 crawl-only file; not the full MC2 composition",
+        "Elapsed Seconds": 5.84,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T05:39:52.671365+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      }
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 538781414.8917004,
+      "Num Unicode Characters 95% LB": 532888806.4005933,
+      "Num Unicode Characters 95% UB": 543394367.0753388,
+      "Storage Size Sampled": 517961,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 408,
+      "Num Bytes Sampled": 487620,
+      "Num WhiteSpaces Sampled": 1675,
+      "Num Unicode Characters Sampled": 162272
+    }
+  },
+  "MC2-crawl-kaz": {
+    "Unique Dataset Identifier": "MC2-crawl-kaz",
+    "Dataset Name": "MC2-crawl-kaz",
+    "Collection": "MC2",
+    "Languages": [
+      "kaz"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "Hugging Face URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.acl-long.479/",
+    "Official Dataset Identifiers": [
+      "pkupie/mc2_corpus"
+    ],
+    "Dataset Filter IDs": [
+      "kaz_Arab"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "pkupie/mc2_corpus",
+        "Official Subset": "kaz_Arab",
+        "Part": "crawl-Arab",
+        "Original Language Identifier": "kaz_Arab",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://github.com/luciusssss/mc2_corpus"
+        ],
+        "Notes": "官方 crawl 下载部分；full 的 CulturaX/Wikipedia 语言对应关系暂不展开。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "kaz"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "MC2 Scope": "official published crawl-only release; excludes full-release additions",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": 416028290,
+      "Num Tokens": null,
+      "Official Metric Components": [
+        {
+          "Dataset": "pkupie/mc2_corpus",
+          "Config": "kk-crawl-only-release-20231112.jsonl",
+          "Split": "crawl-only",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": null,
+            "Storage Size": 416028290,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released crawl-only JSONL row",
+            "storage_format": "uncompressed JSONL file bytes including keys, metadata and line delimiters",
+            "storage_match": true
+          },
+          "Evidence": "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/kk-crawl-only-release-20231112.jsonl"
+        }
+      ],
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "pkupie/mc2_corpus",
+            "Config": "kk-crawl-only-release-20231112.jsonl",
+            "Split": "crawl-only",
+            "Revision": "709a7735de3abef2ec57242f53a05bb13e7f1a0c",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/kk-crawl-only-release-20231112.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Authenticated fixed-revision crawl-only JSONL release. Bounded prefix/buffer sample; the conditional interval excludes source-order bias. Full MC2 may also include Wikipedia/CulturaX.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 416028290,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/kk-crawl-only-release-20231112.jsonl",
+            "Conversion Factors": {
+              "r_byte": 0.46662877516988577,
+              "r_doc": 3727.3,
+              "r_sent": 175.484934086629,
+              "r_word": 6.570360838371909
+            },
+            "Estimation Basis": "Storage Size",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.46662877516988577,
+          "r_doc": 3727.3,
+          "r_sent": 175.484934086629
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete published MC2 crawl-only file; not the full MC2 composition",
+        "Elapsed Seconds": 5.33,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T05:39:52.163224+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      }
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 188112514.24701604,
+      "Num Unicode Characters 95% LB": 186856519.1075919,
+      "Num Unicode Characters 95% UB": 189057825.65922275,
+      "Storage Size Sampled": 824327,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 2124,
+      "Num Bytes Sampled": 798772,
+      "Num WhiteSpaces Sampled": 56729,
+      "Num Unicode Characters Sampled": 372730
+    }
+  },
+  "MC2-crawl-mon": {
+    "Unique Dataset Identifier": "MC2-crawl-mon",
+    "Dataset Name": "MC2-crawl-mon",
+    "Collection": "MC2",
+    "Languages": [
+      "mon"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "Hugging Face URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.acl-long.479/",
+    "Official Dataset Identifiers": [
+      "pkupie/mc2_corpus"
+    ],
+    "Dataset Filter IDs": [
+      "mon_Mong"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "pkupie/mc2_corpus",
+        "Official Subset": "mon_Mong",
+        "Part": "crawl-Mong",
+        "Original Language Identifier": "mon_Mong",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://github.com/luciusssss/mc2_corpus"
+        ],
+        "Notes": "官方 crawl 下载部分；full 的 CulturaX/Wikipedia 语言对应关系暂不展开。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "mon"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "MC2 Scope": "official published crawl-only release; excludes full-release additions",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": 1016198270,
+      "Num Tokens": null,
+      "Official Metric Components": [
+        {
+          "Dataset": "pkupie/mc2_corpus",
+          "Config": "mn-crawl-only-release-20231127.jsonl",
+          "Split": "crawl-only",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": null,
+            "Storage Size": 1016198270,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released crawl-only JSONL row",
+            "storage_format": "uncompressed JSONL file bytes including keys, metadata and line delimiters",
+            "storage_match": true
+          },
+          "Evidence": "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/mn-crawl-only-release-20231127.jsonl"
+        }
+      ],
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "pkupie/mc2_corpus",
+            "Config": "mn-crawl-only-release-20231127.jsonl",
+            "Split": "crawl-only",
+            "Revision": "709a7735de3abef2ec57242f53a05bb13e7f1a0c",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/mn-crawl-only-release-20231127.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Authenticated fixed-revision crawl-only JSONL release. Bounded prefix/buffer sample; the conditional interval excludes source-order bias. Full MC2 may also include Wikipedia/CulturaX.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 1016198270,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/mn-crawl-only-release-20231127.jsonl",
+            "Conversion Factors": {
+              "r_byte": 0.2992267394672766,
+              "r_doc": 2027.71,
+              "r_sent": 493.360097323601,
+              "r_word": 5.305918986811807
+            },
+            "Estimation Basis": "Storage Size",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.2992267394672766,
+          "r_doc": 2027.71,
+          "r_sent": 493.360097323601
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete published MC2 crawl-only file; not the full MC2 composition",
+        "Elapsed Seconds": 12.62,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T05:40:04.903168+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      }
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 284955421.20709705,
+      "Num Unicode Characters 95% LB": 283494249.5866375,
+      "Num Unicode Characters 95% UB": 286324705.7090209,
+      "Storage Size Sampled": 723115,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 411,
+      "Num Bytes Sampled": 677650,
+      "Num WhiteSpaces Sampled": 38216,
+      "Num Unicode Characters Sampled": 202771
+    }
+  },
+  "MC2-crawl-uig": {
+    "Unique Dataset Identifier": "MC2-crawl-uig",
+    "Dataset Name": "MC2-crawl-uig",
+    "Collection": "MC2",
+    "Languages": [
+      "uig"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "Hugging Face URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.acl-long.479/",
+    "Official Dataset Identifiers": [
+      "pkupie/mc2_corpus"
+    ],
+    "Dataset Filter IDs": [
+      "uig_Arab"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "pkupie/mc2_corpus",
+        "Official Subset": "uig_Arab",
+        "Part": "crawl-Arab",
+        "Original Language Identifier": "uig_Arab",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://github.com/luciusssss/mc2_corpus"
+        ],
+        "Notes": "官方 crawl 下载部分；full 的 CulturaX/Wikipedia 语言对应关系暂不展开。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "uig"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "MC2 Scope": "official published crawl-only release; excludes full-release additions",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": 544474297,
+      "Num Tokens": null,
+      "Official Metric Components": [
+        {
+          "Dataset": "pkupie/mc2_corpus",
+          "Config": "ug-crawl-only-release-20231112.jsonl",
+          "Split": "crawl-only",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": null,
+            "Storage Size": 544474297,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released crawl-only JSONL row",
+            "storage_format": "uncompressed JSONL file bytes including keys, metadata and line delimiters",
+            "storage_match": true
+          },
+          "Evidence": "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/ug-crawl-only-release-20231112.jsonl"
+        }
+      ],
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "pkupie/mc2_corpus",
+            "Config": "ug-crawl-only-release-20231112.jsonl",
+            "Split": "crawl-only",
+            "Revision": "709a7735de3abef2ec57242f53a05bb13e7f1a0c",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/ug-crawl-only-release-20231112.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Authenticated fixed-revision crawl-only JSONL release. Bounded prefix/buffer sample; the conditional interval excludes source-order bias. Full MC2 may also include Wikipedia/CulturaX.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 544474297,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/ug-crawl-only-release-20231112.jsonl",
+            "Conversion Factors": {
+              "r_byte": 0.49360568134861993,
+              "r_doc": 1409.57,
+              "r_sent": 139.42334322453016,
+              "r_word": 6.84789156626506
+            },
+            "Estimation Basis": "Storage Size",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.49360568134861993,
+          "r_doc": 1409.57,
+          "r_sent": 139.42334322453016
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete published MC2 crawl-only file; not the full MC2 composition",
+        "Elapsed Seconds": 2.93,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T05:39:55.718895+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      }
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 253656956.81650493,
+      "Num Unicode Characters 95% LB": 252014261.826706,
+      "Num Unicode Characters 95% UB": 255146797.58802533,
+      "Storage Size Sampled": 302564,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1011,
+      "Num Bytes Sampled": 285566,
+      "Num WhiteSpaces Sampled": 20584,
+      "Num Unicode Characters Sampled": 140957
+    }
+  },
+  "MC2-kaz": {
+    "Unique Dataset Identifier": "MC2-kaz",
+    "Dataset Name": "MC2-kaz",
+    "Collection": "MC2",
+    "Languages": [
+      "kaz"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "Hugging Face URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.acl-long.479/",
+    "Official Dataset Identifiers": [
+      "luciusssss/mc2_corpus",
+      "pkupie/mc2_corpus"
+    ],
+    "Dataset Filter IDs": [
+      "full/culturax/kaz",
+      "full/wikipedia/kaz",
+      "kaz_Arab"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "pkupie/mc2_corpus",
+        "Official Subset": "kaz_Arab",
+        "Part": "crawl-Arab",
+        "Original Language Identifier": "kaz_Arab",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://github.com/luciusssss/mc2_corpus"
+        ],
+        "Notes": "官方 crawl 下载部分；full 的 CulturaX/Wikipedia 语言对应关系暂不展开。"
+      },
+      {
+        "Official Dataset Identifier": "luciusssss/mc2_corpus",
+        "Official Subset": "full/wikipedia/kaz",
+        "Part": "wikipedia",
+        "Original Language Identifier": "kaz",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://github.com/luciusssss/mc2_corpus/blob/main/scripts/wiki_to_json.py"
+        ],
+        "Notes": "full 继承 Wikipedia；脚本明确 bo/ug/kk，哈萨克语为自动文字转换。"
+      },
+      {
+        "Official Dataset Identifier": "luciusssss/mc2_corpus",
+        "Official Subset": "full/culturax/kaz",
+        "Part": "culturax",
+        "Original Language Identifier": "kaz",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://github.com/luciusssss/mc2_corpus"
+        ],
+        "Notes": "官方说明从 CulturaX 维吾尔语数据提取维吾尔语和哈萨克语；源语言识别不等于内容人工修订。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "kaz"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "sampled_no_compatible_official_total",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "pkupie/mc2_corpus",
+            "Config": "kk-crawl-only-release-20231112.jsonl",
+            "Split": "crawl-only",
+            "Revision": "709a7735de3abef2ec57242f53a05bb13e7f1a0c",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/kk-crawl-only-release-20231112.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Authenticated fixed-revision crawl-only JSONL release. Bounded prefix/buffer sample; the conditional interval excludes source-order bias. Full MC2 may also include Wikipedia/CulturaX.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/kk-crawl-only-release-20231112.jsonl",
+            "Conversion Factors": {
+              "r_byte": 0.46662877516988577,
+              "r_doc": 3727.3,
+              "r_sent": 175.484934086629,
+              "r_word": 6.570360838371909
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.46662877516988577,
+          "r_doc": 3727.3,
+          "r_sent": 175.484934086629
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "MC2 crawl-only component; partial scope of full MC2",
+        "Elapsed Seconds": 7.82,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T06:00:43.149543+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [],
+      "MC2 Scope": "full MC2 composition; current sample covers crawl-only text"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": 824327,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 2124,
+      "Num Bytes Sampled": 798772,
+      "Num WhiteSpaces Sampled": 56729,
+      "Num Unicode Characters Sampled": 372730
+    }
+  },
+  "MC2-mon": {
+    "Unique Dataset Identifier": "MC2-mon",
+    "Dataset Name": "MC2-mon",
+    "Collection": "MC2",
+    "Languages": [
+      "mon"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "Hugging Face URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.acl-long.479/",
+    "Official Dataset Identifiers": [
+      "pkupie/mc2_corpus"
+    ],
+    "Dataset Filter IDs": [
+      "mon_Mong"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "pkupie/mc2_corpus",
+        "Official Subset": "mon_Mong",
+        "Part": "crawl-Mong",
+        "Original Language Identifier": "mon_Mong",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://github.com/luciusssss/mc2_corpus"
+        ],
+        "Notes": "官方 crawl 下载部分；full 的 CulturaX/Wikipedia 语言对应关系暂不展开。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "mon"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "sampled_no_compatible_official_total",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "pkupie/mc2_corpus",
+            "Config": "mn-crawl-only-release-20231127.jsonl",
+            "Split": "crawl-only",
+            "Revision": "709a7735de3abef2ec57242f53a05bb13e7f1a0c",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/mn-crawl-only-release-20231127.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Authenticated fixed-revision crawl-only JSONL release. Bounded prefix/buffer sample; the conditional interval excludes source-order bias. Full MC2 may also include Wikipedia/CulturaX.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/mn-crawl-only-release-20231127.jsonl",
+            "Conversion Factors": {
+              "r_byte": 0.2992267394672766,
+              "r_doc": 2027.71,
+              "r_sent": 493.360097323601,
+              "r_word": 5.305918986811807
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.2992267394672766,
+          "r_doc": 2027.71,
+          "r_sent": 493.360097323601
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "MC2 crawl-only component; partial scope of full MC2",
+        "Elapsed Seconds": 3.62,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T06:00:44.204153+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [],
+      "MC2 Scope": "full MC2 composition; current sample covers crawl-only text"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": 723115,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 411,
+      "Num Bytes Sampled": 677650,
+      "Num WhiteSpaces Sampled": 38216,
+      "Num Unicode Characters Sampled": 202771
+    }
+  },
+  "MC2-uig": {
+    "Unique Dataset Identifier": "MC2-uig",
+    "Dataset Name": "MC2-uig",
+    "Collection": "MC2",
+    "Languages": [
+      "uig"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "Hugging Face URL": "https://huggingface.co/datasets/pkupie/mc2_corpus",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.acl-long.479/",
+    "Official Dataset Identifiers": [
+      "luciusssss/mc2_corpus",
+      "pkupie/mc2_corpus"
+    ],
+    "Dataset Filter IDs": [
+      "full/culturax/uig",
+      "full/wikipedia/uig",
+      "uig_Arab"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "pkupie/mc2_corpus",
+        "Official Subset": "uig_Arab",
+        "Part": "crawl-Arab",
+        "Original Language Identifier": "uig_Arab",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://github.com/luciusssss/mc2_corpus"
+        ],
+        "Notes": "官方 crawl 下载部分；full 的 CulturaX/Wikipedia 语言对应关系暂不展开。"
+      },
+      {
+        "Official Dataset Identifier": "luciusssss/mc2_corpus",
+        "Official Subset": "full/wikipedia/uig",
+        "Part": "wikipedia",
+        "Original Language Identifier": "uig",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://github.com/luciusssss/mc2_corpus/blob/main/scripts/wiki_to_json.py"
+        ],
+        "Notes": "full 继承 Wikipedia；脚本明确 bo/ug/kk，哈萨克语为自动文字转换。"
+      },
+      {
+        "Official Dataset Identifier": "luciusssss/mc2_corpus",
+        "Official Subset": "full/culturax/uig",
+        "Part": "culturax",
+        "Original Language Identifier": "uig",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://github.com/luciusssss/mc2_corpus"
+        ],
+        "Notes": "官方说明从 CulturaX 维吾尔语数据提取维吾尔语和哈萨克语；源语言识别不等于内容人工修订。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "uig"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "sampled_no_compatible_official_total",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "pkupie/mc2_corpus",
+            "Config": "ug-crawl-only-release-20231112.jsonl",
+            "Split": "crawl-only",
+            "Revision": "709a7735de3abef2ec57242f53a05bb13e7f1a0c",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/ug-crawl-only-release-20231112.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Authenticated fixed-revision crawl-only JSONL release. Bounded prefix/buffer sample; the conditional interval excludes source-order bias. Full MC2 may also include Wikipedia/CulturaX.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/pkupie/mc2_corpus/resolve/709a7735de3abef2ec57242f53a05bb13e7f1a0c/ug-crawl-only-release-20231112.jsonl",
+            "Conversion Factors": {
+              "r_byte": 0.49360568134861993,
+              "r_doc": 1409.57,
+              "r_sent": 139.42334322453016,
+              "r_word": 6.84789156626506
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.49360568134861993,
+          "r_doc": 1409.57,
+          "r_sent": 139.42334322453016
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "MC2 crawl-only component; partial scope of full MC2",
+        "Elapsed Seconds": 5.18,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T06:00:48.439406+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [],
+      "MC2 Scope": "full MC2 composition; current sample covers crawl-only text"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": 302564,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1011,
+      "Num Bytes Sampled": 285566,
+      "Num WhiteSpaces Sampled": 20584,
+      "Num Unicode Characters Sampled": 140957
+    }
+  }
+}

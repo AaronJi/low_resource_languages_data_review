@@ -1,0 +1,783 @@
+{
+    "OpenCodeReasoning-AIZU": {
+        "Unique Dataset Identifier": "OpenCodeReasoning-AIZU",
+        "Dataset Name": "nvidia/OpenCodeReasoning-AIZU",
+        "Paper Title": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "GitHub URL": "https://github.com/NVIDIA/NeMo-Skills",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2504.01943",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenCodeReasoning",
+        "Collection URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Languages": [
+            "Python"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Code"
+        ],
+        "Model Generated": [
+            "DeepSeek-R1"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "TACO",
+            "APPS",
+            "CodeContests"
+        ],
+        "Creators": [
+            "nvidia"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "AIZU"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 13902,
+            "Crawled Likes": 558,
+            "Created At": "2025-04-01",
+            "Last Modified": "2025-05-04",
+            "Size Category": "100K<n<1M",
+            "Description": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding\n\t\n\n\n\t\n\t\t\n\t\tData Overview\n\t\n\nOpenCodeReasoning is the largest reasoning-based synthetic dataset to date for coding, comprises 735,255 samples in Python across 28,319 unique competitive programming \nquestions. OpenCodeReasoning is designed for supervised fine-tuning (SFT).\n\nTechnical Report - Discover the methodology and technical details behind OpenCodeReasoning.\nGithub Repo - Access the complete pipeline used to… See the full description on the dataset page: https://hf-mirror.com/datasets/nvidia/OpenCodeReasoning.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "AIZU",
+            "HF Config License": "",
+            "HF Dataset": "nvidia/OpenCodeReasoning",
+            "HF Date": "2025-04-01",
+            "HF Downloads (September 2026)": 13839,
+            "HF Likes (September 2026)": 558,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 337766
+        }
+    },
+    "OpenCodeReasoning-AtCoder": {
+        "Unique Dataset Identifier": "OpenCodeReasoning-AtCoder",
+        "Dataset Name": "nvidia/OpenCodeReasoning-AtCoder",
+        "Paper Title": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "GitHub URL": "https://github.com/NVIDIA/NeMo-Skills",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2504.01943",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenCodeReasoning",
+        "Collection URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Languages": [
+            "Python"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Code"
+        ],
+        "Model Generated": [
+            "DeepSeek-R1"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "TACO",
+            "APPS",
+            "CodeContests"
+        ],
+        "Creators": [
+            "nvidia"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "AtCoder"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 13902,
+            "Crawled Likes": 558,
+            "Created At": "2025-04-01",
+            "Last Modified": "2025-05-04",
+            "Size Category": "100K<n<1M",
+            "Description": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding\n\t\n\n\n\t\n\t\t\n\t\tData Overview\n\t\n\nOpenCodeReasoning is the largest reasoning-based synthetic dataset to date for coding, comprises 735,255 samples in Python across 28,319 unique competitive programming \nquestions. OpenCodeReasoning is designed for supervised fine-tuning (SFT).\n\nTechnical Report - Discover the methodology and technical details behind OpenCodeReasoning.\nGithub Repo - Access the complete pipeline used to… See the full description on the dataset page: https://hf-mirror.com/datasets/nvidia/OpenCodeReasoning.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "AtCoder",
+            "HF Config License": "",
+            "HF Dataset": "nvidia/OpenCodeReasoning",
+            "HF Date": "2025-04-01",
+            "HF Downloads (September 2026)": 13839,
+            "HF Likes (September 2026)": 558,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 337766
+        }
+    },
+    "OpenCodeReasoning-CodeChef": {
+        "Unique Dataset Identifier": "OpenCodeReasoning-CodeChef",
+        "Dataset Name": "nvidia/OpenCodeReasoning-CodeChef",
+        "Paper Title": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "GitHub URL": "https://github.com/NVIDIA/NeMo-Skills",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2504.01943",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenCodeReasoning",
+        "Collection URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Languages": [
+            "Python"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Code"
+        ],
+        "Model Generated": [
+            "DeepSeek-R1"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "TACO",
+            "APPS",
+            "CodeContests"
+        ],
+        "Creators": [
+            "nvidia"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "CodeChef"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 13902,
+            "Crawled Likes": 558,
+            "Created At": "2025-04-01",
+            "Last Modified": "2025-05-04",
+            "Size Category": "100K<n<1M",
+            "Description": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding\n\t\n\n\n\t\n\t\t\n\t\tData Overview\n\t\n\nOpenCodeReasoning is the largest reasoning-based synthetic dataset to date for coding, comprises 735,255 samples in Python across 28,319 unique competitive programming \nquestions. OpenCodeReasoning is designed for supervised fine-tuning (SFT).\n\nTechnical Report - Discover the methodology and technical details behind OpenCodeReasoning.\nGithub Repo - Access the complete pipeline used to… See the full description on the dataset page: https://hf-mirror.com/datasets/nvidia/OpenCodeReasoning.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "CodeChef",
+            "HF Config License": "",
+            "HF Dataset": "nvidia/OpenCodeReasoning",
+            "HF Date": "2025-04-01",
+            "HF Downloads (September 2026)": 13839,
+            "HF Likes (September 2026)": 558,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 337766
+        }
+    },
+    "OpenCodeReasoning-CodeForces": {
+        "Unique Dataset Identifier": "OpenCodeReasoning-CodeForces",
+        "Dataset Name": "nvidia/OpenCodeReasoning-CodeForces",
+        "Paper Title": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "GitHub URL": "https://github.com/NVIDIA/NeMo-Skills",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2504.01943",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenCodeReasoning",
+        "Collection URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Languages": [
+            "Python"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Code"
+        ],
+        "Model Generated": [
+            "DeepSeek-R1"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "TACO",
+            "APPS",
+            "CodeContests",
+            "open-r1/codeforces"
+        ],
+        "Creators": [
+            "nvidia"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "CodeForces"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 13902,
+            "Crawled Likes": 558,
+            "Created At": "2025-04-01",
+            "Last Modified": "2025-05-04",
+            "Size Category": "100K<n<1M",
+            "Description": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding\n\t\n\n\n\t\n\t\t\n\t\tData Overview\n\t\n\nOpenCodeReasoning is the largest reasoning-based synthetic dataset to date for coding, comprises 735,255 samples in Python across 28,319 unique competitive programming \nquestions. OpenCodeReasoning is designed for supervised fine-tuning (SFT).\n\nTechnical Report - Discover the methodology and technical details behind OpenCodeReasoning.\nGithub Repo - Access the complete pipeline used to… See the full description on the dataset page: https://hf-mirror.com/datasets/nvidia/OpenCodeReasoning.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "CodeForces",
+            "HF Config License": "",
+            "HF Dataset": "nvidia/OpenCodeReasoning",
+            "HF Date": "2025-04-01",
+            "HF Downloads (September 2026)": 13839,
+            "HF Likes (September 2026)": 558,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 337766
+        }
+    },
+    "OpenCodeReasoning-Codewars": {
+        "Unique Dataset Identifier": "OpenCodeReasoning-Codewars",
+        "Dataset Name": "nvidia/OpenCodeReasoning-Codewars",
+        "Paper Title": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "GitHub URL": "https://github.com/NVIDIA/NeMo-Skills",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2504.01943",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenCodeReasoning",
+        "Collection URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Languages": [
+            "Python"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Code"
+        ],
+        "Model Generated": [
+            "DeepSeek-R1"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "TACO",
+            "APPS",
+            "CodeContests"
+        ],
+        "Creators": [
+            "nvidia"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "Codewars"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 13902,
+            "Crawled Likes": 558,
+            "Created At": "2025-04-01",
+            "Last Modified": "2025-05-04",
+            "Size Category": "100K<n<1M",
+            "Description": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding\n\t\n\n\n\t\n\t\t\n\t\tData Overview\n\t\n\nOpenCodeReasoning is the largest reasoning-based synthetic dataset to date for coding, comprises 735,255 samples in Python across 28,319 unique competitive programming \nquestions. OpenCodeReasoning is designed for supervised fine-tuning (SFT).\n\nTechnical Report - Discover the methodology and technical details behind OpenCodeReasoning.\nGithub Repo - Access the complete pipeline used to… See the full description on the dataset page: https://hf-mirror.com/datasets/nvidia/OpenCodeReasoning.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "Codewars",
+            "HF Config License": "",
+            "HF Dataset": "nvidia/OpenCodeReasoning",
+            "HF Date": "2025-04-01",
+            "HF Downloads (September 2026)": 13839,
+            "HF Likes (September 2026)": 558,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 337766
+        }
+    },
+    "OpenCodeReasoning-GeeksForGeeks": {
+        "Unique Dataset Identifier": "OpenCodeReasoning-GeeksForGeeks",
+        "Dataset Name": "nvidia/OpenCodeReasoning-GeeksForGeeks",
+        "Paper Title": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "GitHub URL": "https://github.com/NVIDIA/NeMo-Skills",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2504.01943",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenCodeReasoning",
+        "Collection URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Languages": [
+            "Python"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Code"
+        ],
+        "Model Generated": [
+            "DeepSeek-R1"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "TACO",
+            "APPS",
+            "CodeContests"
+        ],
+        "Creators": [
+            "nvidia"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "GeeksForGeeks"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 13902,
+            "Crawled Likes": 558,
+            "Created At": "2025-04-01",
+            "Last Modified": "2025-05-04",
+            "Size Category": "100K<n<1M",
+            "Description": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding\n\t\n\n\n\t\n\t\t\n\t\tData Overview\n\t\n\nOpenCodeReasoning is the largest reasoning-based synthetic dataset to date for coding, comprises 735,255 samples in Python across 28,319 unique competitive programming \nquestions. OpenCodeReasoning is designed for supervised fine-tuning (SFT).\n\nTechnical Report - Discover the methodology and technical details behind OpenCodeReasoning.\nGithub Repo - Access the complete pipeline used to… See the full description on the dataset page: https://hf-mirror.com/datasets/nvidia/OpenCodeReasoning.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "GeeksForGeeks",
+            "HF Config License": "",
+            "HF Dataset": "nvidia/OpenCodeReasoning",
+            "HF Date": "2025-04-01",
+            "HF Downloads (September 2026)": 13839,
+            "HF Likes (September 2026)": 558,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 337766
+        }
+    },
+    "OpenCodeReasoning-HackerEarth": {
+        "Unique Dataset Identifier": "OpenCodeReasoning-HackerEarth",
+        "Dataset Name": "nvidia/OpenCodeReasoning-HackerEarth",
+        "Paper Title": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "GitHub URL": "https://github.com/NVIDIA/NeMo-Skills",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2504.01943",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenCodeReasoning",
+        "Collection URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Languages": [
+            "Python"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Code"
+        ],
+        "Model Generated": [
+            "DeepSeek-R1"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "TACO",
+            "APPS",
+            "CodeContests"
+        ],
+        "Creators": [
+            "nvidia"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "HackerEarth"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 13902,
+            "Crawled Likes": 558,
+            "Created At": "2025-04-01",
+            "Last Modified": "2025-05-04",
+            "Size Category": "100K<n<1M",
+            "Description": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding\n\t\n\n\n\t\n\t\t\n\t\tData Overview\n\t\n\nOpenCodeReasoning is the largest reasoning-based synthetic dataset to date for coding, comprises 735,255 samples in Python across 28,319 unique competitive programming \nquestions. OpenCodeReasoning is designed for supervised fine-tuning (SFT).\n\nTechnical Report - Discover the methodology and technical details behind OpenCodeReasoning.\nGithub Repo - Access the complete pipeline used to… See the full description on the dataset page: https://hf-mirror.com/datasets/nvidia/OpenCodeReasoning.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "HackerEarth",
+            "HF Config License": "",
+            "HF Dataset": "nvidia/OpenCodeReasoning",
+            "HF Date": "2025-04-01",
+            "HF Downloads (September 2026)": 13839,
+            "HF Likes (September 2026)": 558,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 337766
+        }
+    },
+    "OpenCodeReasoning-HackerRank": {
+        "Unique Dataset Identifier": "OpenCodeReasoning-HackerRank",
+        "Dataset Name": "nvidia/OpenCodeReasoning-HackerRank",
+        "Paper Title": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "GitHub URL": "https://github.com/NVIDIA/NeMo-Skills",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2504.01943",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenCodeReasoning",
+        "Collection URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Languages": [
+            "Python"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Code"
+        ],
+        "Model Generated": [
+            "DeepSeek-R1"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "TACO",
+            "APPS",
+            "CodeContests"
+        ],
+        "Creators": [
+            "nvidia"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "HackerRank"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 13902,
+            "Crawled Likes": 558,
+            "Created At": "2025-04-01",
+            "Last Modified": "2025-05-04",
+            "Size Category": "100K<n<1M",
+            "Description": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding\n\t\n\n\n\t\n\t\t\n\t\tData Overview\n\t\n\nOpenCodeReasoning is the largest reasoning-based synthetic dataset to date for coding, comprises 735,255 samples in Python across 28,319 unique competitive programming \nquestions. OpenCodeReasoning is designed for supervised fine-tuning (SFT).\n\nTechnical Report - Discover the methodology and technical details behind OpenCodeReasoning.\nGithub Repo - Access the complete pipeline used to… See the full description on the dataset page: https://hf-mirror.com/datasets/nvidia/OpenCodeReasoning.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "HackerRank",
+            "HF Config License": "",
+            "HF Dataset": "nvidia/OpenCodeReasoning",
+            "HF Date": "2025-04-01",
+            "HF Downloads (September 2026)": 13839,
+            "HF Likes (September 2026)": 558,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 337766
+        }
+    },
+    "OpenCodeReasoning-Kattis": {
+        "Unique Dataset Identifier": "OpenCodeReasoning-Kattis",
+        "Dataset Name": "nvidia/OpenCodeReasoning-Kattis",
+        "Paper Title": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "GitHub URL": "https://github.com/NVIDIA/NeMo-Skills",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2504.01943",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenCodeReasoning",
+        "Collection URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Languages": [
+            "Python"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Code"
+        ],
+        "Model Generated": [
+            "DeepSeek-R1"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "TACO",
+            "APPS",
+            "CodeContests"
+        ],
+        "Creators": [
+            "nvidia"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "Kattis"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 13902,
+            "Crawled Likes": 558,
+            "Created At": "2025-04-01",
+            "Last Modified": "2025-05-04",
+            "Size Category": "100K<n<1M",
+            "Description": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding\n\t\n\n\n\t\n\t\t\n\t\tData Overview\n\t\n\nOpenCodeReasoning is the largest reasoning-based synthetic dataset to date for coding, comprises 735,255 samples in Python across 28,319 unique competitive programming \nquestions. OpenCodeReasoning is designed for supervised fine-tuning (SFT).\n\nTechnical Report - Discover the methodology and technical details behind OpenCodeReasoning.\nGithub Repo - Access the complete pipeline used to… See the full description on the dataset page: https://hf-mirror.com/datasets/nvidia/OpenCodeReasoning.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "Kattis",
+            "HF Config License": "",
+            "HF Dataset": "nvidia/OpenCodeReasoning",
+            "HF Date": "2025-04-01",
+            "HF Downloads (September 2026)": 13839,
+            "HF Likes (September 2026)": 558,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 337766
+        }
+    },
+    "OpenCodeReasoning-LeetCode": {
+        "Unique Dataset Identifier": "OpenCodeReasoning-LeetCode",
+        "Dataset Name": "nvidia/OpenCodeReasoning-LeetCode",
+        "Paper Title": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "GitHub URL": "https://github.com/NVIDIA/NeMo-Skills",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2504.01943",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenCodeReasoning",
+        "Collection URL": "https://huggingface.co/datasets/nvidia/OpenCodeReasoning",
+        "Languages": [
+            "Python"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Code"
+        ],
+        "Model Generated": [
+            "DeepSeek-R1"
+        ],
+        "Format": [
+            "Chain-of-Thought"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "TACO",
+            "APPS",
+            "CodeContests"
+        ],
+        "Creators": [
+            "nvidia"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "LeetCode"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 13902,
+            "Crawled Likes": 558,
+            "Created At": "2025-04-01",
+            "Last Modified": "2025-05-04",
+            "Size Category": "100K<n<1M",
+            "Description": "OpenCodeReasoning: Advancing Data Distillation for Competitive Coding\n\t\n\n\n\t\n\t\t\n\t\tData Overview\n\t\n\nOpenCodeReasoning is the largest reasoning-based synthetic dataset to date for coding, comprises 735,255 samples in Python across 28,319 unique competitive programming \nquestions. OpenCodeReasoning is designed for supervised fine-tuning (SFT).\n\nTechnical Report - Discover the methodology and technical details behind OpenCodeReasoning.\nGithub Repo - Access the complete pipeline used to… See the full description on the dataset page: https://hf-mirror.com/datasets/nvidia/OpenCodeReasoning.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "LeetCode",
+            "HF Config License": "",
+            "HF Dataset": "nvidia/OpenCodeReasoning",
+            "HF Date": "2025-04-01",
+            "HF Downloads (September 2026)": 13839,
+            "HF Likes (September 2026)": 558,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 337766
+        }
+    }
+}

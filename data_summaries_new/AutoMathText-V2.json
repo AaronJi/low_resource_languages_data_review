@@ -1,0 +1,895 @@
+{
+    "AutoMathText-V2-automathtext-v2-ultra": {
+        "Unique Dataset Identifier": "AutoMathText-V2-automathtext-v2-ultra",
+        "Dataset Name": "OpenSQZ/AutoMathText-V2-automathtext-v2-ultra",
+        "Paper Title": "Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts",
+        "Dataset URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "GitHub URL": "https://github.com/iiis-ai/AutoMathText-V2",
+        "Hugging Face URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.07625",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AutoMathText-V2",
+        "Collection URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Languages": [
+            "English",
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "General Web",
+            "Education"
+        ],
+        "Model Generated": [
+            "AutoDS"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Nemotron-CC",
+            "DCLM",
+            "FineWeb-Edu"
+        ],
+        "Creators": [
+            "OpenSQZ"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "automathtext-v2-ultra"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 43310,
+            "Crawled Likes": 78,
+            "Created At": "2025-08-20",
+            "Last Modified": "2026-06-09",
+            "Size Category": "1B<n<10B",
+            "Description": "🚀 AutoMathText-V2: A 2.46 Trillion Token AI-Curated STEM Pretraining Dataset\n\t\n\n\n&nbsp;\n\n\n \n🎉 AutoMathText-v2 has surpassed 1.5 million downloads!   We'd love to know how you're using it. Please take 1 minute to fill out our use case survey.   Your feedback will directly shape the future roadmap of this dataset.👉 Share your use case here\n📊 AutoMathText-V2 consists of 2.46 trillion tokens of high-quality, deduplicated text spanning web content, mathematics, code, reasoning, and… See the full description on the dataset page: https://hf-mirror.com/datasets/OpenSQZ/AutoMathText-V2.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": [
+                ""
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "OpenSQZ/AutoMathText-V2",
+            "HF Date": "2025-08-20",
+            "HF Downloads (September 2026)": 41248,
+            "HF Likes (September 2026)": 78,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2262.77,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 2296,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 2231,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "AutoMathText-V2-automathtext-v2-high": {
+        "Unique Dataset Identifier": "AutoMathText-V2-automathtext-v2-high",
+        "Dataset Name": "OpenSQZ/AutoMathText-V2-automathtext-v2-high",
+        "Paper Title": "Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts",
+        "Dataset URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "GitHub URL": "https://github.com/iiis-ai/AutoMathText-V2",
+        "Hugging Face URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.07625",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AutoMathText-V2",
+        "Collection URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Languages": [
+            "English",
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "General Web",
+            "Education"
+        ],
+        "Model Generated": [
+            "AutoDS"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Nemotron-CC",
+            "DCLM",
+            "FineWeb-Edu"
+        ],
+        "Creators": [
+            "OpenSQZ"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "automathtext-v2-high"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 43310,
+            "Crawled Likes": 78,
+            "Created At": "2025-08-20",
+            "Last Modified": "2026-06-09",
+            "Size Category": "1B<n<10B",
+            "Description": "🚀 AutoMathText-V2: A 2.46 Trillion Token AI-Curated STEM Pretraining Dataset\n\t\n\n\n&nbsp;\n\n\n \n🎉 AutoMathText-v2 has surpassed 1.5 million downloads!   We'd love to know how you're using it. Please take 1 minute to fill out our use case survey.   Your feedback will directly shape the future roadmap of this dataset.👉 Share your use case here\n📊 AutoMathText-V2 consists of 2.46 trillion tokens of high-quality, deduplicated text spanning web content, mathematics, code, reasoning, and… See the full description on the dataset page: https://hf-mirror.com/datasets/OpenSQZ/AutoMathText-V2.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": [
+                ""
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "OpenSQZ/AutoMathText-V2",
+            "HF Date": "2025-08-20",
+            "HF Downloads (September 2026)": 41248,
+            "HF Likes (September 2026)": 78,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2273.42,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 2296,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 2256,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "AutoMathText-V2-automathtext-v2-medium-high": {
+        "Unique Dataset Identifier": "AutoMathText-V2-automathtext-v2-medium-high",
+        "Dataset Name": "OpenSQZ/AutoMathText-V2-automathtext-v2-medium-high",
+        "Paper Title": "Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts",
+        "Dataset URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "GitHub URL": "https://github.com/iiis-ai/AutoMathText-V2",
+        "Hugging Face URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.07625",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AutoMathText-V2",
+        "Collection URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Languages": [
+            "English",
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "General Web",
+            "Education"
+        ],
+        "Model Generated": [
+            "AutoDS"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Nemotron-CC",
+            "DCLM",
+            "FineWeb-Edu"
+        ],
+        "Creators": [
+            "OpenSQZ"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "automathtext-v2-medium-high"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 43310,
+            "Crawled Likes": 78,
+            "Created At": "2025-08-20",
+            "Last Modified": "2026-06-09",
+            "Size Category": "1B<n<10B",
+            "Description": "🚀 AutoMathText-V2: A 2.46 Trillion Token AI-Curated STEM Pretraining Dataset\n\t\n\n\n&nbsp;\n\n\n \n🎉 AutoMathText-v2 has surpassed 1.5 million downloads!   We'd love to know how you're using it. Please take 1 minute to fill out our use case survey.   Your feedback will directly shape the future roadmap of this dataset.👉 Share your use case here\n📊 AutoMathText-V2 consists of 2.46 trillion tokens of high-quality, deduplicated text spanning web content, mathematics, code, reasoning, and… See the full description on the dataset page: https://hf-mirror.com/datasets/OpenSQZ/AutoMathText-V2.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": [
+                ""
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "OpenSQZ/AutoMathText-V2",
+            "HF Date": "2025-08-20",
+            "HF Downloads (September 2026)": 41248,
+            "HF Likes (September 2026)": 78,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2286.85,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 2296,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 2279,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "AutoMathText-V2-automathtext-v2-low-medium-high": {
+        "Unique Dataset Identifier": "AutoMathText-V2-automathtext-v2-low-medium-high",
+        "Dataset Name": "OpenSQZ/AutoMathText-V2-automathtext-v2-low-medium-high",
+        "Paper Title": "Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts",
+        "Dataset URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "GitHub URL": "https://github.com/iiis-ai/AutoMathText-V2",
+        "Hugging Face URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.07625",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AutoMathText-V2",
+        "Collection URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Languages": [
+            "English",
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "General Web",
+            "Education"
+        ],
+        "Model Generated": [
+            "AutoDS"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Nemotron-CC",
+            "DCLM",
+            "FineWeb-Edu"
+        ],
+        "Creators": [
+            "OpenSQZ"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "automathtext-v2-low-medium-high"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 43310,
+            "Crawled Likes": 78,
+            "Created At": "2025-08-20",
+            "Last Modified": "2026-06-09",
+            "Size Category": "1B<n<10B",
+            "Description": "🚀 AutoMathText-V2: A 2.46 Trillion Token AI-Curated STEM Pretraining Dataset\n\t\n\n\n&nbsp;\n\n\n \n🎉 AutoMathText-v2 has surpassed 1.5 million downloads!   We'd love to know how you're using it. Please take 1 minute to fill out our use case survey.   Your feedback will directly shape the future roadmap of this dataset.👉 Share your use case here\n📊 AutoMathText-V2 consists of 2.46 trillion tokens of high-quality, deduplicated text spanning web content, mathematics, code, reasoning, and… See the full description on the dataset page: https://hf-mirror.com/datasets/OpenSQZ/AutoMathText-V2.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": [
+                ""
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "OpenSQZ/AutoMathText-V2",
+            "HF Date": "2025-08-20",
+            "HF Downloads (September 2026)": 41248,
+            "HF Likes (September 2026)": 78,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2289.88,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 2296,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 2284,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "AutoMathText-V2-nemotron_cc_high": {
+        "Unique Dataset Identifier": "AutoMathText-V2-nemotron_cc_high",
+        "Dataset Name": "OpenSQZ/AutoMathText-V2-nemotron_cc_high",
+        "Paper Title": "Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts",
+        "Dataset URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "GitHub URL": "https://github.com/iiis-ai/AutoMathText-V2",
+        "Hugging Face URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.07625",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AutoMathText-V2",
+        "Collection URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Languages": [
+            "English",
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Nemotron-CC"
+        ],
+        "Creators": [
+            "OpenSQZ"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "nemotron_cc_high"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 43310,
+            "Crawled Likes": 78,
+            "Created At": "2025-08-20",
+            "Last Modified": "2026-06-09",
+            "Size Category": "1B<n<10B",
+            "Description": "🚀 AutoMathText-V2: A 2.46 Trillion Token AI-Curated STEM Pretraining Dataset\n\t\n\n\n&nbsp;\n\n\n \n🎉 AutoMathText-v2 has surpassed 1.5 million downloads!   We'd love to know how you're using it. Please take 1 minute to fill out our use case survey.   Your feedback will directly shape the future roadmap of this dataset.👉 Share your use case here\n📊 AutoMathText-V2 consists of 2.46 trillion tokens of high-quality, deduplicated text spanning web content, mathematics, code, reasoning, and… See the full description on the dataset page: https://hf-mirror.com/datasets/OpenSQZ/AutoMathText-V2.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": [
+                ""
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "OpenSQZ/AutoMathText-V2",
+            "HF Date": "2025-08-20",
+            "HF Downloads (September 2026)": 41248,
+            "HF Likes (September 2026)": 78,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2289.88,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 2296,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 2284,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "AutoMathText-V2-nemotron_cc_medium_high": {
+        "Unique Dataset Identifier": "AutoMathText-V2-nemotron_cc_medium_high",
+        "Dataset Name": "OpenSQZ/AutoMathText-V2-nemotron_cc_medium_high",
+        "Paper Title": "Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts",
+        "Dataset URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "GitHub URL": "https://github.com/iiis-ai/AutoMathText-V2",
+        "Hugging Face URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.07625",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AutoMathText-V2",
+        "Collection URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Languages": [
+            "English",
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Nemotron-CC"
+        ],
+        "Creators": [
+            "OpenSQZ"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "nemotron_cc_medium_high"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 43310,
+            "Crawled Likes": 78,
+            "Created At": "2025-08-20",
+            "Last Modified": "2026-06-09",
+            "Size Category": "1B<n<10B",
+            "Description": "🚀 AutoMathText-V2: A 2.46 Trillion Token AI-Curated STEM Pretraining Dataset\n\t\n\n\n&nbsp;\n\n\n \n🎉 AutoMathText-v2 has surpassed 1.5 million downloads!   We'd love to know how you're using it. Please take 1 minute to fill out our use case survey.   Your feedback will directly shape the future roadmap of this dataset.👉 Share your use case here\n📊 AutoMathText-V2 consists of 2.46 trillion tokens of high-quality, deduplicated text spanning web content, mathematics, code, reasoning, and… See the full description on the dataset page: https://hf-mirror.com/datasets/OpenSQZ/AutoMathText-V2.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": [
+                ""
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "OpenSQZ/AutoMathText-V2",
+            "HF Date": "2025-08-20",
+            "HF Downloads (September 2026)": 41248,
+            "HF Likes (September 2026)": 78,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 4386.1,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 4437,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 4343,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "AutoMathText-V2-dclm": {
+        "Unique Dataset Identifier": "AutoMathText-V2-dclm",
+        "Dataset Name": "OpenSQZ/AutoMathText-V2-dclm",
+        "Paper Title": "Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts",
+        "Dataset URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "GitHub URL": "https://github.com/iiis-ai/AutoMathText-V2",
+        "Hugging Face URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.07625",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AutoMathText-V2",
+        "Collection URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Languages": [
+            "English",
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "DCLM"
+        ],
+        "Creators": [
+            "OpenSQZ"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "dclm"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 43310,
+            "Crawled Likes": 78,
+            "Created At": "2025-08-20",
+            "Last Modified": "2026-06-09",
+            "Size Category": "1B<n<10B",
+            "Description": "🚀 AutoMathText-V2: A 2.46 Trillion Token AI-Curated STEM Pretraining Dataset\n\t\n\n\n&nbsp;\n\n\n \n🎉 AutoMathText-v2 has surpassed 1.5 million downloads!   We'd love to know how you're using it. Please take 1 minute to fill out our use case survey.   Your feedback will directly shape the future roadmap of this dataset.👉 Share your use case here\n📊 AutoMathText-V2 consists of 2.46 trillion tokens of high-quality, deduplicated text spanning web content, mathematics, code, reasoning, and… See the full description on the dataset page: https://hf-mirror.com/datasets/OpenSQZ/AutoMathText-V2.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": [
+                ""
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "OpenSQZ/AutoMathText-V2",
+            "HF Date": "2025-08-20",
+            "HF Downloads (September 2026)": 41248,
+            "HF Likes (September 2026)": 78,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 6377.69,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 10796,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 5392,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "AutoMathText-V2-fineweb_edu": {
+        "Unique Dataset Identifier": "AutoMathText-V2-fineweb_edu",
+        "Dataset Name": "OpenSQZ/AutoMathText-V2-fineweb_edu",
+        "Paper Title": "Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts",
+        "Dataset URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "GitHub URL": "https://github.com/iiis-ai/AutoMathText-V2",
+        "Hugging Face URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.07625",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AutoMathText-V2",
+        "Collection URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Languages": [
+            "English",
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "General Web",
+            "Education"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "FineWeb-Edu"
+        ],
+        "Creators": [
+            "OpenSQZ"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "fineweb_edu"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 43310,
+            "Crawled Likes": 78,
+            "Created At": "2025-08-20",
+            "Last Modified": "2026-06-09",
+            "Size Category": "1B<n<10B",
+            "Description": "🚀 AutoMathText-V2: A 2.46 Trillion Token AI-Curated STEM Pretraining Dataset\n\t\n\n\n&nbsp;\n\n\n \n🎉 AutoMathText-v2 has surpassed 1.5 million downloads!   We'd love to know how you're using it. Please take 1 minute to fill out our use case survey.   Your feedback will directly shape the future roadmap of this dataset.👉 Share your use case here\n📊 AutoMathText-V2 consists of 2.46 trillion tokens of high-quality, deduplicated text spanning web content, mathematics, code, reasoning, and… See the full description on the dataset page: https://hf-mirror.com/datasets/OpenSQZ/AutoMathText-V2.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": [
+                ""
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "OpenSQZ/AutoMathText-V2",
+            "HF Date": "2025-08-20",
+            "HF Downloads (September 2026)": 41248,
+            "HF Likes (September 2026)": 78,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 6471.69,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 11173,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 5714,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "AutoMathText-V2-math_web": {
+        "Unique Dataset Identifier": "AutoMathText-V2-math_web",
+        "Dataset Name": "OpenSQZ/AutoMathText-V2-math_web",
+        "Paper Title": "Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts",
+        "Dataset URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "GitHub URL": "https://github.com/iiis-ai/AutoMathText-V2",
+        "Hugging Face URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.07625",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AutoMathText-V2",
+        "Collection URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Languages": [
+            "English",
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "General Web",
+            "Education"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "math-ai/AutoMathText",
+            "HuggingFaceTB/finemath",
+            "gair-prox/open-web-math-pro",
+            "Infi-MM/InfiMM-WebMath-40B"
+        ],
+        "Creators": [
+            "OpenSQZ"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "math_web"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 43310,
+            "Crawled Likes": 78,
+            "Created At": "2025-08-20",
+            "Last Modified": "2026-06-09",
+            "Size Category": "1B<n<10B",
+            "Description": "🚀 AutoMathText-V2: A 2.46 Trillion Token AI-Curated STEM Pretraining Dataset\n\t\n\n\n&nbsp;\n\n\n \n🎉 AutoMathText-v2 has surpassed 1.5 million downloads!   We'd love to know how you're using it. Please take 1 minute to fill out our use case survey.   Your feedback will directly shape the future roadmap of this dataset.👉 Share your use case here\n📊 AutoMathText-V2 consists of 2.46 trillion tokens of high-quality, deduplicated text spanning web content, mathematics, code, reasoning, and… See the full description on the dataset page: https://hf-mirror.com/datasets/OpenSQZ/AutoMathText-V2.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": [
+                ""
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "OpenSQZ/AutoMathText-V2",
+            "HF Date": "2025-08-20",
+            "HF Downloads (September 2026)": 41248,
+            "HF Likes (September 2026)": 78,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 51253.17,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 331032,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 20122,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "AutoMathText-V2-reasoning_qa": {
+        "Unique Dataset Identifier": "AutoMathText-V2-reasoning_qa",
+        "Dataset Name": "OpenSQZ/AutoMathText-V2-reasoning_qa",
+        "Paper Title": "Autonomous Data Selection with Zero-shot Generative Classifiers for Mathematical Texts",
+        "Dataset URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "GitHub URL": "https://github.com/iiis-ai/AutoMathText-V2",
+        "Hugging Face URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2402.07625",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "AutoMathText-V2",
+        "Collection URL": "https://huggingface.co/datasets/OpenSQZ/AutoMathText-V2",
+        "Languages": [
+            "English",
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "General Web",
+            "Education"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "OpenCoder-LLM/opc-annealing-corpus",
+            "OpenCoder-LLM/opc-sft-stage1",
+            "OpenCoder-LLM/opc-sft-stage2",
+            "Magpie-Align/Magpie-Reasoning-V2-250K-CoT-QwQ",
+            "Magpie-Align/Magpie-Reasoning-V1-150K-CoT-QwQ",
+            "Magpie-Align/Magpie-Reasoning-V1-150K-CoT-Deepseek-R1-Llama-70B",
+            "Magpie-Align/Magpie-Reasoning-V2-250K-CoT-Deepseek-R1-Llama-70B",
+            "instruction-pretrain/general-instruction-augmented-corpora",
+            "instruction-pretrain/ft-instruction-synthesizer-collection",
+            "m-a-p/CodeFeedback-Filtered-Instruction"
+        ],
+        "Creators": [
+            "OpenSQZ"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "reasoning_qa"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 43310,
+            "Crawled Likes": 78,
+            "Created At": "2025-08-20",
+            "Last Modified": "2026-06-09",
+            "Size Category": "1B<n<10B",
+            "Description": "🚀 AutoMathText-V2: A 2.46 Trillion Token AI-Curated STEM Pretraining Dataset\n\t\n\n\n&nbsp;\n\n\n \n🎉 AutoMathText-v2 has surpassed 1.5 million downloads!   We'd love to know how you're using it. Please take 1 minute to fill out our use case survey.   Your feedback will directly shape the future roadmap of this dataset.👉 Share your use case here\n📊 AutoMathText-V2 consists of 2.46 trillion tokens of high-quality, deduplicated text spanning web content, mathematics, code, reasoning, and… See the full description on the dataset page: https://hf-mirror.com/datasets/OpenSQZ/AutoMathText-V2.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": [
+                ""
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "OpenSQZ/AutoMathText-V2",
+            "HF Date": "2025-08-20",
+            "HF Downloads (September 2026)": 41248,
+            "HF Likes (September 2026)": 78,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 17881.54,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 183719,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 10272,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    }
+}

@@ -1,0 +1,193 @@
+{
+    "UltraData-Code-UltraData-Code-L2": {
+        "Unique Dataset Identifier": "UltraData-Code-UltraData-Code-L2",
+        "Dataset Name": "openbmb/UltraData-Code-UltraData-Code-L2",
+        "Paper Title": "Data Science and Technology Towards AGI Part I: Tiered Data Management",
+        "Dataset URL": "https://huggingface.co/datasets/openbmb/UltraData-Code",
+        "GitHub URL": "https://github.com/UltraData-OpenBMB/UltraData-Math",
+        "Hugging Face URL": "https://huggingface.co/datasets/openbmb/UltraData-Code",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2602.09003",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "UltraData-Code",
+        "Collection URL": "https://huggingface.co/datasets/openbmb/UltraData-Code",
+        "Languages": [
+            "cpp",
+            "Czech",
+            "go",
+            "java",
+            "js",
+            "php",
+            "py",
+            "r",
+            "rb",
+            "rust",
+            "Serbo-Croatian"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Code"
+        ],
+        "Model Generated": [
+            "Yes"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "UltraData-Code-L1"
+        ],
+        "Creators": [
+            "openbmb"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache 2.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "UltraData-Code-L2"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 27524,
+            "Crawled Likes": 149,
+            "Created At": "2026-09-05",
+            "Last Modified": "2026-09-07",
+            "Size Category": "100M<n<1B",
+            "Description": "UltraData-Code\n\t\n\n\n  \n\n\n\n📦 UltraData Collection |\n🌐 UltraData |\n🤗 MiniCPM5 Series |\n📖 Tech Report (Coming Soon) |\n🤗 UltraData-Code-L2 Classifier\n\n\nEnglish | 中文\n\n\n\t\n\t\t\n\t\n\t\n\t\t📚 Introduction\n\t\n\nUltraData-Code is a complete implementation of the UltraData L0-L4 tiered data management framework. It covers four code data states from L0 through L3, with each level corresponding to a distinct construction stage. The pipeline starts from approximately 192 million public GitHub… See the full description on the dataset page: https://hf-mirror.com/datasets/openbmb/UltraData-Code.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "UltraData-Code-L2",
+            "HF Config License": "",
+            "HF Dataset": "openbmb/UltraData-Code",
+            "HF Date": "2026-09-05",
+            "HF Downloads (September 2026)": 27524,
+            "HF Likes (September 2026)": 150,
+            "HF Yaml License": [
+                "Apache 2.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 3732.79,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 144853,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 209,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "UltraData-Code-UltraData-Code-L3": {
+        "Unique Dataset Identifier": "UltraData-Code-UltraData-Code-L3",
+        "Dataset Name": "openbmb/UltraData-Code-UltraData-Code-L3",
+        "Paper Title": "Data Science and Technology Towards AGI Part I: Tiered Data Management",
+        "Dataset URL": "https://huggingface.co/datasets/openbmb/UltraData-Code",
+        "GitHub URL": "https://github.com/UltraData-OpenBMB/UltraData-Math",
+        "Hugging Face URL": "https://huggingface.co/datasets/openbmb/UltraData-Code",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2602.09003",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "UltraData-Code",
+        "Collection URL": "https://huggingface.co/datasets/openbmb/UltraData-Code",
+        "Languages": [
+            "cpp",
+            "Czech",
+            "go",
+            "java",
+            "js",
+            "php",
+            "py",
+            "r",
+            "rb",
+            "rust",
+            "Serbo-Croatian"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Code",
+            "Template Generated"
+        ],
+        "Model Generated": [
+            "Yes"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "UltraData-Code-L2"
+        ],
+        "Creators": [
+            "openbmb"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache 2.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "UltraData-Code-L3"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 27524,
+            "Crawled Likes": 149,
+            "Created At": "2026-09-05",
+            "Last Modified": "2026-09-07",
+            "Size Category": "100M<n<1B",
+            "Description": "UltraData-Code\n\t\n\n\n  \n\n\n\n📦 UltraData Collection |\n🌐 UltraData |\n🤗 MiniCPM5 Series |\n📖 Tech Report (Coming Soon) |\n🤗 UltraData-Code-L2 Classifier\n\n\nEnglish | 中文\n\n\n\t\n\t\t\n\t\n\t\n\t\t📚 Introduction\n\t\n\nUltraData-Code is a complete implementation of the UltraData L0-L4 tiered data management framework. It covers four code data states from L0 through L3, with each level corresponding to a distinct construction stage. The pipeline starts from approximately 192 million public GitHub… See the full description on the dataset page: https://hf-mirror.com/datasets/openbmb/UltraData-Code.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "UltraData-Code-L3",
+            "HF Config License": "",
+            "HF Dataset": "openbmb/UltraData-Code",
+            "HF Date": "2026-09-05",
+            "HF Downloads (September 2026)": 27524,
+            "HF Likes (September 2026)": 150,
+            "HF Yaml License": [
+                "Apache 2.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 2532.71,
+            "Mean Targets Length": 1613.75,
+            "Max Inputs Length": 10474,
+            "Max Targets Length": 9318,
+            "Min Inputs Length": 728,
+            "Min Targets Length": 232,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    }
+}

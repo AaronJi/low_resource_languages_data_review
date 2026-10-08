@@ -1,0 +1,75 @@
+{
+    "FOMO260K": {
+        "Unique Dataset Identifier": "FOMO260K",
+        "Dataset Name": "FOMO-MRI/FOMO260K",
+        "Paper Title": "A large-scale heterogeneous 3D magnetic resonance brain imaging dataset for self-supervised learning",
+        "Dataset URL": "https://huggingface.co/datasets/FOMO-MRI/FOMO260K",
+        "GitHub URL": "https://github.com/Sllambias/asparagus",
+        "Hugging Face URL": "https://huggingface.co/datasets/FOMO-MRI/FOMO260K",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2506.14432",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "FOMO260K",
+        "Collection URL": "https://huggingface.co/datasets/FOMO-MRI/FOMO260K",
+        "Languages": [],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "Biomedical"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "OpenMind",
+            "FOMO45K"
+        ],
+        "Creators": [
+            "FOMO-MRI"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "default"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 93055,
+            "Crawled Likes": 4,
+            "Created At": "2026-04-17",
+            "Last Modified": "2026-05-06",
+            "Size Category": "100K<n<1M",
+            "Description": "FOMO260K: Brain MRI Dataset for Large-Scale Self-Supervised Learning with Clinical Data\n\t\n\n\nDataset paper preprint: A large-scale heterogeneous 3D magnetic resonance brain imaging dataset for self-supervised learning.\nhttps://arxiv.org/pdf/2506.14432.\n\n\t\n\t\t\n\t\n\t\n\t\tDescription\n\t\n\nFOMO260K is a large-scale dataset of brain MRI scans, including both clinical and research-grade scans. The dataset includes a wide range of sequences, including T1, MPRAGE, T2, T2*, FLAIR, SWI, T1c, PD, DWI… See the full description on the dataset page: https://hf-mirror.com/datasets/FOMO-MRI/FOMO260K.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": [
+                ""
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "FOMO-MRI/FOMO260K",
+            "HF Date": "2026-04-17",
+            "HF Downloads (September 2026)": 81899,
+            "HF Likes (September 2026)": 4,
+            "HF Yaml License": [
+                "cc-by-nc-sa-4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 260927
+        }
+    }
+}

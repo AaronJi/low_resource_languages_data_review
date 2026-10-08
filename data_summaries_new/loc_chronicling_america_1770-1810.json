@@ -1,0 +1,74 @@
+{
+    "loc_chronicling_america_1770-1810": {
+        "Unique Dataset Identifier": "loc_chronicling_america_1770-1810",
+        "Dataset Name": "RevolutionCrossroads/loc_chronicling_america_1770-1810",
+        "Paper Title": "Chronicling America: Historic American Newspapers",
+        "Dataset URL": "https://huggingface.co/datasets/RevolutionCrossroads/loc_chronicling_america_1770-1810",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/RevolutionCrossroads/loc_chronicling_america_1770-1810",
+        "Papers with Code URL": "",
+        "ArXiv URL": "(无)",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "loc_chronicling_america_1770-1810",
+        "Collection URL": "https://huggingface.co/datasets/RevolutionCrossroads/loc_chronicling_america_1770-1810",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "News",
+            "Governments"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "RevolutionCrossroads"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "default"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 77716,
+            "Crawled Likes": 5,
+            "Created At": "2025-08-28",
+            "Last Modified": "2026-07-10",
+            "Size Category": "10K<n<100K",
+            "Description": "Dataset Card for Chronicling America: Historic American Newspapers 1770–1810\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Summary\n\t\n\nA dataset drawn from the Library of Congress Chronicling America digital collection, part of the National Digital Newspaper Program (NDNP). This dataset includes page-level records with images, original Chronicling America OCR, AI-generated OCR, and publication metadata for newspapers published between 1770 and 1810. It provides a foundation for research, machine learning… See the full description on the dataset page: https://hf-mirror.com/datasets/RevolutionCrossroads/loc_chronicling_america_1770-1810.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "RevolutionCrossroads/loc_chronicling_america_1770-1810",
+            "HF Date": "2025-08-28",
+            "HF Downloads (September 2026)": 77716,
+            "HF Likes (September 2026)": 5,
+            "HF Yaml License": [
+                "CC0 1.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 77793
+        }
+    }
+}

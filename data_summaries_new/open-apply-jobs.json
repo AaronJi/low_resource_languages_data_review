@@ -1,0 +1,242 @@
+{
+    "open-apply-jobs-greenhouse": {
+        "Unique Dataset Identifier": "open-apply-jobs-greenhouse",
+        "Dataset Name": "edwarddgao/open-apply-jobs-greenhouse",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/edwarddgao/open-apply-jobs",
+        "GitHub URL": "https://github.com/edwarddgao/openapply",
+        "Hugging Face URL": "https://huggingface.co/datasets/edwarddgao/open-apply-jobs",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "open-apply-jobs",
+        "Collection URL": "https://huggingface.co/datasets/edwarddgao/open-apply-jobs",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Classification",
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "edwarddgao"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "greenhouse"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 21370,
+            "Crawled Likes": 9,
+            "Created At": "2026-04-17",
+            "Last Modified": "2026-09-20",
+            "Size Category": "10M<n<100M",
+            "Description": "Open-Apply Jobs\n\t\n\nA daily-refreshed open dataset of active job postings sourced directly from public ATS APIs (Greenhouse, Lever, Ashby). Every record can be traced back to the hiring company's own career board.\n\nRefresh: automated daily at 06:00 UTC\nPartitioning: Hive-partitioned Parquet (date=YYYY-MM-DD/source={ats})\nSource code: https://github.com/edwarddgao/openapply\n\n\n\t\n\t\t\n\t\n\t\n\t\tUsage\n\t\n\nfrom datasets import load_dataset\nds = load_dataset('edwarddgao/open-apply-jobs')\n\n#… See the full description on the dataset page: https://hf-mirror.com/datasets/edwarddgao/open-apply-jobs.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "greenhouse",
+            "HF Config License": "",
+            "HF Dataset": "edwarddgao/open-apply-jobs",
+            "HF Date": "2026-04-17",
+            "HF Downloads (September 2026)": 21370,
+            "HF Likes (September 2026)": 9,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 37.71,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 79,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 17,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "open-apply-jobs-lever": {
+        "Unique Dataset Identifier": "open-apply-jobs-lever",
+        "Dataset Name": "edwarddgao/open-apply-jobs-lever",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/edwarddgao/open-apply-jobs",
+        "GitHub URL": "https://github.com/edwarddgao/openapply",
+        "Hugging Face URL": "https://huggingface.co/datasets/edwarddgao/open-apply-jobs",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "open-apply-jobs",
+        "Collection URL": "https://huggingface.co/datasets/edwarddgao/open-apply-jobs",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Classification",
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "edwarddgao"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "lever"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 21370,
+            "Crawled Likes": 9,
+            "Created At": "2026-04-17",
+            "Last Modified": "2026-09-20",
+            "Size Category": "10M<n<100M",
+            "Description": "Open-Apply Jobs\n\t\n\nA daily-refreshed open dataset of active job postings sourced directly from public ATS APIs (Greenhouse, Lever, Ashby). Every record can be traced back to the hiring company's own career board.\n\nRefresh: automated daily at 06:00 UTC\nPartitioning: Hive-partitioned Parquet (date=YYYY-MM-DD/source={ats})\nSource code: https://github.com/edwarddgao/openapply\n\n\n\t\n\t\t\n\t\n\t\n\t\tUsage\n\t\n\nfrom datasets import load_dataset\nds = load_dataset('edwarddgao/open-apply-jobs')\n\n#… See the full description on the dataset page: https://hf-mirror.com/datasets/edwarddgao/open-apply-jobs.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "lever",
+            "HF Config License": "",
+            "HF Dataset": "edwarddgao/open-apply-jobs",
+            "HF Date": "2026-04-17",
+            "HF Downloads (September 2026)": 21370,
+            "HF Likes (September 2026)": 9,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 37.71,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 79,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 17,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    },
+    "open-apply-jobs-ashby": {
+        "Unique Dataset Identifier": "open-apply-jobs-ashby",
+        "Dataset Name": "edwarddgao/open-apply-jobs-ashby",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/edwarddgao/open-apply-jobs",
+        "GitHub URL": "https://github.com/edwarddgao/openapply",
+        "Hugging Face URL": "https://huggingface.co/datasets/edwarddgao/open-apply-jobs",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "open-apply-jobs",
+        "Collection URL": "https://huggingface.co/datasets/edwarddgao/open-apply-jobs",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Classification",
+            "Miscellaneous"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "edwarddgao"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "ashby"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 21370,
+            "Crawled Likes": 9,
+            "Created At": "2026-04-17",
+            "Last Modified": "2026-09-20",
+            "Size Category": "10M<n<100M",
+            "Description": "Open-Apply Jobs\n\t\n\nA daily-refreshed open dataset of active job postings sourced directly from public ATS APIs (Greenhouse, Lever, Ashby). Every record can be traced back to the hiring company's own career board.\n\nRefresh: automated daily at 06:00 UTC\nPartitioning: Hive-partitioned Parquet (date=YYYY-MM-DD/source={ats})\nSource code: https://github.com/edwarddgao/openapply\n\n\n\t\n\t\t\n\t\n\t\n\t\tUsage\n\t\n\nfrom datasets import load_dataset\nds = load_dataset('edwarddgao/open-apply-jobs')\n\n#… See the full description on the dataset page: https://hf-mirror.com/datasets/edwarddgao/open-apply-jobs.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "ashby",
+            "HF Config License": "",
+            "HF Dataset": "edwarddgao/open-apply-jobs",
+            "HF Date": "2026-04-17",
+            "HF Downloads (September 2026)": 21370,
+            "HF Likes (September 2026)": 9,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 37.71,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 79,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 17,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    }
+}

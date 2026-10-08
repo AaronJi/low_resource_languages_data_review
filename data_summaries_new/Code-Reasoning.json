@@ -1,0 +1,561 @@
+{
+  "Code-Reasoning-code-no-thinking": {
+    "Unique Dataset Identifier": "Code-Reasoning-code-no-thinking",
+    "Dataset Name": "IFM/Code-Reasoning-code-no-thinking",
+    "Paper Title": "From Code Generation to Code Cognition: The Quiet Evolution of AI Reasoning",
+    "Dataset URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "GitHub URL": "https://github.com/mettamatt/code-reasoning",
+    "Hugging Face URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "Code-Reasoning",
+    "Collection URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Languages": [],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Code"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "IFM"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "code-no-thinking"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 40263,
+      "Crawled Likes": 64,
+      "Created At": "2026-08-24",
+      "Last Modified": "2026-09-02",
+      "Size Category": "100M<n<1B",
+      "Description": "Code-Reasoning\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\nCode problem-solving data with reasoning, direct-answer, and task-synthesis subsets. This repository is part of the K2 Horizon collection.\nThe repository is organized into multiple subsets. Every subset has a train split backed by Parquet shards, which supports Dataset Viewer inspection and streaming access.\n\n\t\n\t\t\n\t\n\t\n\t\tK2 Horizon Dataset Series\n\t\n\n\n\t\n\t\t\nDataset repository\nFocus\nSubsets\n\n\n\t\t\nIFM/TxT360-v2\nWeb and… See the full description on the dataset page: https://hf-mirror.com/datasets/IFM/Code-Reasoning.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": [
+        ""
+      ],
+      "Github Date": "",
+      "HF Config": "default",
+      "HF Config License": "",
+      "HF Dataset": "IFM/Code-Reasoning",
+      "HF Date": "2026-08-24",
+      "HF Downloads (September 2026)": 49403,
+      "HF Likes (September 2026)": 80,
+      "HF Yaml License": [
+        "apache-2.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 13502.51,
+      "Mean Targets Length": 0,
+      "Max Inputs Length": 27070,
+      "Max Targets Length": 0,
+      "Min Inputs Length": 4720,
+      "Min Targets Length": 0,
+      "Min Dialog Turns": 1,
+      "Max Dialog Turns": 1,
+      "Mean Dialog Turns": 1.0
+    }
+  },
+  "Code-Reasoning-code-no-thinking-hard": {
+    "Unique Dataset Identifier": "Code-Reasoning-code-no-thinking-hard",
+    "Dataset Name": "IFM/Code-Reasoning-code-no-thinking-hard",
+    "Paper Title": "From Code Generation to Code Cognition: The Quiet Evolution of AI Reasoning",
+    "Dataset URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "GitHub URL": "https://github.com/mettamatt/code-reasoning",
+    "Hugging Face URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "Code-Reasoning",
+    "Collection URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Languages": [],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Code"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "IFM"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "code-no-thinking-hard"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 40263,
+      "Crawled Likes": 64,
+      "Created At": "2026-08-24",
+      "Last Modified": "2026-09-02",
+      "Size Category": "100M<n<1B",
+      "Description": "Code-Reasoning\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\nCode problem-solving data with reasoning, direct-answer, and task-synthesis subsets. This repository is part of the K2 Horizon collection.\nThe repository is organized into multiple subsets. Every subset has a train split backed by Parquet shards, which supports Dataset Viewer inspection and streaming access.\n\n\t\n\t\t\n\t\n\t\n\t\tK2 Horizon Dataset Series\n\t\n\n\n\t\n\t\t\nDataset repository\nFocus\nSubsets\n\n\n\t\t\nIFM/TxT360-v2\nWeb and… See the full description on the dataset page: https://hf-mirror.com/datasets/IFM/Code-Reasoning.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": [
+        ""
+      ],
+      "Github Date": "",
+      "HF Config": "default",
+      "HF Config License": "",
+      "HF Dataset": "IFM/Code-Reasoning",
+      "HF Date": "2026-08-24",
+      "HF Downloads (September 2026)": 49403,
+      "HF Likes (September 2026)": 80,
+      "HF Yaml License": [
+        "apache-2.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 17600.07,
+      "Mean Targets Length": 0,
+      "Max Inputs Length": 41768,
+      "Max Targets Length": 0,
+      "Min Inputs Length": 6847,
+      "Min Targets Length": 0,
+      "Min Dialog Turns": 1,
+      "Max Dialog Turns": 1,
+      "Mean Dialog Turns": 1.0
+    }
+  },
+  "Code-Reasoning-code-task-synthesis": {
+    "Unique Dataset Identifier": "Code-Reasoning-code-task-synthesis",
+    "Dataset Name": "IFM/Code-Reasoning-code-task-synthesis",
+    "Paper Title": "From Code Generation to Code Cognition: The Quiet Evolution of AI Reasoning",
+    "Dataset URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "GitHub URL": "https://github.com/mettamatt/code-reasoning",
+    "Hugging Face URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "Code-Reasoning",
+    "Collection URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Languages": [],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Code"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "IFM"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "code-task-synthesis"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 40263,
+      "Crawled Likes": 64,
+      "Created At": "2026-08-24",
+      "Last Modified": "2026-09-02",
+      "Size Category": "100M<n<1B",
+      "Description": "Code-Reasoning\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\nCode problem-solving data with reasoning, direct-answer, and task-synthesis subsets. This repository is part of the K2 Horizon collection.\nThe repository is organized into multiple subsets. Every subset has a train split backed by Parquet shards, which supports Dataset Viewer inspection and streaming access.\n\n\t\n\t\t\n\t\n\t\n\t\tK2 Horizon Dataset Series\n\t\n\n\n\t\n\t\t\nDataset repository\nFocus\nSubsets\n\n\n\t\t\nIFM/TxT360-v2\nWeb and… See the full description on the dataset page: https://hf-mirror.com/datasets/IFM/Code-Reasoning.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": [
+        ""
+      ],
+      "Github Date": "",
+      "HF Config": "default",
+      "HF Config License": "",
+      "HF Dataset": "IFM/Code-Reasoning",
+      "HF Date": "2026-08-24",
+      "HF Downloads (September 2026)": 49403,
+      "HF Likes (September 2026)": 80,
+      "HF Yaml License": [
+        "apache-2.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 23487.94,
+      "Mean Targets Length": 0,
+      "Max Inputs Length": 40477,
+      "Max Targets Length": 0,
+      "Min Inputs Length": 11046,
+      "Min Targets Length": 0,
+      "Min Dialog Turns": 1,
+      "Max Dialog Turns": 1,
+      "Mean Dialog Turns": 1.0
+    }
+  },
+  "Code-Reasoning-code-thinking-hard": {
+    "Unique Dataset Identifier": "Code-Reasoning-code-thinking-hard",
+    "Dataset Name": "IFM/Code-Reasoning-code-thinking-hard",
+    "Paper Title": "From Code Generation to Code Cognition: The Quiet Evolution of AI Reasoning",
+    "Dataset URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "GitHub URL": "https://github.com/mettamatt/code-reasoning",
+    "Hugging Face URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "Code-Reasoning",
+    "Collection URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Languages": [],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Code"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Chain-of-Thought"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "IFM"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "code-thinking-hard"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 40263,
+      "Crawled Likes": 64,
+      "Created At": "2026-08-24",
+      "Last Modified": "2026-09-02",
+      "Size Category": "100M<n<1B",
+      "Description": "Code-Reasoning\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\nCode problem-solving data with reasoning, direct-answer, and task-synthesis subsets. This repository is part of the K2 Horizon collection.\nThe repository is organized into multiple subsets. Every subset has a train split backed by Parquet shards, which supports Dataset Viewer inspection and streaming access.\n\n\t\n\t\t\n\t\n\t\n\t\tK2 Horizon Dataset Series\n\t\n\n\n\t\n\t\t\nDataset repository\nFocus\nSubsets\n\n\n\t\t\nIFM/TxT360-v2\nWeb and… See the full description on the dataset page: https://hf-mirror.com/datasets/IFM/Code-Reasoning.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": [
+        ""
+      ],
+      "Github Date": "",
+      "HF Config": "default",
+      "HF Config License": "",
+      "HF Dataset": "IFM/Code-Reasoning",
+      "HF Date": "2026-08-24",
+      "HF Downloads (September 2026)": 49403,
+      "HF Likes (September 2026)": 80,
+      "HF Yaml License": [
+        "apache-2.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 33009.4,
+      "Mean Targets Length": 0,
+      "Max Inputs Length": 84409,
+      "Max Targets Length": 0,
+      "Min Inputs Length": 4872,
+      "Min Targets Length": 0,
+      "Min Dialog Turns": 1,
+      "Max Dialog Turns": 1,
+      "Mean Dialog Turns": 1.0
+    }
+  },
+  "Code-Reasoning-code-thinking-v0": {
+    "Unique Dataset Identifier": "Code-Reasoning-code-thinking-v0",
+    "Dataset Name": "IFM/Code-Reasoning-code-thinking-v0",
+    "Paper Title": "From Code Generation to Code Cognition: The Quiet Evolution of AI Reasoning",
+    "Dataset URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "GitHub URL": "https://github.com/mettamatt/code-reasoning",
+    "Hugging Face URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "Code-Reasoning",
+    "Collection URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Languages": [],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Code"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Chain-of-Thought"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "IFM"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "code-thinking-v0"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 40263,
+      "Crawled Likes": 64,
+      "Created At": "2026-08-24",
+      "Last Modified": "2026-09-02",
+      "Size Category": "100M<n<1B",
+      "Description": "Code-Reasoning\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\nCode problem-solving data with reasoning, direct-answer, and task-synthesis subsets. This repository is part of the K2 Horizon collection.\nThe repository is organized into multiple subsets. Every subset has a train split backed by Parquet shards, which supports Dataset Viewer inspection and streaming access.\n\n\t\n\t\t\n\t\n\t\n\t\tK2 Horizon Dataset Series\n\t\n\n\n\t\n\t\t\nDataset repository\nFocus\nSubsets\n\n\n\t\t\nIFM/TxT360-v2\nWeb and… See the full description on the dataset page: https://hf-mirror.com/datasets/IFM/Code-Reasoning.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": [
+        ""
+      ],
+      "Github Date": "",
+      "HF Config": "default",
+      "HF Config License": "",
+      "HF Dataset": "IFM/Code-Reasoning",
+      "HF Date": "2026-08-24",
+      "HF Downloads (September 2026)": 49403,
+      "HF Likes (September 2026)": 80,
+      "HF Yaml License": [
+        "apache-2.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 17526.03,
+      "Mean Targets Length": 0,
+      "Max Inputs Length": 54296,
+      "Max Targets Length": 0,
+      "Min Inputs Length": 4582,
+      "Min Targets Length": 0,
+      "Min Dialog Turns": 1,
+      "Max Dialog Turns": 1,
+      "Mean Dialog Turns": 1.0
+    }
+  },
+  "Code-Reasoning-code-thinking-v1": {
+    "Unique Dataset Identifier": "Code-Reasoning-code-thinking-v1",
+    "Dataset Name": "IFM/Code-Reasoning-code-thinking-v1",
+    "Paper Title": "From Code Generation to Code Cognition: The Quiet Evolution of AI Reasoning",
+    "Dataset URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "GitHub URL": "https://github.com/mettamatt/code-reasoning",
+    "Hugging Face URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "Code-Reasoning",
+    "Collection URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Languages": [],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Code"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Chain-of-Thought"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "IFM"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "code-thinking-v1"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 40263,
+      "Crawled Likes": 64,
+      "Created At": "2026-08-24",
+      "Last Modified": "2026-09-02",
+      "Size Category": "100M<n<1B",
+      "Description": "Code-Reasoning\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\nCode problem-solving data with reasoning, direct-answer, and task-synthesis subsets. This repository is part of the K2 Horizon collection.\nThe repository is organized into multiple subsets. Every subset has a train split backed by Parquet shards, which supports Dataset Viewer inspection and streaming access.\n\n\t\n\t\t\n\t\n\t\n\t\tK2 Horizon Dataset Series\n\t\n\n\n\t\n\t\t\nDataset repository\nFocus\nSubsets\n\n\n\t\t\nIFM/TxT360-v2\nWeb and… See the full description on the dataset page: https://hf-mirror.com/datasets/IFM/Code-Reasoning.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": [
+        ""
+      ],
+      "Github Date": "",
+      "HF Config": "default",
+      "HF Config License": "",
+      "HF Dataset": "IFM/Code-Reasoning",
+      "HF Date": "2026-08-24",
+      "HF Downloads (September 2026)": 49403,
+      "HF Likes (September 2026)": 80,
+      "HF Yaml License": [
+        "apache-2.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 25204.36,
+      "Mean Targets Length": 0,
+      "Max Inputs Length": 70554,
+      "Max Targets Length": 0,
+      "Min Inputs Length": 5889,
+      "Min Targets Length": 0,
+      "Min Dialog Turns": 1,
+      "Max Dialog Turns": 1,
+      "Mean Dialog Turns": 1.0
+    }
+  },
+  "Code-Reasoning-codeio": {
+    "Unique Dataset Identifier": "Code-Reasoning-codeio",
+    "Dataset Name": "IFM/Code-Reasoning-codeio",
+    "Paper Title": "From Code Generation to Code Cognition: The Quiet Evolution of AI Reasoning",
+    "Dataset URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "GitHub URL": "https://github.com/mettamatt/code-reasoning",
+    "Hugging Face URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "Code-Reasoning",
+    "Collection URL": "https://huggingface.co/datasets/IFM/Code-Reasoning",
+    "Languages": [],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Code"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "IFM"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "codeio"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 40263,
+      "Crawled Likes": 64,
+      "Created At": "2026-08-24",
+      "Last Modified": "2026-09-02",
+      "Size Category": "100M<n<1B",
+      "Description": "Code-Reasoning\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\nCode problem-solving data with reasoning, direct-answer, and task-synthesis subsets. This repository is part of the K2 Horizon collection.\nThe repository is organized into multiple subsets. Every subset has a train split backed by Parquet shards, which supports Dataset Viewer inspection and streaming access.\n\n\t\n\t\t\n\t\n\t\n\t\tK2 Horizon Dataset Series\n\t\n\n\n\t\n\t\t\nDataset repository\nFocus\nSubsets\n\n\n\t\t\nIFM/TxT360-v2\nWeb and… See the full description on the dataset page: https://hf-mirror.com/datasets/IFM/Code-Reasoning.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": [
+        ""
+      ],
+      "Github Date": "",
+      "HF Config": "default",
+      "HF Config License": "",
+      "HF Dataset": "IFM/Code-Reasoning",
+      "HF Date": "2026-08-24",
+      "HF Downloads (September 2026)": 49403,
+      "HF Likes (September 2026)": 80,
+      "HF Yaml License": [
+        "apache-2.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 7770.34,
+      "Mean Targets Length": 0,
+      "Max Inputs Length": 58535,
+      "Max Targets Length": 0,
+      "Min Inputs Length": 2040,
+      "Min Targets Length": 0,
+      "Min Dialog Turns": 1,
+      "Max Dialog Turns": 1,
+      "Mean Dialog Turns": 1.0
+    }
+  }
+}

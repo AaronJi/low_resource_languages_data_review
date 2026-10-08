@@ -1,0 +1,846 @@
+{
+    "ettin-pretraining-data-DCLM": {
+        "Unique Dataset Identifier": "ettin-pretraining-data-DCLM",
+        "Dataset Name": "jhu-clsp/ettin-pretraining-data-DCLM",
+        "Paper Title": "Seq vs Seq: An Open Suite of Paired Encoders and Decoders",
+        "Dataset URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "GitHub URL": "https://github.com/jhu-clsp/ettin-encoder-vs-decoder",
+        "Hugging Face URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2507.11412",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "ettin-pretraining-data",
+        "Collection URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Language Modeling",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "DCLM"
+        ],
+        "Creators": [
+            "jhu-clsp"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "DCLM"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 291005,
+            "Crawled Likes": 10,
+            "Created At": "2024-10-04",
+            "Last Modified": "2025-07-18",
+            "Size Category": "",
+            "Description": "Ettin Pre-training Data\n\t\n\n\n\n\n\n\nPhase 1 of 3: Diverse pre-training data mixture (1.7T tokens) used to train the Ettin model suite.\n\nThis dataset contains the pre-training phase data used to train all Ettin encoder and decoder models. The data is provided in MDS format ready for use with Composer and the ModernBERT training repository.\n\n\t\n\t\t\n\t\t📊 Data Composition\n\t\n\n\n\t\n\t\t\nData Source\nTokens (B)\nPercentage\nDescription\n\n\n\t\t\nDCLM\n837.2\n49.1%\nHigh-quality web crawl data\n\n\nCC Head\n356.6… See the full description on the dataset page: https://hf-mirror.com/datasets/jhu-clsp/ettin-pretraining-data.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "DCLM",
+            "HF Config License": "",
+            "HF Dataset": "jhu-clsp/ettin-pretraining-data",
+            "HF Date": "2024-10-04",
+            "HF Downloads (September 2026)": 291005,
+            "HF Likes (September 2026)": 10,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        }
+    },
+    "ettin-pretraining-data-CC_Head": {
+        "Unique Dataset Identifier": "ettin-pretraining-data-CC_Head",
+        "Dataset Name": "jhu-clsp/ettin-pretraining-data-CC_Head",
+        "Paper Title": "Seq vs Seq: An Open Suite of Paired Encoders and Decoders",
+        "Dataset URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "GitHub URL": "https://github.com/jhu-clsp/ettin-encoder-vs-decoder",
+        "Hugging Face URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2507.11412",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "ettin-pretraining-data",
+        "Collection URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Language Modeling",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "jhu-clsp"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "CC_Head"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 291005,
+            "Crawled Likes": 10,
+            "Created At": "2024-10-04",
+            "Last Modified": "2025-07-18",
+            "Size Category": "",
+            "Description": "Ettin Pre-training Data\n\t\n\n\n\n\n\n\nPhase 1 of 3: Diverse pre-training data mixture (1.7T tokens) used to train the Ettin model suite.\n\nThis dataset contains the pre-training phase data used to train all Ettin encoder and decoder models. The data is provided in MDS format ready for use with Composer and the ModernBERT training repository.\n\n\t\n\t\t\n\t\t📊 Data Composition\n\t\n\n\n\t\n\t\t\nData Source\nTokens (B)\nPercentage\nDescription\n\n\n\t\t\nDCLM\n837.2\n49.1%\nHigh-quality web crawl data\n\n\nCC Head\n356.6… See the full description on the dataset page: https://hf-mirror.com/datasets/jhu-clsp/ettin-pretraining-data.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "CC_Head",
+            "HF Config License": "",
+            "HF Dataset": "jhu-clsp/ettin-pretraining-data",
+            "HF Date": "2024-10-04",
+            "HF Downloads (September 2026)": 291005,
+            "HF Likes (September 2026)": 10,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        }
+    },
+    "ettin-pretraining-data-Starcoder": {
+        "Unique Dataset Identifier": "ettin-pretraining-data-Starcoder",
+        "Dataset Name": "jhu-clsp/ettin-pretraining-data-Starcoder",
+        "Paper Title": "Seq vs Seq: An Open Suite of Paired Encoders and Decoders",
+        "Dataset URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "GitHub URL": "https://github.com/jhu-clsp/ettin-encoder-vs-decoder",
+        "Hugging Face URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2507.11412",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "ettin-pretraining-data",
+        "Collection URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Language Modeling",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "Code"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "The Stack"
+        ],
+        "Creators": [
+            "jhu-clsp"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "Starcoder"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 291005,
+            "Crawled Likes": 10,
+            "Created At": "2024-10-04",
+            "Last Modified": "2025-07-18",
+            "Size Category": "",
+            "Description": "Ettin Pre-training Data\n\t\n\n\n\n\n\n\nPhase 1 of 3: Diverse pre-training data mixture (1.7T tokens) used to train the Ettin model suite.\n\nThis dataset contains the pre-training phase data used to train all Ettin encoder and decoder models. The data is provided in MDS format ready for use with Composer and the ModernBERT training repository.\n\n\t\n\t\t\n\t\t📊 Data Composition\n\t\n\n\n\t\n\t\t\nData Source\nTokens (B)\nPercentage\nDescription\n\n\n\t\t\nDCLM\n837.2\n49.1%\nHigh-quality web crawl data\n\n\nCC Head\n356.6… See the full description on the dataset page: https://hf-mirror.com/datasets/jhu-clsp/ettin-pretraining-data.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "Starcoder",
+            "HF Config License": "",
+            "HF Dataset": "jhu-clsp/ettin-pretraining-data",
+            "HF Date": "2024-10-04",
+            "HF Downloads (September 2026)": 291005,
+            "HF Likes (September 2026)": 10,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        }
+    },
+    "ettin-pretraining-data-Reddit": {
+        "Unique Dataset Identifier": "ettin-pretraining-data-Reddit",
+        "Dataset Name": "jhu-clsp/ettin-pretraining-data-Reddit",
+        "Paper Title": "Seq vs Seq: An Open Suite of Paired Encoders and Decoders",
+        "Dataset URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "GitHub URL": "https://github.com/jhu-clsp/ettin-encoder-vs-decoder",
+        "Hugging Face URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2507.11412",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "ettin-pretraining-data",
+        "Collection URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Language Modeling",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "Social Media"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "jhu-clsp"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "Reddit"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 291005,
+            "Crawled Likes": 10,
+            "Created At": "2024-10-04",
+            "Last Modified": "2025-07-18",
+            "Size Category": "",
+            "Description": "Ettin Pre-training Data\n\t\n\n\n\n\n\n\nPhase 1 of 3: Diverse pre-training data mixture (1.7T tokens) used to train the Ettin model suite.\n\nThis dataset contains the pre-training phase data used to train all Ettin encoder and decoder models. The data is provided in MDS format ready for use with Composer and the ModernBERT training repository.\n\n\t\n\t\t\n\t\t📊 Data Composition\n\t\n\n\n\t\n\t\t\nData Source\nTokens (B)\nPercentage\nDescription\n\n\n\t\t\nDCLM\n837.2\n49.1%\nHigh-quality web crawl data\n\n\nCC Head\n356.6… See the full description on the dataset page: https://hf-mirror.com/datasets/jhu-clsp/ettin-pretraining-data.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "Reddit",
+            "HF Config License": "",
+            "HF Dataset": "jhu-clsp/ettin-pretraining-data",
+            "HF Date": "2024-10-04",
+            "HF Downloads (September 2026)": 291005,
+            "HF Likes (September 2026)": 10,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        }
+    },
+    "ettin-pretraining-data-PeS2o": {
+        "Unique Dataset Identifier": "ettin-pretraining-data-PeS2o",
+        "Dataset Name": "jhu-clsp/ettin-pretraining-data-PeS2o",
+        "Paper Title": "Seq vs Seq: An Open Suite of Paired Encoders and Decoders",
+        "Dataset URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "GitHub URL": "https://github.com/jhu-clsp/ettin-encoder-vs-decoder",
+        "Hugging Face URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2507.11412",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "ettin-pretraining-data",
+        "Collection URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Language Modeling",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "Academic Papers"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "PeS2o"
+        ],
+        "Creators": [
+            "jhu-clsp"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "PeS2o"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 291005,
+            "Crawled Likes": 10,
+            "Created At": "2024-10-04",
+            "Last Modified": "2025-07-18",
+            "Size Category": "",
+            "Description": "Ettin Pre-training Data\n\t\n\n\n\n\n\n\nPhase 1 of 3: Diverse pre-training data mixture (1.7T tokens) used to train the Ettin model suite.\n\nThis dataset contains the pre-training phase data used to train all Ettin encoder and decoder models. The data is provided in MDS format ready for use with Composer and the ModernBERT training repository.\n\n\t\n\t\t\n\t\t📊 Data Composition\n\t\n\n\n\t\n\t\t\nData Source\nTokens (B)\nPercentage\nDescription\n\n\n\t\t\nDCLM\n837.2\n49.1%\nHigh-quality web crawl data\n\n\nCC Head\n356.6… See the full description on the dataset page: https://hf-mirror.com/datasets/jhu-clsp/ettin-pretraining-data.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "PeS2o",
+            "HF Config License": "",
+            "HF Dataset": "jhu-clsp/ettin-pretraining-data",
+            "HF Date": "2024-10-04",
+            "HF Downloads (September 2026)": 291005,
+            "HF Likes (September 2026)": 10,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        }
+    },
+    "ettin-pretraining-data-Arxiv": {
+        "Unique Dataset Identifier": "ettin-pretraining-data-Arxiv",
+        "Dataset Name": "jhu-clsp/ettin-pretraining-data-Arxiv",
+        "Paper Title": "Seq vs Seq: An Open Suite of Paired Encoders and Decoders",
+        "Dataset URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "GitHub URL": "https://github.com/jhu-clsp/ettin-encoder-vs-decoder",
+        "Hugging Face URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2507.11412",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "ettin-pretraining-data",
+        "Collection URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Language Modeling",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "Academic Papers"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "jhu-clsp"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "Arxiv"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 291005,
+            "Crawled Likes": 10,
+            "Created At": "2024-10-04",
+            "Last Modified": "2025-07-18",
+            "Size Category": "",
+            "Description": "Ettin Pre-training Data\n\t\n\n\n\n\n\n\nPhase 1 of 3: Diverse pre-training data mixture (1.7T tokens) used to train the Ettin model suite.\n\nThis dataset contains the pre-training phase data used to train all Ettin encoder and decoder models. The data is provided in MDS format ready for use with Composer and the ModernBERT training repository.\n\n\t\n\t\t\n\t\t📊 Data Composition\n\t\n\n\n\t\n\t\t\nData Source\nTokens (B)\nPercentage\nDescription\n\n\n\t\t\nDCLM\n837.2\n49.1%\nHigh-quality web crawl data\n\n\nCC Head\n356.6… See the full description on the dataset page: https://hf-mirror.com/datasets/jhu-clsp/ettin-pretraining-data.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "Arxiv",
+            "HF Config License": "",
+            "HF Dataset": "jhu-clsp/ettin-pretraining-data",
+            "HF Date": "2024-10-04",
+            "HF Downloads (September 2026)": 291005,
+            "HF Likes (September 2026)": 10,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        }
+    },
+    "ettin-pretraining-data-StackExchange": {
+        "Unique Dataset Identifier": "ettin-pretraining-data-StackExchange",
+        "Dataset Name": "jhu-clsp/ettin-pretraining-data-StackExchange",
+        "Paper Title": "Seq vs Seq: An Open Suite of Paired Encoders and Decoders",
+        "Dataset URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "GitHub URL": "https://github.com/jhu-clsp/ettin-encoder-vs-decoder",
+        "Hugging Face URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2507.11412",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "ettin-pretraining-data",
+        "Collection URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Language Modeling",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "Conversations"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "jhu-clsp"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "StackExchange"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 291005,
+            "Crawled Likes": 10,
+            "Created At": "2024-10-04",
+            "Last Modified": "2025-07-18",
+            "Size Category": "",
+            "Description": "Ettin Pre-training Data\n\t\n\n\n\n\n\n\nPhase 1 of 3: Diverse pre-training data mixture (1.7T tokens) used to train the Ettin model suite.\n\nThis dataset contains the pre-training phase data used to train all Ettin encoder and decoder models. The data is provided in MDS format ready for use with Composer and the ModernBERT training repository.\n\n\t\n\t\t\n\t\t📊 Data Composition\n\t\n\n\n\t\n\t\t\nData Source\nTokens (B)\nPercentage\nDescription\n\n\n\t\t\nDCLM\n837.2\n49.1%\nHigh-quality web crawl data\n\n\nCC Head\n356.6… See the full description on the dataset page: https://hf-mirror.com/datasets/jhu-clsp/ettin-pretraining-data.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "StackExchange",
+            "HF Config License": "",
+            "HF Dataset": "jhu-clsp/ettin-pretraining-data",
+            "HF Date": "2024-10-04",
+            "HF Downloads (September 2026)": 291005,
+            "HF Likes (September 2026)": 10,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        }
+    },
+    "ettin-pretraining-data-Tulu_Flan": {
+        "Unique Dataset Identifier": "ettin-pretraining-data-Tulu_Flan",
+        "Dataset Name": "jhu-clsp/ettin-pretraining-data-Tulu_Flan",
+        "Paper Title": "Seq vs Seq: An Open Suite of Paired Encoders and Decoders",
+        "Dataset URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "GitHub URL": "https://github.com/jhu-clsp/ettin-encoder-vs-decoder",
+        "Hugging Face URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2507.11412",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "ettin-pretraining-data",
+        "Collection URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Language Modeling",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "Template Generated"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot",
+            "Few-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Tulu",
+            "FLAN"
+        ],
+        "Creators": [
+            "jhu-clsp"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "Tulu_Flan"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 291005,
+            "Crawled Likes": 10,
+            "Created At": "2024-10-04",
+            "Last Modified": "2025-07-18",
+            "Size Category": "",
+            "Description": "Ettin Pre-training Data\n\t\n\n\n\n\n\n\nPhase 1 of 3: Diverse pre-training data mixture (1.7T tokens) used to train the Ettin model suite.\n\nThis dataset contains the pre-training phase data used to train all Ettin encoder and decoder models. The data is provided in MDS format ready for use with Composer and the ModernBERT training repository.\n\n\t\n\t\t\n\t\t📊 Data Composition\n\t\n\n\n\t\n\t\t\nData Source\nTokens (B)\nPercentage\nDescription\n\n\n\t\t\nDCLM\n837.2\n49.1%\nHigh-quality web crawl data\n\n\nCC Head\n356.6… See the full description on the dataset page: https://hf-mirror.com/datasets/jhu-clsp/ettin-pretraining-data.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "Tulu_Flan",
+            "HF Config License": "",
+            "HF Dataset": "jhu-clsp/ettin-pretraining-data",
+            "HF Date": "2024-10-04",
+            "HF Downloads (September 2026)": 291005,
+            "HF Likes (September 2026)": 10,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        }
+    },
+    "ettin-pretraining-data-Open-Web-Math": {
+        "Unique Dataset Identifier": "ettin-pretraining-data-Open-Web-Math",
+        "Dataset Name": "jhu-clsp/ettin-pretraining-data-Open-Web-Math",
+        "Paper Title": "Seq vs Seq: An Open Suite of Paired Encoders and Decoders",
+        "Dataset URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "GitHub URL": "https://github.com/jhu-clsp/ettin-encoder-vs-decoder",
+        "Hugging Face URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2507.11412",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "ettin-pretraining-data",
+        "Collection URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Language Modeling",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "General Web"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "OpenWebMath"
+        ],
+        "Creators": [
+            "jhu-clsp"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "Open-Web-Math"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 291005,
+            "Crawled Likes": 10,
+            "Created At": "2024-10-04",
+            "Last Modified": "2025-07-18",
+            "Size Category": "",
+            "Description": "Ettin Pre-training Data\n\t\n\n\n\n\n\n\nPhase 1 of 3: Diverse pre-training data mixture (1.7T tokens) used to train the Ettin model suite.\n\nThis dataset contains the pre-training phase data used to train all Ettin encoder and decoder models. The data is provided in MDS format ready for use with Composer and the ModernBERT training repository.\n\n\t\n\t\t\n\t\t📊 Data Composition\n\t\n\n\n\t\n\t\t\nData Source\nTokens (B)\nPercentage\nDescription\n\n\n\t\t\nDCLM\n837.2\n49.1%\nHigh-quality web crawl data\n\n\nCC Head\n356.6… See the full description on the dataset page: https://hf-mirror.com/datasets/jhu-clsp/ettin-pretraining-data.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "Open-Web-Math",
+            "HF Config License": "",
+            "HF Dataset": "jhu-clsp/ettin-pretraining-data",
+            "HF Date": "2024-10-04",
+            "HF Downloads (September 2026)": 291005,
+            "HF Likes (September 2026)": 10,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        }
+    },
+    "ettin-pretraining-data-Algebraic_StackExchange": {
+        "Unique Dataset Identifier": "ettin-pretraining-data-Algebraic_StackExchange",
+        "Dataset Name": "jhu-clsp/ettin-pretraining-data-Algebraic_StackExchange",
+        "Paper Title": "Seq vs Seq: An Open Suite of Paired Encoders and Decoders",
+        "Dataset URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "GitHub URL": "https://github.com/jhu-clsp/ettin-encoder-vs-decoder",
+        "Hugging Face URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2507.11412",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "ettin-pretraining-data",
+        "Collection URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Language Modeling",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "Conversations"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "jhu-clsp"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "Algebraic_StackExchange"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 291005,
+            "Crawled Likes": 10,
+            "Created At": "2024-10-04",
+            "Last Modified": "2025-07-18",
+            "Size Category": "",
+            "Description": "Ettin Pre-training Data\n\t\n\n\n\n\n\n\nPhase 1 of 3: Diverse pre-training data mixture (1.7T tokens) used to train the Ettin model suite.\n\nThis dataset contains the pre-training phase data used to train all Ettin encoder and decoder models. The data is provided in MDS format ready for use with Composer and the ModernBERT training repository.\n\n\t\n\t\t\n\t\t📊 Data Composition\n\t\n\n\n\t\n\t\t\nData Source\nTokens (B)\nPercentage\nDescription\n\n\n\t\t\nDCLM\n837.2\n49.1%\nHigh-quality web crawl data\n\n\nCC Head\n356.6… See the full description on the dataset page: https://hf-mirror.com/datasets/jhu-clsp/ettin-pretraining-data.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "Algebraic_StackExchange",
+            "HF Config License": "",
+            "HF Dataset": "jhu-clsp/ettin-pretraining-data",
+            "HF Date": "2024-10-04",
+            "HF Downloads (September 2026)": 291005,
+            "HF Likes (September 2026)": 10,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        }
+    },
+    "ettin-pretraining-data-CC_News": {
+        "Unique Dataset Identifier": "ettin-pretraining-data-CC_News",
+        "Dataset Name": "jhu-clsp/ettin-pretraining-data-CC_News",
+        "Paper Title": "Seq vs Seq: An Open Suite of Paired Encoders and Decoders",
+        "Dataset URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "GitHub URL": "https://github.com/jhu-clsp/ettin-encoder-vs-decoder",
+        "Hugging Face URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2507.11412",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "ettin-pretraining-data",
+        "Collection URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Language Modeling",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "News"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "jhu-clsp"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "CC_News"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 291005,
+            "Crawled Likes": 10,
+            "Created At": "2024-10-04",
+            "Last Modified": "2025-07-18",
+            "Size Category": "",
+            "Description": "Ettin Pre-training Data\n\t\n\n\n\n\n\n\nPhase 1 of 3: Diverse pre-training data mixture (1.7T tokens) used to train the Ettin model suite.\n\nThis dataset contains the pre-training phase data used to train all Ettin encoder and decoder models. The data is provided in MDS format ready for use with Composer and the ModernBERT training repository.\n\n\t\n\t\t\n\t\t📊 Data Composition\n\t\n\n\n\t\n\t\t\nData Source\nTokens (B)\nPercentage\nDescription\n\n\n\t\t\nDCLM\n837.2\n49.1%\nHigh-quality web crawl data\n\n\nCC Head\n356.6… See the full description on the dataset page: https://hf-mirror.com/datasets/jhu-clsp/ettin-pretraining-data.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "CC_News",
+            "HF Config License": "",
+            "HF Dataset": "jhu-clsp/ettin-pretraining-data",
+            "HF Date": "2024-10-04",
+            "HF Downloads (September 2026)": 291005,
+            "HF Likes (September 2026)": 10,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        }
+    },
+    "ettin-pretraining-data-Wikipedia": {
+        "Unique Dataset Identifier": "ettin-pretraining-data-Wikipedia",
+        "Dataset Name": "jhu-clsp/ettin-pretraining-data-Wikipedia",
+        "Paper Title": "Seq vs Seq: An Open Suite of Paired Encoders and Decoders",
+        "Dataset URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "GitHub URL": "https://github.com/jhu-clsp/ettin-encoder-vs-decoder",
+        "Hugging Face URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2507.11412",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "ettin-pretraining-data",
+        "Collection URL": "https://huggingface.co/datasets/jhu-clsp/ettin-pretraining-data",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation",
+            "Language Modeling",
+            "Text Classification"
+        ],
+        "Text Sources": [
+            "Encyclopedias"
+        ],
+        "Model Generated": [],
+        "Format": [],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Wikipedia"
+        ],
+        "Creators": [
+            "jhu-clsp"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "Wikipedia"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 291005,
+            "Crawled Likes": 10,
+            "Created At": "2024-10-04",
+            "Last Modified": "2025-07-18",
+            "Size Category": "",
+            "Description": "Ettin Pre-training Data\n\t\n\n\n\n\n\n\nPhase 1 of 3: Diverse pre-training data mixture (1.7T tokens) used to train the Ettin model suite.\n\nThis dataset contains the pre-training phase data used to train all Ettin encoder and decoder models. The data is provided in MDS format ready for use with Composer and the ModernBERT training repository.\n\n\t\n\t\t\n\t\t📊 Data Composition\n\t\n\n\n\t\n\t\t\nData Source\nTokens (B)\nPercentage\nDescription\n\n\n\t\t\nDCLM\n837.2\n49.1%\nHigh-quality web crawl data\n\n\nCC Head\n356.6… See the full description on the dataset page: https://hf-mirror.com/datasets/jhu-clsp/ettin-pretraining-data.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "Wikipedia",
+            "HF Config License": "",
+            "HF Dataset": "jhu-clsp/ettin-pretraining-data",
+            "HF Date": "2024-10-04",
+            "HF Downloads (September 2026)": 291005,
+            "HF Likes (September 2026)": 10,
+            "HF Yaml License": [
+                "MIT"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        }
+    }
+}

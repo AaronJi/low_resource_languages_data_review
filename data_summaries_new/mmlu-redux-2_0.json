@@ -1,0 +1,4790 @@
+{
+  "mmlu-redux-2_0-abstract_algebra": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-abstract_algebra",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-abstract_algebra",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "abstract_algebra"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "abstract_algebra",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 123.77,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 243,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 41,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-anatomy": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-anatomy",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-anatomy",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "anatomy"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "anatomy",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 79.94,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 262,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 11,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-astronomy": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-astronomy",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-astronomy",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "astronomy"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "astronomy",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 86.68,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 261,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 20,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-business_ethics": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-business_ethics",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-business_ethics",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "business_ethics"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "business_ethics",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 157.69,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 421,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 17,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-clinical_knowledge": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-clinical_knowledge",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-clinical_knowledge",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "clinical_knowledge"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "clinical_knowledge",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 63.07,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 157,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 17,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-college_biology": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-college_biology",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-college_biology",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "college_biology"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "college_biology",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 143.94,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 434,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 37,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-college_chemistry": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-college_chemistry",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-college_chemistry",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "college_chemistry"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "college_chemistry",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 131.33,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 425,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 37,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-college_computer_science": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-college_computer_science",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-college_computer_science",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "college_computer_science"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "college_computer_science",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 288.5,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 1064,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 33,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-college_mathematics": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-college_mathematics",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-college_mathematics",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "college_mathematics"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "college_mathematics",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 167.04,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 421,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 10,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-college_medicine": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-college_medicine",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-college_medicine",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "college_medicine"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "college_medicine",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 297.88,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 4671,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 14,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-college_physics": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-college_physics",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-college_physics",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "college_physics"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "college_physics",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 196.94,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 438,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 50,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-computer_security": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-computer_security",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-computer_security",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "computer_security"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "computer_security",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 118.21,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 603,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 13,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-conceptual_physics": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-conceptual_physics",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-conceptual_physics",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "conceptual_physics"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "conceptual_physics",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 71.69,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 184,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 16,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-econometrics": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-econometrics",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-econometrics",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "econometrics"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "econometrics",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 200.2,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 711,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 22,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-electrical_engineering": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-electrical_engineering",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-electrical_engineering",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "electrical_engineering"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "electrical_engineering",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 73.68,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 226,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 13,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-elementary_mathematics": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-elementary_mathematics",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-elementary_mathematics",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "elementary_mathematics"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "elementary_mathematics",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 117.83,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 274,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 16,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-formal_logic": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-formal_logic",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-formal_logic",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "formal_logic"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "formal_logic",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 206.14,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 603,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 67,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-global_facts": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-global_facts",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-global_facts",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "global_facts"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "global_facts",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 112.23,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 397,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 34,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_biology": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_biology",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_biology",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_biology"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_biology",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 156.56,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 454,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 43,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_chemistry": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_chemistry",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_chemistry",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_chemistry"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_chemistry",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 140.13,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 580,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 21,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_computer_science": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_computer_science",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_computer_science",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_computer_science"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_computer_science",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 223.41,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 1068,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 36,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_european_history": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_european_history",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_european_history",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_european_history"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_european_history",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 1380.1,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 2593,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 470,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_geography": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_geography",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_geography",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_geography"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_geography",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 86.09,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 226,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 17,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_government_and_politics": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_government_and_politics",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_government_and_politics",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_government_and_politics"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_government_and_politics",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 96.13,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 399,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 40,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_macroeconomics": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_macroeconomics",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_macroeconomics",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_macroeconomics"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_macroeconomics",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 96.58,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 332,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 9,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_mathematics": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_mathematics",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_mathematics",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_mathematics"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_mathematics",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 150.41,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 589,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 26,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_microeconomics": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_microeconomics",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_microeconomics",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_microeconomics"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_microeconomics",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 92.04,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 339,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 14,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_physics": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_physics",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_physics",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_physics"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_physics",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 208.29,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 534,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 49,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_psychology": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_psychology",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_psychology",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_psychology"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_psychology",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 130.8,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 484,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 29,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_statistics": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_statistics",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_statistics",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_statistics"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_statistics",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 256.9,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 631,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 32,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_us_history": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_us_history",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_us_history",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_us_history"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_us_history",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 1177.76,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 2016,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 400,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-high_school_world_history": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-high_school_world_history",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-high_school_world_history",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "high_school_world_history"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "high_school_world_history",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 1306.35,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 3517,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 403,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-human_aging": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-human_aging",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-human_aging",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "human_aging"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "human_aging",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 80.44,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 211,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 8,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-human_sexuality": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-human_sexuality",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-human_sexuality",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "human_sexuality"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "human_sexuality",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 106.62,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 370,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 18,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-international_law": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-international_law",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-international_law",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "international_law"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "international_law",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 68.6,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 192,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 15,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-jurisprudence": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-jurisprudence",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-jurisprudence",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "jurisprudence"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "jurisprudence",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 107.86,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 317,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 32,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-logical_fallacies": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-logical_fallacies",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-logical_fallacies",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "logical_fallacies"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "logical_fallacies",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 108.0,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 596,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 21,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-machine_learning": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-machine_learning",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-machine_learning",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "machine_learning"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "machine_learning",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 177.97,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 544,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 16,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-management": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-management",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-management",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "management"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "management",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 69.37,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 150,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 19,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-marketing": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-marketing",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-marketing",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "marketing"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "marketing",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 144.1,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 388,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 31,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-medical_genetics": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-medical_genetics",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-medical_genetics",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "medical_genetics"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "medical_genetics",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 80.2,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 303,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 18,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-miscellaneous": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-miscellaneous",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-miscellaneous",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "miscellaneous"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "miscellaneous",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 79.44,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 619,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 21,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-moral_disputes": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-moral_disputes",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-moral_disputes",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "moral_disputes"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "moral_disputes",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 105.89,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 310,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 20,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-moral_scenarios": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-moral_scenarios",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-moral_scenarios",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "moral_scenarios"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "moral_scenarios",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 318.62,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 465,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 261,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-nutrition": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-nutrition",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-nutrition",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "nutrition"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "nutrition",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 86.6,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 402,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 15,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-philosophy": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-philosophy",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-philosophy",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "philosophy"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "philosophy",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 81.18,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 323,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 19,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-prehistory": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-prehistory",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-prehistory",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "prehistory"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "prehistory",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 93.29,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 249,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 13,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-professional_accounting": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-professional_accounting",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-professional_accounting",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "professional_accounting"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "professional_accounting",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 235.34,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 619,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 35,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-professional_law": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-professional_law",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-professional_law",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "professional_law"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "professional_law",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 774.11,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 2336,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 62,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-professional_medicine": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-professional_medicine",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-professional_medicine",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "professional_medicine"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "professional_medicine",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 655.29,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 1318,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 285,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-professional_psychology": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-professional_psychology",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-professional_psychology",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "professional_psychology"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "professional_psychology",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 149.25,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 600,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 25,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-public_relations": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-public_relations",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-public_relations",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "public_relations"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "public_relations",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 134.96,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 565,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 24,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-security_studies": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-security_studies",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-security_studies",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "security_studies"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "security_studies",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 90.29,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 232,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 18,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-sociology": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-sociology",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-sociology",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "sociology"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "sociology",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 79.91,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 532,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 15,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-us_foreign_policy": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-us_foreign_policy",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-us_foreign_policy",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "us_foreign_policy"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "us_foreign_policy",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 81.38,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 173,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 25,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-virology": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-virology",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-virology",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "virology"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "virology",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 99.51,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 833,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 17,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "mmlu-redux-2_0-world_religions": {
+    "Unique Dataset Identifier": "mmlu-redux-2_0-world_religions",
+    "Dataset Name": "edinburgh-dawg/mmlu-redux-2.0-world_religions",
+    "Paper Title": "Are We Done with MMLU?",
+    "Dataset URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "GitHub URL": "https://github.com/aryopg/mmlu-redux",
+    "Hugging Face URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2406.04127",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "mmlu-redux-2_0",
+    "Collection URL": "https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux-2.0",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [
+      "MMLU"
+    ],
+    "Creators": [
+      "edinburgh-dawg"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "world_religions"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 50852,
+      "Crawled Likes": 38,
+      "Created At": "2024-08-17",
+      "Last Modified": "2025-02-25",
+      "Size Category": "1K<n<10K",
+      "Description": "Dataset Card for MMLU-Redux-2.0\n\t\n\n\n\nMMLU-Redux is a subset of 5,700 manually re-annotated questions across 57 MMLU subjects. \n\n\t\n\t\t\n\t\tNews\n\t\n\n\n[2025.02.25] We corrected one annotation in Abstract Algebra subset, as noted in the Issue #2.\n[2025.02.08] We corrected one annotation in High School Mathematics subset, as noted in the PlatinumBench paper.\n[2025.01.23] MMLU-Redux is accepted to NAACL 2025!\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Details\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Description\n\t\n\n\n\nEach data point in… See the full description on the dataset page: https://hf-mirror.com/datasets/edinburgh-dawg/mmlu-redux-2.0.",
+      "Crawler Notes": "原文34418字符，超出Excel上限已截断",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "world_religions",
+      "HF Config License": "",
+      "HF Dataset": "edinburgh-dawg/mmlu-redux-2.0",
+      "HF Date": "2024-08-17",
+      "HF Downloads (September 2026)": 50852,
+      "HF Likes (September 2026)": 38,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 62.65,
+      "Mean Targets Length": 1.0,
+      "Max Inputs Length": 111,
+      "Max Targets Length": 1,
+      "Min Inputs Length": 16,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  }
+}

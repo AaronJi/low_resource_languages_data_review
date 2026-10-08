@@ -1,0 +1,90 @@
+{
+    "OpenCodeInstruct": {
+        "Unique Dataset Identifier": "OpenCodeInstruct",
+        "Dataset Name": "nvidia/OpenCodeInstruct",
+        "Paper Title": "OpenCodeInstruct: A Large-scale Instruction Tuning Dataset for Code LLMs",
+        "Dataset URL": "https://huggingface.co/datasets/nvidia/OpenCodeInstruct",
+        "GitHub URL": "https://github.com/NVIDIA/NeMo-Skills",
+        "Hugging Face URL": "https://huggingface.co/datasets/nvidia/OpenCodeInstruct",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2504.04030",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "OpenCodeInstruct",
+        "Collection URL": "https://huggingface.co/datasets/nvidia/OpenCodeInstruct",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "Code",
+            "ML Datasets"
+        ],
+        "Model Generated": [
+            "LLaMA",
+            "Qwen"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "TACO",
+            "GitHub"
+        ],
+        "Creators": [
+            "nvidia"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "default"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 39202,
+            "Crawled Likes": 109,
+            "Created At": "2025-04-09",
+            "Last Modified": "2025-04-28",
+            "Size Category": "1M<n<10M",
+            "Description": "OpenCodeInstruct: A Large-scale Instruction Tuning Dataset for Code LLMs\n\t\n\n\n\t\n\t\t\n\t\tDataset Description\n\t\n\nWe introduce OpenCodeInstruct, the largest open-access instruction tuning dataset, comprising 5 million diverse samples. OpenCodeInstruct is designed for supervised fine-tuning (SFT).\n\nTechnical Report - Discover the methodology and technical details behind OpenCodeInstruct.\nGithub Repo - Access the complete pipeline used to perform SFT.\n\nThis dataset is ready for… See the full description on the dataset page: https://hf-mirror.com/datasets/nvidia/OpenCodeInstruct.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "nvidia/OpenCodeInstruct",
+            "HF Date": "2025-04-09",
+            "HF Downloads (September 2026)": 39202,
+            "HF Likes (September 2026)": 109,
+            "HF Yaml License": [
+                "CC BY 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 730.94,
+            "Mean Targets Length": 818.65,
+            "Max Inputs Length": 1453,
+            "Max Targets Length": 2633,
+            "Min Inputs Length": 367,
+            "Min Targets Length": 259,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    }
+}

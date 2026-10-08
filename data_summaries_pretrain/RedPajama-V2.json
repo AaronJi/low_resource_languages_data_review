@@ -1,0 +1,1267 @@
+{
+  "RedPajama-V2-deu": {
+    "Unique Dataset Identifier": "RedPajama-V2-deu",
+    "Dataset Name": "RedPajama-V2-deu",
+    "Collection": "RedPajama-V2",
+    "Languages": [
+      "deu"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+    "Hugging Face URL": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+    "GitHub URL": "https://github.com/togethercomputer/RedPajama-Data",
+    "Paper URL": "https://proceedings.nips.cc/paper_files/paper/2024/hash/d34497330b1fd6530f7afd86d0df9f76-Abstract-Datasets_and_Benchmarks_Track.html",
+    "Official Dataset Identifiers": [
+      "togethercomputer/RedPajama-Data-V2"
+    ],
+    "Dataset Filter IDs": [
+      "de/head",
+      "de/middle",
+      "de/tail"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "de/head",
+        "Part": "head",
+        "Original Language Identifier": "de",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      },
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "de/middle",
+        "Part": "middle",
+        "Original Language Identifier": "de",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      },
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "de/tail",
+        "Part": "tail",
+        "Original Language Identifier": "de",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "deu"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 8600000000,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_rounded_total",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "togethercomputer/RedPajama-Data-V2",
+            "Config": "de/head_middle",
+            "Split": "documents",
+            "Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+            "Text Fields": [
+              "raw_content"
+            ],
+            "Sampling Files": [
+              "https://data.together.xyz/redpajama-data-v2/v1.0.0/listings/de-2019-04-head_middle.txt"
+            ],
+            "Available Files": 84,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "One deterministic snapshot listing and its first released document shard; head and middle are combined because the official release listing is head_middle.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 2700000000,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+            "Conversion Factors": {
+              "r_byte": 0.8496245960843946,
+              "r_doc": 2145.54,
+              "r_sent": 76.79098067287043,
+              "r_word": 6.448485212791536
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": [],
+            "Published Document Total Precision": "nearest 0.1 billion; ±50 million document rounding envelope"
+          },
+          {
+            "Dataset": "togethercomputer/RedPajama-Data-V2",
+            "Config": "de/tail",
+            "Split": "documents",
+            "Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+            "Text Fields": [
+              "raw_content"
+            ],
+            "Sampling Files": [
+              "https://data.together.xyz/redpajama-data-v2/v1.0.0/listings/de-2019-04-tail.txt"
+            ],
+            "Available Files": 84,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "One deterministic snapshot listing and its first released document shard; head and middle are combined because the official release listing is head_middle.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 5900000000,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+            "Conversion Factors": {
+              "r_byte": 0.8400936845814247,
+              "r_doc": 1621.28,
+              "r_sent": 38.43717401612138,
+              "r_word": 5.670000699447437
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": [],
+            "Published Document Total Precision": "nearest 0.1 billion; ±50 million document rounding envelope"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8454960091220068,
+          "r_doc": 1883.41,
+          "r_sent": 53.719623502567025
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all released RedPajama-V2 de head_middle and tail partitions",
+        "Elapsed Seconds": 12.29,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T13:54:30.071219+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Denominator Source": "https://arxiv.org/pdf/2411.12372 (Table 3, raw partition columns)",
+        "Denominator Rounding Envelope": "±50 million documents separately for each of head_middle and tail",
+        "Uncertainty Note": "Within-stratum record bootstrap expanded by a conservative paper-total rounding envelope; excludes selected-snapshot/shard and within-shard order bias.",
+        "Future Improvement": "Count exact raw documents across the pinned released head_middle and tail listings, then recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "togethercomputer/RedPajama-Data-V2",
+          "Config": "de/head_middle",
+          "Split": "documents",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 2700000000,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one raw CCNet document record",
+            "documents_note": "Paper Table 3 raw-document count rounded to 0.1 billion; not the deduplicated column"
+          },
+          "Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        },
+        {
+          "Dataset": "togethercomputer/RedPajama-Data-V2",
+          "Config": "de/tail",
+          "Split": "documents",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 5900000000,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one raw CCNet document record",
+            "documents_note": "Paper Table 3 raw-document count rounded to 0.1 billion; not the deduplicated column"
+          },
+          "Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 15358510000000.0,
+      "Num Unicode Characters 95% LB": 11360149250000.0,
+      "Num Unicode Characters 95% UB": 19755453900000.0,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 3506,
+      "Num Bytes Sampled": 222758,
+      "Num WhiteSpaces Sampled": 30933,
+      "Num Unicode Characters Sampled": 188341
+    }
+  },
+  "RedPajama-V2-eng": {
+    "Unique Dataset Identifier": "RedPajama-V2-eng",
+    "Dataset Name": "RedPajama-V2-eng",
+    "Collection": "RedPajama-V2",
+    "Languages": [
+      "eng"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+    "Hugging Face URL": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+    "GitHub URL": "https://github.com/togethercomputer/RedPajama-Data",
+    "Paper URL": "https://proceedings.nips.cc/paper_files/paper/2024/hash/d34497330b1fd6530f7afd86d0df9f76-Abstract-Datasets_and_Benchmarks_Track.html",
+    "Official Dataset Identifiers": [
+      "togethercomputer/RedPajama-Data-V2"
+    ],
+    "Dataset Filter IDs": [
+      "en/head",
+      "en/middle",
+      "en/tail"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "en/head",
+        "Part": "head",
+        "Original Language Identifier": "en",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      },
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "en/middle",
+        "Part": "middle",
+        "Original Language Identifier": "en",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      },
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "en/tail",
+        "Part": "tail",
+        "Original Language Identifier": "en",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "eng"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 87500000000,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_rounded_total",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "togethercomputer/RedPajama-Data-V2",
+            "Config": "en/head_middle",
+            "Split": "documents",
+            "Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+            "Text Fields": [
+              "raw_content"
+            ],
+            "Sampling Files": [
+              "https://data.together.xyz/redpajama-data-v2/v1.0.0/listings/en-2021-10-head_middle.txt"
+            ],
+            "Available Files": 84,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic snapshot listing and its first released document shard; head and middle are combined because the official release listing is head_middle.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 24500000000,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+            "Conversion Factors": {
+              "r_byte": 0.8290386761779978,
+              "r_doc": 5125.2,
+              "r_sent": 53.33194588969823,
+              "r_word": 5.264823108846612
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": [],
+            "Published Document Total Precision": "nearest 0.1 billion; ±50 million document rounding envelope"
+          },
+          {
+            "Dataset": "togethercomputer/RedPajama-Data-V2",
+            "Config": "en/tail",
+            "Split": "documents",
+            "Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+            "Text Fields": [
+              "raw_content"
+            ],
+            "Sampling Files": [
+              "https://data.together.xyz/redpajama-data-v2/v1.0.0/listings/en-2021-43-tail.txt"
+            ],
+            "Available Files": 84,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic snapshot listing and its first released document shard; head and middle are combined because the official release listing is head_middle.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 63000000000,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+            "Conversion Factors": {
+              "r_byte": 0.8343324448972538,
+              "r_doc": 3668.76,
+              "r_sent": 50.215713112510265,
+              "r_word": 5.1941896024464835
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": [],
+            "Published Document Total Precision": "nearest 0.1 billion; ±50 million document rounding envelope"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.831238999786376,
+          "r_doc": 4396.98,
+          "r_sent": 51.98604871127926
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all released RedPajama-V2 en head_middle and tail partitions",
+        "Elapsed Seconds": 21.5,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T15:24:24.007512+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Read Recovery": "Reused prior 100 per-record count vectors after verifying exact source file URLs and revision; remote reread timed out.",
+        "Read Recovery Cache": "/Users/aaron/Projects/low-resource-language-review/research/text_metrics/results/efaa42f5ad6f866f272f0bf82040adf1a8494ae949ac1714f334c0cb7d1dbb84.json",
+        "Denominator Source": "https://arxiv.org/pdf/2411.12372 (Table 3, raw partition columns)",
+        "Denominator Rounding Envelope": "±50 million documents separately for each of head_middle and tail",
+        "Uncertainty Note": "Within-stratum record bootstrap expanded by a conservative paper-total rounding envelope; excludes selected-snapshot/shard and within-shard order bias.",
+        "Future Improvement": "Count exact raw documents across the pinned released head_middle and tail listings, then recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "togethercomputer/RedPajama-Data-V2",
+          "Config": "en/head_middle",
+          "Split": "documents",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 24500000000,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one raw CCNet document record",
+            "documents_note": "Paper Table 3 raw-document count rounded to 0.1 billion; not the deduplicated column"
+          },
+          "Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        },
+        {
+          "Dataset": "togethercomputer/RedPajama-Data-V2",
+          "Config": "en/tail",
+          "Split": "documents",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 63000000000,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one raw CCNet document record",
+            "documents_note": "Paper Table 3 raw-document count rounded to 0.1 billion; not the deduplicated column"
+          },
+          "Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 356699280000000.0,
+      "Num Unicode Characters 95% LB": 256535214250000.0,
+      "Num Unicode Characters 95% UB": 482880056750000.0,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 8458,
+      "Num Bytes Sampled": 528967,
+      "Num WhiteSpaces Sampled": 83990,
+      "Num Unicode Characters Sampled": 439698
+    }
+  },
+  "RedPajama-V2-fra": {
+    "Unique Dataset Identifier": "RedPajama-V2-fra",
+    "Dataset Name": "RedPajama-V2-fra",
+    "Collection": "RedPajama-V2",
+    "Languages": [
+      "fra"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+    "Hugging Face URL": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+    "GitHub URL": "https://github.com/togethercomputer/RedPajama-Data",
+    "Paper URL": "https://proceedings.nips.cc/paper_files/paper/2024/hash/d34497330b1fd6530f7afd86d0df9f76-Abstract-Datasets_and_Benchmarks_Track.html",
+    "Official Dataset Identifiers": [
+      "togethercomputer/RedPajama-Data-V2"
+    ],
+    "Dataset Filter IDs": [
+      "fr/head",
+      "fr/middle",
+      "fr/tail"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "fr/head",
+        "Part": "head",
+        "Original Language Identifier": "fr",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      },
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "fr/middle",
+        "Part": "middle",
+        "Original Language Identifier": "fr",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      },
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "fr/tail",
+        "Part": "tail",
+        "Original Language Identifier": "fr",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "fra"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 6700000000,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_rounded_total",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "togethercomputer/RedPajama-Data-V2",
+            "Config": "fr/head_middle",
+            "Split": "documents",
+            "Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+            "Text Fields": [
+              "raw_content"
+            ],
+            "Sampling Files": [
+              "https://data.together.xyz/redpajama-data-v2/v1.0.0/listings/fr-2020-24-head_middle.txt"
+            ],
+            "Available Files": 84,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic snapshot listing and its first released document shard; head and middle are combined because the official release listing is head_middle.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 2200000000,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+            "Conversion Factors": {
+              "r_byte": 0.805460277494759,
+              "r_doc": 3019.88,
+              "r_sent": 92.06951219512194,
+              "r_word": 5.375556267578055
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": [],
+            "Published Document Total Precision": "nearest 0.1 billion; ±50 million document rounding envelope"
+          },
+          {
+            "Dataset": "togethercomputer/RedPajama-Data-V2",
+            "Config": "fr/tail",
+            "Split": "documents",
+            "Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+            "Text Fields": [
+              "raw_content"
+            ],
+            "Sampling Files": [
+              "https://data.together.xyz/redpajama-data-v2/v1.0.0/listings/fr-2020-40-tail.txt"
+            ],
+            "Available Files": 84,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic snapshot listing and its first released document shard; head and middle are combined because the official release listing is head_middle.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 4500000000,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+            "Conversion Factors": {
+              "r_byte": 0.8073957143816752,
+              "r_doc": 2403.94,
+              "r_sent": 61.45040899795501,
+              "r_word": 5.041820469798657
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": [],
+            "Published Document Total Precision": "nearest 0.1 billion; ±50 million document rounding envelope"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8063169537333535,
+          "r_doc": 2711.91,
+          "r_sent": 75.41462736373748
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all released RedPajama-V2 fr head_middle and tail partitions",
+        "Elapsed Seconds": 43.24,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T15:27:10.327527+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Read Recovery": "Reused prior 100 per-record count vectors after verifying exact source file URLs and revision; remote reread timed out.",
+        "Read Recovery Cache": "/Users/aaron/Projects/low-resource-language-review/research/text_metrics/results/b8a305fc4ca3e0a5157796697acc2fde5d05b2cb0858d6a98f44a8145c05003c.json",
+        "Denominator Source": "https://arxiv.org/pdf/2411.12372 (Table 3, raw partition columns)",
+        "Denominator Rounding Envelope": "±50 million documents separately for each of head_middle and tail",
+        "Uncertainty Note": "Within-stratum record bootstrap expanded by a conservative paper-total rounding envelope; excludes selected-snapshot/shard and within-shard order bias.",
+        "Future Improvement": "Count exact raw documents across the pinned released head_middle and tail listings, then recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "togethercomputer/RedPajama-Data-V2",
+          "Config": "fr/head_middle",
+          "Split": "documents",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 2200000000,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one raw CCNet document record",
+            "documents_note": "Paper Table 3 raw-document count rounded to 0.1 billion; not the deduplicated column"
+          },
+          "Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        },
+        {
+          "Dataset": "togethercomputer/RedPajama-Data-V2",
+          "Config": "fr/tail",
+          "Split": "documents",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 4500000000,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one raw CCNet document record",
+            "documents_note": "Paper Table 3 raw-document count rounded to 0.1 billion; not the deduplicated column"
+          },
+          "Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 17461466000000.0,
+      "Num Unicode Characters 95% LB": 12762099700000.0,
+      "Num Unicode Characters 95% UB": 22907347949999.996,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 3596,
+      "Num Bytes Sampled": 336333,
+      "Num WhiteSpaces Sampled": 51929,
+      "Num Unicode Characters Sampled": 271191
+    }
+  },
+  "RedPajama-V2-ita": {
+    "Unique Dataset Identifier": "RedPajama-V2-ita",
+    "Dataset Name": "RedPajama-V2-ita",
+    "Collection": "RedPajama-V2",
+    "Languages": [
+      "ita"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+    "Hugging Face URL": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+    "GitHub URL": "https://github.com/togethercomputer/RedPajama-Data",
+    "Paper URL": "https://proceedings.nips.cc/paper_files/paper/2024/hash/d34497330b1fd6530f7afd86d0df9f76-Abstract-Datasets_and_Benchmarks_Track.html",
+    "Official Dataset Identifiers": [
+      "togethercomputer/RedPajama-Data-V2"
+    ],
+    "Dataset Filter IDs": [
+      "it/head",
+      "it/middle",
+      "it/tail"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "it/head",
+        "Part": "head",
+        "Original Language Identifier": "it",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      },
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "it/middle",
+        "Part": "middle",
+        "Original Language Identifier": "it",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      },
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "it/tail",
+        "Part": "tail",
+        "Original Language Identifier": "it",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "ita"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 3600000000,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_rounded_total",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "togethercomputer/RedPajama-Data-V2",
+            "Config": "it/head_middle",
+            "Split": "documents",
+            "Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+            "Text Fields": [
+              "raw_content"
+            ],
+            "Sampling Files": [
+              "https://data.together.xyz/redpajama-data-v2/v1.0.0/listings/it-2020-29-head_middle.txt"
+            ],
+            "Available Files": 84,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic snapshot listing and its first released document shard; head and middle are combined because the official release listing is head_middle.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 1200000000,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+            "Conversion Factors": {
+              "r_byte": 0.8370625242592832,
+              "r_doc": 4140.58,
+              "r_sent": 85.9398090493981,
+              "r_word": 5.6417320688903425
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": [],
+            "Published Document Total Precision": "nearest 0.1 billion; ±50 million document rounding envelope"
+          },
+          {
+            "Dataset": "togethercomputer/RedPajama-Data-V2",
+            "Config": "it/tail",
+            "Split": "documents",
+            "Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+            "Text Fields": [
+              "raw_content"
+            ],
+            "Sampling Files": [
+              "https://data.together.xyz/redpajama-data-v2/v1.0.0/listings/it-2023-06-tail.txt"
+            ],
+            "Available Files": 84,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic snapshot listing and its first released document shard; head and middle are combined because the official release listing is head_middle.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 2400000000,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+            "Conversion Factors": {
+              "r_byte": 0.8400388625756866,
+              "r_doc": 968.38,
+              "r_sent": 39.91673536685903,
+              "r_word": 5.610544611819235
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": [],
+            "Published Document Total Precision": "nearest 0.1 billion; ±50 million document rounding envelope"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.837625054514095,
+          "r_doc": 2554.48,
+          "r_sent": 70.52678078409718
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all released RedPajama-V2 it head_middle and tail partitions",
+        "Elapsed Seconds": 20.52,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T15:27:05.468859+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Read Recovery": "Reused prior 100 per-record count vectors after verifying exact source file URLs and revision; remote reread timed out.",
+        "Read Recovery Cache": "/Users/aaron/Projects/low-resource-language-review/research/text_metrics/results/bd719a694a4c3aba943613aa955284f69c7f1c0ca3a34d7c192993981ddf6464.json",
+        "Denominator Source": "https://arxiv.org/pdf/2411.12372 (Table 3, raw partition columns)",
+        "Denominator Rounding Envelope": "±50 million documents separately for each of head_middle and tail",
+        "Uncertainty Note": "Within-stratum record bootstrap expanded by a conservative paper-total rounding envelope; excludes selected-snapshot/shard and within-shard order bias.",
+        "Future Improvement": "Count exact raw documents across the pinned released head_middle and tail listings, then recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "togethercomputer/RedPajama-Data-V2",
+          "Config": "it/head_middle",
+          "Split": "documents",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 1200000000,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one raw CCNet document record",
+            "documents_note": "Paper Table 3 raw-document count rounded to 0.1 billion; not the deduplicated column"
+          },
+          "Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        },
+        {
+          "Dataset": "togethercomputer/RedPajama-Data-V2",
+          "Config": "it/tail",
+          "Split": "documents",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 2400000000,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one raw CCNet document record",
+            "documents_note": "Paper Table 3 raw-document count rounded to 0.1 billion; not the deduplicated column"
+          },
+          "Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 7292808000000.0,
+      "Num Unicode Characters 95% LB": 5600607200000.0,
+      "Num Unicode Characters 95% UB": 9183207999999.998,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 3622,
+      "Num Bytes Sampled": 304967,
+      "Num WhiteSpaces Sampled": 45326,
+      "Num Unicode Characters Sampled": 255448
+    }
+  },
+  "RedPajama-V2-spa": {
+    "Unique Dataset Identifier": "RedPajama-V2-spa",
+    "Dataset Name": "RedPajama-V2-spa",
+    "Collection": "RedPajama-V2",
+    "Languages": [
+      "spa"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+    "Hugging Face URL": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+    "GitHub URL": "https://github.com/togethercomputer/RedPajama-Data",
+    "Paper URL": "https://proceedings.nips.cc/paper_files/paper/2024/hash/d34497330b1fd6530f7afd86d0df9f76-Abstract-Datasets_and_Benchmarks_Track.html",
+    "Official Dataset Identifiers": [
+      "togethercomputer/RedPajama-Data-V2"
+    ],
+    "Dataset Filter IDs": [
+      "es/head",
+      "es/middle",
+      "es/tail"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "es/head",
+        "Part": "head",
+        "Original Language Identifier": "es",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      },
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "es/middle",
+        "Part": "middle",
+        "Original Language Identifier": "es",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      },
+      {
+        "Official Dataset Identifier": "togethercomputer/RedPajama-Data-V2",
+        "Official Subset": "es/tail",
+        "Part": "tail",
+        "Original Language Identifier": "es",
+        "Version": "",
+        "Repository Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        ],
+        "Notes": "官方 CCNet 质量 bucket；与网页来源类别是两个不同维度。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "spa"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 7000000000,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_rounded_total",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "togethercomputer/RedPajama-Data-V2",
+            "Config": "es/head_middle",
+            "Split": "documents",
+            "Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+            "Text Fields": [
+              "raw_content"
+            ],
+            "Sampling Files": [
+              "https://data.together.xyz/redpajama-data-v2/v1.0.0/listings/es-2018-39-head_middle.txt"
+            ],
+            "Available Files": 84,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "One deterministic snapshot listing and its first released document shard; head and middle are combined because the official release listing is head_middle.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 2300000000,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+            "Conversion Factors": {
+              "r_byte": 0.818830160464715,
+              "r_doc": 4840.58,
+              "r_sent": 114.65135007105637,
+              "r_word": 5.09953435452266
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": [],
+            "Published Document Total Precision": "nearest 0.1 billion; ±50 million document rounding envelope"
+          },
+          {
+            "Dataset": "togethercomputer/RedPajama-Data-V2",
+            "Config": "es/tail",
+            "Split": "documents",
+            "Revision": "aa033f6b6480c445557e9118283993403f069f6a",
+            "Text Fields": [
+              "raw_content"
+            ],
+            "Sampling Files": [
+              "https://data.together.xyz/redpajama-data-v2/v1.0.0/listings/es-2014-42-tail.txt"
+            ],
+            "Available Files": 84,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "One deterministic snapshot listing and its first released document shard; head and middle are combined because the official release listing is head_middle.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 4700000000,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+            "Conversion Factors": {
+              "r_byte": 0.8237356413865174,
+              "r_doc": 1954.84,
+              "r_sent": 36.98146046159667,
+              "r_word": 5.2913598960589
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": [],
+            "Published Document Total Precision": "nearest 0.1 billion; ±50 million document rounding envelope"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.820235324790699,
+          "r_doc": 3397.71,
+          "r_sent": 71.47055111485065
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all released RedPajama-V2 es head_middle and tail partitions",
+        "Elapsed Seconds": 11.98,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T13:56:20.539015+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Denominator Source": "https://arxiv.org/pdf/2411.12372 (Table 3, raw partition columns)",
+        "Denominator Rounding Envelope": "±50 million documents separately for each of head_middle and tail",
+        "Uncertainty Note": "Within-stratum record bootstrap expanded by a conservative paper-total rounding envelope; excludes selected-snapshot/shard and within-shard order bias.",
+        "Future Improvement": "Count exact raw documents across the pinned released head_middle and tail listings, then recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "togethercomputer/RedPajama-Data-V2",
+          "Config": "es/head_middle",
+          "Split": "documents",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 2300000000,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one raw CCNet document record",
+            "documents_note": "Paper Table 3 raw-document count rounded to 0.1 billion; not the deduplicated column"
+          },
+          "Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        },
+        {
+          "Dataset": "togethercomputer/RedPajama-Data-V2",
+          "Config": "es/tail",
+          "Split": "documents",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 4700000000,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one raw CCNet document record",
+            "documents_note": "Paper Table 3 raw-document count rounded to 0.1 billion; not the deduplicated column"
+          },
+          "Evidence": "https://arxiv.org/pdf/2411.12372 (Table 3); https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 20321082000000.0,
+      "Num Unicode Characters 95% LB": 12792369600000.0,
+      "Num Unicode Characters 95% UB": 32805930749999.98,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 4754,
+      "Num Bytes Sampled": 414236,
+      "Num WhiteSpaces Sampled": 65933,
+      "Num Unicode Characters Sampled": 339771
+    }
+  }
+}

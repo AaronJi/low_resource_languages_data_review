@@ -1,0 +1,2127 @@
+{
+  "CC25-ara": {
+    "Unique Dataset Identifier": "CC25-ara",
+    "Dataset Name": "CC25-ara",
+    "Collection": "CC25",
+    "Languages": [
+      "ara"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "ar"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "ar",
+        "Part": "",
+        "Original Language Identifier": "ar",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "ara"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-ces": {
+    "Unique Dataset Identifier": "CC25-ces",
+    "Dataset Name": "CC25-ces",
+    "Collection": "CC25",
+    "Languages": [
+      "ces"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "cs"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "cs",
+        "Part": "",
+        "Original Language Identifier": "cs",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "ces"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-deu": {
+    "Unique Dataset Identifier": "CC25-deu",
+    "Dataset Name": "CC25-deu",
+    "Collection": "CC25",
+    "Languages": [
+      "deu"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "de"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "de",
+        "Part": "",
+        "Original Language Identifier": "de",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "deu"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-eng": {
+    "Unique Dataset Identifier": "CC25-eng",
+    "Dataset Name": "CC25-eng",
+    "Collection": "CC25",
+    "Languages": [
+      "eng"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "en"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "en",
+        "Part": "",
+        "Original Language Identifier": "en",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "eng"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-est": {
+    "Unique Dataset Identifier": "CC25-est",
+    "Dataset Name": "CC25-est",
+    "Collection": "CC25",
+    "Languages": [
+      "est"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "et"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "et",
+        "Part": "",
+        "Original Language Identifier": "et",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "est"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-fin": {
+    "Unique Dataset Identifier": "CC25-fin",
+    "Dataset Name": "CC25-fin",
+    "Collection": "CC25",
+    "Languages": [
+      "fin"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "fi"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "fi",
+        "Part": "",
+        "Original Language Identifier": "fi",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "fin"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-fra": {
+    "Unique Dataset Identifier": "CC25-fra",
+    "Dataset Name": "CC25-fra",
+    "Collection": "CC25",
+    "Languages": [
+      "fra"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "fr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "fr",
+        "Part": "",
+        "Original Language Identifier": "fr",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "fra"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-guj": {
+    "Unique Dataset Identifier": "CC25-guj",
+    "Dataset Name": "CC25-guj",
+    "Collection": "CC25",
+    "Languages": [
+      "guj"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "gu"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "gu",
+        "Part": "",
+        "Original Language Identifier": "gu",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "guj"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-hin": {
+    "Unique Dataset Identifier": "CC25-hin",
+    "Dataset Name": "CC25-hin",
+    "Collection": "CC25",
+    "Languages": [
+      "hin"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "hi"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "hi",
+        "Part": "",
+        "Original Language Identifier": "hi",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "hin"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-ita": {
+    "Unique Dataset Identifier": "CC25-ita",
+    "Dataset Name": "CC25-ita",
+    "Collection": "CC25",
+    "Languages": [
+      "ita"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "it"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "it",
+        "Part": "",
+        "Original Language Identifier": "it",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "ita"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-jpn": {
+    "Unique Dataset Identifier": "CC25-jpn",
+    "Dataset Name": "CC25-jpn",
+    "Collection": "CC25",
+    "Languages": [
+      "jpn"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "ja"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "ja",
+        "Part": "",
+        "Original Language Identifier": "ja",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "jpn"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-kaz": {
+    "Unique Dataset Identifier": "CC25-kaz",
+    "Dataset Name": "CC25-kaz",
+    "Collection": "CC25",
+    "Languages": [
+      "kaz"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "kk"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "kk",
+        "Part": "",
+        "Original Language Identifier": "kk",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "kaz"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-kor": {
+    "Unique Dataset Identifier": "CC25-kor",
+    "Dataset Name": "CC25-kor",
+    "Collection": "CC25",
+    "Languages": [
+      "kor"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "ko"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "ko",
+        "Part": "",
+        "Original Language Identifier": "ko",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "kor"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-lav": {
+    "Unique Dataset Identifier": "CC25-lav",
+    "Dataset Name": "CC25-lav",
+    "Collection": "CC25",
+    "Languages": [
+      "lav"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "lv"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "lv",
+        "Part": "",
+        "Original Language Identifier": "lv",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "lav"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-lit": {
+    "Unique Dataset Identifier": "CC25-lit",
+    "Dataset Name": "CC25-lit",
+    "Collection": "CC25",
+    "Languages": [
+      "lit"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "lt"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "lt",
+        "Part": "",
+        "Original Language Identifier": "lt",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "lit"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-mya": {
+    "Unique Dataset Identifier": "CC25-mya",
+    "Dataset Name": "CC25-mya",
+    "Collection": "CC25",
+    "Languages": [
+      "mya"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "my"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "my",
+        "Part": "",
+        "Original Language Identifier": "my",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "mya"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-nep": {
+    "Unique Dataset Identifier": "CC25-nep",
+    "Dataset Name": "CC25-nep",
+    "Collection": "CC25",
+    "Languages": [
+      "nep"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "ne"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "ne",
+        "Part": "",
+        "Original Language Identifier": "ne",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "nep"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-nld": {
+    "Unique Dataset Identifier": "CC25-nld",
+    "Dataset Name": "CC25-nld",
+    "Collection": "CC25",
+    "Languages": [
+      "nld"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "nl"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "nl",
+        "Part": "",
+        "Original Language Identifier": "nl",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "nld"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-ron": {
+    "Unique Dataset Identifier": "CC25-ron",
+    "Dataset Name": "CC25-ron",
+    "Collection": "CC25",
+    "Languages": [
+      "ron"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "ro"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "ro",
+        "Part": "",
+        "Original Language Identifier": "ro",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "ron"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-rus": {
+    "Unique Dataset Identifier": "CC25-rus",
+    "Dataset Name": "CC25-rus",
+    "Collection": "CC25",
+    "Languages": [
+      "rus"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "ru"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "ru",
+        "Part": "",
+        "Original Language Identifier": "ru",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "rus"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-sin": {
+    "Unique Dataset Identifier": "CC25-sin",
+    "Dataset Name": "CC25-sin",
+    "Collection": "CC25",
+    "Languages": [
+      "sin"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "si"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "si",
+        "Part": "",
+        "Original Language Identifier": "si",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "sin"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-spa": {
+    "Unique Dataset Identifier": "CC25-spa",
+    "Dataset Name": "CC25-spa",
+    "Collection": "CC25",
+    "Languages": [
+      "spa"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "es"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "es",
+        "Part": "",
+        "Original Language Identifier": "es",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "spa"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-tur": {
+    "Unique Dataset Identifier": "CC25-tur",
+    "Dataset Name": "CC25-tur",
+    "Collection": "CC25",
+    "Languages": [
+      "tur"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "tr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "tr",
+        "Part": "",
+        "Original Language Identifier": "tr",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "tur"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-vie": {
+    "Unique Dataset Identifier": "CC25-vie",
+    "Dataset Name": "CC25-vie",
+    "Collection": "CC25",
+    "Languages": [
+      "vie"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "vi"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "vi",
+        "Part": "",
+        "Original Language Identifier": "vi",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "vie"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "CC25-zho": {
+    "Unique Dataset Identifier": "CC25-zho",
+    "Dataset Name": "CC25-zho",
+    "Collection": "CC25",
+    "Languages": [
+      "zho"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/pytorch/fairseq/tree/master/examples/mbart",
+    "Paper URL": "https://aclanthology.org/2020.tacl-1.47/",
+    "Official Dataset Identifiers": [
+      "CC25"
+    ],
+    "Dataset Filter IDs": [
+      "zh"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CC25",
+        "Official Subset": "zh",
+        "Part": "",
+        "Original Language Identifier": "zh",
+        "Version": "paper Table 1",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2001.08210v2"
+        ],
+        "Notes": ""
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "zho"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "deferred_by_user",
+        "Reason": "User deferred CC25 and CC100-XL processing on 2026-09-29",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  }
+}

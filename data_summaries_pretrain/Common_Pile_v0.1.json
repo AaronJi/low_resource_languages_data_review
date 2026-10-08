@@ -1,0 +1,1979 @@
+{
+  "Common Pile v0.1-c++": {
+    "Unique Dataset Identifier": "Common Pile v0.1-c++",
+    "Dataset Name": "Common Pile v0.1-c++",
+    "Collection": "Common Pile v0.1",
+    "Languages": [
+      "c++"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "Social Media & User-Generated Content"
+    ],
+    "Human Annotation": "",
+    "Data Format": "source code",
+    "Dataset URL": "https://huggingface.co/datasets/common-pile/stackv2",
+    "Hugging Face URL": "https://huggingface.co/datasets/common-pile/stackv2",
+    "GitHub URL": "https://github.com/r-three/common-pile",
+    "Paper URL": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/52acc050138d6f40dad6f12f91a4ce22-Abstract-Datasets_and_Benchmarks_Track.html",
+    "Official Dataset Identifiers": [
+      "common-pile/stackv2"
+    ],
+    "Dataset Filter IDs": [
+      "metadata.language=C++"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "common-pile/stackv2",
+        "Official Subset": "metadata.language=C++",
+        "Part": "stackv2-observed",
+        "Original Language Identifier": "c++",
+        "Version": "v0.1 raw source release (license-filtered)",
+        "Repository Revision": "d0e3266fce12d25de28f2576ffb7272c18b0148f",
+        "Text Sources": [
+          "Social Media & User-Generated Content"
+        ],
+        "Human Annotation": "",
+        "Data Format": "source code",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/stackv2/resolve/main/documents/00381_stackv2.jsonl.gz"
+        ],
+        "Notes": "5 个分片前缀共 50 条文档元数据的有限样本确认此标签；不是随机样本或完整语言清单。对应原始公开来源版，不声称 Comma 训练用 edu/html 过滤版仍包含这些文档。",
+        "Sampling Evidence": {
+          "Cache": "research/pretrain_metadata/stackv2_sample.json",
+          "Matching Shard URLs": [
+            "https://huggingface.co/datasets/common-pile/stackv2/resolve/main/documents/00381_stackv2.jsonl.gz",
+            "https://huggingface.co/datasets/common-pile/stackv2/resolve/main/documents/00763_stackv2.jsonl.gz"
+          ],
+          "Coverage": "observed presence only"
+        }
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "c++"
+      ],
+      "Language Type": "code / markup / structured format",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "sampled_no_compatible_official_total",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "common-pile/stackv2",
+            "Config": "metadata.language=C++",
+            "Split": "observed raw-source shard",
+            "Revision": "d0e3266fce12d25de28f2576ffb7272c18b0148f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/stackv2/resolve/d0e3266fce12d25de28f2576ffb7272c18b0148f/documents/00763_stackv2.jsonl.gz"
+            ],
+            "Available Files": 764,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Language-filtered convenience sample from a pinned raw Stack v2 shard where the label was observed in the official-file pilot; not a verified full Common Pile training-mixture scope.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/stackv2/resolve/main/documents/00381_stackv2.jsonl.gz",
+            "Conversion Factors": {
+              "r_byte": 0.8035538708629749,
+              "r_doc": 5418.42,
+              "r_sent": 23.384489232229942,
+              "r_word": 9.366650532429816
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8035538708629749,
+          "r_doc": 5418.42,
+          "r_sent": 23.384489232229942
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "raw Stack v2 source records with metadata.language=C++ in one observed shard",
+        "Elapsed Seconds": 5.33,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T18:33:45.583704+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 23171,
+      "Num Bytes Sampled": 674307,
+      "Num WhiteSpaces Sampled": 57848,
+      "Num Unicode Characters Sampled": 541842
+    }
+  },
+  "Common Pile v0.1-csv": {
+    "Unique Dataset Identifier": "Common Pile v0.1-csv",
+    "Dataset Name": "Common Pile v0.1-csv",
+    "Collection": "Common Pile v0.1",
+    "Languages": [
+      "csv"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "Social Media & User-Generated Content"
+    ],
+    "Human Annotation": "",
+    "Data Format": "source code",
+    "Dataset URL": "https://huggingface.co/datasets/common-pile/stackv2",
+    "Hugging Face URL": "https://huggingface.co/datasets/common-pile/stackv2",
+    "GitHub URL": "https://github.com/r-three/common-pile",
+    "Paper URL": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/52acc050138d6f40dad6f12f91a4ce22-Abstract-Datasets_and_Benchmarks_Track.html",
+    "Official Dataset Identifiers": [
+      "common-pile/stackv2"
+    ],
+    "Dataset Filter IDs": [
+      "metadata.language=CSV"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "common-pile/stackv2",
+        "Official Subset": "metadata.language=CSV",
+        "Part": "stackv2-observed",
+        "Original Language Identifier": "csv",
+        "Version": "v0.1 raw source release (license-filtered)",
+        "Repository Revision": "d0e3266fce12d25de28f2576ffb7272c18b0148f",
+        "Text Sources": [
+          "Social Media & User-Generated Content"
+        ],
+        "Human Annotation": "",
+        "Data Format": "source code",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/stackv2/resolve/main/documents/00000_stackv2.jsonl.gz"
+        ],
+        "Notes": "5 个分片前缀共 50 条文档元数据的有限样本确认此标签；不是随机样本或完整语言清单。对应原始公开来源版，不声称 Comma 训练用 edu/html 过滤版仍包含这些文档。",
+        "Sampling Evidence": {
+          "Cache": "research/pretrain_metadata/stackv2_sample.json",
+          "Matching Shard URLs": [
+            "https://huggingface.co/datasets/common-pile/stackv2/resolve/main/documents/00000_stackv2.jsonl.gz",
+            "https://huggingface.co/datasets/common-pile/stackv2/resolve/main/documents/00190_stackv2.jsonl.gz",
+            "https://huggingface.co/datasets/common-pile/stackv2/resolve/main/documents/00572_stackv2.jsonl.gz"
+          ],
+          "Coverage": "observed presence only"
+        }
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "csv"
+      ],
+      "Language Type": "code / markup / structured format",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "sampled_no_compatible_official_total",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "common-pile/stackv2",
+            "Config": "metadata.language=CSV",
+            "Split": "observed raw-source shard",
+            "Revision": "d0e3266fce12d25de28f2576ffb7272c18b0148f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/stackv2/resolve/d0e3266fce12d25de28f2576ffb7272c18b0148f/documents/00190_stackv2.jsonl.gz"
+            ],
+            "Available Files": 764,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Language-filtered convenience sample from a pinned raw Stack v2 shard where the label was observed in the official-file pilot; not a verified full Common Pile training-mixture scope.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/stackv2/resolve/main/documents/00000_stackv2.jsonl.gz",
+            "Conversion Factors": {
+              "r_byte": 0.9762229087823129,
+              "r_doc": 271387.86,
+              "r_sent": 12.244329976444176,
+              "r_word": 42.16139806862952
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.9762229087823129,
+          "r_doc": 271387.86,
+          "r_sent": 12.244329976444176
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "raw Stack v2 source records with metadata.language=CSV in one observed shard",
+        "Elapsed Seconds": 11.02,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T18:33:51.269710+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 2216437,
+      "Num Bytes Sampled": 27799784,
+      "Num WhiteSpaces Sampled": 643688,
+      "Num Unicode Characters Sampled": 27138786
+    }
+  },
+  "Common Pile v0.1-eng": {
+    "Unique Dataset Identifier": "Common Pile v0.1-eng",
+    "Dataset Name": "Common Pile v0.1-eng",
+    "Collection": "Common Pile v0.1",
+    "Languages": [
+      "eng"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "Books & Academic",
+      "General Web Scraped",
+      "News websites",
+      "Government Documents",
+      "Multi-Media Entertainment Content",
+      "Other",
+      "Social Media & User-Generated Content"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/common-pile/library_of_congress",
+    "Hugging Face URL": "https://huggingface.co/datasets/common-pile/library_of_congress",
+    "GitHub URL": "https://github.com/r-three/common-pile",
+    "Paper URL": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/52acc050138d6f40dad6f12f91a4ce22-Abstract-Datasets_and_Benchmarks_Track.html",
+    "Official Dataset Identifiers": [
+      "common-pile/arxiv_abstracts",
+      "common-pile/arxiv_papers",
+      "common-pile/biodiversity_heritage_library",
+      "common-pile/caselaw_access_project",
+      "common-pile/cccc",
+      "common-pile/data_provenance_initiative",
+      "common-pile/doab",
+      "common-pile/foodista",
+      "common-pile/github_archive",
+      "common-pile/library_of_congress",
+      "common-pile/libretexts",
+      "common-pile/news",
+      "common-pile/oercommons",
+      "common-pile/peS2o",
+      "common-pile/pre_1929_books",
+      "common-pile/pressbooks",
+      "common-pile/project_gutenberg",
+      "common-pile/public_domain_review",
+      "common-pile/pubmed",
+      "common-pile/python_enhancement_proposals",
+      "common-pile/regulations",
+      "common-pile/stackexchange",
+      "common-pile/ubuntu_irc",
+      "common-pile/uk_hansard",
+      "common-pile/usgpo",
+      "common-pile/uspto",
+      "common-pile/wikimedia",
+      "common-pile/wikiteam",
+      "common-pile/youtube"
+    ],
+    "Dataset Filter IDs": [
+      "arxiv_abstracts",
+      "arxiv_papers",
+      "biodiversity_heritage_library",
+      "caselaw_access_project",
+      "cccc",
+      "data_provenance_initiative",
+      "doab",
+      "foodista",
+      "github_archive",
+      "library_of_congress",
+      "libretexts",
+      "news",
+      "oercommons",
+      "peS2o",
+      "pre_1929_books",
+      "pressbooks",
+      "project_gutenberg",
+      "public_domain_review",
+      "pubmed",
+      "python_enhancement_proposals",
+      "regulations",
+      "stackexchange",
+      "ubuntu_irc",
+      "uk_hansard",
+      "usgpo",
+      "uspto",
+      "wikimedia",
+      "wikiteam",
+      "youtube"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "common-pile/library_of_congress",
+        "Official Subset": "library_of_congress",
+        "Part": "library_of_congress",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/library_of_congress"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/stackexchange",
+        "Official Subset": "stackexchange",
+        "Part": "stackexchange",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Social Media & User-Generated Content"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/stackexchange"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/ubuntu_irc",
+        "Official Subset": "ubuntu_irc",
+        "Part": "ubuntu_irc",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Social Media & User-Generated Content"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/ubuntu_irc"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/project_gutenberg",
+        "Official Subset": "project_gutenberg",
+        "Part": "project_gutenberg",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/project_gutenberg"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/pubmed",
+        "Official Subset": "pubmed",
+        "Part": "pubmed",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/pubmed"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/news",
+        "Official Subset": "news",
+        "Part": "news",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "News websites"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/news"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/public_domain_review",
+        "Official Subset": "public_domain_review",
+        "Part": "public_domain_review",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/public_domain_review"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/biodiversity_heritage_library",
+        "Official Subset": "biodiversity_heritage_library",
+        "Part": "biodiversity_heritage_library",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/biodiversity_heritage_library"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/regulations",
+        "Official Subset": "regulations",
+        "Part": "regulations",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Government Documents"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/regulations"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/pre_1929_books",
+        "Official Subset": "pre_1929_books",
+        "Part": "pre_1929_books",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/pre_1929_books"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/youtube",
+        "Official Subset": "youtube",
+        "Part": "youtube",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Multi-Media Entertainment Content"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/youtube"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/arxiv_abstracts",
+        "Official Subset": "arxiv_abstracts",
+        "Part": "arxiv_abstracts",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/arxiv_abstracts"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/arxiv_papers",
+        "Official Subset": "arxiv_papers",
+        "Part": "arxiv_papers",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/arxiv_papers"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/caselaw_access_project",
+        "Official Subset": "caselaw_access_project",
+        "Part": "caselaw_access_project",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Government Documents"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/caselaw_access_project"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/usgpo",
+        "Official Subset": "usgpo",
+        "Part": "usgpo",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Government Documents"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/usgpo"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/foodista",
+        "Official Subset": "foodista",
+        "Part": "foodista",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Social Media & User-Generated Content"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/foodista"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/python_enhancement_proposals",
+        "Official Subset": "python_enhancement_proposals",
+        "Part": "python_enhancement_proposals",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Other"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/python_enhancement_proposals"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/peS2o",
+        "Official Subset": "peS2o",
+        "Part": "peS2o",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/peS2o"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/libretexts",
+        "Official Subset": "libretexts",
+        "Part": "libretexts",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/libretexts"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/oercommons",
+        "Official Subset": "oercommons",
+        "Part": "oercommons",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/oercommons"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/pressbooks",
+        "Official Subset": "pressbooks",
+        "Part": "pressbooks",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/pressbooks"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/github_archive",
+        "Official Subset": "github_archive",
+        "Part": "github_archive",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Social Media & User-Generated Content"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/github_archive"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/doab",
+        "Official Subset": "doab",
+        "Part": "doab",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/doab"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/data_provenance_initiative",
+        "Official Subset": "data_provenance_initiative",
+        "Part": "data_provenance_initiative",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/data_provenance_initiative"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/uspto",
+        "Official Subset": "uspto",
+        "Part": "uspto",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Government Documents"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/uspto"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/uk_hansard",
+        "Official Subset": "uk_hansard",
+        "Part": "uk_hansard",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "Government Documents"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/uk_hansard"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/wikiteam",
+        "Official Subset": "wikiteam",
+        "Part": "wikiteam",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/wikiteam"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/wikimedia",
+        "Official Subset": "wikimedia",
+        "Part": "wikimedia",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped",
+          "Books & Academic",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/wikimedia"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "common-pile/cccc",
+        "Official Subset": "cccc",
+        "Part": "cccc",
+        "Original Language Identifier": "eng",
+        "Version": "v0.1 raw / English view",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/common-pile/cccc"
+        ],
+        "Notes": "原始来源组件的英语主体视图；不声称原始组件只有英语。上游修订/翻译尚未逐来源确认，Human Annotation 留空。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "eng"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "partial",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "sampled_no_compatible_official_total",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "common-pile/library_of_congress",
+            "Config": "library_of_congress",
+            "Split": "train",
+            "Revision": "efa378ea3f6feab6f64f407e7555457f0034a985",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/library_of_congress/resolve/efa378ea3f6feab6f64f407e7555457f0034a985/data/00029_loc_books.jsonl.gz"
+            ],
+            "Available Files": 50,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 4,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/library_of_congress",
+            "Conversion Factors": {
+              "r_byte": 0.787893972931341,
+              "r_doc": 132860.0,
+              "r_sent": 24.84641638225256,
+              "r_word": 4.578695247613468
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/stackexchange",
+            "Config": "stackexchange",
+            "Split": "train",
+            "Revision": "5ec3aa2e65b7c61b7c18f1ff18ccbc4d3279a23c",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/stackexchange/resolve/5ec3aa2e65b7c61b7c18f1ff18ccbc4d3279a23c/iot.meta.stackexchange.com/documents/00000_se.jsonl.gz"
+            ],
+            "Available Files": 833,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 4,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/stackexchange",
+            "Conversion Factors": {
+              "r_byte": 0.8211566352429297,
+              "r_doc": 2264.75,
+              "r_sent": 63.79577464788732,
+              "r_word": 4.752885624344176
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/ubuntu_irc",
+            "Config": "ubuntu_irc",
+            "Split": "train",
+            "Revision": "35a9ef530c682965b53d4167e37b32f6a85aa87c",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/ubuntu_irc/resolve/35a9ef530c682965b53d4167e37b32f6a85aa87c/v0/documents/00005_ubuntu.jsonl.gz"
+            ],
+            "Available Files": 8,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 4,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/ubuntu_irc",
+            "Conversion Factors": {
+              "r_byte": 0.6173382738922341,
+              "r_doc": 7997.0,
+              "r_sent": 40.035043804755944,
+              "r_word": 6.030920060331825
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/project_gutenberg",
+            "Config": "project_gutenberg",
+            "Split": "train",
+            "Revision": "01dc90a5002f8977c7fb03a372c14bca29c65cf1",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/project_gutenberg/resolve/01dc90a5002f8977c7fb03a372c14bca29c65cf1/v0/documents/00016_pg.jsonl.gz"
+            ],
+            "Available Files": 30,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 4,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/project_gutenberg",
+            "Conversion Factors": {
+              "r_byte": 0.8048250469268903,
+              "r_doc": 250827.75,
+              "r_sent": 34.77560569824269,
+              "r_word": 4.6743896757361165
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/pubmed",
+            "Config": "pubmed",
+            "Split": "train",
+            "Revision": "648b8cfc93953ca0663a9c96a8d842a91b98fb64",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/pubmed/resolve/648b8cfc93953ca0663a9c96a8d842a91b98fb64/data/00010_pubmedcentral.jsonl.gz"
+            ],
+            "Available Files": 17,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 4,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/pubmed",
+            "Conversion Factors": {
+              "r_byte": 0.8178611069133885,
+              "r_doc": 39237.5,
+              "r_sent": 79.0281973816717,
+              "r_word": 7.0580563924989885
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/news",
+            "Config": "news",
+            "Split": "train",
+            "Revision": "13e76bdc8d49ed14d710fac7e3b61186cf74c8d3",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/news/resolve/13e76bdc8d49ed14d710fac7e3b61186cf74c8d3/v0/documents/00000_freedom.jsonl.gz"
+            ],
+            "Available Files": 17,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 4,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/news",
+            "Conversion Factors": {
+              "r_byte": 0.8831168831168831,
+              "r_doc": 34.0,
+              "r_sent": 22.666666666666668,
+              "r_word": 6.181818181818182
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/public_domain_review",
+            "Config": "public_domain_review",
+            "Split": "train",
+            "Revision": "e9c7669206b95871601fe4672a484d8215e6fe6f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/public_domain_review/resolve/e9c7669206b95871601fe4672a484d8215e6fe6f/v0/00000_essays.jsonl.gz"
+            ],
+            "Available Files": 3,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 4,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/public_domain_review",
+            "Conversion Factors": {
+              "r_byte": 0.831720054926502,
+              "r_doc": 18473.75,
+              "r_sent": 116.00470957613815,
+              "r_word": 5.307405013287366
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/biodiversity_heritage_library",
+            "Config": "biodiversity_heritage_library",
+            "Split": "train",
+            "Revision": "ad1bbb00d5df579c0ef0a9dfe46e50e2bb1715b8",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/biodiversity_heritage_library/resolve/ad1bbb00d5df579c0ef0a9dfe46e50e2bb1715b8/v0/00038_bhl.jsonl.gz"
+            ],
+            "Available Files": 118,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 4,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/biodiversity_heritage_library",
+            "Conversion Factors": {
+              "r_byte": 0.8064027687648713,
+              "r_doc": 1864.0,
+              "r_sent": 34.8411214953271,
+              "r_word": 6.022617124394184
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/regulations",
+            "Config": "regulations",
+            "Split": "train",
+            "Revision": "d1a63eef07bb893f834742f4738aeb1d545b7e01",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/regulations/resolve/d1a63eef07bb893f834742f4738aeb1d545b7e01/v0/00005_regulations.jsonl.gz"
+            ],
+            "Available Files": 7,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 4,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/regulations",
+            "Conversion Factors": {
+              "r_byte": 0.7722991435328695,
+              "r_doc": 42043.0,
+              "r_sent": 40.18446833930705,
+              "r_word": 5.916133117568423
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/pre_1929_books",
+            "Config": "pre_1929_books",
+            "Split": "train",
+            "Revision": "a158135b4765f01d321b5cbe1ff90ebbd354b00f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/pre_1929_books/resolve/a158135b4765f01d321b5cbe1ff90ebbd354b00f/data/documents/00043_public_library_1929.jsonl.gz"
+            ],
+            "Available Files": 77,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 4,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/pre_1929_books",
+            "Conversion Factors": {
+              "r_byte": 0.6922270176704642,
+              "r_doc": 210551.75,
+              "r_sent": 30.41995954634111,
+              "r_word": 4.607082879758433
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/youtube",
+            "Config": "youtube",
+            "Split": "train",
+            "Revision": "1c521ef383cf87402cb9a7b999d3032d8107c972",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/youtube/resolve/1c521ef383cf87402cb9a7b999d3032d8107c972/00000_youtube_commons.jsonl.gz"
+            ],
+            "Available Files": 25,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 4,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/youtube",
+            "Conversion Factors": {
+              "r_byte": 0.807489760093622,
+              "r_doc": 4140.0,
+              "r_sent": 90.98901098901099,
+              "r_word": 4.194528875379939
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/arxiv_abstracts",
+            "Config": "arxiv_abstracts",
+            "Split": "train",
+            "Revision": "828e35d1000f94579da8850f5f640c138279bdb5",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/arxiv_abstracts/resolve/828e35d1000f94579da8850f5f640c138279bdb5/00002_arxiv-abstracts.jsonl.gz"
+            ],
+            "Available Files": 4,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 4,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/arxiv_abstracts",
+            "Conversion Factors": {
+              "r_byte": 0.8450974129671032,
+              "r_doc": 661.5,
+              "r_sent": 42.67741935483871,
+              "r_word": 5.547169811320755
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/arxiv_papers",
+            "Config": "arxiv_papers",
+            "Split": "train",
+            "Revision": "963fe980c55b353980653f1a27c1dc0c8a2d7058",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/arxiv_papers/resolve/963fe980c55b353980653f1a27c1dc0c8a2d7058/00009_arxiv-papers.jsonl.gz"
+            ],
+            "Available Files": 22,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 4,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/arxiv_papers",
+            "Conversion Factors": {
+              "r_byte": 0.8773067572794077,
+              "r_doc": 31756.75,
+              "r_sent": 38.66879756468798,
+              "r_word": 7.8334361124814995
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/caselaw_access_project",
+            "Config": "caselaw_access_project",
+            "Split": "train",
+            "Revision": "3c2cb5080b3a16a04d8d8d07b28eaec7c1ba7a90",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/caselaw_access_project/resolve/3c2cb5080b3a16a04d8d8d07b28eaec7c1ba7a90/cap_00030.jsonl.gz"
+            ],
+            "Available Files": 173,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/caselaw_access_project",
+            "Conversion Factors": {
+              "r_byte": 0.8091055098495525,
+              "r_doc": 16456.666666666668,
+              "r_sent": 65.30423280423281,
+              "r_word": 4.572142989442489
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/usgpo",
+            "Config": "usgpo",
+            "Split": "train",
+            "Revision": "0b314ed37117654d04c563b7d21b6ae3445a45df",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/usgpo/resolve/0b314ed37117654d04c563b7d21b6ae3445a45df/data/00058_usgpo.jsonl.gz"
+            ],
+            "Available Files": 78,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/usgpo",
+            "Conversion Factors": {
+              "r_byte": 0.5814867624956646,
+              "r_doc": 5029.666666666667,
+              "r_sent": 28.309568480300186,
+              "r_word": 5.57818853974122
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/foodista",
+            "Config": "foodista",
+            "Split": "train",
+            "Revision": "f84290688956bdb64c90e44636fda1c02f286849",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/foodista/resolve/f84290688956bdb64c90e44636fda1c02f286849/v0/documents/00001_foodista.jsonl.gz"
+            ],
+            "Available Files": 5,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/foodista",
+            "Conversion Factors": {
+              "r_byte": 0.8243110236220472,
+              "r_doc": 558.3333333333334,
+              "r_sent": 47.857142857142854,
+              "r_word": 4.926470588235294
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/python_enhancement_proposals",
+            "Config": "python_enhancement_proposals",
+            "Split": "train",
+            "Revision": "f932757e3eba16475c893e1418918c77f14a790d",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/python_enhancement_proposals/resolve/f932757e3eba16475c893e1418918c77f14a790d/v0/documents/00000_peps.jsonl.gz"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/python_enhancement_proposals",
+            "Conversion Factors": {
+              "r_byte": 0.7625131605156077,
+              "r_doc": 8932.333333333334,
+              "r_sent": 30.1768018018018,
+              "r_word": 5.175164156044805
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/peS2o",
+            "Config": "peS2o",
+            "Split": "train",
+            "Revision": "2caeba1585aaafa3c965410d80af85b09ed11cd9",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/peS2o/resolve/2caeba1585aaafa3c965410d80af85b09ed11cd9/v0/documents/peS2o-0097.json.gz"
+            ],
+            "Available Files": 102,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/peS2o",
+            "Conversion Factors": {
+              "r_byte": 0.847657141484391,
+              "r_doc": 23523.333333333332,
+              "r_sent": 107.90519877675841,
+              "r_word": 5.608806231123828
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/libretexts",
+            "Config": "libretexts",
+            "Split": "train",
+            "Revision": "d4ce4b1edf95888b24992db3bbb2ae8e2bf6c22f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/libretexts/resolve/d4ce4b1edf95888b24992db3bbb2ae8e2bf6c22f/00000_libretext.json.gz"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/libretexts",
+            "Conversion Factors": {
+              "r_byte": 0.8248855373013736,
+              "r_doc": 5104.666666666667,
+              "r_sent": 39.066326530612244,
+              "r_word": 4.7149014778325125
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/oercommons",
+            "Config": "oercommons",
+            "Split": "train",
+            "Revision": "9b3305165b01bec541b6a6baaba2b5b8566dfe29",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/oercommons/resolve/9b3305165b01bec541b6a6baaba2b5b8566dfe29/00000_oercommons.json.gz"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/oercommons",
+            "Conversion Factors": {
+              "r_byte": 0.8473974280465401,
+              "r_doc": 4612.666666666667,
+              "r_sent": 36.705570291777185,
+              "r_word": 5.787536595566708
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/pressbooks",
+            "Config": "pressbooks",
+            "Split": "train",
+            "Revision": "29fa162fc78277b160a7010f18086b5189ffb761",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/pressbooks/resolve/29fa162fc78277b160a7010f18086b5189ffb761/00001_pressbooks.json.gz"
+            ],
+            "Available Files": 2,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/pressbooks",
+            "Conversion Factors": {
+              "r_byte": 0.8401244004006114,
+              "r_doc": 15938.0,
+              "r_sent": 81.17826825127335,
+              "r_word": 5.382035119315623
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/github_archive",
+            "Config": "github_archive",
+            "Split": "train",
+            "Revision": "60317859e1212d37268e2b55e31acd2aecd4ae52",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/github_archive/resolve/60317859e1212d37268e2b55e31acd2aecd4ae52/gharchive/v0/documents/00569_github-archive-threads.jsonl.gz"
+            ],
+            "Available Files": 2000,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/github_archive",
+            "Conversion Factors": {
+              "r_byte": 0.8765508684863523,
+              "r_doc": 471.0,
+              "r_sent": 33.642857142857146,
+              "r_word": 8.028409090909092
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/doab",
+            "Config": "doab",
+            "Split": "train",
+            "Revision": "89e7a35935045f2b268a2229347e38f16fbeb729",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/doab/resolve/89e7a35935045f2b268a2229347e38f16fbeb729/00007_doab.json.gz"
+            ],
+            "Available Files": 13,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/doab",
+            "Conversion Factors": {
+              "r_byte": 0.8433774066341916,
+              "r_doc": 12119.333333333334,
+              "r_sent": 84.94859813084112,
+              "r_word": 5.4921450151057405
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/data_provenance_initiative",
+            "Config": "data_provenance_initiative",
+            "Split": "train",
+            "Revision": "1fa084d36c10da862afabcfe6e330fd18fe8cb1d",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/data_provenance_initiative/resolve/1fa084d36c10da862afabcfe6e330fd18fe8cb1d/v0/documents/00000_dpi.jsonl.gz"
+            ],
+            "Available Files": 9,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/data_provenance_initiative",
+            "Conversion Factors": {
+              "r_byte": 0.8104328104328105,
+              "r_doc": 1429.3333333333333,
+              "r_sent": 41.63106796116505,
+              "r_word": 4.32258064516129
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/uspto",
+            "Config": "uspto",
+            "Split": "train",
+            "Revision": "e8b975381547f026e2ccfe721f785dcb6a2fa9a0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://datasets-server.huggingface.co/rows?dataset=common-pile%2Fuspto&config=default&split=train&offset=1000&length=16"
+            ],
+            "Available Files": 100,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One untruncated, 16-row official viewer window from a partial cache at the same repository revision; cached row count is not a full-corpus denominator.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://datasets-server.huggingface.co/rows?dataset=common-pile%2Fuspto&config=default&split=train&offset=1000&length=16",
+            "Conversion Factors": {
+              "r_byte": 0.8359659323742122,
+              "r_doc": 125800.33333333333,
+              "r_sent": 100.99036660422799,
+              "r_word": 6.026651975344128
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/uk_hansard",
+            "Config": "uk_hansard",
+            "Split": "train",
+            "Revision": "05eeb43c6518f0eedbe1594d9683a100aedbce89",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/uk_hansard/resolve/05eeb43c6518f0eedbe1594d9683a100aedbce89/uk_hansard/00003_ukhansard.jsonl.gz"
+            ],
+            "Available Files": 11,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/uk_hansard",
+            "Conversion Factors": {
+              "r_byte": 0.821059506869766,
+              "r_doc": 234653.33333333334,
+              "r_sent": 71.30875202593192,
+              "r_word": 4.683574622099212
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/wikiteam",
+            "Config": "wikiteam",
+            "Split": "train",
+            "Revision": "e6d08fd1565c9b61f52164e572e9b13220ea9e99",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/wikiteam/resolve/e6d08fd1565c9b61f52164e572e9b13220ea9e99/00876_wiki.jsonl.gz"
+            ],
+            "Available Files": 978,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/wikiteam",
+            "Conversion Factors": {
+              "r_byte": 0.8201868520967536,
+              "r_doc": 6408.666666666667,
+              "r_sent": 69.15827338129496,
+              "r_word": 4.786158824993777
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/wikimedia",
+            "Config": "wikimedia",
+            "Split": "train",
+            "Revision": "781b263a6546515543bec3968ad4743fbc152b72",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/wikimedia/resolve/781b263a6546515543bec3968ad4743fbc152b72/00133_wikipedia.com.jsonl.gz"
+            ],
+            "Available Files": 219,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/wikimedia",
+            "Conversion Factors": {
+              "r_byte": 0.8244442983033013,
+              "r_doc": 33430.666666666664,
+              "r_sent": 79.85031847133757,
+              "r_word": 4.959549006033034
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "common-pile/cccc",
+            "Config": "cccc",
+            "Split": "train",
+            "Revision": "72bd015ff2a77f8701c617096fbb5dc89dd705fe",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/common-pile/cccc/resolve/72bd015ff2a77f8701c617096fbb5dc89dd705fe/CC-MAIN-2017-22/cccc-CC-MAIN-2017-22-0007.json.gz"
+            ],
+            "Available Files": 645,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 16,
+            "Sampling Note": "One deterministic shard from the component release paths declared by its dataset card; when no paths are declared, one corpus-format sibling is selected.",
+            "Num Documents Sampled": 3,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/common-pile/cccc",
+            "Conversion Factors": {
+              "r_byte": 0.8411075081067598,
+              "r_doc": 1124.0,
+              "r_sent": 39.67058823529412,
+              "r_word": 5.764102564102564
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.7842238431898542,
+          "r_doc": 44576.24,
+          "r_sent": 40.72786411936153
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all 29 English Common Pile v0.1 components represented by this metadata element",
+        "Elapsed Seconds": 119.32,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T04:21:14.621060+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "128 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 109449,
+      "Num Bytes Sampled": 5684122,
+      "Num WhiteSpaces Sampled": 898876,
+      "Num Unicode Characters Sampled": 4457624
+    }
+  }
+}

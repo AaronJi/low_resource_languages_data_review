@@ -1,0 +1,1837 @@
+{
+  "dolma3_dolmino_pool-default": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-default",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-default",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "General Web"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "default"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "default",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-stem_heavy_crawl": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-stem_heavy_crawl",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-stem_heavy_crawl",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "General Web"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "stem_heavy_crawl"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "stem_heavy_crawl",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-stack_edu_fim": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-stack_edu_fim",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-stack_edu_fim",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Code"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Few-shot"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "stack_edu_fim"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "stack_edu_fim",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-cranecode": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-cranecode",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-cranecode",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Code"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "cranecode"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "cranecode",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-cranemath": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-cranemath",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-cranemath",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "cranemath"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "cranemath",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-megamatt": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-megamatt",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-megamatt",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "megamatt"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "megamatt",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-dolmino1_math": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-dolmino1_math",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-dolmino1_math",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "dolmino1_math"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "dolmino1_math",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-omr_rewrite_fullthoughts": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-omr_rewrite_fullthoughts",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-omr_rewrite_fullthoughts",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "omr_rewrite_fullthoughts"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "omr_rewrite_fullthoughts",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-tinyMATH_mind": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-tinyMATH_mind",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-tinyMATH_mind",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "tinyMATH_mind"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "tinyMATH_mind",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-tinyMATH_pot": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-tinyMATH_pot",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-tinyMATH_pot",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Program-of-Thought"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "tinyMATH_pot"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "tinyMATH_pot",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-reddit_high": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-reddit_high",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-reddit_high",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Social Media"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "reddit_high"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "reddit_high",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-reddit_low": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-reddit_low",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-reddit_low",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Social Media"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "reddit_low"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "reddit_low",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-wiki_to_rcqa": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-wiki_to_rcqa",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-wiki_to_rcqa",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "wiki_to_rcqa"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "wiki_to_rcqa",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-nemotron_synth_qa": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-nemotron_synth_qa",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-nemotron_synth_qa",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "nemotron_synth_qa"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "nemotron_synth_qa",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-tulu_3_sft": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-tulu_3_sft",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-tulu_3_sft",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "tulu_3_sft"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "tulu_3_sft",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-dolmino_1_flan": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-dolmino_1_flan",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-dolmino_1_flan",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "dolmino_1_flan"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "dolmino_1_flan",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-r1_reasoning_traces": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-r1_reasoning_traces",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-r1_reasoning_traces",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "r1_reasoning_traces"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "r1_reasoning_traces",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-qwq_reasoning_traces": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-qwq_reasoning_traces",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-qwq_reasoning_traces",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "qwq_reasoning_traces"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "qwq_reasoning_traces",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-gemini_reasoning_traces": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-gemini_reasoning_traces",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-gemini_reasoning_traces",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "gemini_reasoning_traces"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "gemini_reasoning_traces",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-llamanemotron_reasoning_traces": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-llamanemotron_reasoning_traces",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-llamanemotron_reasoning_traces",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "llamanemotron_reasoning_traces"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "llamanemotron_reasoning_traces",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-openthoughts2_reasoning_traces": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-openthoughts2_reasoning_traces",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-openthoughts2_reasoning_traces",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "openthoughts2_reasoning_traces"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "openthoughts2_reasoning_traces",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-verifiable_gpt41": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-verifiable_gpt41",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-verifiable_gpt41",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "verifiable_gpt41"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "verifiable_gpt41",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-verifiable_o4mini": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-verifiable_o4mini",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-verifiable_o4mini",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "verifiable_o4mini"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "verifiable_o4mini",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-math_meta_reasoning": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-math_meta_reasoning",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-math_meta_reasoning",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "math_meta_reasoning"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "math_meta_reasoning",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-code_meta_reasoning": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-code_meta_reasoning",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-code_meta_reasoning",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Models"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "code_meta_reasoning"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "code_meta_reasoning",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-olmocr_science_pdfs": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-olmocr_science_pdfs",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-olmocr_science_pdfs",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "Academic Papers"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "olmocr_science_pdfs"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "olmocr_science_pdfs",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  },
+  "dolma3_dolmino_pool-common_crawl_hq": {
+    "Unique Dataset Identifier": "dolma3_dolmino_pool-common_crawl_hq",
+    "Dataset Name": "allenai/dolma3_dolmino_pool-common_crawl_hq",
+    "Paper Title": "Olmo 3",
+    "Dataset URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2512.13961",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "dolma3_dolmino_pool",
+    "Collection URL": "https://huggingface.co/datasets/allenai/dolma3_dolmino_pool",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Text Generation"
+    ],
+    "Text Sources": [
+      "General Web"
+    ],
+    "Model Generated": [],
+    "Format": [],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "allenai"
+    ],
+    "Licenses": [
+      {
+        "License": "ODC BY 1.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "common_crawl_hq"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 36678,
+      "Crawled Likes": 8,
+      "Created At": "2025-09-30",
+      "Last Modified": "2026-01-05",
+      "Size Category": "",
+      "Description": "⚠️ IMPORTANT NOTICE ⚠️\nThis is the Dolma 3 Dolmino pool; it hasn't been mixed. \nIf you are interested in the data used to train: \n\nOlmo 3 7B: allenai/dolma3_dolmino_mix-100B-1025\nOlmo 3 32B: allenai/dolma3_dolmino_mix-100B-1125\n\n\n\n\n\n\n\t\n\t\n\t\n\t\tDolma 3 Dolmino dataset pool for Olmo 3 stage 2 annealing training\n\t\n\nThis dataset contains the high-quality pool of data considered for the second stage of Olmo 3 7B. \n\t\n\t\t\n\t\tDataset Sources\n\t\n\n\n\t\n\t\t\nSource\nCategory\nTokens\nDocuments\n\n\n\t\t\nTinyMATH Mind… See the full description on the dataset page: https://hf-mirror.com/datasets/allenai/dolma3_dolmino_pool.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "common_crawl_hq",
+      "HF Config License": "",
+      "HF Dataset": "allenai/dolma3_dolmino_pool",
+      "HF Date": "2025-09-30",
+      "HF Downloads (September 2026)": 36678,
+      "HF Likes (September 2026)": 8,
+      "HF Yaml License": [
+        "ODC BY 1.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    }
+  }
+}

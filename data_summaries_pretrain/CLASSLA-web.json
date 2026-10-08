@@ -1,0 +1,1094 @@
+{
+  "CLASSLA-web-bos": {
+    "Unique Dataset Identifier": "CLASSLA-web-bos",
+    "Dataset Name": "CLASSLA-web-bos",
+    "Collection": "CLASSLA-web",
+    "Languages": [
+      "bos"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "annotated text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/2079",
+    "Hugging Face URL": "",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.lrec-main.291/",
+    "Official Dataset Identifiers": [
+      "CLASSLA-web"
+    ],
+    "Dataset Filter IDs": [
+      "bs"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CLASSLA-web",
+        "Official Subset": "bs",
+        "Part": "",
+        "Original Language Identifier": "bs",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "annotated text",
+        "Evidence URLs": [
+          "https://clarinsi.github.io/classla-web/"
+        ],
+        "Notes": "自动语言学与体裁标注；并非人工逐条标注。跨语言对应的具体发布版本待统一。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "bos"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 2538848,
+      "Storage Size": null,
+      "Num Tokens": 1013980978,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "CLASSLA-web 2.0",
+            "Config": "bs",
+            "Split": "full",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/CLASSLA-web.bs.2.0.jsonl.gz?sequence=11&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 2538848,
+              "Storage Size": null,
+              "Num Tokens": 1013980978
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y",
+            "Conversion Factors": {
+              "r_byte": 0.8320017501889408,
+              "r_doc": 2928.33,
+              "r_sent": 62.89368556701031,
+              "r_word": 5.865458187280922
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8320017501889408,
+          "r_doc": 2928.33,
+          "r_sent": 62.89368556701031
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official CLASSLA-web 2.0 plain JSONL release",
+        "Elapsed Seconds": 6.7,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T14:50:05.643146+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "CLASSLA-web 2.0",
+          "Config": "bs",
+          "Split": "full",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 2538848,
+            "Storage Size": null,
+            "Num Tokens": 1013980978
+          },
+          "Definitions": {
+            "document_unit": "one official JSONL text record",
+            "tokens_note": "official whitespace-delimited words; retained but document total drives estimation"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 7434584763.84,
+      "Num Unicode Characters 95% LB": 4828659130.2560005,
+      "Num Unicode Characters 95% UB": 11880730264.311998,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 4656,
+      "Num Bytes Sampled": 351962,
+      "Num WhiteSpaces Sampled": 49925,
+      "Num Unicode Characters Sampled": 292833
+    }
+  },
+  "CLASSLA-web-bul": {
+    "Unique Dataset Identifier": "CLASSLA-web-bul",
+    "Dataset Name": "CLASSLA-web-bul",
+    "Collection": "CLASSLA-web",
+    "Languages": [
+      "bul"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "annotated text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/2079",
+    "Hugging Face URL": "",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.lrec-main.291/",
+    "Official Dataset Identifiers": [
+      "CLASSLA-web"
+    ],
+    "Dataset Filter IDs": [
+      "bg"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CLASSLA-web",
+        "Official Subset": "bg",
+        "Part": "",
+        "Original Language Identifier": "bg",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "annotated text",
+        "Evidence URLs": [
+          "https://clarinsi.github.io/classla-web/"
+        ],
+        "Notes": "自动语言学与体裁标注；并非人工逐条标注。跨语言对应的具体发布版本待统一。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "bul"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 14668970,
+      "Storage Size": null,
+      "Num Tokens": 5986954232,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "CLASSLA-web 2.0",
+            "Config": "bg",
+            "Split": "full",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/CLASSLA-web.bg.2.0.jsonl.gz?sequence=8&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 14668970,
+              "Storage Size": null,
+              "Num Tokens": 5986954232
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y",
+            "Conversion Factors": {
+              "r_byte": 0.4742680666383522,
+              "r_doc": 3372.34,
+              "r_sent": 73.4234704985848,
+              "r_word": 5.543238489734866
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.4742680666383522,
+          "r_doc": 3372.34,
+          "r_sent": 73.4234704985848
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official CLASSLA-web 2.0 plain JSONL release",
+        "Elapsed Seconds": 10.69,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T14:51:46.131044+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "CLASSLA-web 2.0",
+          "Config": "bg",
+          "Split": "full",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 14668970,
+            "Storage Size": null,
+            "Num Tokens": 5986954232
+          },
+          "Definitions": {
+            "document_unit": "one official JSONL text record",
+            "tokens_note": "official whitespace-delimited words; retained but document total drives estimation"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 49468754289.8,
+      "Num Unicode Characters 95% LB": 40904624543.3375,
+      "Num Unicode Characters 95% UB": 60192207761.65747,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 4593,
+      "Num Bytes Sampled": 711062,
+      "Num WhiteSpaces Sampled": 60837,
+      "Num Unicode Characters Sampled": 337234
+    }
+  },
+  "CLASSLA-web-cnr": {
+    "Unique Dataset Identifier": "CLASSLA-web-cnr",
+    "Dataset Name": "CLASSLA-web-cnr",
+    "Collection": "CLASSLA-web",
+    "Languages": [
+      "cnr"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "annotated text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/2079",
+    "Hugging Face URL": "",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.lrec-main.291/",
+    "Official Dataset Identifiers": [
+      "CLASSLA-web"
+    ],
+    "Dataset Filter IDs": [
+      "cnr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CLASSLA-web",
+        "Official Subset": "cnr",
+        "Part": "",
+        "Original Language Identifier": "cnr",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "annotated text",
+        "Evidence URLs": [
+          "https://clarinsi.github.io/classla-web/"
+        ],
+        "Notes": "自动语言学与体裁标注；并非人工逐条标注。跨语言对应的具体发布版本待统一。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "cnr"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 786429,
+      "Storage Size": null,
+      "Num Tokens": 294432099,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "CLASSLA-web 2.0",
+            "Config": "cnr",
+            "Split": "full",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/CLASSLA-web.cnr.2.0.jsonl.gz?sequence=5&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 786429,
+              "Storage Size": null,
+              "Num Tokens": 294432099
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y",
+            "Conversion Factors": {
+              "r_byte": 0.8185674390951525,
+              "r_doc": 2863.75,
+              "r_sent": 77.90397170837868,
+              "r_word": 5.454969713131929
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8185674390951525,
+          "r_doc": 2863.75,
+          "r_sent": 77.90397170837868
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official CLASSLA-web 2.0 plain JSONL release",
+        "Elapsed Seconds": 4.39,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T14:51:39.827345+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "CLASSLA-web 2.0",
+          "Config": "cnr",
+          "Split": "full",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 786429,
+            "Storage Size": null,
+            "Num Tokens": 294432099
+          },
+          "Definitions": {
+            "document_unit": "one official JSONL text record",
+            "tokens_note": "official whitespace-delimited words; retained but document total drives estimation"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 2252136048.75,
+      "Num Unicode Characters 95% LB": 1769814227.8687499,
+      "Num Unicode Characters 95% UB": 2865931103.7787495,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 3676,
+      "Num Bytes Sampled": 349849,
+      "Num WhiteSpaces Sampled": 52498,
+      "Num Unicode Characters Sampled": 286375
+    }
+  },
+  "CLASSLA-web-hrv": {
+    "Unique Dataset Identifier": "CLASSLA-web-hrv",
+    "Dataset Name": "CLASSLA-web-hrv",
+    "Collection": "CLASSLA-web",
+    "Languages": [
+      "hrv"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "annotated text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/2079",
+    "Hugging Face URL": "",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.lrec-main.291/",
+    "Official Dataset Identifiers": [
+      "CLASSLA-web"
+    ],
+    "Dataset Filter IDs": [
+      "hr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CLASSLA-web",
+        "Official Subset": "hr",
+        "Part": "",
+        "Original Language Identifier": "hr",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "annotated text",
+        "Evidence URLs": [
+          "https://clarinsi.github.io/classla-web/"
+        ],
+        "Notes": "自动语言学与体裁标注；并非人工逐条标注。跨语言对应的具体发布版本待统一。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "hrv"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 5922531,
+      "Storage Size": null,
+      "Num Tokens": 3006896498,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "CLASSLA-web 2.0",
+            "Config": "hr",
+            "Split": "full",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/CLASSLA-web.hr.2.0.jsonl.gz?sequence=14&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 5922531,
+              "Storage Size": null,
+              "Num Tokens": 3006896498
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y",
+            "Conversion Factors": {
+              "r_byte": 0.8302202689269084,
+              "r_doc": 2221.52,
+              "r_sent": 73.22083058668424,
+              "r_word": 5.732067292806275
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8302202689269084,
+          "r_doc": 2221.52,
+          "r_sent": 73.22083058668424
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official CLASSLA-web 2.0 plain JSONL release",
+        "Elapsed Seconds": 7.4,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T14:51:47.339593+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "CLASSLA-web 2.0",
+          "Config": "hr",
+          "Split": "full",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 5922531,
+            "Storage Size": null,
+            "Num Tokens": 3006896498
+          },
+          "Definitions": {
+            "document_unit": "one official JSONL text record",
+            "tokens_note": "official whitespace-delimited words; retained but document total drives estimation"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 13157021067.12,
+      "Num Unicode Characters 95% LB": 10651346264.295,
+      "Num Unicode Characters 95% UB": 16156534272.317995,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 3034,
+      "Num Bytes Sampled": 267582,
+      "Num WhiteSpaces Sampled": 38756,
+      "Num Unicode Characters Sampled": 222152
+    }
+  },
+  "CLASSLA-web-mkd": {
+    "Unique Dataset Identifier": "CLASSLA-web-mkd",
+    "Dataset Name": "CLASSLA-web-mkd",
+    "Collection": "CLASSLA-web",
+    "Languages": [
+      "mkd"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "annotated text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/2079",
+    "Hugging Face URL": "",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.lrec-main.291/",
+    "Official Dataset Identifiers": [
+      "CLASSLA-web"
+    ],
+    "Dataset Filter IDs": [
+      "mk"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CLASSLA-web",
+        "Official Subset": "mk",
+        "Part": "",
+        "Original Language Identifier": "mk",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "annotated text",
+        "Evidence URLs": [
+          "https://clarinsi.github.io/classla-web/"
+        ],
+        "Notes": "自动语言学与体裁标注；并非人工逐条标注。跨语言对应的具体发布版本待统一。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "mkd"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 2112178,
+      "Storage Size": null,
+      "Num Tokens": 691277212,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "CLASSLA-web 2.0",
+            "Config": "mk",
+            "Split": "full",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/CLASSLA-web.mk.2.0.jsonl.gz?sequence=17&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 2112178,
+              "Storage Size": null,
+              "Num Tokens": 691277212
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y",
+            "Conversion Factors": {
+              "r_byte": 0.47439414866901053,
+              "r_doc": 1511.23,
+              "r_sent": 85.18771138669673,
+              "r_word": 5.712239189597823
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.47439414866901053,
+          "r_doc": 1511.23,
+          "r_sent": 85.18771138669673
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official CLASSLA-web 2.0 plain JSONL release",
+        "Elapsed Seconds": 5.77,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T14:51:51.990397+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "CLASSLA-web 2.0",
+          "Config": "mk",
+          "Split": "full",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 2112178,
+            "Storage Size": null,
+            "Num Tokens": 691277212
+          },
+          "Definitions": {
+            "document_unit": "one official JSONL text record",
+            "tokens_note": "official whitespace-delimited words; retained but document total drives estimation"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 3191986758.94,
+      "Num Unicode Characters 95% LB": 2521600471.342,
+      "Num Unicode Characters 95% UB": 4204960397.4704995,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1774,
+      "Num Bytes Sampled": 318560,
+      "Num WhiteSpaces Sampled": 26456,
+      "Num Unicode Characters Sampled": 151123
+    }
+  },
+  "CLASSLA-web-slv": {
+    "Unique Dataset Identifier": "CLASSLA-web-slv",
+    "Dataset Name": "CLASSLA-web-slv",
+    "Collection": "CLASSLA-web",
+    "Languages": [
+      "slv"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "annotated text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/2079",
+    "Hugging Face URL": "",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.lrec-main.291/",
+    "Official Dataset Identifiers": [
+      "CLASSLA-web"
+    ],
+    "Dataset Filter IDs": [
+      "sl"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CLASSLA-web",
+        "Official Subset": "sl",
+        "Part": "",
+        "Original Language Identifier": "sl",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "annotated text",
+        "Evidence URLs": [
+          "https://clarinsi.github.io/classla-web/"
+        ],
+        "Notes": "自动语言学与体裁标注；并非人工逐条标注。跨语言对应的具体发布版本待统一。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "slv"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 4790039,
+      "Storage Size": null,
+      "Num Tokens": 2309145158,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "CLASSLA-web 2.0",
+            "Config": "sl",
+            "Split": "full",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/CLASSLA-web.sl.2.0.jsonl.gz?sequence=20&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 4790039,
+              "Storage Size": null,
+              "Num Tokens": 2309145158
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y",
+            "Conversion Factors": {
+              "r_byte": 0.8253617183300483,
+              "r_doc": 1474.03,
+              "r_sent": 65.77554663096832,
+              "r_word": 5.453311135775064
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8253617183300483,
+          "r_doc": 1474.03,
+          "r_sent": 65.77554663096832
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official CLASSLA-web 2.0 plain JSONL release",
+        "Elapsed Seconds": 3.65,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T14:51:51.081546+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "CLASSLA-web 2.0",
+          "Config": "sl",
+          "Split": "full",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 4790039,
+            "Storage Size": null,
+            "Num Tokens": 2309145158
+          },
+          "Definitions": {
+            "document_unit": "one official JSONL text record",
+            "tokens_note": "official whitespace-delimited words; retained but document total drives estimation"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 7060661187.17,
+      "Num Unicode Characters 95% LB": 6207285801.57625,
+      "Num Unicode Characters 95% UB": 7907890952.726748,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 2241,
+      "Num Bytes Sampled": 178592,
+      "Num WhiteSpaces Sampled": 27030,
+      "Num Unicode Characters Sampled": 147403
+    }
+  },
+  "CLASSLA-web-srp": {
+    "Unique Dataset Identifier": "CLASSLA-web-srp",
+    "Dataset Name": "CLASSLA-web-srp",
+    "Collection": "CLASSLA-web",
+    "Languages": [
+      "srp"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "annotated text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/2079",
+    "Hugging Face URL": "",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2024.lrec-main.291/",
+    "Official Dataset Identifiers": [
+      "CLASSLA-web"
+    ],
+    "Dataset Filter IDs": [
+      "sr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "CLASSLA-web",
+        "Official Subset": "sr",
+        "Part": "",
+        "Original Language Identifier": "sr",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "annotated text",
+        "Evidence URLs": [
+          "https://clarinsi.github.io/classla-web/"
+        ],
+        "Notes": "自动语言学与体裁标注；并非人工逐条标注。跨语言对应的具体发布版本待统一。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "srp"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 7238176,
+      "Storage Size": null,
+      "Num Tokens": 3708116191,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "CLASSLA-web 2.0",
+            "Config": "sr",
+            "Split": "full",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/CLASSLA-web.sr.2.0.jsonl.gz?sequence=23&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 7238176,
+              "Storage Size": null,
+              "Num Tokens": 3708116191
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y",
+            "Conversion Factors": {
+              "r_byte": 0.8324400199023491,
+              "r_doc": 2057.85,
+              "r_sent": 74.31744312026002,
+              "r_word": 5.795128132920304
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8324400199023491,
+          "r_doc": 2057.85,
+          "r_sent": 74.31744312026002
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official CLASSLA-web 2.0 plain JSONL release",
+        "Elapsed Seconds": 6.52,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T14:51:57.697377+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "CLASSLA-web 2.0",
+          "Config": "sr",
+          "Split": "full",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 7238176,
+            "Storage Size": null,
+            "Num Tokens": 3708116191
+          },
+          "Definitions": {
+            "document_unit": "one official JSONL text record",
+            "tokens_note": "official whitespace-delimited words; retained but document total drives estimation"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/2079/README.md?sequence=3&isAllowed=y"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 14895080481.6,
+      "Num Unicode Characters 95% LB": 11487616842.856,
+      "Num Unicode Characters 95% UB": 19124437195.599995,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 2769,
+      "Num Bytes Sampled": 247207,
+      "Num WhiteSpaces Sampled": 35510,
+      "Num Unicode Characters Sampled": 205785
+    }
+  }
+}

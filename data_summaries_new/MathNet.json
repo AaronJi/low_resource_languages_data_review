@@ -1,0 +1,4303 @@
+{
+  "MathNet-Argentina": {
+    "Unique Dataset Identifier": "MathNet-Argentina",
+    "Dataset Name": "ShadenA/MathNet-Argentina",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Spanish"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Argentina"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Argentina",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 532
+    }
+  },
+  "MathNet-Asia_Pacific_Mathematics_Olympiad_APMO": {
+    "Unique Dataset Identifier": "MathNet-Asia_Pacific_Mathematics_Olympiad_APMO",
+    "Dataset Name": "ShadenA/MathNet-Asia_Pacific_Mathematics_Olympiad_APMO",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Asia_Pacific_Mathematics_Olympiad_APMO"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Asia_Pacific_Mathematics_Olympiad_APMO",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 124
+    }
+  },
+  "MathNet-Austria": {
+    "Unique Dataset Identifier": "MathNet-Austria",
+    "Dataset Name": "ShadenA/MathNet-Austria",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "German"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Austria"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Austria",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 235
+    }
+  },
+  "MathNet-Balkan_Mathematical_Olympiad": {
+    "Unique Dataset Identifier": "MathNet-Balkan_Mathematical_Olympiad",
+    "Dataset Name": "ShadenA/MathNet-Balkan_Mathematical_Olympiad",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Balkan_Mathematical_Olympiad"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Balkan_Mathematical_Olympiad",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 263
+    }
+  },
+  "MathNet-Baltic_Way": {
+    "Unique Dataset Identifier": "MathNet-Baltic_Way",
+    "Dataset Name": "ShadenA/MathNet-Baltic_Way",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Baltic_Way"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Baltic_Way",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 853
+    }
+  },
+  "MathNet-Belarus": {
+    "Unique Dataset Identifier": "MathNet-Belarus",
+    "Dataset Name": "ShadenA/MathNet-Belarus",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Russian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Belarus"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Belarus",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 579
+    }
+  },
+  "MathNet-Benelux_Mathematical_Olympiad": {
+    "Unique Dataset Identifier": "MathNet-Benelux_Mathematical_Olympiad",
+    "Dataset Name": "ShadenA/MathNet-Benelux_Mathematical_Olympiad",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Benelux_Mathematical_Olympiad"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Benelux_Mathematical_Olympiad",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 59
+    }
+  },
+  "MathNet-Brazil": {
+    "Unique Dataset Identifier": "MathNet-Brazil",
+    "Dataset Name": "ShadenA/MathNet-Brazil",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Portuguese"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Brazil"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Brazil",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 1281
+    }
+  },
+  "MathNet-Bulgaria": {
+    "Unique Dataset Identifier": "MathNet-Bulgaria",
+    "Dataset Name": "ShadenA/MathNet-Bulgaria",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Bulgarian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Bulgaria"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Bulgaria",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 546
+    }
+  },
+  "MathNet-Canada": {
+    "Unique Dataset Identifier": "MathNet-Canada",
+    "Dataset Name": "ShadenA/MathNet-Canada",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English",
+      "French"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Canada"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Canada",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 291
+    }
+  },
+  "MathNet-China": {
+    "Unique Dataset Identifier": "MathNet-China",
+    "Dataset Name": "ShadenA/MathNet-China",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Chinese"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "China"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "China",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 719
+    }
+  },
+  "MathNet-Croatia": {
+    "Unique Dataset Identifier": "MathNet-Croatia",
+    "Dataset Name": "ShadenA/MathNet-Croatia",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Croatian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Croatia"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Croatia",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 659
+    }
+  },
+  "MathNet-Czech-Polish-Slovak_Mathematical_Match": {
+    "Unique Dataset Identifier": "MathNet-Czech-Polish-Slovak_Mathematical_Match",
+    "Dataset Name": "ShadenA/MathNet-Czech-Polish-Slovak_Mathematical_Match",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Czech",
+      "Polish",
+      "Slovak"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Czech-Polish-Slovak_Mathematical_Match"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Czech-Polish-Slovak_Mathematical_Match",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 75
+    }
+  },
+  "MathNet-Czech_Republic": {
+    "Unique Dataset Identifier": "MathNet-Czech_Republic",
+    "Dataset Name": "ShadenA/MathNet-Czech_Republic",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Czech"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Czech_Republic"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Czech_Republic",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 214
+    }
+  },
+  "MathNet-Estonia": {
+    "Unique Dataset Identifier": "MathNet-Estonia",
+    "Dataset Name": "ShadenA/MathNet-Estonia",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Estonian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Estonia"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Estonia",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 522
+    }
+  },
+  "MathNet-European_Girls__Mathematical_Olympiad_EGMO": {
+    "Unique Dataset Identifier": "MathNet-European_Girls__Mathematical_Olympiad_EGMO",
+    "Dataset Name": "ShadenA/MathNet-European_Girls__Mathematical_Olympiad_EGMO",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "European_Girls__Mathematical_Olympiad_EGMO"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "European_Girls__Mathematical_Olympiad_EGMO",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 55634
+    }
+  },
+  "MathNet-France": {
+    "Unique Dataset Identifier": "MathNet-France",
+    "Dataset Name": "ShadenA/MathNet-France",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "French"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "France"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "France",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 816
+    }
+  },
+  "MathNet-Germany": {
+    "Unique Dataset Identifier": "MathNet-Germany",
+    "Dataset Name": "ShadenA/MathNet-Germany",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "German"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Germany"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Germany",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 128
+    }
+  },
+  "MathNet-Greece": {
+    "Unique Dataset Identifier": "MathNet-Greece",
+    "Dataset Name": "ShadenA/MathNet-Greece",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Modern Greek (1453-)"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Greece"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Greece",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 240
+    }
+  },
+  "MathNet-Hong_Kong": {
+    "Unique Dataset Identifier": "MathNet-Hong_Kong",
+    "Dataset Name": "ShadenA/MathNet-Hong_Kong",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Chinese",
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Hong_Kong"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Hong_Kong",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 469
+    }
+  },
+  "MathNet-IMO": {
+    "Unique Dataset Identifier": "MathNet-IMO",
+    "Dataset Name": "ShadenA/MathNet-IMO",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "IMO"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "IMO",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 372
+    }
+  },
+  "MathNet-Ibero-American_Mathematical_Olympiad": {
+    "Unique Dataset Identifier": "MathNet-Ibero-American_Mathematical_Olympiad",
+    "Dataset Name": "ShadenA/MathNet-Ibero-American_Mathematical_Olympiad",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Spanish",
+      "Portuguese"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Ibero-American_Mathematical_Olympiad"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Ibero-American_Mathematical_Olympiad",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 102
+    }
+  },
+  "MathNet-India": {
+    "Unique Dataset Identifier": "MathNet-India",
+    "Dataset Name": "ShadenA/MathNet-India",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "India"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "India",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 272
+    }
+  },
+  "MathNet-Iran": {
+    "Unique Dataset Identifier": "MathNet-Iran",
+    "Dataset Name": "ShadenA/MathNet-Iran",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Persian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Iran"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Iran",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 402
+    }
+  },
+  "MathNet-Ireland": {
+    "Unique Dataset Identifier": "MathNet-Ireland",
+    "Dataset Name": "ShadenA/MathNet-Ireland",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Ireland"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Ireland",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 500
+    }
+  },
+  "MathNet-Italy": {
+    "Unique Dataset Identifier": "MathNet-Italy",
+    "Dataset Name": "ShadenA/MathNet-Italy",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Italian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Italy"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Italy",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 673
+    }
+  },
+  "MathNet-JBMO": {
+    "Unique Dataset Identifier": "MathNet-JBMO",
+    "Dataset Name": "ShadenA/MathNet-JBMO",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "JBMO"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "JBMO",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 368
+    }
+  },
+  "MathNet-Japan": {
+    "Unique Dataset Identifier": "MathNet-Japan",
+    "Dataset Name": "ShadenA/MathNet-Japan",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Japanese"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Japan"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Japan",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 350
+    }
+  },
+  "MathNet-Mexico": {
+    "Unique Dataset Identifier": "MathNet-Mexico",
+    "Dataset Name": "ShadenA/MathNet-Mexico",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Spanish"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Mexico"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Mexico",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 6
+    }
+  },
+  "MathNet-Middle_European_Mathematical_Olympiad_MEMO": {
+    "Unique Dataset Identifier": "MathNet-Middle_European_Mathematical_Olympiad_MEMO",
+    "Dataset Name": "ShadenA/MathNet-Middle_European_Mathematical_Olympiad_MEMO",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Middle_European_Mathematical_Olympiad_MEMO"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Middle_European_Mathematical_Olympiad_MEMO",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 145
+    }
+  },
+  "MathNet-Moldova": {
+    "Unique Dataset Identifier": "MathNet-Moldova",
+    "Dataset Name": "ShadenA/MathNet-Moldova",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Romanian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Moldova"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Moldova",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 149
+    }
+  },
+  "MathNet-Mongolia": {
+    "Unique Dataset Identifier": "MathNet-Mongolia",
+    "Dataset Name": "ShadenA/MathNet-Mongolia",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Mongolian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Mongolia"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Mongolia",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 589
+    }
+  },
+  "MathNet-Netherlands": {
+    "Unique Dataset Identifier": "MathNet-Netherlands",
+    "Dataset Name": "ShadenA/MathNet-Netherlands",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Dutch"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Netherlands"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Netherlands",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 542
+    }
+  },
+  "MathNet-New_Zealand": {
+    "Unique Dataset Identifier": "MathNet-New_Zealand",
+    "Dataset Name": "ShadenA/MathNet-New_Zealand",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "New_Zealand"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "New_Zealand",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 82
+    }
+  },
+  "MathNet-Nordic_Mathematical_Olympiad": {
+    "Unique Dataset Identifier": "MathNet-Nordic_Mathematical_Olympiad",
+    "Dataset Name": "ShadenA/MathNet-Nordic_Mathematical_Olympiad",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Nordic_Mathematical_Olympiad"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Nordic_Mathematical_Olympiad",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 134
+    }
+  },
+  "MathNet-North_Macedonia": {
+    "Unique Dataset Identifier": "MathNet-North_Macedonia",
+    "Dataset Name": "ShadenA/MathNet-North_Macedonia",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Macedonian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "North_Macedonia"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "North_Macedonia",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 385
+    }
+  },
+  "MathNet-Philippines": {
+    "Unique Dataset Identifier": "MathNet-Philippines",
+    "Dataset Name": "ShadenA/MathNet-Philippines",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Philippines"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Philippines",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 710
+    }
+  },
+  "MathNet-Portuguese_Language_Countries_Olympiad_OMCPLP": {
+    "Unique Dataset Identifier": "MathNet-Portuguese_Language_Countries_Olympiad_OMCPLP",
+    "Dataset Name": "ShadenA/MathNet-Portuguese_Language_Countries_Olympiad_OMCPLP",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Portuguese"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Portuguese_Language_Countries_Olympiad_OMCPLP"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Portuguese_Language_Countries_Olympiad_OMCPLP",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 1
+    }
+  },
+  "MathNet-Romania": {
+    "Unique Dataset Identifier": "MathNet-Romania",
+    "Dataset Name": "ShadenA/MathNet-Romania",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Romanian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Romania"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Romania",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 1905
+    }
+  },
+  "MathNet-Romanian_Master_of_Mathematics_RMM": {
+    "Unique Dataset Identifier": "MathNet-Romanian_Master_of_Mathematics_RMM",
+    "Dataset Name": "ShadenA/MathNet-Romanian_Master_of_Mathematics_RMM",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Romanian",
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Romanian_Master_of_Mathematics_RMM"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Romanian_Master_of_Mathematics_RMM",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 19
+    }
+  },
+  "MathNet-Russia": {
+    "Unique Dataset Identifier": "MathNet-Russia",
+    "Dataset Name": "ShadenA/MathNet-Russia",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Russian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Russia"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Russia",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 382
+    }
+  },
+  "MathNet-Saudi_Arabia": {
+    "Unique Dataset Identifier": "MathNet-Saudi_Arabia",
+    "Dataset Name": "ShadenA/MathNet-Saudi_Arabia",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Arabic"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Saudi_Arabia"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Saudi_Arabia",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 908
+    }
+  },
+  "MathNet-Serbia": {
+    "Unique Dataset Identifier": "MathNet-Serbia",
+    "Dataset Name": "ShadenA/MathNet-Serbia",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Serbian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Serbia"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Serbia",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 80
+    }
+  },
+  "MathNet-Silk_Road_Mathematics_Competition": {
+    "Unique Dataset Identifier": "MathNet-Silk_Road_Mathematics_Competition",
+    "Dataset Name": "ShadenA/MathNet-Silk_Road_Mathematics_Competition",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Silk_Road_Mathematics_Competition"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Silk_Road_Mathematics_Competition",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 60
+    }
+  },
+  "MathNet-Singapore": {
+    "Unique Dataset Identifier": "MathNet-Singapore",
+    "Dataset Name": "ShadenA/MathNet-Singapore",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Singapore"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Singapore",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 143
+    }
+  },
+  "MathNet-Slovenia": {
+    "Unique Dataset Identifier": "MathNet-Slovenia",
+    "Dataset Name": "ShadenA/MathNet-Slovenia",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Slovenian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Slovenia"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Slovenia",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 991
+    }
+  },
+  "MathNet-South_Africa": {
+    "Unique Dataset Identifier": "MathNet-South_Africa",
+    "Dataset Name": "ShadenA/MathNet-South_Africa",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "South_Africa"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "South_Africa",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 299
+    }
+  },
+  "MathNet-South_Korea": {
+    "Unique Dataset Identifier": "MathNet-South_Korea",
+    "Dataset Name": "ShadenA/MathNet-South_Korea",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Korean"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "South_Korea"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "South_Korea",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 69
+    }
+  },
+  "MathNet-Soviet_Union": {
+    "Unique Dataset Identifier": "MathNet-Soviet_Union",
+    "Dataset Name": "ShadenA/MathNet-Soviet_Union",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Russian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Soviet_Union"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Soviet_Union",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 549
+    }
+  },
+  "MathNet-Spain": {
+    "Unique Dataset Identifier": "MathNet-Spain",
+    "Dataset Name": "ShadenA/MathNet-Spain",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Spanish"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Spain"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Spain",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 607
+    }
+  },
+  "MathNet-Switzerland": {
+    "Unique Dataset Identifier": "MathNet-Switzerland",
+    "Dataset Name": "ShadenA/MathNet-Switzerland",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "German",
+      "French",
+      "Italian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Switzerland"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Switzerland",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 475
+    }
+  },
+  "MathNet-Taiwan": {
+    "Unique Dataset Identifier": "MathNet-Taiwan",
+    "Dataset Name": "ShadenA/MathNet-Taiwan",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Chinese"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Taiwan"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Taiwan",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 527
+    }
+  },
+  "MathNet-Thailand": {
+    "Unique Dataset Identifier": "MathNet-Thailand",
+    "Dataset Name": "ShadenA/MathNet-Thailand",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Thai"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Thailand"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Thailand",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 82
+    }
+  },
+  "MathNet-Turkey": {
+    "Unique Dataset Identifier": "MathNet-Turkey",
+    "Dataset Name": "ShadenA/MathNet-Turkey",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Turkish"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Turkey"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Turkey",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 326
+    }
+  },
+  "MathNet-Ukraine": {
+    "Unique Dataset Identifier": "MathNet-Ukraine",
+    "Dataset Name": "ShadenA/MathNet-Ukraine",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Ukrainian"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Ukraine"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Ukraine",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 847
+    }
+  },
+  "MathNet-United_States": {
+    "Unique Dataset Identifier": "MathNet-United_States",
+    "Dataset Name": "ShadenA/MathNet-United_States",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "United_States"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "United_States",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 4819
+    }
+  },
+  "MathNet-Vietnam": {
+    "Unique Dataset Identifier": "MathNet-Vietnam",
+    "Dataset Name": "ShadenA/MathNet-Vietnam",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Vietnamese"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Vietnam"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Vietnam",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 259
+    }
+  },
+  "MathNet-Zhautykov_Olympiad": {
+    "Unique Dataset Identifier": "MathNet-Zhautykov_Olympiad",
+    "Dataset Name": "ShadenA/MathNet-Zhautykov_Olympiad",
+    "Paper Title": "MathNet: a Global Multimodal Benchmark for Mathematical Reasoning and Retrieval",
+    "Dataset URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "GitHub URL": "https://github.com/ShadeAlsha/MathNet",
+    "Hugging Face URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Papers with Code URL": "",
+    "ArXiv URL": "https://arxiv.org/abs/2604.18584",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "MathNet",
+    "Collection URL": "https://huggingface.co/datasets/ShadenA/MathNet",
+    "Languages": [
+      "Russian",
+      "English"
+    ],
+    "Task Categories": [
+      "Question Answering",
+      "Text Generation",
+      "Miscellaneous"
+    ],
+    "Text Sources": [
+      "Exams"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Multi-step Reasoning"
+    ],
+    "Human Annotation": "Expert",
+    "Derived from Datasets": [],
+    "Creators": [
+      "ShadenA"
+    ],
+    "Licenses": [
+      {
+        "License": "CC BY 4.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Zhautykov_Olympiad"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 69079,
+      "Crawled Likes": 96,
+      "Created At": "2026-04-23",
+      "Last Modified": "2026-06-16",
+      "Size Category": "10K<n<100K",
+      "Description": "Quick Start · Overview · Tasks · Comparison · Dataset Stats · Data Sources · Pipeline · Schema · License · Citation \n\nThis is the official MathNet v0. A larger version v1 will be uploaded soon (more countires, problems and richer metadata). Schema is stable but field values may be revised in v1.\n\n\n\n\t\n\t\t\n\t\n\t\n\t\tQuick start\n\t\n\nfrom datasets import load_dataset\n\n# Default: all problems\nds = load_dataset(\"ShadenA/MathNet\", split=\"train\")\n\n# Or a specific country / competition-body config… See the full description on the dataset page: https://hf-mirror.com/datasets/ShadenA/MathNet.",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Zhautykov_Olympiad",
+      "HF Config License": "",
+      "HF Dataset": "ShadenA/MathNet",
+      "HF Date": "2026-04-23",
+      "HF Downloads (September 2026)": 69079,
+      "HF Likes (September 2026)": 96,
+      "HF Yaml License": [
+        "CC BY 4.0"
+      ],
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 35
+    }
+  }
+}

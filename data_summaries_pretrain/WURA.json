@@ -1,0 +1,4112 @@
+{
+  "WURA-afr": {
+    "Unique Dataset Identifier": "WURA-afr",
+    "Dataset Name": "WURA-afr",
+    "Collection": "WURA",
+    "Languages": [
+      "afr"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "afr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "afr",
+        "Part": "",
+        "Original Language Identifier": "afr",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "afr"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 1158680,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "afr",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/afr.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 1042812,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8232450362284747,
+              "r_doc": 1399.78,
+              "r_sent": 84.9381067961165,
+              "r_word": 5.061397165172115
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "afr",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/afr.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 115868,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.818823878263448,
+              "r_doc": 1215.02,
+              "r_sent": 84.96643356643357,
+              "r_word": 4.960885186999836
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8211847320189185,
+          "r_doc": 1307.4,
+          "r_sent": 84.95126705653021
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 21.23,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T14:33:59.020100+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "afr",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 1042812,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "afr",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 115868,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 1600489318.7199998,
+      "Num Unicode Characters 95% LB": 1304264781.828,
+      "Num Unicode Characters 95% UB": 1939870398.4959998,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1539,
+      "Num Bytes Sampled": 159209,
+      "Num WhiteSpaces Sampled": 26074,
+      "Num Unicode Characters Sampled": 130740
+    }
+  },
+  "WURA-amh": {
+    "Unique Dataset Identifier": "WURA-amh",
+    "Dataset Name": "WURA-amh",
+    "Collection": "WURA",
+    "Languages": [
+      "amh"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "amh"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "amh",
+        "Part": "",
+        "Original Language Identifier": "amh",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "amh"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 150958,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "amh",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/amh.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 135863,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.3126323027761673,
+              "r_doc": 1391.22,
+              "r_sent": 406.7894736842105,
+              "r_word": 4.175580767152891
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "amh",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/amh.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 15095,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.31351977368950656,
+              "r_doc": 1651.34,
+              "r_sent": 494.41317365269464,
+              "r_word": 4.221432588578148
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.3131133504577488,
+          "r_doc": 1521.28,
+          "r_sent": 450.08284023668637
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 11.25,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:13:58.402230+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "amh",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 135863,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "amh",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 15095,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 213942300.16000003,
+      "Num Unicode Characters 95% LB": 182573382.32349998,
+      "Num Unicode Characters 95% UB": 250687094.51399997,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 338,
+      "Num Bytes Sampled": 485856,
+      "Num WhiteSpaces Sampled": 36218,
+      "Num Unicode Characters Sampled": 152128
+    }
+  },
+  "WURA-arz": {
+    "Unique Dataset Identifier": "WURA-arz",
+    "Dataset Name": "WURA-arz",
+    "Collection": "WURA",
+    "Languages": [
+      "arz"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "arz"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "arz",
+        "Part": "",
+        "Original Language Identifier": "arz",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "arz"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 1617402,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "arz",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/arz.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 1455662,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.5088750576302443,
+              "r_doc": 88.3,
+              "r_sent": 44.15,
+              "r_word": 5.218676122931442
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "arz",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/arz.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 161740,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.5041133455210237,
+              "r_doc": 88.24,
+              "r_sent": 44.12,
+              "r_word": 5.334945586457073
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.5064838191416112,
+          "r_doc": 88.27,
+          "r_sent": 44.135
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 9.62,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:15:47.129861+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "arz",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 1455662,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "arz",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 161740,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 142806892.2,
+      "Num Unicode Characters 95% LB": 136985215.29700002,
+      "Num Unicode Characters 95% UB": 148420005.785,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 200,
+      "Num Bytes Sampled": 17428,
+      "Num WhiteSpaces Sampled": 1673,
+      "Num Unicode Characters Sampled": 8827
+    }
+  },
+  "WURA-eng": {
+    "Unique Dataset Identifier": "WURA-eng",
+    "Dataset Name": "WURA-eng",
+    "Collection": "WURA",
+    "Languages": [
+      "eng"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "eng"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "eng",
+        "Part": "",
+        "Original Language Identifier": "eng",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "eng"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 1531727,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "eng",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/eng.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 1378555,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8278997134860084,
+              "r_doc": 2502.36,
+              "r_sent": 90.66521739130435,
+              "r_word": 4.896219769899037
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "eng",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/eng.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 153172,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8283921333133163,
+              "r_doc": 2758.96,
+              "r_sent": 86.65075376884423,
+              "r_word": 4.901680702128416
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8281578582851674,
+          "r_doc": 2630.66,
+          "r_sent": 88.51480484522207
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 13.2,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:15:50.713320+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "eng",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 1378555,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "eng",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 153172,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 3872236310.92,
+      "Num Unicode Characters 95% LB": 3603337055.2354994,
+      "Num Unicode Characters 95% UB": 4174132396.820999,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 2972,
+      "Num Bytes Sampled": 317652,
+      "Num WhiteSpaces Sampled": 53697,
+      "Num Unicode Characters Sampled": 263066
+    }
+  },
+  "WURA-fra": {
+    "Unique Dataset Identifier": "WURA-fra",
+    "Dataset Name": "WURA-fra",
+    "Collection": "WURA",
+    "Languages": [
+      "fra"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "fra"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "fra",
+        "Part": "",
+        "Original Language Identifier": "fra",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "fra"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 1603529,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "fra",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/fra.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 1443177,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.7954084197590631,
+              "r_doc": 2563.14,
+              "r_sent": 141.60994475138122,
+              "r_word": 5.296619275913374
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "fra",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/fra.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 160352,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.7976601716413882,
+              "r_doc": 2364.52,
+              "r_sent": 145.24078624078624,
+              "r_word": 5.34354802259887
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.7964873261200568,
+          "r_doc": 2463.83,
+          "r_sent": 143.32926119837114
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 10.27,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:15:58.007007+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "fra",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 1443177,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "fra",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 160352,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 4078220206.82,
+      "Num Unicode Characters 95% LB": 3680066953.5639997,
+      "Num Unicode Characters 95% UB": 4492635240.1484995,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1719,
+      "Num Bytes Sampled": 309337,
+      "Num WhiteSpaces Sampled": 46321,
+      "Num Unicode Characters Sampled": 246383
+    }
+  },
+  "WURA-hau": {
+    "Unique Dataset Identifier": "WURA-hau",
+    "Dataset Name": "WURA-hau",
+    "Collection": "WURA",
+    "Languages": [
+      "hau"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "hau"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "hau",
+        "Part": "",
+        "Original Language Identifier": "hau",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "hau"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 399867,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "hau",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/hau.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 359881,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8217348802036262,
+              "r_doc": 891.04,
+              "r_sent": 138.36024844720498,
+              "r_word": 4.602954850707718
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "hau",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/hau.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 39986,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8119623390645135,
+              "r_doc": 1398.8,
+              "r_sent": 127.39526411657559,
+              "r_word": 4.465585493551271
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.815737349843966,
+          "r_doc": 1144.92,
+          "r_sent": 131.44890929965555
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 9.07,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:16:00.350436+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "hau",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 359881,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "hau",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 39986,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 376600783.04,
+      "Num Unicode Characters 95% LB": 315948707.899,
+      "Num Unicode Characters 95% UB": 456812629.7319998,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 871,
+      "Num Bytes Sampled": 140354,
+      "Num WhiteSpaces Sampled": 25341,
+      "Num Unicode Characters Sampled": 114492
+    }
+  },
+  "WURA-ibo": {
+    "Unique Dataset Identifier": "WURA-ibo",
+    "Dataset Name": "WURA-ibo",
+    "Collection": "WURA",
+    "Languages": [
+      "ibo"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "ibo"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "ibo",
+        "Part": "",
+        "Original Language Identifier": "ibo",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "ibo"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 57095,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "ibo",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/ibo.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 51386,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.6850975252486315,
+              "r_doc": 888.64,
+              "r_sent": 96.17316017316017,
+              "r_word": 4.489441244821663
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "ibo",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/ibo.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 5709,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.7005602822162275,
+              "r_doc": 1215.36,
+              "r_sent": 108.90322580645162,
+              "r_word": 4.585225986569078
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.6939451308403201,
+          "r_doc": 1052.0,
+          "r_sent": 103.13725490196079
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 8.49,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:16:07.124022+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "ibo",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 51386,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "ibo",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 5709,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 52602145.28,
+      "Num Unicode Characters 95% LB": 44486812.93,
+      "Num Unicode Characters 95% UB": 61930709.522,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1020,
+      "Num Bytes Sampled": 151597,
+      "Num WhiteSpaces Sampled": 23150,
+      "Num Unicode Characters Sampled": 105200
+    }
+  },
+  "WURA-kin": {
+    "Unique Dataset Identifier": "WURA-kin",
+    "Dataset Name": "WURA-kin",
+    "Collection": "WURA",
+    "Languages": [
+      "kin"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "kin"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "kin",
+        "Part": "",
+        "Original Language Identifier": "kin",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "kin"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 102895,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "kin",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/kin.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 97064,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8478996047752924,
+              "r_doc": 832.4,
+              "r_sent": 114.65564738292011,
+              "r_word": 6.422839506172839
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "kin",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/kin.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 5831,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8446085313642903,
+              "r_doc": 974.56,
+              "r_sent": 111.76146788990826,
+              "r_word": 6.416644719515407
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8461214283707471,
+          "r_doc": 903.48,
+          "r_sent": 113.07634543178973
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 8.46,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:16:09.405873+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "kin",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 97064,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "kin",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 5831,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 86478732.96,
+      "Num Unicode Characters 95% LB": 72647749.693,
+      "Num Unicode Characters 95% UB": 100958544.4975,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 799,
+      "Num Bytes Sampled": 106779,
+      "Num WhiteSpaces Sampled": 14074,
+      "Num Unicode Characters Sampled": 90348
+    }
+  },
+  "WURA-mlg": {
+    "Unique Dataset Identifier": "WURA-mlg",
+    "Dataset Name": "WURA-mlg",
+    "Collection": "WURA",
+    "Languages": [
+      "mlg"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "mlg"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "mlg",
+        "Part": "",
+        "Original Language Identifier": "mlg",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "mlg"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 240233,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "mlg",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/mlg.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 216210,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8340174120520941,
+              "r_doc": 1174.48,
+              "r_sent": 110.17636022514071,
+              "r_word": 6.327335416442193
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "mlg",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/mlg.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 24023,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8325893534967053,
+              "r_doc": 1096.72,
+              "r_sent": 111.00404858299595,
+              "r_word": 6.316056208246947
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8333272181576687,
+          "r_doc": 1135.6,
+          "r_sent": 110.5744888023369
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 15.96,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:16:23.659209+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "mlg",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 216210,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "mlg",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 24023,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 280280825.36,
+      "Num Unicode Characters 95% LB": 225685468.65999997,
+      "Num Unicode Characters 95% UB": 342877949.144,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1027,
+      "Num Bytes Sampled": 136273,
+      "Num WhiteSpaces Sampled": 17963,
+      "Num Unicode Characters Sampled": 113560
+    }
+  },
+  "WURA-nya": {
+    "Unique Dataset Identifier": "WURA-nya",
+    "Dataset Name": "WURA-nya",
+    "Collection": "WURA",
+    "Languages": [
+      "nya"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "nya"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "nya",
+        "Part": "",
+        "Original Language Identifier": "nya",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "nya"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 44052,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "nya",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/nya.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 39647,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8509532897927237,
+              "r_doc": 6001.28,
+              "r_sent": 67.59720657805812,
+              "r_word": 6.134020197064475
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "nya",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/nya.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 4405,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8467675703937909,
+              "r_doc": 6866.76,
+              "r_sent": 58.79075342465753,
+              "r_word": 5.828574338777035
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.848714532575288,
+          "r_doc": 6434.02,
+          "r_sent": 62.59383208483315
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 8.12,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:16:18.108624+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "nya",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 39647,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "nya",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 4405,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 268180825.96,
+      "Num Unicode Characters 95% LB": 211308514.699,
+      "Num Unicode Characters 95% UB": 339585879.642,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 10279,
+      "Num Bytes Sampled": 758090,
+      "Num WhiteSpaces Sampled": 107824,
+      "Num Unicode Characters Sampled": 643402
+    }
+  },
+  "WURA-orm": {
+    "Unique Dataset Identifier": "WURA-orm",
+    "Dataset Name": "WURA-orm",
+    "Collection": "WURA",
+    "Languages": [
+      "orm"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "orm"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "orm",
+        "Part": "",
+        "Original Language Identifier": "orm",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "orm"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 22410,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "orm",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/orm.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 20169,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.870396684428656,
+              "r_doc": 2352.16,
+              "r_sent": 108.39447004608294,
+              "r_word": 7.0054801048367885
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "orm",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/orm.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 2241,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8714739252628292,
+              "r_doc": 2679.12,
+              "r_sent": 107.76830249396622,
+              "r_word": 7.03439584099144
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8709699756259695,
+          "r_doc": 2515.64,
+          "r_sent": 108.06013745704468
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 8.22,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:16:26.888179+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "orm",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 20169,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "orm",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 2241,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 53444622.96,
+      "Num Unicode Characters 95% LB": 45777261.07800001,
+      "Num Unicode Characters 95% UB": 62331675.98399999,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 2328,
+      "Num Bytes Sampled": 288832,
+      "Num WhiteSpaces Sampled": 35831,
+      "Num Unicode Characters Sampled": 251564
+    }
+  },
+  "WURA-por": {
+    "Unique Dataset Identifier": "WURA-por",
+    "Dataset Name": "WURA-por",
+    "Collection": "WURA",
+    "Languages": [
+      "por"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "por"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "por",
+        "Part": "",
+        "Original Language Identifier": "por",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "por"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 1210221,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "por",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/por.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 1089199,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8079062248524082,
+              "r_doc": 2268.94,
+              "r_sent": 115.5264765784114,
+              "r_word": 5.136602372543693
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "por",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/por.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 121022,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8108691470946509,
+              "r_doc": 1517.72,
+              "r_sent": 126.68781302170284,
+              "r_word": 5.160206718346253
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.809091181033046,
+          "r_doc": 1893.33,
+          "r_sent": 119.75521821631878
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 8.68,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:16:32.946971+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "por",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 1089199,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "por",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 121022,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 2655004688.9,
+      "Num Unicode Characters 95% LB": 2117068668.6729999,
+      "Num Unicode Characters 95% UB": 3296463250.6679997,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1581,
+      "Num Bytes Sampled": 234007,
+      "Num WhiteSpaces Sampled": 36792,
+      "Num Unicode Characters Sampled": 189333
+    }
+  },
+  "WURA-sna": {
+    "Unique Dataset Identifier": "WURA-sna",
+    "Dataset Name": "WURA-sna",
+    "Collection": "WURA",
+    "Languages": [
+      "sna"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "sna"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "sna",
+        "Part": "",
+        "Original Language Identifier": "sna",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "sna"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 67762,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "sna",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/sna.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 60986,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8797006852129703,
+              "r_doc": 1841.02,
+              "r_sent": 156.8160136286201,
+              "r_word": 7.368796029458854
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "sna",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/sna.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 6776,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8792884517707901,
+              "r_doc": 1523.42,
+              "r_sent": 155.45102040816326,
+              "r_word": 7.3453230472516875
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8795139778424924,
+          "r_doc": 1682.22,
+          "r_sent": 156.1949860724234
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 8.32,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:16:35.809515+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "sna",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 60986,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "sna",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 6776,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 122599139.64,
+      "Num Unicode Characters 95% LB": 110393473.406,
+      "Num Unicode Characters 95% UB": 135080193.108,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1077,
+      "Num Bytes Sampled": 191267,
+      "Num WhiteSpaces Sampled": 22862,
+      "Num Unicode Characters Sampled": 168222
+    }
+  },
+  "WURA-som": {
+    "Unique Dataset Identifier": "WURA-som",
+    "Dataset Name": "WURA-som",
+    "Collection": "WURA",
+    "Languages": [
+      "som"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "som"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "som",
+        "Part": "",
+        "Original Language Identifier": "som",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "som"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 1084982,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "som",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/som.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 976484,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8498200531431839,
+              "r_doc": 1010.64,
+              "r_sent": 177.30526315789473,
+              "r_word": 5.722763306908267
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "som",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/som.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 108498,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8490233296985852,
+              "r_doc": 1261.36,
+              "r_sent": 157.67,
+              "r_word": 5.784462991837109
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8493775468241803,
+          "r_doc": 1136.0,
+          "r_sent": 165.83941605839416
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 10.55,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:16:44.125872+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "som",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 976484,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "som",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 108498,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 1123728827.04,
+      "Num Unicode Characters 95% LB": 994273099.5890001,
+      "Num Unicode Characters 95% UB": 1301359536.5119998,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 685,
+      "Num Bytes Sampled": 133745,
+      "Num WhiteSpaces Sampled": 19733,
+      "Num Unicode Characters Sampled": 113600
+    }
+  },
+  "WURA-sot": {
+    "Unique Dataset Identifier": "WURA-sot",
+    "Dataset Name": "WURA-sot",
+    "Collection": "WURA",
+    "Languages": [
+      "sot"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "sot"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "sot",
+        "Part": "",
+        "Original Language Identifier": "sot",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "sot"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 42623,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "sot",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/sot.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 38361,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8067688267190926,
+              "r_doc": 4276.02,
+              "r_sent": 66.93832185347527,
+              "r_word": 4.4631137274549095
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "sot",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/sot.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 4262,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8102110157367668,
+              "r_doc": 4530.7,
+              "r_sent": 79.70971147079521,
+              "r_word": 4.498580137815994
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8085360322726948,
+          "r_doc": 4403.36,
+          "r_sent": 72.95162359178264
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 9.64,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:16:46.013255+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "sot",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 38361,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "sot",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 4262,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 183342246.62,
+      "Num Unicode Characters 95% LB": 141749390.51749998,
+      "Num Unicode Characters 95% UB": 231371733.04699993,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 6036,
+      "Num Bytes Sampled": 544609,
+      "Num WhiteSpaces Sampled": 98261,
+      "Num Unicode Characters Sampled": 440336
+    }
+  },
+  "WURA-swa": {
+    "Unique Dataset Identifier": "WURA-swa",
+    "Dataset Name": "WURA-swa",
+    "Collection": "WURA",
+    "Languages": [
+      "swa"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "swa"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "swa",
+        "Part": "",
+        "Original Language Identifier": "swa",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "swa"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 1151393,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "swa",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/swa.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 1036254,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8434028744515596,
+              "r_doc": 1756.96,
+              "r_sent": 145.20330578512397,
+              "r_word": 5.584032545130944
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "swa",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/swa.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 115139,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8442305063896672,
+              "r_doc": 1976.58,
+              "r_sent": 137.2625,
+              "r_word": 5.609547054149165
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8438408302934144,
+          "r_doc": 1866.77,
+          "r_sent": 140.88830188679245
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 9.41,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:16:54.122802+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "swa",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 1036254,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "swa",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 115139,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 2048238272.46,
+      "Num Unicode Characters 95% LB": 1645931807.2754998,
+      "Num Unicode Characters 95% UB": 2527590784.1709995,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1325,
+      "Num Bytes Sampled": 221223,
+      "Num WhiteSpaces Sampled": 33350,
+      "Num Unicode Characters Sampled": 186677
+    }
+  },
+  "WURA-tir": {
+    "Unique Dataset Identifier": "WURA-tir",
+    "Dataset Name": "WURA-tir",
+    "Collection": "WURA",
+    "Languages": [
+      "tir"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "tir"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "tir",
+        "Part": "",
+        "Original Language Identifier": "tir",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "tir"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 9155,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "tir",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/tir.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 8240,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.3131342465934254,
+              "r_doc": 1897.7,
+              "r_sent": 403.7659574468085,
+              "r_word": 3.926384176115203
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "tir",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/tir.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 915,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.3115203290618573,
+              "r_doc": 1969.12,
+              "r_sent": 565.8390804597701,
+              "r_word": 3.8611710263147576
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.31231029920832476,
+          "r_doc": 1933.41,
+          "r_sent": 472.7163814180929
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 8.96,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:16:55.591007+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "tir",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 8240,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "tir",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 915,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 17438792.8,
+      "Num Unicode Characters 95% LB": 13877465.09,
+      "Num Unicode Characters 95% UB": 20956545.814999994,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 409,
+      "Num Bytes Sampled": 619067,
+      "Num WhiteSpaces Sampled": 49665,
+      "Num Unicode Characters Sampled": 193341
+    }
+  },
+  "WURA-xho": {
+    "Unique Dataset Identifier": "WURA-xho",
+    "Dataset Name": "WURA-xho",
+    "Collection": "WURA",
+    "Languages": [
+      "xho"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "xho"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "xho",
+        "Part": "",
+        "Original Language Identifier": "xho",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "xho"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 26546,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "xho",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/xho.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 23892,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8801064014552501,
+              "r_doc": 5776.86,
+              "r_sent": 83.14421416234887,
+              "r_word": 7.569459367383842
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "xho",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/xho.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 2654,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8812038756182422,
+              "r_doc": 3388.74,
+              "r_sent": 77.15710382513662,
+              "r_word": 7.726970083910982
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8805118450631161,
+          "r_doc": 4582.8,
+          "r_sent": 80.82539682539682
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 8.12,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:17:02.827793+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "xho",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 23892,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "xho",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 2654,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 147014455.08,
+      "Num Unicode Characters 95% LB": 86855726.783,
+      "Num Unicode Characters 95% UB": 251886088.1079999,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 5670,
+      "Num Bytes Sampled": 520470,
+      "Num WhiteSpaces Sampled": 60087,
+      "Num Unicode Characters Sampled": 458280
+    }
+  },
+  "WURA-yor": {
+    "Unique Dataset Identifier": "WURA-yor",
+    "Dataset Name": "WURA-yor",
+    "Collection": "WURA",
+    "Languages": [
+      "yor"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "News websites"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "yor"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "yor",
+        "Part": "",
+        "Original Language Identifier": "yor",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped",
+          "News websites"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "yor"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 81636,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "yor",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/yor.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 73473,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.7252388659739989,
+              "r_doc": 1111.24,
+              "r_sent": 104.83396226415094,
+              "r_word": 3.664797836554317
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "yor",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/yor.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 8163,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.6800496235663289,
+              "r_doc": 1118.26,
+              "r_sent": 103.35120147874306,
+              "r_word": 3.71514950166113
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.7018466168443188,
+          "r_doc": 1114.75,
+          "r_sent": 104.08496732026144
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 8.09,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:17:04.263119+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "yor",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 73473,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "yor",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 8163,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 90774492.89999999,
+      "Num Unicode Characters 95% LB": 69180076.5795,
+      "Num Unicode Characters 95% UB": 116870462.64149998,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1071,
+      "Num Bytes Sampled": 158831,
+      "Num WhiteSpaces Sampled": 30211,
+      "Num Unicode Characters Sampled": 111475
+    }
+  },
+  "WURA-zul": {
+    "Unique Dataset Identifier": "WURA-zul",
+    "Dataset Name": "WURA-zul",
+    "Collection": "WURA",
+    "Languages": [
+      "zul"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/castorini/wura",
+    "Hugging Face URL": "https://huggingface.co/datasets/castorini/wura",
+    "GitHub URL": "",
+    "Paper URL": "https://aclanthology.org/2023.emnlp-main.11/",
+    "Official Dataset Identifiers": [
+      "castorini/wura"
+    ],
+    "Dataset Filter IDs": [
+      "zul"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "castorini/wura",
+        "Official Subset": "zul",
+        "Part": "",
+        "Original Language Identifier": "zul",
+        "Version": "docs-v1.0",
+        "Repository Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/castorini/wura",
+          "https://aclanthology.org/2023.emnlp-main.11.pdf#page=10"
+        ],
+        "Notes": "论文表 6 逐语言来源统计：Wikipedia 均非零；新闻抓取和 mC4 按各语言非零列赋值。人工 Yes 来自上游百科编辑。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "zul"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 72718,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "castorini/wura",
+            "Config": "zul",
+            "Split": "train",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/train/zul.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 65447,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.8802759759517517,
+              "r_doc": 3710.24,
+              "r_sent": 66.80302484695714,
+              "r_word": 7.436542932734707
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "castorini/wura",
+            "Config": "zul",
+            "Split": "validation",
+            "Revision": "1d4bcb87775ff906c19c01a42a3190cd43ca3742",
+            "Text Fields": [
+              "content"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/castorini/wura/resolve/1d4bcb87775ff906c19c01a42a3190cd43ca3742/documents-v1.0/eval/zul.jsonl"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": null,
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 7271,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md",
+            "Conversion Factors": {
+              "r_byte": 0.880616733118157,
+              "r_doc": 4452.68,
+              "r_sent": 83.75996990218209,
+              "r_word": 7.669893547386915
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8804618182367293,
+          "r_doc": 4081.46,
+          "r_sent": 75.09586016559338
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "all verified released splits/configs represented by this metadata element; each stratum samples one hash-selected shard",
+        "Elapsed Seconds": 8.25,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T00:17:11.688364+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "castorini/wura",
+          "Config": "zul",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 65447,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        },
+        {
+          "Dataset": "castorini/wura",
+          "Config": "zul",
+          "Split": "validation",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 7271,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {},
+          "Evidence": "https://huggingface.co/datasets/castorini/wura/blob/1d4bcb87775ff906c19c01a42a3190cd43ca3742/README.md"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 275199513.56,
+      "Num Unicode Characters 95% LB": 216627860.1,
+      "Num Unicode Characters 95% UB": 342000917.956,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 5435,
+      "Num Bytes Sampled": 463559,
+      "Num WhiteSpaces Sampled": 53973,
+      "Num Unicode Characters Sampled": 408146
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+    "natural_reasoning": {
+        "Unique Dataset Identifier": "natural_reasoning",
+        "Dataset Name": "facebook/natural_reasoning",
+        "Paper Title": "NaturalReasoning: Reasoning in the Wild with 2.8M Challenging Questions",
+        "Dataset URL": "https://huggingface.co/datasets/facebook/natural_reasoning",
+        "GitHub URL": "https://github.com/mlfoundations/dclm",
+        "Hugging Face URL": "https://huggingface.co/datasets/facebook/natural_reasoning",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2502.13124",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "natural_reasoning",
+        "Collection URL": "https://huggingface.co/datasets/facebook/natural_reasoning",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Generation"
+        ],
+        "Text Sources": [
+            "ML Datasets",
+            "Academic Papers"
+        ],
+        "Model Generated": [
+            "Llama-3.3-70B-Instruct"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-step Reasoning"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "DCLM",
+            "FineMath"
+        ],
+        "Creators": [
+            "facebook"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "default"
+        ],
+        "Inferred Metadata": {
+            "Crawled Downloads": 2825,
+            "Crawled Likes": 584,
+            "Created At": "2025-01-30",
+            "Last Modified": "2025-02-21",
+            "Size Category": "1M<n<10M",
+            "Description": "NaturalReasoning is a large-scale dataset for general reasoning tasks. It consists of high-quality challenging reasoning questions backtranslated from pretraining corpora DCLM and FineMath. The questions have been deduplicated and decontaminated from popular reasoning benchmarks including MATH, GPQA, MMLU-Pro, MMLU-STEM. For each question, we extract the reference final answer from the original document from the pretraining corpora if possible. We also provide a model-generated response from… See the full description on the dataset page: https://hf-mirror.com/datasets/facebook/natural_reasoning.",
+            "GitHub License": "",
+            "GitHub Stars (September 2026)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "facebook/natural_reasoning",
+            "HF Date": "2025-01-30",
+            "HF Downloads (September 2026)": 2825,
+            "HF Likes (September 2026)": 584,
+            "HF Yaml License": [
+                "CC BY-NC 4.0"
+            ],
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2026)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100,
+            "Mean Inputs Length": 345.17,
+            "Mean Targets Length": 0,
+            "Max Inputs Length": 645,
+            "Max Targets Length": 0,
+            "Min Inputs Length": 73,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 1,
+            "Max Dialog Turns": 1,
+            "Mean Dialog Turns": 1.0
+        }
+    }
+}

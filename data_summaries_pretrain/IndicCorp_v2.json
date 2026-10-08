@@ -1,0 +1,3726 @@
+{
+  "IndicCorp v2-asm": {
+    "Unique Dataset Identifier": "IndicCorp v2-asm",
+    "Dataset Name": "IndicCorp v2-asm",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "asm"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "as"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "as",
+        "Part": "",
+        "Original Language Identifier": "as",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "asm"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 3375484,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "as",
+            "Split": "asm_Beng",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/as.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 3375484,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.32360632779341786,
+              "r_doc": 226.45,
+              "r_sent": 94.35416666666667,
+              "r_word": 5.809389430477168
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.32360632779341786,
+          "r_doc": 226.45,
+          "r_sent": 94.35416666666667
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 5.03,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:12:58.773820+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "as",
+          "Split": "asm_Beng",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 3375484,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 764378351.8,
+      "Num Unicode Characters 95% LB": 613691682.814,
+      "Num Unicode Characters 95% UB": 935566022.86,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 240,
+      "Num Bytes Sampled": 69977,
+      "Num WhiteSpaces Sampled": 3898,
+      "Num Unicode Characters Sampled": 22645
+    }
+  },
+  "IndicCorp v2-ben": {
+    "Unique Dataset Identifier": "IndicCorp v2-ben",
+    "Dataset Name": "IndicCorp v2-ben",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "ben"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "bn"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "bn",
+        "Part": "",
+        "Original Language Identifier": "bn",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "ben"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 12743185,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "bn",
+            "Split": "ben_Beng",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/bn.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 12743185,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.3238940220719311,
+              "r_doc": 238.02,
+              "r_sent": 64.5040650406504,
+              "r_word": 5.642958748221906
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.3238940220719311,
+          "r_doc": 238.02,
+          "r_sent": 64.5040650406504
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 8.3,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:02.042355+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "bn",
+          "Split": "ben_Beng",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 12743185,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 3033132893.7,
+      "Num Unicode Characters 95% LB": 2221723332.01,
+      "Num Unicode Characters 95% UB": 4039697962.072499,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 369,
+      "Num Bytes Sampled": 73487,
+      "Num WhiteSpaces Sampled": 4218,
+      "Num Unicode Characters Sampled": 23802
+    }
+  },
+  "IndicCorp v2-brx": {
+    "Unique Dataset Identifier": "IndicCorp v2-brx",
+    "Dataset Name": "IndicCorp v2-brx",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "brx"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "brx"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "brx",
+        "Part": "",
+        "Original Language Identifier": "brx",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "brx"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 174374,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "brx",
+            "Split": "brx_Deva",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/bd.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 174374,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.3235016517225106,
+              "r_doc": 191.94,
+              "r_sent": 78.98765432098766,
+              "r_word": 5.814601635867919
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.3235016517225106,
+          "r_doc": 191.94,
+          "r_sent": 78.98765432098766
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 6.15,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:12:59.890625+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "brx",
+          "Split": "brx_Deva",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 174374,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 33469345.56,
+      "Num Unicode Characters 95% LB": 25456816.666500002,
+      "Num Unicode Characters 95% UB": 47157050.65749999,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 243,
+      "Num Bytes Sampled": 59332,
+      "Num WhiteSpaces Sampled": 3301,
+      "Num Unicode Characters Sampled": 19194
+    }
+  },
+  "IndicCorp v2-doi": {
+    "Unique Dataset Identifier": "IndicCorp v2-doi",
+    "Dataset Name": "IndicCorp v2-doi",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "doi"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "doi"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "doi",
+        "Part": "",
+        "Original Language Identifier": "doi",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "doi"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 12342,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "doi",
+            "Split": "doi_Deva",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/dg.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 12342,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.31517101030657124,
+              "r_doc": 48.01,
+              "r_sent": 39.67768595041322,
+              "r_word": 4.215100965759438
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.31517101030657124,
+          "r_doc": 48.01,
+          "r_sent": 39.67768595041322
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 5.39,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:12:59.132505+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "doi",
+          "Split": "doi_Deva",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 12342,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 592539.42,
+      "Num Unicode Characters 95% LB": 453287.71949999995,
+      "Num Unicode Characters 95% UB": 752001.1455,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 121,
+      "Num Bytes Sampled": 15233,
+      "Num WhiteSpaces Sampled": 1139,
+      "Num Unicode Characters Sampled": 4801
+    }
+  },
+  "IndicCorp v2-eng": {
+    "Unique Dataset Identifier": "IndicCorp v2-eng",
+    "Dataset Name": "IndicCorp v2-eng",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "eng"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "en"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "en",
+        "Part": "",
+        "Original Language Identifier": "en",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "eng"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": 39742856192,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "en",
+            "Split": "unconfigured-English-file",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/en.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": 39742856192,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/en.txt; /Users/aaron/Projects/low-resource-language-review/research/pretrain_metadata/indiccorpv2_english_raw_bytes.json",
+            "Conversion Factors": {
+              "r_byte": 0.8259486118844961,
+              "r_doc": 207.66,
+              "r_sent": 84.41463414634147,
+              "r_word": 5.007475283337352
+            },
+            "Estimation Basis": "Num Bytes",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.832571566033197,
+          "r_doc": 207.66,
+          "r_sent": 84.41463414634147
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 7.36,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T13:54:25.141343+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "en",
+          "Split": "unconfigured-English-file",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": 39742856192,
+            "Num Sentences": null,
+            "Num Documents": null,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line",
+            "bytes": "raw_text_utf8",
+            "utf8_separator_bytes_per_document": 2,
+            "bytes_note": "Whole published plain UTF-8 file, including observed blank-line separators; two LF bytes per nonempty document verified in a bounded prefix"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/en.txt; /Users/aaron/Projects/low-resource-language-review/research/pretrain_metadata/indiccorpv2_english_raw_bytes.json"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 32825556904.107548,
+      "Num Unicode Characters 95% LB": 32691471545.822765,
+      "Num Unicode Characters 95% UB": 32948135920.019814,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 246,
+      "Num Bytes Sampled": 24942,
+      "Num WhiteSpaces Sampled": 4147,
+      "Num Unicode Characters Sampled": 20766
+    }
+  },
+  "IndicCorp v2-gom": {
+    "Unique Dataset Identifier": "IndicCorp v2-gom",
+    "Dataset Name": "IndicCorp v2-gom",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "gom"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "gom"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "gom",
+        "Part": "",
+        "Original Language Identifier": "gom",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "gom"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 2722456,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "gom",
+            "Split": "gom_Deva",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/gom.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 2722456,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.3436106768571594,
+              "r_doc": 118.69,
+              "r_sent": 46.72834645669291,
+              "r_word": 5.657292659675882
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.3436106768571594,
+          "r_doc": 118.69,
+          "r_sent": 46.72834645669291
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 3.24,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:02.432055+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "gom",
+          "Split": "gom_Deva",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 2722456,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 323128302.64,
+      "Num Unicode Characters 95% LB": 245991595.564,
+      "Num Unicode Characters 95% UB": 414692665.288,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 254,
+      "Num Bytes Sampled": 34542,
+      "Num WhiteSpaces Sampled": 2098,
+      "Num Unicode Characters Sampled": 11869
+    }
+  },
+  "IndicCorp v2-guj": {
+    "Unique Dataset Identifier": "IndicCorp v2-guj",
+    "Dataset Name": "IndicCorp v2-guj",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "guj"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "gu"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "gu",
+        "Part": "",
+        "Original Language Identifier": "gu",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "guj"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 15300157,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "gu",
+            "Split": "guj_Gujr",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/gu.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 15300157,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.32009105276130545,
+              "r_doc": 220.77,
+              "r_sent": 63.99130434782609,
+              "r_word": 5.026639344262295
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.32009105276130545,
+          "r_doc": 220.77,
+          "r_sent": 63.99130434782609
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 4.76,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:04.761841+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "gu",
+          "Split": "guj_Gujr",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 15300157,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 3377815660.89,
+      "Num Unicode Characters 95% LB": 2801887151.0959997,
+      "Num Unicode Characters 95% UB": 4028378336.53,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 345,
+      "Num Bytes Sampled": 68971,
+      "Num WhiteSpaces Sampled": 4392,
+      "Num Unicode Characters Sampled": 22077
+    }
+  },
+  "IndicCorp v2-hin": {
+    "Unique Dataset Identifier": "IndicCorp v2-hin",
+    "Dataset Name": "IndicCorp v2-hin",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "hin"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "hi"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "hi",
+        "Part": "",
+        "Original Language Identifier": "hi",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "hin"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 13228283,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "hi",
+            "Split": "hin_Deva",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/hi-2.txt"
+            ],
+            "Available Files": 3,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 13228283,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.31319645154284376,
+              "r_doc": 187.47,
+              "r_sent": 66.95357142857142,
+              "r_word": 4.095019659239843
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.31319645154284376,
+          "r_doc": 187.47,
+          "r_sent": 66.95357142857142
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 15.14,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:17.283694+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "hi",
+          "Split": "hin_Deva",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 13228283,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 2479906214.01,
+      "Num Unicode Characters 95% LB": 2075239808.757,
+      "Num Unicode Characters 95% UB": 2901233641.7014995,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 280,
+      "Num Bytes Sampled": 59857,
+      "Num WhiteSpaces Sampled": 4578,
+      "Num Unicode Characters Sampled": 18747
+    }
+  },
+  "IndicCorp v2-kan": {
+    "Unique Dataset Identifier": "IndicCorp v2-kan",
+    "Dataset Name": "IndicCorp v2-kan",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "kan"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "kn"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "kn",
+        "Part": "",
+        "Original Language Identifier": "kn",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "kan"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 17017731,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "kn",
+            "Split": "kan_Knda",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/kn.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 17017731,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.3245923838454078,
+              "r_doc": 177.38,
+              "r_sent": 65.94052044609666,
+              "r_word": 7.251839738348324
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.3245923838454078,
+          "r_doc": 177.38,
+          "r_sent": 65.94052044609666
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 11.26,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:13.776026+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "kn",
+          "Split": "kan_Knda",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 17017731,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 3018605124.78,
+      "Num Unicode Characters 95% LB": 2591094195.4635,
+      "Num Unicode Characters 95% UB": 3436526562.677999,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 269,
+      "Num Bytes Sampled": 54647,
+      "Num WhiteSpaces Sampled": 2446,
+      "Num Unicode Characters Sampled": 17738
+    }
+  },
+  "IndicCorp v2-kas": {
+    "Unique Dataset Identifier": "IndicCorp v2-kas",
+    "Dataset Name": "IndicCorp v2-kas",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "kas"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "ks"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "ks",
+        "Part": "",
+        "Original Language Identifier": "ks",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "kas"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 6486,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "ks",
+            "Split": "kas_Arab",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/ks.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 6486,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.46057571964956195,
+              "r_doc": 95.68,
+              "r_sent": 92.89320388349515,
+              "r_word": 4.856852791878173
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.46057571964956195,
+          "r_doc": 95.68,
+          "r_sent": 92.89320388349515
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 3.05,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:07.869861+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "ks",
+          "Split": "kas_Arab",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 6486,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 620580.48,
+      "Num Unicode Characters 95% LB": 495465.54,
+      "Num Unicode Characters 95% UB": 774306.7875,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 103,
+      "Num Bytes Sampled": 20774,
+      "Num WhiteSpaces Sampled": 1970,
+      "Num Unicode Characters Sampled": 9568
+    }
+  },
+  "IndicCorp v2-kha": {
+    "Unique Dataset Identifier": "IndicCorp v2-kha",
+    "Dataset Name": "IndicCorp v2-kha",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "kha"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "kha"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "kha",
+        "Part": "",
+        "Original Language Identifier": "kha",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "kha"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 2785508,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "kha",
+            "Split": "khasi",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/kha.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 2785508,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.818254228552687,
+              "r_doc": 174.64,
+              "r_sent": 113.40259740259741,
+              "r_word": 4.596999210318505
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.818254228552687,
+          "r_doc": 174.64,
+          "r_sent": 113.40259740259741
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 4.58,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:12.525472+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "kha",
+          "Split": "khasi",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 2785508,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 486461117.12,
+      "Num Unicode Characters 95% LB": 405839462.699,
+      "Num Unicode Characters 95% UB": 598496338.011,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 154,
+      "Num Bytes Sampled": 21343,
+      "Num WhiteSpaces Sampled": 3799,
+      "Num Unicode Characters Sampled": 17464
+    }
+  },
+  "IndicCorp v2-mai": {
+    "Unique Dataset Identifier": "IndicCorp v2-mai",
+    "Dataset Name": "IndicCorp v2-mai",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "mai"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "mai"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "mai",
+        "Part": "",
+        "Original Language Identifier": "mai",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "mai"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 911550,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "mai",
+            "Split": "mai_Deva",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/mai.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 911550,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.3402368270876926,
+              "r_doc": 143.09,
+              "r_sent": 56.55731225296443,
+              "r_word": 4.496857322438718
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.3402368270876926,
+          "r_doc": 143.09,
+          "r_sent": 56.55731225296443
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 3.7,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:16.295181+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "mai",
+          "Split": "mai_Deva",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 911550,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 130433689.5,
+      "Num Unicode Characters 95% LB": 83878324.2375,
+      "Num Unicode Characters 95% UB": 200275966.83749995,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 253,
+      "Num Bytes Sampled": 42056,
+      "Num WhiteSpaces Sampled": 3182,
+      "Num Unicode Characters Sampled": 14309
+    }
+  },
+  "IndicCorp v2-mal": {
+    "Unique Dataset Identifier": "IndicCorp v2-mal",
+    "Dataset Name": "IndicCorp v2-mal",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "mal"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "ml"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "ml",
+        "Part": "",
+        "Original Language Identifier": "ml",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "mal"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 12492007,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "ml",
+            "Split": "mal_Mlym",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/ml.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 12492007,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.3212652193519294,
+              "r_doc": 249.35,
+              "r_sent": 61.115196078431374,
+              "r_word": 8.88631503920171
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.3212652193519294,
+          "r_doc": 249.35,
+          "r_sent": 61.115196078431374
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 4.16,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:18.030460+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "ml",
+          "Split": "mal_Mlym",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 12492007,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 3114881945.45,
+      "Num Unicode Characters 95% LB": 2667889827.97425,
+      "Num Unicode Characters 95% UB": 3570855815.95875,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 408,
+      "Num Bytes Sampled": 77615,
+      "Num WhiteSpaces Sampled": 2806,
+      "Num Unicode Characters Sampled": 24935
+    }
+  },
+  "IndicCorp v2-mar": {
+    "Unique Dataset Identifier": "IndicCorp v2-mar",
+    "Dataset Name": "IndicCorp v2-mar",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "mar"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "mr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "mr",
+        "Part": "",
+        "Original Language Identifier": "mr",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "mar"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 13140465,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "mr",
+            "Split": "mar_Deva",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/mr.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 13140465,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.32208846584546474,
+              "r_doc": 207.09,
+              "r_sent": 64.51401869158879,
+              "r_word": 5.8599320882852295
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.32208846584546474,
+          "r_doc": 207.09,
+          "r_sent": 64.51401869158879
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 4.03,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:17.900851+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "mr",
+          "Split": "mar_Deva",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 13140465,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 2721258896.85,
+      "Num Unicode Characters 95% LB": 2190410391.78,
+      "Num Unicode Characters 95% UB": 3321153975.2625,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 321,
+      "Num Bytes Sampled": 64296,
+      "Num WhiteSpaces Sampled": 3534,
+      "Num Unicode Characters Sampled": 20709
+    }
+  },
+  "IndicCorp v2-mni": {
+    "Unique Dataset Identifier": "IndicCorp v2-mni",
+    "Dataset Name": "IndicCorp v2-mni",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "mni"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "mni"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "mni",
+        "Part": "",
+        "Original Language Identifier": "mni",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "mni"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 85914,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "mni",
+            "Split": "mni_Mtei",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/mni.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 85914,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.3225918397699668,
+              "r_doc": 65.07,
+              "r_sent": 57.078947368421055,
+              "r_word": 4.98238897396631
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.3225918397699668,
+          "r_doc": 65.07,
+          "r_sent": 57.078947368421055
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 2.73,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:19.121060+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "mni",
+          "Split": "mni_Mtei",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 85914,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 5590423.98,
+      "Num Unicode Characters 95% LB": 4537870.0875,
+      "Num Unicode Characters 95% UB": 6748652.092499999,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 114,
+      "Num Bytes Sampled": 20171,
+      "Num WhiteSpaces Sampled": 1306,
+      "Num Unicode Characters Sampled": 6507
+    }
+  },
+  "IndicCorp v2-nep": {
+    "Unique Dataset Identifier": "IndicCorp v2-nep",
+    "Dataset Name": "IndicCorp v2-nep",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "nep"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "ne"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "ne",
+        "Part": "",
+        "Original Language Identifier": "ne",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "nep"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 16993241,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "ne",
+            "Split": "npi_Deva",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/ne.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 16993241,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.3175301727012069,
+              "r_doc": 190.48,
+              "r_sent": 71.07462686567165,
+              "r_word": 5.349059253018815
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.3175301727012069,
+          "r_doc": 190.48,
+          "r_sent": 71.07462686567165
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 3.94,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:21.283893+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "ne",
+          "Split": "npi_Deva",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 16993241,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 3236872545.68,
+      "Num Unicode Characters 95% LB": 2719857436.56525,
+      "Num Unicode Characters 95% UB": 3805581093.9167495,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 268,
+      "Num Bytes Sampled": 59988,
+      "Num WhiteSpaces Sampled": 3561,
+      "Num Unicode Characters Sampled": 19048
+    }
+  },
+  "IndicCorp v2-ori": {
+    "Unique Dataset Identifier": "IndicCorp v2-ori",
+    "Dataset Name": "IndicCorp v2-ori",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "ori"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "or"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "or",
+        "Part": "",
+        "Original Language Identifier": "or",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "ori"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 5581122,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "or",
+            "Split": "ory_Orya",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/or.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 5581122,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.325877900483931,
+              "r_doc": 105.05,
+              "r_sent": 51.495098039215684,
+              "r_word": 5.448651452282157
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.325877900483931,
+          "r_doc": 105.05,
+          "r_sent": 51.495098039215684
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 4.09,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:22.087526+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "or",
+          "Split": "ory_Orya",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 5581122,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 586296866.1,
+      "Num Unicode Characters 95% LB": 472924744.353,
+      "Num Unicode Characters 95% UB": 714390592.4024999,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 204,
+      "Num Bytes Sampled": 32236,
+      "Num WhiteSpaces Sampled": 1928,
+      "Num Unicode Characters Sampled": 10505
+    }
+  },
+  "IndicCorp v2-pan": {
+    "Unique Dataset Identifier": "IndicCorp v2-pan",
+    "Dataset Name": "IndicCorp v2-pan",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "pan"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "pa"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "pa",
+        "Part": "",
+        "Original Language Identifier": "pa",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "pan"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 14485885,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "pa",
+            "Split": "pan_Guru",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/pa.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 14485885,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.3167342784853068,
+              "r_doc": 224.08,
+              "r_sent": 76.4778156996587,
+              "r_word": 4.1728119180633145
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.3167342784853068,
+          "r_doc": 224.08,
+          "r_sent": 76.4778156996587
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 7.44,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:25.551902+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "pa",
+          "Split": "pan_Guru",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 14485885,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 3245997110.8,
+      "Num Unicode Characters 95% LB": 2600339487.5225,
+      "Num Unicode Characters 95% UB": 4010156516.32,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 293,
+      "Num Bytes Sampled": 70747,
+      "Num WhiteSpaces Sampled": 5370,
+      "Num Unicode Characters Sampled": 22408
+    }
+  },
+  "IndicCorp v2-san": {
+    "Unique Dataset Identifier": "IndicCorp v2-san",
+    "Dataset Name": "IndicCorp v2-san",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "san"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "sa"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "sa",
+        "Part": "",
+        "Original Language Identifier": "sa",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "san"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 7948348,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "sa",
+            "Split": "san_Deva",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/sa.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 7948348,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.32590629227753387,
+              "r_doc": 118.04,
+              "r_sent": 40.28668941979522,
+              "r_word": 8.49820014398848
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.32590629227753387,
+          "r_doc": 118.04,
+          "r_sent": 40.28668941979522
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 5.55,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:24.762126+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "sa",
+          "Split": "san_Deva",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 7948348,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 938222997.92,
+      "Num Unicode Characters 95% LB": 430403044.2,
+      "Num Unicode Characters 95% UB": 1674635453.0329993,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 293,
+      "Num Bytes Sampled": 36219,
+      "Num WhiteSpaces Sampled": 1389,
+      "Num Unicode Characters Sampled": 11804
+    }
+  },
+  "IndicCorp v2-sat": {
+    "Unique Dataset Identifier": "IndicCorp v2-sat",
+    "Dataset Name": "IndicCorp v2-sat",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "sat"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "sat"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "sat",
+        "Part": "",
+        "Original Language Identifier": "sat",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "sat"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 234482,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "sat",
+            "Split": "santhali",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/sat.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 234482,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.3195289621798999,
+              "r_doc": 153.85,
+              "r_sent": 80.97368421052632,
+              "r_word": 4.537009731642583
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.3195289621798999,
+          "r_doc": 153.85,
+          "r_sent": 80.97368421052632
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 3.62,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:24.988152+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "sat",
+          "Split": "santhali",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 234482,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 36075055.7,
+      "Num Unicode Characters 95% LB": 29105312.732,
+      "Num Unicode Characters 95% UB": 43493479.97499999,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 190,
+      "Num Bytes Sampled": 48149,
+      "Num WhiteSpaces Sampled": 3391,
+      "Num Unicode Characters Sampled": 15385
+    }
+  },
+  "IndicCorp v2-snd": {
+    "Unique Dataset Identifier": "IndicCorp v2-snd",
+    "Dataset Name": "IndicCorp v2-snd",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "snd"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "sd"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "sd",
+        "Part": "",
+        "Original Language Identifier": "sd",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "snd"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 265948,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "sd",
+            "Split": "snd_Deva",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/sd.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 265948,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.4514900313743572,
+              "r_doc": 450.42,
+              "r_sent": 79.29929577464789,
+              "r_word": 3.6916646176542907
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.4514900313743572,
+          "r_doc": 450.42,
+          "r_sent": 79.29929577464789
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 3.58,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:25.755161+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "sd",
+          "Split": "snd_Deva",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 265948,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 119788298.16,
+      "Num Unicode Characters 95% LB": 84634826.111,
+      "Num Unicode Characters 95% UB": 159763540.42299998,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 568,
+      "Num Bytes Sampled": 99763,
+      "Num WhiteSpaces Sampled": 12201,
+      "Num Unicode Characters Sampled": 45042
+    }
+  },
+  "IndicCorp v2-tam": {
+    "Unique Dataset Identifier": "IndicCorp v2-tam",
+    "Dataset Name": "IndicCorp v2-tam",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "tam"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "ta"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "ta",
+        "Part": "",
+        "Original Language Identifier": "ta",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "tam"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 12139083,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "ta",
+            "Split": "tam_Taml",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/ta.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 12139083,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.3283265033035042,
+              "r_doc": 196.29,
+              "r_sent": 73.24253731343283,
+              "r_word": 8.261363636363637
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.3283265033035042,
+          "r_doc": 196.29,
+          "r_sent": 73.24253731343283
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 5.18,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:30.134048+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "ta",
+          "Split": "tam_Taml",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 12139083,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 2382780602.07,
+      "Num Unicode Characters 95% LB": 1899016901.12475,
+      "Num Unicode Characters 95% UB": 2970327393.1237497,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 268,
+      "Num Bytes Sampled": 59785,
+      "Num WhiteSpaces Sampled": 2376,
+      "Num Unicode Characters Sampled": 19629
+    }
+  },
+  "IndicCorp v2-tel": {
+    "Unique Dataset Identifier": "IndicCorp v2-tel",
+    "Dataset Name": "IndicCorp v2-tel",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "tel"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "te"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "te",
+        "Part": "",
+        "Original Language Identifier": "te",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "tel"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 13498729,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "te",
+            "Split": "tel_Telu",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/te.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 13498729,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.32067595667421867,
+              "r_doc": 206.65,
+              "r_sent": 61.87125748502994,
+              "r_word": 6.967296021577883
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.32067595667421867,
+          "r_doc": 206.65,
+          "r_sent": 61.87125748502994
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 3.87,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:28.930391+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "te",
+          "Split": "tel_Telu",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 13498729,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 2789512347.85,
+      "Num Unicode Characters 95% LB": 2191812250.50575,
+      "Num Unicode Characters 95% UB": 3417830937.2485,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 334,
+      "Num Bytes Sampled": 64442,
+      "Num WhiteSpaces Sampled": 2966,
+      "Num Unicode Characters Sampled": 20665
+    }
+  },
+  "IndicCorp v2-urd": {
+    "Unique Dataset Identifier": "IndicCorp v2-urd",
+    "Dataset Name": "IndicCorp v2-urd",
+    "Collection": "IndicCorp v2",
+    "Languages": [
+      "urd"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://github.com/AI4Bharat/IndicBERT/tree/main/indiccorp-v2",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/AI4Bharat/IndicBERT",
+    "Paper URL": "https://aclanthology.org/2023.acl-long.693/",
+    "Official Dataset Identifiers": [
+      "IndicCorp v2"
+    ],
+    "Dataset Filter IDs": [
+      "ur"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "IndicCorp v2",
+        "Official Subset": "ur",
+        "Part": "",
+        "Original Language Identifier": "ur",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2212.05409v3"
+        ],
+        "Notes": "经人工核验网址后自动抓取；不将其他训练混合（Wikipedia/OSCAR/TLM）视作 IndicCorp v2 本身。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "urd"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 15847371,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "ai4bharat/IndicCorpV2",
+            "Config": "ur",
+            "Split": "urd_Arab",
+            "Revision": "2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/ai4bharat/IndicCorpV2/resolve/2d7285e6ce14fdb3fb2449c9f89427b9f582ac3f/data/ur.txt"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic published text file; datasets-server num_examples is used as the document denominator. Its num_bytes is Arrow size and is not treated as UTF-8 bytes.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 15847371,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2",
+            "Conversion Factors": {
+              "r_byte": 0.44034334763948496,
+              "r_doc": 266.76,
+              "r_sent": 249.30841121495328,
+              "r_word": 3.5951482479784365
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.44034334763948496,
+          "r_doc": 266.76,
+          "r_sent": 249.30841121495328
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official IndicCorp v2 language text represented by this metadata element",
+        "Elapsed Seconds": 10.27,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T13:13:35.944463+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "ai4bharat/IndicCorpV2",
+          "Config": "ur",
+          "Split": "urd_Arab",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 15847371,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one published text line"
+          },
+          "Evidence": "https://huggingface.co/datasets/ai4bharat/IndicCorpV2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 4227444687.96,
+      "Num Unicode Characters 95% LB": 2504296649.646,
+      "Num Unicode Characters 95% UB": 6925562608.621499,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 107,
+      "Num Bytes Sampled": 60580,
+      "Num WhiteSpaces Sampled": 7420,
+      "Num Unicode Characters Sampled": 26676
+    }
+  }
+}

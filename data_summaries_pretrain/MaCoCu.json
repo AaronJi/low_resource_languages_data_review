@@ -1,0 +1,3866 @@
+{
+  "MaCoCu-bos": {
+    "Unique Dataset Identifier": "MaCoCu-bos",
+    "Dataset Name": "MaCoCu-bos",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "bos"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1808",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu"
+    ],
+    "Dataset Filter IDs": [
+      "bs"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu",
+        "Official Subset": "bs",
+        "Part": "monolingual",
+        "Original Language Identifier": "bs",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://macocu.eu/",
+          "https://www.clarin.si/repository/xmlui/handle/11356/1808"
+        ],
+        "Notes": "定向网页抓取，自动清洗；单语版本。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "bos"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 2749435,
+      "Storage Size": 2372646696,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-bs 1.0",
+            "Config": "bs",
+            "Split": "monolingual",
+            "Revision": "1.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1808/MaCoCu-bs-1.0.xml.zip?sequence=3&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Version-matched CLARIN XML ZIP. The official page reports an exact text/document count. A validated bounded ZIP prefix supplies the sample; source-order bias is outside the conditional interval.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 2749435,
+              "Storage Size": 2372646696,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1808",
+            "Conversion Factors": {
+              "r_byte": 0.4725911606398302,
+              "r_doc": 1246.79,
+              "r_sent": 72.19397799652577,
+              "r_word": 5.979808153477218
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.4725911606398302,
+          "r_doc": 1246.79,
+          "r_sent": 72.19397799652577
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete released MaCoCu monolingual bos XML ZIP; bounded prefix sample",
+        "Elapsed Seconds": 12.79,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T07:33:12.537384+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-bs 1.0",
+          "Config": "bs",
+          "Split": "monolingual",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 2749435,
+            "Storage Size": 2372646696,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released XML doc, assembled from its paragraph text",
+            "storage_format": "official whole ZIP file bytes; no per-document compressed attribution"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1808"
+        }
+      ],
+      "Official Release": "MaCoCu-bs 1.0"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 3427968063.65,
+      "Num Unicode Characters 95% LB": 2315036642.4575,
+      "Num Unicode Characters 95% UB": 5293416407.548748,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1727,
+      "Num Bytes Sampled": 263820,
+      "Num WhiteSpaces Sampled": 20850,
+      "Num Unicode Characters Sampled": 124679
+    }
+  },
+  "MaCoCu-bos-eng": {
+    "Unique Dataset Identifier": "MaCoCu-bos-eng",
+    "Dataset Name": "MaCoCu-bos-eng",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "bos",
+      "eng"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/MaCoCu/parallel_data",
+    "Hugging Face URL": "https://huggingface.co/datasets/MaCoCu/parallel_data",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu/parallel_data"
+    ],
+    "Dataset Filter IDs": [
+      "parallel-en-bs"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu/parallel_data",
+        "Official Subset": "parallel-en-bs",
+        "Part": "parallel-en-bs",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/MaCoCu/parallel_data"
+        ],
+        "Notes": "网页自动对齐，原始网页可能混有人译/机译，未将挖掘视为人工翻译。",
+        "Original Language Pair": [
+          "en",
+          "bs"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "bos",
+        "eng"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "bos",
+          "Languages": [
+            "bos"
+          ]
+        },
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 481667,
+      "Storage Size": 162903085,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-bs-en 1.0",
+            "Config": "parallel-en-bs/latin",
+            "Split": "sentence-level",
+            "Revision": "1.0",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1820/MaCoCu-bs-en.latin.sent.txt.gz?isAllowed=y&sequence=5"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Complete published latin script file; MD5 47c268769005084416882ea7ca188aeb. The release page reports 501239 entries, equal to the sum of physical data lines, but quoted embedded newlines leave 481667 parsed aligned records across both files. The estimate uses exact parsed records per script; the page count is not a compatible denominator.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 372862,
+              "Storage Size": 128177687,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1820; https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1820/MaCoCu-bs-en.latin.sent.txt.gz?isAllowed=y&sequence=5",
+            "Conversion Factors": {
+              "r_byte": 0.8340028508487755,
+              "r_doc": 257.44,
+              "r_sent": 114.92857142857143,
+              "r_word": 5.365568987077949
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "MaCoCu-bs-en 1.0",
+            "Config": "parallel-en-bs/cyrillic",
+            "Split": "sentence-level",
+            "Revision": "1.0",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1820/MaCoCu-bs-en.cyrillic.sent.txt.gz?isAllowed=y&sequence=2"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Complete published cyrillic script file; MD5 8c421be4b85ffd2a5b31d46d8b37cb23. The release page reports 501239 entries, equal to the sum of physical data lines, but quoted embedded newlines leave 481667 parsed aligned records across both files. The estimate uses exact parsed records per script; the page count is not a compatible denominator.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 108805,
+              "Storage Size": 34725398,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1820; https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1820/MaCoCu-bs-en.cyrillic.sent.txt.gz?isAllowed=y&sequence=2",
+            "Conversion Factors": {
+              "r_byte": 0.6103734439834025,
+              "r_doc": 176.52,
+              "r_sent": 66.86363636363636,
+              "r_word": 5.259833134684148
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.7258312704890614,
+          "r_doc": 216.98,
+          "r_sent": 88.92622950819673
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete published MaCoCu-bs-en 1.0 Latin and Cyrillic sentence-level TSV files",
+        "Elapsed Seconds": 6.65,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-29T17:26:33.884142+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-bs-en 1.0",
+          "Config": "parallel-en-bs/latin",
+          "Split": "sentence-level",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 372862,
+            "Storage Size": 128177687,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one parsed aligned TSV record, including quoted embedded newlines",
+            "storage_format": "published .txt.gz file bytes"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1820; https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1820/MaCoCu-bs-en.latin.sent.txt.gz?isAllowed=y&sequence=5"
+        },
+        {
+          "Dataset": "MaCoCu-bs-en 1.0",
+          "Config": "parallel-en-bs/cyrillic",
+          "Split": "sentence-level",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 108805,
+            "Storage Size": 34725398,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one parsed aligned TSV record, including quoted embedded newlines",
+            "storage_format": "published .txt.gz file bytes"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1820; https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1820/MaCoCu-bs-en.cyrillic.sent.txt.gz?isAllowed=y&sequence=2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 115195851.88,
+      "Num Unicode Characters 95% LB": 100102574.41100001,
+      "Num Unicode Characters 95% UB": 130959256.4695,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 244,
+      "Num Bytes Sampled": 29894,
+      "Num WhiteSpaces Sampled": 4077,
+      "Num Unicode Characters Sampled": 21698
+    }
+  },
+  "MaCoCu-bul": {
+    "Unique Dataset Identifier": "MaCoCu-bul",
+    "Dataset Name": "MaCoCu-bul",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "bul"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1800",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu"
+    ],
+    "Dataset Filter IDs": [
+      "bg"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu",
+        "Official Subset": "bg",
+        "Part": "monolingual",
+        "Original Language Identifier": "bg",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://macocu.eu/",
+          "https://www.clarin.si/repository/xmlui/handle/11356/1800"
+        ],
+        "Notes": "定向网页抓取，自动清洗；单语版本。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "bul"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 10492856,
+      "Storage Size": 12945212342,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-bg 2.0",
+            "Config": "bg",
+            "Split": "monolingual",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1800/MaCoCu-bg-2.0.xml.zip?sequence=3&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Version-matched CLARIN XML ZIP. The official page reports an exact text/document count. A validated bounded ZIP prefix supplies the sample; source-order bias is outside the conditional interval.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 10492856,
+              "Storage Size": 12945212342,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1800",
+            "Conversion Factors": {
+              "r_byte": 0.47699152092526675,
+              "r_doc": 2381.28,
+              "r_sent": 64.08180839612487,
+              "r_word": 5.697659951189166
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.47699152092526675,
+          "r_doc": 2381.28,
+          "r_sent": 64.08180839612487
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete released MaCoCu monolingual bul XML ZIP; bounded prefix sample",
+        "Elapsed Seconds": 8.45,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T07:33:08.195160+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-bg 2.0",
+          "Config": "bg",
+          "Split": "monolingual",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 10492856,
+            "Storage Size": 12945212342,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released XML doc, assembled from its paragraph text",
+            "storage_format": "official whole ZIP file bytes; no per-document compressed attribution"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1800"
+        }
+      ],
+      "Official Release": "MaCoCu-bg 2.0"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 24986428135.68,
+      "Num Unicode Characters 95% LB": 17171136506.546,
+      "Num Unicode Characters 95% UB": 35399457110.446,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 3716,
+      "Num Bytes Sampled": 499229,
+      "Num WhiteSpaces Sampled": 41794,
+      "Num Unicode Characters Sampled": 238128
+    }
+  },
+  "MaCoCu-bul-eng": {
+    "Unique Dataset Identifier": "MaCoCu-bul-eng",
+    "Dataset Name": "MaCoCu-bul-eng",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "bul",
+      "eng"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1815",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu-bg-en 2.0"
+    ],
+    "Dataset Filter IDs": [
+      "parallel-en-bg"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu-bg-en 2.0",
+        "Official Subset": "parallel-en-bg",
+        "Part": "parallel-en-bg",
+        "Original Language Identifier": "bul",
+        "Version": "2.0",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://www.clarin.si/repository/xmlui/handle/11356/1815"
+        ],
+        "Notes": "官方 CLARIN.SI 2.0 句对文件 MaCoCu-bg-en.sent.txt.gz；页面报告 1,760,777 个对齐片段。网页自动对齐，原始网页可能混有人译/机译，未将挖掘视为人工翻译。",
+        "Original Language Pair": [
+          "bg",
+          "en"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "bul",
+        "eng"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "bul",
+          "Languages": [
+            "bul"
+          ]
+        },
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 1760777,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-bg-en 2.0",
+            "Config": "parallel-en-bg",
+            "Split": "sentence-level",
+            "Revision": "2.0",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1815/MaCoCu-bg-en.sent.txt.gz?isAllowed=y&sequence=2"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Official CLARIN.SI 2.0 sentence-level TXT/Gzip release; both text sides counted. The page reports entries for this release, and the streamed file header was verified; URL is version-specific but not a content hash. Published file MD5: b251e2b6533123ee8d60283a147cc5be",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 1760777,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1815",
+            "Conversion Factors": {
+              "r_byte": 0.6064440078585461,
+              "r_doc": 231.51,
+              "r_sent": 92.23505976095618,
+              "r_word": 5.39902052238806
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.6064440078585461,
+          "r_doc": 231.51,
+          "r_sent": 92.23505976095618
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official MaCoCu-bg-en 2.0 sentence-level aligned segments",
+        "Elapsed Seconds": 3.36,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T23:09:07.569007+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-bg-en 2.0",
+          "Config": "parallel-en-bg",
+          "Split": "sentence-level",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 1760777,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released aligned source-target segment pair"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1815"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 407637483.27,
+      "Num Unicode Characters 95% LB": 366531263.81649995,
+      "Num Unicode Characters 95% UB": 450146601.79825,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 251,
+      "Num Bytes Sampled": 38175,
+      "Num WhiteSpaces Sampled": 4288,
+      "Num Unicode Characters Sampled": 23151
+    }
+  },
+  "MaCoCu-cnr": {
+    "Unique Dataset Identifier": "MaCoCu-cnr",
+    "Dataset Name": "MaCoCu-cnr",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "cnr"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1809",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu"
+    ],
+    "Dataset Filter IDs": [
+      "cnr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu",
+        "Official Subset": "cnr",
+        "Part": "monolingual",
+        "Original Language Identifier": "cnr",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://macocu.eu/",
+          "https://www.clarin.si/repository/xmlui/handle/11356/1809"
+        ],
+        "Notes": "定向网页抓取，自动清洗；单语版本。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "cnr"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 586804,
+      "Storage Size": 524434014,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-cnr 1.0",
+            "Config": "cnr",
+            "Split": "monolingual",
+            "Revision": "1.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1809/MaCoCu-cnr-1.0.xml.zip?sequence=3&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Version-matched CLARIN XML ZIP. The official page reports an exact text/document count. A validated bounded ZIP prefix supplies the sample; source-order bias is outside the conditional interval.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 586804,
+              "Storage Size": 524434014,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1809",
+            "Conversion Factors": {
+              "r_byte": 0.46776642596549567,
+              "r_doc": 680.82,
+              "r_sent": 60.409937888198755,
+              "r_word": 5.7010550996483005
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.46776642596549567,
+          "r_doc": 680.82,
+          "r_sent": 60.409937888198755
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete released MaCoCu monolingual cnr XML ZIP; bounded prefix sample",
+        "Elapsed Seconds": 2.28,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T07:33:10.579576+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-cnr 1.0",
+          "Config": "cnr",
+          "Split": "monolingual",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 586804,
+            "Storage Size": 524434014,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released XML doc, assembled from its paragraph text",
+            "storage_format": "official whole ZIP file bytes; no per-document compressed attribution"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1809"
+        }
+      ],
+      "Official Release": "MaCoCu-cnr 1.0"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 399507899.28,
+      "Num Unicode Characters 95% LB": 310898734.868,
+      "Num Unicode Characters 95% UB": 510331996.12200004,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1127,
+      "Num Bytes Sampled": 145547,
+      "Num WhiteSpaces Sampled": 11942,
+      "Num Unicode Characters Sampled": 68082
+    }
+  },
+  "MaCoCu-cnr-eng": {
+    "Unique Dataset Identifier": "MaCoCu-cnr-eng",
+    "Dataset Name": "MaCoCu-cnr-eng",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "cnr",
+      "eng"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/MaCoCu/parallel_data",
+    "Hugging Face URL": "https://huggingface.co/datasets/MaCoCu/parallel_data",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu/parallel_data"
+    ],
+    "Dataset Filter IDs": [
+      "parallel-en-cnr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu/parallel_data",
+        "Official Subset": "parallel-en-cnr",
+        "Part": "parallel-en-cnr",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/MaCoCu/parallel_data"
+        ],
+        "Notes": "网页自动对齐，原始网页可能混有人译/机译，未将挖掘视为人工翻译。",
+        "Original Language Pair": [
+          "en",
+          "cnr"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "cnr",
+        "eng"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "cnr",
+          "Languages": [
+            "cnr"
+          ]
+        },
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 213985,
+      "Storage Size": 77360013,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-cnr-en 1.0",
+            "Config": "parallel-en-cnr/latin",
+            "Split": "sentence-level",
+            "Revision": "1.0",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1821/MaCoCu-cnr-en.latin.sent.txt.gz?isAllowed=y&sequence=5"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Complete published latin script file; MD5 66709c12587dd1eab0685353a08e190a. The release page reports 218671 entries, equal to the sum of physical data lines, but quoted embedded newlines leave 213985 parsed aligned records across both files. The estimate uses exact parsed records per script; the page count is not a compatible denominator.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 204546,
+              "Storage Size": 73924489,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1821; https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1821/MaCoCu-cnr-en.latin.sent.txt.gz?isAllowed=y&sequence=5",
+            "Conversion Factors": {
+              "r_byte": 0.8408381051535658,
+              "r_doc": 258.44,
+              "r_sent": 107.68333333333334,
+              "r_word": 5.6109422492401215
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "MaCoCu-cnr-en 1.0",
+            "Config": "parallel-en-cnr/cyrillic",
+            "Split": "sentence-level",
+            "Revision": "1.0",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1821/MaCoCu-cnr-en.cyrillic.sent.txt.gz?isAllowed=y&sequence=2"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Complete published cyrillic script file; MD5 5ded421504f006b94447a86ec1886f0b. The release page reports 218671 entries, equal to the sum of physical data lines, but quoted embedded newlines leave 213985 parsed aligned records across both files. The estimate uses exact parsed records per script; the page count is not a compatible denominator.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 9439,
+              "Storage Size": 3435524,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1821; https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1821/MaCoCu-cnr-en.cyrillic.sent.txt.gz?isAllowed=y&sequence=2",
+            "Conversion Factors": {
+              "r_byte": 0.6088933804951996,
+              "r_doc": 313.3,
+              "r_sent": 103.0592105263158,
+              "r_word": 5.9068627450980395
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.6956320720282273,
+          "r_doc": 285.87,
+          "r_sent": 105.09926470588235
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete published MaCoCu-cnr-en 1.0 Latin and Cyrillic sentence-level TSV files",
+        "Elapsed Seconds": 5.42,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-29T17:35:42.484923+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "128 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-cnr-en 1.0",
+          "Config": "parallel-en-cnr/latin",
+          "Split": "sentence-level",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 204546,
+            "Storage Size": 73924489,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one parsed aligned TSV record, including quoted embedded newlines",
+            "storage_format": "published .txt.gz file bytes"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1821; https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1821/MaCoCu-cnr-en.latin.sent.txt.gz?isAllowed=y&sequence=5"
+        },
+        {
+          "Dataset": "MaCoCu-cnr-en 1.0",
+          "Config": "parallel-en-cnr/cyrillic",
+          "Split": "sentence-level",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 9439,
+            "Storage Size": 3435524,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one parsed aligned TSV record, including quoted embedded newlines",
+            "storage_format": "published .txt.gz file bytes"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1821; https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1821/MaCoCu-cnr-en.cyrillic.sent.txt.gz?isAllowed=y&sequence=2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 55820106.940000005,
+      "Num Unicode Characters 95% LB": 46505630.8785,
+      "Num Unicode Characters 95% UB": 66228719.64249999,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 272,
+      "Num Bytes Sampled": 41095,
+      "Num WhiteSpaces Sampled": 4955,
+      "Num Unicode Characters Sampled": 28587
+    }
+  },
+  "MaCoCu-eng-hrv": {
+    "Unique Dataset Identifier": "MaCoCu-eng-hrv",
+    "Dataset Name": "MaCoCu-eng-hrv",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "eng",
+      "hrv"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1814",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu-hr-en 2.0"
+    ],
+    "Dataset Filter IDs": [
+      "parallel-en-hr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu-hr-en 2.0",
+        "Official Subset": "parallel-en-hr",
+        "Part": "parallel-en-hr",
+        "Original Language Identifier": "hrv",
+        "Version": "2.0",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://www.clarin.si/repository/xmlui/handle/11356/1814"
+        ],
+        "Notes": "官方 CLARIN.SI 2.0 句对文件 MaCoCu-hr-en.sent.txt.gz；页面报告 2,266,004 个对齐片段。网页自动对齐，原始网页可能混有人译/机译，未将挖掘视为人工翻译。",
+        "Original Language Pair": [
+          "hr",
+          "en"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "hrv"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "hrv",
+          "Languages": [
+            "hrv"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 2266004,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-hr-en 2.0",
+            "Config": "parallel-en-hr",
+            "Split": "sentence-level",
+            "Revision": "2.0",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1814/MaCoCu-hr-en.sent.txt.gz?isAllowed=y&sequence=2"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Official CLARIN.SI 2.0 sentence-level TXT/Gzip release; both text sides counted. The page reports entries for this release, and the streamed file header was verified; URL is version-specific but not a content hash. Published file MD5: d5c275d19790ba5b6c0c85c56d85e64b",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 2266004,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1814",
+            "Conversion Factors": {
+              "r_byte": 0.8399435332078515,
+              "r_doc": 249.9,
+              "r_sent": 96.86046511627907,
+              "r_word": 5.5619853104829735
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8399435332078515,
+          "r_doc": 249.9,
+          "r_sent": 96.86046511627907
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official MaCoCu Croatian-English 2.0 sentence-level aligned segments",
+        "Elapsed Seconds": 3.23,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T22:34:42.972344+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-hr-en 2.0",
+          "Config": "parallel-en-hr",
+          "Split": "sentence-level",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 2266004,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released aligned source-target segment pair"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1814"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 566274399.6,
+      "Num Unicode Characters 95% LB": 501262744.84,
+      "Num Unicode Characters 95% UB": 634959813.3449998,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 258,
+      "Num Bytes Sampled": 29752,
+      "Num WhiteSpaces Sampled": 4493,
+      "Num Unicode Characters Sampled": 24990
+    }
+  },
+  "MaCoCu-eng-isl": {
+    "Unique Dataset Identifier": "MaCoCu-eng-isl",
+    "Dataset Name": "MaCoCu-eng-isl",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "eng",
+      "isl"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/MaCoCu/parallel_data",
+    "Hugging Face URL": "https://huggingface.co/datasets/MaCoCu/parallel_data",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu/parallel_data"
+    ],
+    "Dataset Filter IDs": [
+      "parallel-en-is"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu/parallel_data",
+        "Official Subset": "parallel-en-is",
+        "Part": "parallel-en-is",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/MaCoCu/parallel_data"
+        ],
+        "Notes": "网页自动对齐，原始网页可能混有人译/机译，未将挖掘视为人工翻译。",
+        "Original Language Pair": [
+          "en",
+          "is"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "isl"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "isl",
+          "Languages": [
+            "isl"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 546172,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu/parallel_data",
+            "Config": "parallel-en-is",
+            "Split": "train",
+            "Revision": "7e06898bd7fe0c6d9d025033727f177acc5eeb59",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/MaCoCu/parallel_data/resolve/7e06898bd7fe0c6d9d025033727f177acc5eeb59/data/en-is.tsv"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "The HF repository contains one verified English-Icelandic TSV file; no other advertised language configuration is inferred from this file.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 546172,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/MaCoCu/parallel_data",
+            "Conversion Factors": {
+              "r_byte": 0.8014839653265794,
+              "r_doc": 224.68,
+              "r_sent": 96.84482758620689,
+              "r_word": 5.032026875699888
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8014839653265794,
+          "r_doc": 224.68,
+          "r_sent": 96.84482758620689
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official MaCoCu English-Icelandic sentence-level TSV release",
+        "Elapsed Seconds": 8.46,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T08:10:01.449392+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu/parallel_data",
+          "Config": "parallel-en-is",
+          "Split": "train",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 546172,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one aligned source-target segment pair"
+          },
+          "Evidence": "https://huggingface.co/datasets/MaCoCu/parallel_data"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 122713924.96,
+      "Num Unicode Characters 95% LB": 112205166.05100001,
+      "Num Unicode Characters 95% UB": 134211528.27499999,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 232,
+      "Num Bytes Sampled": 28033,
+      "Num WhiteSpaces Sampled": 4465,
+      "Num Unicode Characters Sampled": 22468
+    }
+  },
+  "MaCoCu-eng-mkd": {
+    "Unique Dataset Identifier": "MaCoCu-eng-mkd",
+    "Dataset Name": "MaCoCu-eng-mkd",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "eng",
+      "mkd"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1817",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu-mk-en 2.0"
+    ],
+    "Dataset Filter IDs": [
+      "parallel-en-mk"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu-mk-en 2.0",
+        "Official Subset": "parallel-en-mk",
+        "Part": "parallel-en-mk",
+        "Original Language Identifier": "mkd",
+        "Version": "2.0",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://www.clarin.si/repository/xmlui/handle/11356/1817"
+        ],
+        "Notes": "官方 CLARIN.SI 2.0 句对文件 MaCoCu-mk-en.sent.txt.gz；页面报告 376,747 个对齐片段。网页自动对齐，原始网页可能混有人译/机译，未将挖掘视为人工翻译。",
+        "Original Language Pair": [
+          "mk",
+          "en"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "mkd"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "mkd",
+          "Languages": [
+            "mkd"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 376747,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-mk-en 2.0",
+            "Config": "parallel-en-mk",
+            "Split": "sentence-level",
+            "Revision": "2.0",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1817/MaCoCu-mk-en.sent.txt.gz?isAllowed=y&sequence=2"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Official CLARIN.SI 2.0 sentence-level TXT/Gzip release; both text sides counted. The page reports entries for this release, and the streamed file header was verified; URL is version-specific but not a content hash. Published file MD5: cb084492d473b08209cb9825bf529df3",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 376747,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1817",
+            "Conversion Factors": {
+              "r_byte": 0.6006611922789805,
+              "r_doc": 281.62,
+              "r_sent": 117.8326359832636,
+              "r_word": 5.408488573074707
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.6006611922789805,
+          "r_doc": 281.62,
+          "r_sent": 117.8326359832636
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official MaCoCu-mk-en 2.0 sentence-level aligned segments",
+        "Elapsed Seconds": 3.94,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-29T00:02:44.413093+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-mk-en 2.0",
+          "Config": "parallel-en-mk",
+          "Split": "sentence-level",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 376747,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released aligned source-target segment pair"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1817"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 106099490.14,
+      "Num Unicode Characters 95% LB": 93978879.84275001,
+      "Num Unicode Characters 95% UB": 119447353.78974998,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 239,
+      "Num Bytes Sampled": 46885,
+      "Num WhiteSpaces Sampled": 5207,
+      "Num Unicode Characters Sampled": 28162
+    }
+  },
+  "MaCoCu-eng-mlt": {
+    "Unique Dataset Identifier": "MaCoCu-eng-mlt",
+    "Dataset Name": "MaCoCu-eng-mlt",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "eng",
+      "mlt"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/MaCoCu/parallel_data",
+    "Hugging Face URL": "https://huggingface.co/datasets/MaCoCu/parallel_data",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu/parallel_data"
+    ],
+    "Dataset Filter IDs": [
+      "parallel-en-mt"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu/parallel_data",
+        "Official Subset": "parallel-en-mt",
+        "Part": "parallel-en-mt",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/MaCoCu/parallel_data"
+        ],
+        "Notes": "网页自动对齐，原始网页可能混有人译/机译，未将挖掘视为人工翻译。",
+        "Original Language Pair": [
+          "en",
+          "mt"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "mlt"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "mlt",
+          "Languages": [
+            "mlt"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 925326,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-mt-en 2.0",
+            "Config": "parallel-en-mt",
+            "Split": "sentence-level",
+            "Revision": "2.0",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1811/MaCoCu-mt-en.sent.txt.gz?isAllowed=y&sequence=2"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Official CLARIN.SI 2.0 sentence-level TXT/Gzip release; both text sides counted. The page reports entries for this release, and the streamed file header was verified; URL is version-specific but not a content hash. Published file MD5: e6916cd34b58a29d014e79937d1474cd",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 925326,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1811",
+            "Conversion Factors": {
+              "r_byte": 0.8492959742959743,
+              "r_doc": 359.49,
+              "r_sent": 162.66515837104072,
+              "r_word": 6.3547816864062225
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8492959742959743,
+          "r_doc": 359.49,
+          "r_sent": 162.66515837104072
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official MaCoCu-mt-en 2.0 sentence-level aligned segments",
+        "Elapsed Seconds": 3.21,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-29T06:35:01.909004+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-mt-en 2.0",
+          "Config": "parallel-en-mt",
+          "Split": "sentence-level",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 925326,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released aligned source-target segment pair"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1811"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 332645443.74,
+      "Num Unicode Characters 95% LB": 294733449.53099996,
+      "Num Unicode Characters 95% UB": 373611245.0805,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 221,
+      "Num Bytes Sampled": 42328,
+      "Num WhiteSpaces Sampled": 5657,
+      "Num Unicode Characters Sampled": 35949
+    }
+  },
+  "MaCoCu-eng-slv": {
+    "Unique Dataset Identifier": "MaCoCu-eng-slv",
+    "Dataset Name": "MaCoCu-eng-slv",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "eng",
+      "slv"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1813",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu-sl-en 2.0"
+    ],
+    "Dataset Filter IDs": [
+      "parallel-en-sl"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu-sl-en 2.0",
+        "Official Subset": "parallel-en-sl",
+        "Part": "parallel-en-sl",
+        "Original Language Identifier": "slv",
+        "Version": "2.0",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://www.clarin.si/repository/xmlui/handle/11356/1813"
+        ],
+        "Notes": "官方 CLARIN.SI 2.0 句对文件 MaCoCu-sl-en.sent.txt.gz；页面报告 1,875,516 个对齐片段。网页自动对齐，原始网页可能混有人译/机译，未将挖掘视为人工翻译。",
+        "Original Language Pair": [
+          "sl",
+          "en"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "slv"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "slv",
+          "Languages": [
+            "slv"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 1875516,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-sl-en 2.0",
+            "Config": "parallel-en-sl",
+            "Split": "sentence-level",
+            "Revision": "2.0",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1813/MaCoCu-sl-en.sent.txt.gz?isAllowed=y&sequence=2"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Official CLARIN.SI 2.0 sentence-level TXT/Gzip release; both text sides counted. The page reports entries for this release, and the streamed file header was verified; URL is version-specific but not a content hash. Published file MD5: 03af80ab3d213a3d65598855e2e13eb0",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 1875516,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1813",
+            "Conversion Factors": {
+              "r_byte": 0.8432209175314036,
+              "r_doc": 247.03,
+              "r_sent": 106.02145922746782,
+              "r_word": 5.58764985297444
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8432209175314036,
+          "r_doc": 247.03,
+          "r_sent": 106.02145922746782
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official MaCoCu-sl-en 2.0 sentence-level aligned segments",
+        "Elapsed Seconds": 3.85,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-28T23:04:15.517933+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-sl-en 2.0",
+          "Config": "parallel-en-sl",
+          "Split": "sentence-level",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 1875516,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released aligned source-target segment pair"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1813"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 463308717.48,
+      "Num Unicode Characters 95% LB": 399183887.682,
+      "Num Unicode Characters 95% UB": 537097143.4679999,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 233,
+      "Num Bytes Sampled": 29296,
+      "Num WhiteSpaces Sampled": 4421,
+      "Num Unicode Characters Sampled": 24703
+    }
+  },
+  "MaCoCu-eng-sqi": {
+    "Unique Dataset Identifier": "MaCoCu-eng-sqi",
+    "Dataset Name": "MaCoCu-eng-sqi",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "eng",
+      "sqi"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1818",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu-sq-en 1.0"
+    ],
+    "Dataset Filter IDs": [
+      "parallel-en-sq"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu-sq-en 1.0",
+        "Official Subset": "parallel-en-sq",
+        "Part": "parallel-en-sq",
+        "Original Language Identifier": "sqi",
+        "Version": "1.0",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://www.clarin.si/repository/xmlui/handle/11356/1818"
+        ],
+        "Notes": "官方 CLARIN.SI 1.0 句对文件 MaCoCu-sq-en.sent.txt.gz；页面报告 507,537 个对齐片段。网页自动对齐，原始网页可能混有人译/机译，未将挖掘视为人工翻译。",
+        "Original Language Pair": [
+          "sq",
+          "en"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "sqi"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "sqi",
+          "Languages": [
+            "sqi"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 507537,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-sq-en 1.0",
+            "Config": "parallel-en-sq",
+            "Split": "sentence-level",
+            "Revision": "1.0",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1818/MaCoCu-sq-en.sent.txt.gz?isAllowed=y&sequence=2"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Official CLARIN.SI 1.0 sentence-level TXT/Gzip release; both text sides counted. The page reports entries for this release, and the streamed file header was verified; URL is version-specific but not a content hash. Published file MD5: 86d1929e2c3a6b8871eab7cf6bf763da",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 507537,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1818",
+            "Conversion Factors": {
+              "r_byte": 0.8053672415609961,
+              "r_doc": 229.28,
+              "r_sent": 92.82591093117409,
+              "r_word": 5.033589462129528
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8053672415609961,
+          "r_doc": 229.28,
+          "r_sent": 92.82591093117409
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official MaCoCu-sq-en 1.0 sentence-level aligned segments",
+        "Elapsed Seconds": 4.96,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-29T00:02:45.431076+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-sq-en 1.0",
+          "Config": "parallel-en-sq",
+          "Split": "sentence-level",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 507537,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released aligned source-target segment pair"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1818"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 116368083.36,
+      "Num Unicode Characters 95% LB": 105728965.88175,
+      "Num Unicode Characters 95% UB": 127143474.52275,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 247,
+      "Num Bytes Sampled": 28469,
+      "Num WhiteSpaces Sampled": 4555,
+      "Num Unicode Characters Sampled": 22928
+    }
+  },
+  "MaCoCu-eng-srp": {
+    "Unique Dataset Identifier": "MaCoCu-eng-srp",
+    "Dataset Name": "MaCoCu-eng-srp",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "eng",
+      "srp"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/MaCoCu/parallel_data",
+    "Hugging Face URL": "https://huggingface.co/datasets/MaCoCu/parallel_data",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu/parallel_data"
+    ],
+    "Dataset Filter IDs": [
+      "parallel-en-sr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu/parallel_data",
+        "Official Subset": "parallel-en-sr",
+        "Part": "parallel-en-sr",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/MaCoCu/parallel_data"
+        ],
+        "Notes": "网页自动对齐，原始网页可能混有人译/机译，未将挖掘视为人工翻译。",
+        "Original Language Pair": [
+          "en",
+          "sr"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "srp"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "srp",
+          "Languages": [
+            "srp"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 2001343,
+      "Storage Size": 705760270,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-sr-en 1.0",
+            "Config": "parallel-en-sr/latin",
+            "Split": "sentence-level",
+            "Revision": "1.0",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1819/MaCoCu-sr-en.latin.sent.txt.gz?isAllowed=y&sequence=5"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Complete published latin script file; MD5 adf90151f028e34e3669dc0703a11aa1. The release page reports 2068916 entries, equal to the sum of physical data lines, but quoted embedded newlines leave 2001343 parsed aligned records across both files. The estimate uses exact parsed records per script; the page count is not a compatible denominator.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 1539487,
+              "Storage Size": 523982868,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1819; https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1819/MaCoCu-sr-en.latin.sent.txt.gz?isAllowed=y&sequence=5",
+            "Conversion Factors": {
+              "r_byte": 0.8656170269907345,
+              "r_doc": 1031.4,
+              "r_sent": 59.275862068965516,
+              "r_word": 6.969860791998919
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          },
+          {
+            "Dataset": "MaCoCu-sr-en 1.0",
+            "Config": "parallel-en-sr/cyrillic",
+            "Split": "sentence-level",
+            "Revision": "1.0",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1819/MaCoCu-sr-en.cyrillic.sent.txt.gz?isAllowed=y&sequence=2"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Complete published cyrillic script file; MD5 25b9c639b553dd923bbbae3d6e8b430d. The release page reports 2068916 entries, equal to the sum of physical data lines, but quoted embedded newlines leave 2001343 parsed aligned records across both files. The estimate uses exact parsed records per script; the page count is not a compatible denominator.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 461856,
+              "Storage Size": 181777402,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1819; https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1819/MaCoCu-sr-en.cyrillic.sent.txt.gz?isAllowed=y&sequence=2",
+            "Conversion Factors": {
+              "r_byte": 0.6117285084496693,
+              "r_doc": 266.42,
+              "r_sent": 101.68702290076335,
+              "r_word": 5.585324947589099
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.7976570950929295,
+          "r_doc": 648.91,
+          "r_sent": 64.82617382617383
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete published MaCoCu-sr-en 1.0 Latin and Cyrillic sentence-level TSV files",
+        "Elapsed Seconds": 5.51,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T04:49:38.795862+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-sr-en 1.0",
+          "Config": "parallel-en-sr/latin",
+          "Split": "sentence-level",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 1539487,
+            "Storage Size": 523982868,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one parsed aligned TSV record, including quoted embedded newlines",
+            "storage_format": "published .txt.gz file bytes"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1819; https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1819/MaCoCu-sr-en.latin.sent.txt.gz?isAllowed=y&sequence=5"
+        },
+        {
+          "Dataset": "MaCoCu-sr-en 1.0",
+          "Config": "parallel-en-sr/cyrillic",
+          "Split": "sentence-level",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 461856,
+            "Storage Size": 181777402,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one parsed aligned TSV record, including quoted embedded newlines",
+            "storage_format": "published .txt.gz file bytes"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1819; https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1819/MaCoCu-sr-en.cyrillic.sent.txt.gz?isAllowed=y&sequence=2"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 1710874567.32,
+      "Num Unicode Characters 95% LB": 446532867.09700006,
+      "Num Unicode Characters 95% UB": 4193588499.3169994,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1001,
+      "Num Bytes Sampled": 81352,
+      "Num WhiteSpaces Sampled": 9784,
+      "Num Unicode Characters Sampled": 64891
+    }
+  },
+  "MaCoCu-eng-tur": {
+    "Unique Dataset Identifier": "MaCoCu-eng-tur",
+    "Dataset Name": "MaCoCu-eng-tur",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "eng",
+      "tur"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1816",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu-tr-en 2.0"
+    ],
+    "Dataset Filter IDs": [
+      "parallel-en-tr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu-tr-en 2.0",
+        "Official Subset": "parallel-en-tr",
+        "Part": "parallel-en-tr",
+        "Original Language Identifier": "tur",
+        "Version": "2.0",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://www.clarin.si/repository/xmlui/handle/11356/1816"
+        ],
+        "Notes": "官方 CLARIN.SI 2.0 句对文件 MaCoCu-tr-en.sent.txt.gz；页面报告 1,646,739 个对齐片段。网页自动对齐，原始网页可能混有人译/机译，未将挖掘视为人工翻译。",
+        "Original Language Pair": [
+          "tr",
+          "en"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "tur"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "tur",
+          "Languages": [
+            "tur"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 1646739,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-tr-en 2.0",
+            "Config": "parallel-en-tr",
+            "Split": "sentence-level",
+            "Revision": "2.0",
+            "Text Fields": [
+              "src_text",
+              "trg_text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1816/MaCoCu-tr-en.sent.txt.gz?isAllowed=y&sequence=2"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Official CLARIN.SI 2.0 sentence-level TXT/Gzip release; both text sides counted. The page reports entries for this release, and the streamed file header was verified; URL is version-specific but not a content hash. Published file MD5: 49c056b3f4ffe58ed73607ec2c625d18",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 1646739,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1816",
+            "Conversion Factors": {
+              "r_byte": 0.8225154709090395,
+              "r_doc": 291.08,
+              "r_sent": 82.22598870056497,
+              "r_word": 6.111274406886416
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8225154709090395,
+          "r_doc": 291.08,
+          "r_sent": 82.22598870056497
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "official MaCoCu-tr-en 2.0 sentence-level aligned segments",
+        "Elapsed Seconds": 2.06,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-29T00:02:46.573069+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-tr-en 2.0",
+          "Config": "parallel-en-tr",
+          "Split": "sentence-level",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 1646739,
+            "Storage Size": null,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released aligned source-target segment pair"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1816"
+        }
+      ]
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 479332788.12,
+      "Num Unicode Characters 95% LB": 417567313.39275,
+      "Num Unicode Characters 95% UB": 543080936.6032499,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 354,
+      "Num Bytes Sampled": 35389,
+      "Num WhiteSpaces Sampled": 4763,
+      "Num Unicode Characters Sampled": 29108
+    }
+  },
+  "MaCoCu-hrv": {
+    "Unique Dataset Identifier": "MaCoCu-hrv",
+    "Dataset Name": "MaCoCu-hrv",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "hrv"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1806",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu"
+    ],
+    "Dataset Filter IDs": [
+      "hr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu",
+        "Official Subset": "hr",
+        "Part": "monolingual",
+        "Original Language Identifier": "hr",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://macocu.eu/",
+          "https://www.clarin.si/repository/xmlui/handle/11356/1806"
+        ],
+        "Notes": "定向网页抓取，自动清洗；单语版本。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "hrv"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 8106239,
+      "Storage Size": 7641534859,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-hr 2.0",
+            "Config": "hr",
+            "Split": "monolingual",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1806/MaCoCu-hr-2.0.xml.zip?sequence=3&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Version-matched CLARIN XML ZIP. The official page reports an exact text/document count. A validated bounded ZIP prefix supplies the sample; source-order bias is outside the conditional interval.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 8106239,
+              "Storage Size": 7641534859,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1806",
+            "Conversion Factors": {
+              "r_byte": 0.6940676148050932,
+              "r_doc": 1650.0,
+              "r_sent": 63.412759415833975,
+              "r_word": 5.2551117905599085
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.6940676148050932,
+          "r_doc": 1650.0,
+          "r_sent": 63.412759415833975
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete released MaCoCu monolingual hrv XML ZIP; bounded prefix sample",
+        "Elapsed Seconds": 2.85,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T07:33:13.514076+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-hr 2.0",
+          "Config": "hr",
+          "Split": "monolingual",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 8106239,
+            "Storage Size": 7641534859,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released XML doc, assembled from its paragraph text",
+            "storage_format": "official whole ZIP file bytes; no per-document compressed attribution"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1806"
+        }
+      ],
+      "Official Release": "MaCoCu-hr 2.0"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 13375294350.0,
+      "Num Unicode Characters 95% LB": 9153175979.328,
+      "Num Unicode Characters 95% UB": 18651987803.697742,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 2602,
+      "Num Bytes Sampled": 237729,
+      "Num WhiteSpaces Sampled": 31398,
+      "Num Unicode Characters Sampled": 165000
+    }
+  },
+  "MaCoCu-isl": {
+    "Unique Dataset Identifier": "MaCoCu-isl",
+    "Dataset Name": "MaCoCu-isl",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "isl"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1805",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu"
+    ],
+    "Dataset Filter IDs": [
+      "is"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu",
+        "Official Subset": "is",
+        "Part": "monolingual",
+        "Original Language Identifier": "is",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://macocu.eu/",
+          "https://www.clarin.si/repository/xmlui/handle/11356/1805"
+        ],
+        "Notes": "定向网页抓取，自动清洗；单语版本。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "isl"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 2460741,
+      "Storage Size": 2659029054,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-is 2.0",
+            "Config": "is",
+            "Split": "monolingual",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1805/MaCoCu-is-2.0.xml.zip?sequence=5&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Version-matched CLARIN XML ZIP. The official page reports an exact text/document count. A validated bounded ZIP prefix supplies the sample; source-order bias is outside the conditional interval.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 2460741,
+              "Storage Size": 2659029054,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1805",
+            "Conversion Factors": {
+              "r_byte": 0.7530538589672404,
+              "r_doc": 1681.75,
+              "r_sent": 64.65782391387928,
+              "r_word": 5.280717179012152
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.7530538589672404,
+          "r_doc": 1681.75,
+          "r_sent": 64.65782391387928
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete released MaCoCu monolingual isl XML ZIP; bounded prefix sample",
+        "Elapsed Seconds": 2.53,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T07:33:15.175094+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-is 2.0",
+          "Config": "is",
+          "Split": "monolingual",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 2460741,
+            "Storage Size": 2659029054,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released XML doc, assembled from its paragraph text",
+            "storage_format": "official whole ZIP file bytes; no per-document compressed attribution"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1805"
+        }
+      ],
+      "Official Release": "MaCoCu-is 2.0"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 4138351176.75,
+      "Num Unicode Characters 95% LB": 3054285263.2755,
+      "Num Unicode Characters 95% UB": 5323249028.62575,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 2601,
+      "Num Bytes Sampled": 223324,
+      "Num WhiteSpaces Sampled": 31847,
+      "Num Unicode Characters Sampled": 168175
+    }
+  },
+  "MaCoCu-mkd": {
+    "Unique Dataset Identifier": "MaCoCu-mkd",
+    "Dataset Name": "MaCoCu-mkd",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "mkd"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1801",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu"
+    ],
+    "Dataset Filter IDs": [
+      "mk"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu",
+        "Official Subset": "mk",
+        "Part": "monolingual",
+        "Original Language Identifier": "mk",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://macocu.eu/",
+          "https://www.clarin.si/repository/xmlui/handle/11356/1801"
+        ],
+        "Notes": "定向网页抓取，自动清洗；单语版本。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "mkd"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 1960209,
+      "Storage Size": 1923573607,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-mk 2.0",
+            "Config": "mk",
+            "Split": "monolingual",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1801/MaCoCu-mk-2.0.xml.zip?sequence=3&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Version-matched CLARIN XML ZIP. The official page reports an exact text/document count. A validated bounded ZIP prefix supplies the sample; source-order bias is outside the conditional interval.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 1960209,
+              "Storage Size": 1923573607,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1801",
+            "Conversion Factors": {
+              "r_byte": 0.4703056609469088,
+              "r_doc": 1807.3,
+              "r_sent": 69.86084267491303,
+              "r_word": 5.646753733674936
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.4703056609469088,
+          "r_doc": 1807.3,
+          "r_sent": 69.86084267491303
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete released MaCoCu monolingual mkd XML ZIP; bounded prefix sample",
+        "Elapsed Seconds": 3.27,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T07:33:16.878822+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-mk 2.0",
+          "Config": "mk",
+          "Split": "monolingual",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 1960209,
+            "Storage Size": 1923573607,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released XML doc, assembled from its paragraph text",
+            "storage_format": "official whole ZIP file bytes; no per-document compressed attribution"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1801"
+        }
+      ],
+      "Official Release": "MaCoCu-mk 2.0"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 3542685725.7,
+      "Num Unicode Characters 95% LB": 2388361770.198,
+      "Num Unicode Characters 95% UB": 5281847837.397,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 2587,
+      "Num Bytes Sampled": 384282,
+      "Num WhiteSpaces Sampled": 32006,
+      "Num Unicode Characters Sampled": 180730
+    }
+  },
+  "MaCoCu-mlt": {
+    "Unique Dataset Identifier": "MaCoCu-mlt",
+    "Dataset Name": "MaCoCu-mlt",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "mlt"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1803",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu"
+    ],
+    "Dataset Filter IDs": [
+      "mt"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu",
+        "Official Subset": "mt",
+        "Part": "monolingual",
+        "Original Language Identifier": "mt",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://macocu.eu/",
+          "https://www.clarin.si/repository/xmlui/handle/11356/1803"
+        ],
+        "Notes": "定向网页抓取，自动清洗；单语版本。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "mlt"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 537336,
+      "Storage Size": 1154003191,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-mt 2.0",
+            "Config": "mt",
+            "Split": "monolingual",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1803/MaCoCu-mt-2.0.xml.zip?sequence=3&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Version-matched CLARIN XML ZIP. The official page reports an exact text/document count. A validated bounded ZIP prefix supplies the sample; source-order bias is outside the conditional interval.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 537336,
+              "Storage Size": 1154003191,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1803",
+            "Conversion Factors": {
+              "r_byte": 0.8245299735189454,
+              "r_doc": 1684.49,
+              "r_sent": 95.65530948324816,
+              "r_word": 6.335050770966529
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8245299735189454,
+          "r_doc": 1684.49,
+          "r_sent": 95.65530948324816
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete released MaCoCu monolingual mlt XML ZIP; bounded prefix sample",
+        "Elapsed Seconds": 6.11,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T07:33:21.397215+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-mt 2.0",
+          "Config": "mt",
+          "Split": "monolingual",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 537336,
+            "Storage Size": 1154003191,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released XML doc, assembled from its paragraph text",
+            "storage_format": "official whole ZIP file bytes; no per-document compressed attribution"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1803"
+        }
+      ],
+      "Official Release": "MaCoCu-mt 2.0"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 905137118.64,
+      "Num Unicode Characters 95% LB": 717445653.8399999,
+      "Num Unicode Characters 95% UB": 1144173187.584,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 1761,
+      "Num Bytes Sampled": 204297,
+      "Num WhiteSpaces Sampled": 26590,
+      "Num Unicode Characters Sampled": 168449
+    }
+  },
+  "MaCoCu-slv": {
+    "Unique Dataset Identifier": "MaCoCu-slv",
+    "Dataset Name": "MaCoCu-slv",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "slv"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1795",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu"
+    ],
+    "Dataset Filter IDs": [
+      "sl"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu",
+        "Official Subset": "sl",
+        "Part": "monolingual",
+        "Original Language Identifier": "sl",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://macocu.eu/",
+          "https://www.clarin.si/repository/xmlui/handle/11356/1795"
+        ],
+        "Notes": "定向网页抓取，自动清洗；单语版本。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "slv"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 6302486,
+      "Storage Size": 5978651967,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-sl 2.0",
+            "Config": "sl",
+            "Split": "monolingual",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1795/MaCoCu-sl-2.0.xml.zip?sequence=9&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Version-matched CLARIN XML ZIP. The official page reports an exact text/document count. A validated bounded ZIP prefix supplies the sample; source-order bias is outside the conditional interval.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 6302486,
+              "Storage Size": 5978651967,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1795",
+            "Conversion Factors": {
+              "r_byte": 0.8222158281143925,
+              "r_doc": 3657.66,
+              "r_sent": 73.74314516129033,
+              "r_word": 5.629507641635756
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8222158281143925,
+          "r_doc": 3657.66,
+          "r_sent": 73.74314516129033
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete released MaCoCu monolingual slv XML ZIP; bounded prefix sample",
+        "Elapsed Seconds": 12.11,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T07:33:29.096658+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-sl 2.0",
+          "Config": "sl",
+          "Split": "monolingual",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 6302486,
+            "Storage Size": 5978651967,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released XML doc, assembled from its paragraph text",
+            "storage_format": "official whole ZIP file bytes; no per-document compressed attribution"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1795"
+        }
+      ],
+      "Official Release": "MaCoCu-sl 2.0"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 23052350942.76,
+      "Num Unicode Characters 95% LB": 13911105501.126,
+      "Num Unicode Characters 95% UB": 35313787035.871994,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 4960,
+      "Num Bytes Sampled": 444854,
+      "Num WhiteSpaces Sampled": 64973,
+      "Num Unicode Characters Sampled": 365766
+    }
+  },
+  "MaCoCu-sqi": {
+    "Unique Dataset Identifier": "MaCoCu-sqi",
+    "Dataset Name": "MaCoCu-sqi",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "sqi"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1804",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu"
+    ],
+    "Dataset Filter IDs": [
+      "sq"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu",
+        "Official Subset": "sq",
+        "Part": "monolingual",
+        "Original Language Identifier": "sq",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://macocu.eu/",
+          "https://www.clarin.si/repository/xmlui/handle/11356/1804"
+        ],
+        "Notes": "定向网页抓取，自动清洗；单语版本。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "sqi"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 1684325,
+      "Storage Size": 1750116890,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-sq 1.0",
+            "Config": "sq",
+            "Split": "monolingual",
+            "Revision": "1.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1804/MaCoCu-sq-1.0.xml.zip?sequence=3&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Version-matched CLARIN XML ZIP. The official page reports an exact text/document count. A validated bounded ZIP prefix supplies the sample; source-order bias is outside the conditional interval.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 1684325,
+              "Storage Size": 1750116890,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1804",
+            "Conversion Factors": {
+              "r_byte": 0.7796088771698528,
+              "r_doc": 745.08,
+              "r_sent": 104.79324894514768,
+              "r_word": 5.384304090186443
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.7796088771698528,
+          "r_doc": 745.08,
+          "r_sent": 104.79324894514768
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete released MaCoCu monolingual sqi XML ZIP; bounded prefix sample",
+        "Elapsed Seconds": 12.18,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T07:33:33.678327+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-sq 1.0",
+          "Config": "sq",
+          "Split": "monolingual",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 1684325,
+            "Storage Size": 1750116890,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released XML doc, assembled from its paragraph text",
+            "storage_format": "official whole ZIP file bytes; no per-document compressed attribution"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1804"
+        }
+      ],
+      "Official Release": "MaCoCu-sq 1.0"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 1254956871.0,
+      "Num Unicode Characters 95% LB": 1016805948.4375,
+      "Num Unicode Characters 95% UB": 1507867112.45625,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 711,
+      "Num Bytes Sampled": 95571,
+      "Num WhiteSpaces Sampled": 13838,
+      "Num Unicode Characters Sampled": 74508
+    }
+  },
+  "MaCoCu-srp": {
+    "Unique Dataset Identifier": "MaCoCu-srp",
+    "Dataset Name": "MaCoCu-srp",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "srp"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1807",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu"
+    ],
+    "Dataset Filter IDs": [
+      "sr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu",
+        "Official Subset": "sr",
+        "Part": "monolingual",
+        "Original Language Identifier": "sr",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://macocu.eu/",
+          "https://www.clarin.si/repository/xmlui/handle/11356/1807"
+        ],
+        "Notes": "定向网页抓取，自动清洗；单语版本。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "srp"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 7480024,
+      "Storage Size": 8179603864,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-sr 1.0",
+            "Config": "sr",
+            "Split": "monolingual",
+            "Revision": "1.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1807/MaCoCu-sr-1.0.xml.zip?sequence=3&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Version-matched CLARIN XML ZIP. The official page reports an exact text/document count. A validated bounded ZIP prefix supplies the sample; source-order bias is outside the conditional interval.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 7480024,
+              "Storage Size": 8179603864,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1807",
+            "Conversion Factors": {
+              "r_byte": 0.4619693443779208,
+              "r_doc": 3150.46,
+              "r_sent": 86.57488320967299,
+              "r_word": 5.365498918541479
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.4619693443779208,
+          "r_doc": 3150.46,
+          "r_sent": 86.57488320967299
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete released MaCoCu monolingual srp XML ZIP; bounded prefix sample",
+        "Elapsed Seconds": 4.79,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T07:33:33.942017+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-sr 1.0",
+          "Config": "sr",
+          "Split": "monolingual",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 7480024,
+            "Storage Size": 8179603864,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released XML doc, assembled from its paragraph text",
+            "storage_format": "official whole ZIP file bytes; no per-document compressed attribution"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1807"
+        }
+      ],
+      "Official Release": "MaCoCu-sr 1.0"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 23565516411.04,
+      "Num Unicode Characters 95% LB": 17866050414.042,
+      "Num Unicode Characters 95% UB": 30154035620.606,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 3639,
+      "Num Bytes Sampled": 681963,
+      "Num WhiteSpaces Sampled": 58717,
+      "Num Unicode Characters Sampled": 315046
+    }
+  },
+  "MaCoCu-tur": {
+    "Unique Dataset Identifier": "MaCoCu-tur",
+    "Dataset Name": "MaCoCu-tur",
+    "Collection": "MaCoCu",
+    "Languages": [
+      "tur"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://www.clarin.si/repository/xmlui/handle/11356/1802",
+    "Hugging Face URL": "",
+    "GitHub URL": "https://github.com/macocu",
+    "Paper URL": "https://aclanthology.org/2023.eamt-1.55/",
+    "Official Dataset Identifiers": [
+      "MaCoCu"
+    ],
+    "Dataset Filter IDs": [
+      "tr"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "MaCoCu",
+        "Official Subset": "tr",
+        "Part": "monolingual",
+        "Original Language Identifier": "tr",
+        "Version": "",
+        "Repository Revision": "",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://macocu.eu/",
+          "https://www.clarin.si/repository/xmlui/handle/11356/1802"
+        ],
+        "Notes": "定向网页抓取，自动清洗；单语版本。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "tur"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": 15961125,
+      "Storage Size": 16185445293,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "estimated",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "MaCoCu-tr 2.0",
+            "Config": "tr",
+            "Split": "monolingual",
+            "Revision": "2.0",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1802/MaCoCu-tr-2.0.xml.zip?sequence=3&isAllowed=y"
+            ],
+            "Available Files": 1,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 100,
+            "Sampling Note": "Version-matched CLARIN XML ZIP. The official page reports an exact text/document count. A validated bounded ZIP prefix supplies the sample; source-order bias is outside the conditional interval.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": 15961125,
+              "Storage Size": 16185445293,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1802",
+            "Conversion Factors": {
+              "r_byte": 0.792125520110957,
+              "r_doc": 2284.49,
+              "r_sent": 66.66151152611614,
+              "r_word": 6.8714732599410455
+            },
+            "Estimation Basis": "Num Documents",
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.792125520110957,
+          "r_doc": 2284.49,
+          "r_sent": 66.66151152611614
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "complete released MaCoCu monolingual tur XML ZIP; bounded prefix sample",
+        "Elapsed Seconds": 3.86,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T07:33:37.631275+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "MaCoCu-tr 2.0",
+          "Config": "tr",
+          "Split": "monolingual",
+          "Totals": {
+            "Characters": null,
+            "Num Bytes": null,
+            "Num Sentences": null,
+            "Num Documents": 15961125,
+            "Storage Size": 16185445293,
+            "Num Tokens": null
+          },
+          "Definitions": {
+            "document_unit": "one released XML doc, assembled from its paragraph text",
+            "storage_format": "official whole ZIP file bytes; no per-document compressed attribution"
+          },
+          "Evidence": "https://www.clarin.si/repository/xmlui/handle/11356/1802"
+        }
+      ],
+      "Official Release": "MaCoCu-tr 2.0"
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 36463030451.25,
+      "Num Unicode Characters 95% LB": 28395683324.34375,
+      "Num Unicode Characters 95% UB": 45584494166.25,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 3427,
+      "Num Bytes Sampled": 288400,
+      "Num WhiteSpaces Sampled": 33246,
+      "Num Unicode Characters Sampled": 228449
+    }
+  }
+}

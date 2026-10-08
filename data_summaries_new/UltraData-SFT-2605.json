@@ -1,0 +1,584 @@
+{
+  "UltraData-SFT-2605-Chinese-general": {
+    "Unique Dataset Identifier": "UltraData-SFT-2605-Chinese-general",
+    "Dataset Name": "openbmb/UltraData-SFT-2605-Chinese-general",
+    "Paper Title": "",
+    "Dataset URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "UltraData-SFT-2605",
+    "Collection URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Languages": [
+      "Chinese"
+    ],
+    "Task Categories": [
+      "Text Generation",
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "General Web"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot",
+      "Few-shot"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "openbmb"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Chinese-general"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 26440,
+      "Crawled Likes": 411,
+      "Created At": "2026-05-21",
+      "Last Modified": "2026-05-28",
+      "Size Category": "10M<n<100M",
+      "Description": "UltraData-SFT-2605\n\t\n\n\n  \n\n\n\n📦 UltraData Collection |\n🌐 UltraData | \n🤗 MiniCPM5 Series\n\n\n\nEnglish |\n中文\n\n\n\n\t\n\t\t\n\t\n\t\n\t\t📚 Introduction\n\t\n\nUltraData-SFT-2605 is the full set of core-domain SFT data used in the post-training of MiniCPM5-1B-SFT within the MiniCPM5-1B series, and a key representative of L3 refined data in the UltraData L0-L4 tiered data management framework. It covers math, code, knowledge, instruction following, and other core domains, containing over 15 million Deep… See the full description on the dataset page: https://hf-mirror.com/datasets/openbmb/UltraData-SFT-2605.",
+      "Crawler Notes": "无Card(HTTP 401)",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Chinese-general",
+      "HF Config License": "",
+      "HF Dataset": "openbmb/UltraData-SFT-2605",
+      "HF Date": "",
+      "HF Downloads (September 2026)": 26440,
+      "HF Likes (September 2026)": 411,
+      "HF Yaml License": "",
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 131.42,
+      "Mean Targets Length": 452.46,
+      "Max Inputs Length": 678,
+      "Max Targets Length": 2462,
+      "Min Inputs Length": 15,
+      "Min Targets Length": 1,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "UltraData-SFT-2605-IF": {
+    "Unique Dataset Identifier": "UltraData-SFT-2605-IF",
+    "Dataset Name": "openbmb/UltraData-SFT-2605-IF",
+    "Paper Title": "",
+    "Dataset URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "UltraData-SFT-2605",
+    "Collection URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Languages": [
+      "English",
+      "Chinese"
+    ],
+    "Task Categories": [
+      "Text Generation",
+      "Question Answering"
+    ],
+    "Text Sources": [],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot",
+      "Few-shot"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "openbmb"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "IF"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 26440,
+      "Crawled Likes": 411,
+      "Created At": "2026-05-21",
+      "Last Modified": "2026-05-28",
+      "Size Category": "10M<n<100M",
+      "Description": "UltraData-SFT-2605\n\t\n\n\n  \n\n\n\n📦 UltraData Collection |\n🌐 UltraData | \n🤗 MiniCPM5 Series\n\n\n\nEnglish |\n中文\n\n\n\n\t\n\t\t\n\t\n\t\n\t\t📚 Introduction\n\t\n\nUltraData-SFT-2605 is the full set of core-domain SFT data used in the post-training of MiniCPM5-1B-SFT within the MiniCPM5-1B series, and a key representative of L3 refined data in the UltraData L0-L4 tiered data management framework. It covers math, code, knowledge, instruction following, and other core domains, containing over 15 million Deep… See the full description on the dataset page: https://hf-mirror.com/datasets/openbmb/UltraData-SFT-2605.",
+      "Crawler Notes": "无Card(HTTP 401)",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "IF",
+      "HF Config License": "",
+      "HF Dataset": "openbmb/UltraData-SFT-2605",
+      "HF Date": "",
+      "HF Downloads (September 2026)": 26440,
+      "HF Likes (September 2026)": 411,
+      "HF Yaml License": "",
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 290.1,
+      "Mean Targets Length": 827.15,
+      "Max Inputs Length": 2899,
+      "Max Targets Length": 3327,
+      "Min Inputs Length": 89,
+      "Min Targets Length": 2,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "UltraData-SFT-2605-Knowledge": {
+    "Unique Dataset Identifier": "UltraData-SFT-2605-Knowledge",
+    "Dataset Name": "openbmb/UltraData-SFT-2605-Knowledge",
+    "Paper Title": "",
+    "Dataset URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "UltraData-SFT-2605",
+    "Collection URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Languages": [
+      "English",
+      "Chinese"
+    ],
+    "Task Categories": [
+      "Text Generation",
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Encyclopedias",
+      "General Web"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot",
+      "Few-shot"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "openbmb"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Knowledge"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 26440,
+      "Crawled Likes": 411,
+      "Created At": "2026-05-21",
+      "Last Modified": "2026-05-28",
+      "Size Category": "10M<n<100M",
+      "Description": "UltraData-SFT-2605\n\t\n\n\n  \n\n\n\n📦 UltraData Collection |\n🌐 UltraData | \n🤗 MiniCPM5 Series\n\n\n\nEnglish |\n中文\n\n\n\n\t\n\t\t\n\t\n\t\n\t\t📚 Introduction\n\t\n\nUltraData-SFT-2605 is the full set of core-domain SFT data used in the post-training of MiniCPM5-1B-SFT within the MiniCPM5-1B series, and a key representative of L3 refined data in the UltraData L0-L4 tiered data management framework. It covers math, code, knowledge, instruction following, and other core domains, containing over 15 million Deep… See the full description on the dataset page: https://hf-mirror.com/datasets/openbmb/UltraData-SFT-2605.",
+      "Crawler Notes": "无Card(HTTP 401)",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Knowledge",
+      "HF Config License": "",
+      "HF Dataset": "openbmb/UltraData-SFT-2605",
+      "HF Date": "",
+      "HF Downloads (September 2026)": 26440,
+      "HF Likes (September 2026)": 411,
+      "HF Yaml License": "",
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 828.05,
+      "Mean Targets Length": 2256.07,
+      "Max Inputs Length": 2539,
+      "Max Targets Length": 4911,
+      "Min Inputs Length": 73,
+      "Min Targets Length": 698,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "UltraData-SFT-2605-Code": {
+    "Unique Dataset Identifier": "UltraData-SFT-2605-Code",
+    "Dataset Name": "openbmb/UltraData-SFT-2605-Code",
+    "Paper Title": "",
+    "Dataset URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "UltraData-SFT-2605",
+    "Collection URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Languages": [
+      "English",
+      "Chinese"
+    ],
+    "Task Categories": [
+      "Text Generation",
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Code"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot",
+      "Few-shot"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "openbmb"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Code"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 26440,
+      "Crawled Likes": 411,
+      "Created At": "2026-05-21",
+      "Last Modified": "2026-05-28",
+      "Size Category": "10M<n<100M",
+      "Description": "UltraData-SFT-2605\n\t\n\n\n  \n\n\n\n📦 UltraData Collection |\n🌐 UltraData | \n🤗 MiniCPM5 Series\n\n\n\nEnglish |\n中文\n\n\n\n\t\n\t\t\n\t\n\t\n\t\t📚 Introduction\n\t\n\nUltraData-SFT-2605 is the full set of core-domain SFT data used in the post-training of MiniCPM5-1B-SFT within the MiniCPM5-1B series, and a key representative of L3 refined data in the UltraData L0-L4 tiered data management framework. It covers math, code, knowledge, instruction following, and other core domains, containing over 15 million Deep… See the full description on the dataset page: https://hf-mirror.com/datasets/openbmb/UltraData-SFT-2605.",
+      "Crawler Notes": "无Card(HTTP 401)",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Code",
+      "HF Config License": "",
+      "HF Dataset": "openbmb/UltraData-SFT-2605",
+      "HF Date": "",
+      "HF Downloads (September 2026)": 26440,
+      "HF Likes (September 2026)": 411,
+      "HF Yaml License": "",
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 1850.23,
+      "Mean Targets Length": 5461.93,
+      "Max Inputs Length": 7122,
+      "Max Targets Length": 222567,
+      "Min Inputs Length": 50,
+      "Min Targets Length": 132,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "UltraData-SFT-2605-Math": {
+    "Unique Dataset Identifier": "UltraData-SFT-2605-Math",
+    "Dataset Name": "openbmb/UltraData-SFT-2605-Math",
+    "Paper Title": "",
+    "Dataset URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "UltraData-SFT-2605",
+    "Collection URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Languages": [
+      "English",
+      "Chinese"
+    ],
+    "Task Categories": [
+      "Text Generation",
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams",
+      "Human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Chain-of-Thought",
+      "Few-shot"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "openbmb"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Math"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 26440,
+      "Crawled Likes": 411,
+      "Created At": "2026-05-21",
+      "Last Modified": "2026-05-28",
+      "Size Category": "10M<n<100M",
+      "Description": "UltraData-SFT-2605\n\t\n\n\n  \n\n\n\n📦 UltraData Collection |\n🌐 UltraData | \n🤗 MiniCPM5 Series\n\n\n\nEnglish |\n中文\n\n\n\n\t\n\t\t\n\t\n\t\n\t\t📚 Introduction\n\t\n\nUltraData-SFT-2605 is the full set of core-domain SFT data used in the post-training of MiniCPM5-1B-SFT within the MiniCPM5-1B series, and a key representative of L3 refined data in the UltraData L0-L4 tiered data management framework. It covers math, code, knowledge, instruction following, and other core domains, containing over 15 million Deep… See the full description on the dataset page: https://hf-mirror.com/datasets/openbmb/UltraData-SFT-2605.",
+      "Crawler Notes": "无Card(HTTP 401)",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Math",
+      "HF Config License": "",
+      "HF Dataset": "openbmb/UltraData-SFT-2605",
+      "HF Date": "",
+      "HF Downloads (September 2026)": 26440,
+      "HF Likes (September 2026)": 411,
+      "HF Yaml License": "",
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 224.72,
+      "Mean Targets Length": 568.39,
+      "Max Inputs Length": 1836,
+      "Max Targets Length": 2325,
+      "Min Inputs Length": 27,
+      "Min Targets Length": 23,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "UltraData-SFT-2605-Multi-lang-Knowledge": {
+    "Unique Dataset Identifier": "UltraData-SFT-2605-Multi-lang-Knowledge",
+    "Dataset Name": "openbmb/UltraData-SFT-2605-Multi-lang-Knowledge",
+    "Paper Title": "",
+    "Dataset URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "UltraData-SFT-2605",
+    "Collection URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Languages": [
+      "English",
+      "Chinese"
+    ],
+    "Task Categories": [
+      "Text Generation",
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Encyclopedias",
+      "General Web"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Zero-shot",
+      "Few-shot"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "openbmb"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Multi-lang-Knowledge"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 26440,
+      "Crawled Likes": 411,
+      "Created At": "2026-05-21",
+      "Last Modified": "2026-05-28",
+      "Size Category": "10M<n<100M",
+      "Description": "UltraData-SFT-2605\n\t\n\n\n  \n\n\n\n📦 UltraData Collection |\n🌐 UltraData | \n🤗 MiniCPM5 Series\n\n\n\nEnglish |\n中文\n\n\n\n\t\n\t\t\n\t\n\t\n\t\t📚 Introduction\n\t\n\nUltraData-SFT-2605 is the full set of core-domain SFT data used in the post-training of MiniCPM5-1B-SFT within the MiniCPM5-1B series, and a key representative of L3 refined data in the UltraData L0-L4 tiered data management framework. It covers math, code, knowledge, instruction following, and other core domains, containing over 15 million Deep… See the full description on the dataset page: https://hf-mirror.com/datasets/openbmb/UltraData-SFT-2605.",
+      "Crawler Notes": "无Card(HTTP 401)",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Multi-lang-Knowledge",
+      "HF Config License": "",
+      "HF Dataset": "openbmb/UltraData-SFT-2605",
+      "HF Date": "",
+      "HF Downloads (September 2026)": 26440,
+      "HF Likes (September 2026)": 411,
+      "HF Yaml License": "",
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 3461.73,
+      "Mean Targets Length": 2438.29,
+      "Max Inputs Length": 67949,
+      "Max Targets Length": 17711,
+      "Min Inputs Length": 63,
+      "Min Targets Length": 29,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  },
+  "UltraData-SFT-2605-Multi-lang-Math": {
+    "Unique Dataset Identifier": "UltraData-SFT-2605-Multi-lang-Math",
+    "Dataset Name": "openbmb/UltraData-SFT-2605-Multi-lang-Math",
+    "Paper Title": "",
+    "Dataset URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "GitHub URL": "",
+    "Hugging Face URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Papers with Code URL": "",
+    "ArXiv URL": "",
+    "Semantic Scholar Corpus ID": "",
+    "Collection": "UltraData-SFT-2605",
+    "Collection URL": "https://huggingface.co/datasets/openbmb/UltraData-SFT-2605",
+    "Languages": [
+      "English",
+      "Chinese"
+    ],
+    "Task Categories": [
+      "Text Generation",
+      "Question Answering"
+    ],
+    "Text Sources": [
+      "Exams",
+      "Human"
+    ],
+    "Model Generated": [],
+    "Format": [
+      "Chain-of-Thought",
+      "Few-shot"
+    ],
+    "Human Annotation": "No",
+    "Derived from Datasets": [],
+    "Creators": [
+      "openbmb"
+    ],
+    "Licenses": [
+      {
+        "License": "Apache 2.0",
+        "License URL": ""
+      }
+    ],
+    "License Notes": "",
+    "License Verified By": "",
+    "Dataset Filter IDs": [
+      "Multi-lang-Math"
+    ],
+    "Inferred Metadata": {
+      "Crawled Downloads": 26440,
+      "Crawled Likes": 411,
+      "Created At": "2026-05-21",
+      "Last Modified": "2026-05-28",
+      "Size Category": "10M<n<100M",
+      "Description": "UltraData-SFT-2605\n\t\n\n\n  \n\n\n\n📦 UltraData Collection |\n🌐 UltraData | \n🤗 MiniCPM5 Series\n\n\n\nEnglish |\n中文\n\n\n\n\t\n\t\t\n\t\n\t\n\t\t📚 Introduction\n\t\n\nUltraData-SFT-2605 is the full set of core-domain SFT data used in the post-training of MiniCPM5-1B-SFT within the MiniCPM5-1B series, and a key representative of L3 refined data in the UltraData L0-L4 tiered data management framework. It covers math, code, knowledge, instruction following, and other core domains, containing over 15 million Deep… See the full description on the dataset page: https://hf-mirror.com/datasets/openbmb/UltraData-SFT-2605.",
+      "Crawler Notes": "无Card(HTTP 401)",
+      "GitHub License": "",
+      "GitHub Stars (September 2026)": "",
+      "GitHub Topics": "",
+      "Github Date": "",
+      "HF Config": "Multi-lang-Math",
+      "HF Config License": "",
+      "HF Dataset": "openbmb/UltraData-SFT-2605",
+      "HF Date": "",
+      "HF Downloads (September 2026)": 26440,
+      "HF Likes (September 2026)": 411,
+      "HF Yaml License": "",
+      "PwC Date": "",
+      "PwC Description": "",
+      "PwC License Name": "",
+      "PwC License URL": "",
+      "S2 Citation Count (September 2026)": "",
+      "S2 Date": ""
+    },
+    "Text Metrics": {
+      "Num Dialogs": 100,
+      "Mean Inputs Length": 367.19,
+      "Mean Targets Length": 5749.07,
+      "Max Inputs Length": 1335,
+      "Max Targets Length": 20076,
+      "Min Inputs Length": 153,
+      "Min Targets Length": 1027,
+      "Min Dialog Turns": 2,
+      "Max Dialog Turns": 2,
+      "Mean Dialog Turns": 2.0
+    }
+  }
+}

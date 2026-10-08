@@ -1,0 +1,116 @@
+{
+    "lmsys_chat_1m": {
+        "Unique Dataset Identifier": "lmsys_chat_1m",
+        "Dataset Name": "lmsys_chat_1m",
+        "Paper Title": "LMSYS-Chat-1M: A Large-Scale Real-World LLM Conversation Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2309.11998",
+        "Semantic Scholar Corpus ID": 262084217,
+        "Collection": "lmsys_chat_1m",
+        "Collection URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+        "Languages": [
+            "English",
+            "Portuguese",
+            "Russian",
+            "Chinese",
+            "Spanish"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Code",
+            "Coding",
+            "Summarization",
+            "Creative Writing",
+            "Brainstorming",
+            "Code Generation",
+            "Code Summarization",
+            "Commonsense Reasoning",
+            "Explanation Generation",
+            "Logical Reasoning Question Answering",
+            "Text Generation",
+            "Natural Language Generation",
+            "Geographical Map Making Question Answering",
+            "Academic Tasks"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo",
+            "OpenAI GPT-4",
+            "Anthropic Internal Models",
+            "BX LLaMa"
+        ],
+        "Format": [
+            "Multi-turn Dialog",
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "UC Berkeley",
+            "UC San Diego",
+            "Carnegie Mellon University",
+            "Stanford University",
+            "MBZUAI"
+        ],
+        "Licenses": [
+            {
+                "License": "LMSYS-Chat-1M Dataset License",
+                "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
+            },
+            {
+                "License": "Anthropic",
+                "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
+            },
+            {
+                "License": "Llama 2",
+                "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "lmsys_chat_1m"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "lmsys/lmsys-chat-1m",
+            "HF Date": "",
+            "HF Downloads (May 2024)": 2247,
+            "HF Likes (May 2024)": 424,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 36,
+            "S2 Date": "2023-09-21"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1000000,
+            "Mean Inputs Length": 236.0251,
+            "Mean Targets Length": 788.2541,
+            "Max Inputs Length": 2882,
+            "Max Targets Length": 3317282,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 430,
+            "Mean Dialog Turns": 4.0313
+        },
+        "Bibtex": "@Article{Zheng2023LMSYSChat1MAL,\n author = {Lianmin Zheng and Wei-Lin Chiang and Ying Sheng and Tianle Li and Siyuan Zhuang and Zhanghao Wu and Yonghao Zhuang and Zhuohan Li and Zi Lin and Eric P. Xing and Joseph E. Gonzalez and Ion Stoica and Haotong Zhang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {LMSYS-Chat-1M: A Large-Scale Real-World LLM Conversation Dataset},\n volume = {abs/2309.11998},\n year = {2023}\n}\n"
+    }
+}

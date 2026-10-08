@@ -1,0 +1,3302 @@
+{
+    "MegaWika-en": {
+        "Unique Dataset Identifier": "MegaWika-en",
+        "Dataset Name": "megawika-en",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "en"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-af": {
+        "Unique Dataset Identifier": "MegaWika-af",
+        "Dataset Name": "megawika-af",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Afrikaans"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "af"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-ar": {
+        "Unique Dataset Identifier": "MegaWika-ar",
+        "Dataset Name": "megawika-ar",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Arabic"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "ar"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-az": {
+        "Unique Dataset Identifier": "MegaWika-az",
+        "Dataset Name": "megawika-az",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Azerbaijani"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "az"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-bn": {
+        "Unique Dataset Identifier": "MegaWika-bn",
+        "Dataset Name": "megawika-bn",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Bengali"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "bn"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-cs": {
+        "Unique Dataset Identifier": "MegaWika-cs",
+        "Dataset Name": "megawika-cs",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Czech"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "cs"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-de": {
+        "Unique Dataset Identifier": "MegaWika-de",
+        "Dataset Name": "megawika-de",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "German"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "de"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-es": {
+        "Unique Dataset Identifier": "MegaWika-es",
+        "Dataset Name": "megawika-es",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Spanish"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "es"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-et": {
+        "Unique Dataset Identifier": "MegaWika-et",
+        "Dataset Name": "megawika-et",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Estonian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "et"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-fa": {
+        "Unique Dataset Identifier": "MegaWika-fa",
+        "Dataset Name": "megawika-fa",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Farsi"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "fa"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-fi": {
+        "Unique Dataset Identifier": "MegaWika-fi",
+        "Dataset Name": "megawika-fi",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Finnish"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "fi"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-fr": {
+        "Unique Dataset Identifier": "MegaWika-fr",
+        "Dataset Name": "megawika-fr",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "French"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "fr"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-ga": {
+        "Unique Dataset Identifier": "MegaWika-ga",
+        "Dataset Name": "megawika-ga",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Gaelic"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "ga"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-gl": {
+        "Unique Dataset Identifier": "MegaWika-gl",
+        "Dataset Name": "megawika-gl",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Galician"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "gl"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-gu": {
+        "Unique Dataset Identifier": "MegaWika-gu",
+        "Dataset Name": "megawika-gu",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Gujarati"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "gu"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-he": {
+        "Unique Dataset Identifier": "MegaWika-he",
+        "Dataset Name": "megawika-he",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Hebrew"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "he"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-hi": {
+        "Unique Dataset Identifier": "MegaWika-hi",
+        "Dataset Name": "megawika-hi",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Hindi"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "hi"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-hr": {
+        "Unique Dataset Identifier": "MegaWika-hr",
+        "Dataset Name": "megawika-hr",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Hungarian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "hr"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-id": {
+        "Unique Dataset Identifier": "MegaWika-id",
+        "Dataset Name": "megawika-id",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Indonesian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "id"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-it": {
+        "Unique Dataset Identifier": "MegaWika-it",
+        "Dataset Name": "megawika-it",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Italian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "it"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-ja": {
+        "Unique Dataset Identifier": "MegaWika-ja",
+        "Dataset Name": "megawika-ja",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Japanese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "ja"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-ka": {
+        "Unique Dataset Identifier": "MegaWika-ka",
+        "Dataset Name": "megawika-ka",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Georgian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "ka"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-kk": {
+        "Unique Dataset Identifier": "MegaWika-kk",
+        "Dataset Name": "megawika-kk",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Kazakh"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "kk"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-km": {
+        "Unique Dataset Identifier": "MegaWika-km",
+        "Dataset Name": "megawika-km",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Khmer"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "km"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-ko": {
+        "Unique Dataset Identifier": "MegaWika-ko",
+        "Dataset Name": "megawika-ko",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Korean"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "ko"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-lt": {
+        "Unique Dataset Identifier": "MegaWika-lt",
+        "Dataset Name": "megawika-lt",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Lithuanian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "lt"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-lv": {
+        "Unique Dataset Identifier": "MegaWika-lv",
+        "Dataset Name": "megawika-lv",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Latvian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "lv"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-mk": {
+        "Unique Dataset Identifier": "MegaWika-mk",
+        "Dataset Name": "megawika-mk",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Macedonian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "mk"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-ml": {
+        "Unique Dataset Identifier": "MegaWika-ml",
+        "Dataset Name": "megawika-ml",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Malay"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "ml"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-mn": {
+        "Unique Dataset Identifier": "MegaWika-mn",
+        "Dataset Name": "megawika-mn",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Mongolian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "mn"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-mr": {
+        "Unique Dataset Identifier": "MegaWika-mr",
+        "Dataset Name": "megawika-mr",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Marathi"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "mr"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-my": {
+        "Unique Dataset Identifier": "MegaWika-my",
+        "Dataset Name": "megawika-my",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Burmese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "my"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-ne": {
+        "Unique Dataset Identifier": "MegaWika-ne",
+        "Dataset Name": "megawika-ne",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Nepali"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "ne"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-nl": {
+        "Unique Dataset Identifier": "MegaWika-nl",
+        "Dataset Name": "megawika-nl",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Dutch"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "nl"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-pl": {
+        "Unique Dataset Identifier": "MegaWika-pl",
+        "Dataset Name": "megawika-pl",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Polish"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "pl"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-ps": {
+        "Unique Dataset Identifier": "MegaWika-ps",
+        "Dataset Name": "megawika-ps",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Pashto"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "ps"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-pt": {
+        "Unique Dataset Identifier": "MegaWika-pt",
+        "Dataset Name": "megawika-pt",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Portuguese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "pt"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-ro": {
+        "Unique Dataset Identifier": "MegaWika-ro",
+        "Dataset Name": "megawika-ro",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Romanian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "ro"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-ru": {
+        "Unique Dataset Identifier": "MegaWika-ru",
+        "Dataset Name": "megawika-ru",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Russian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "ru"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-si": {
+        "Unique Dataset Identifier": "MegaWika-si",
+        "Dataset Name": "megawika-si",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Sinhalese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "si"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-sl": {
+        "Unique Dataset Identifier": "MegaWika-sl",
+        "Dataset Name": "megawika-sl",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Slovenian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "sl"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-sv": {
+        "Unique Dataset Identifier": "MegaWika-sv",
+        "Dataset Name": "megawika-sv",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Swedish"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "sv"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-ta": {
+        "Unique Dataset Identifier": "MegaWika-ta",
+        "Dataset Name": "megawika-ta",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Tamil"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "ta"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-th": {
+        "Unique Dataset Identifier": "MegaWika-th",
+        "Dataset Name": "megawika-th",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "th"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-tr": {
+        "Unique Dataset Identifier": "MegaWika-tr",
+        "Dataset Name": "megawika-tr",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Turkish"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "tr"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-uk": {
+        "Unique Dataset Identifier": "MegaWika-uk",
+        "Dataset Name": "megawika-uk",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Ukrainian"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "uk"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-ur": {
+        "Unique Dataset Identifier": "MegaWika-ur",
+        "Dataset Name": "megawika-ur",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Urdu"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "ur"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-vi": {
+        "Unique Dataset Identifier": "MegaWika-vi",
+        "Dataset Name": "megawika-vi",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Vietnamese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "vi"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-xh": {
+        "Unique Dataset Identifier": "MegaWika-xh",
+        "Dataset Name": "megawika-xh",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Xhosa"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "xh"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    },
+    "MegaWika-zh": {
+        "Unique Dataset Identifier": "MegaWika-zh",
+        "Dataset Name": "megawika-zh",
+        "Paper Title": "MegaWika: Millions of reports and their sources across 50 diverse languages",
+        "Dataset URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.07049",
+        "Semantic Scholar Corpus ID": 259924959,
+        "Collection": "MegaWika",
+        "Collection URL": "https://huggingface.co/datasets/hltcoe/megawika",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Trivia",
+            "Factual Knowledge Question Answering"
+        ],
+        "Text Sources": [
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "BART"
+        ],
+        "Format": [
+            "zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "John Hopkins University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/hltcoe/megawika#licensing-information"
+            }
+        ],
+        "License Notes": "Wikipedia based dataset. BART is used for question generation, but is Apache 2.0.",
+        "License Verified By": "Shayne",
+        "Dataset Filter IDs": [
+            "zh"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Dataset": "hltcoe/megawika",
+            "HF Date": "2023-07-18",
+            "HF Downloads (May 2024)": 169,
+            "HF Likes (May 2024)": 27,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2023-07-13"
+        },
+        "Bibtex": "@Article{Barham2023MegaWikaMO,\n author = {Samuel Barham and Orion Weller and Michelle Yuan and Kenton Murray and M. Yarmohammadi and Zhengping Jiang and Siddharth Vashishtha and Alexander Martin and Anqi Liu and Aaron Steven White and Jordan L. Boyd-Graber and Benjamin Van Durme},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MegaWika: Millions of reports and their sources across 50 diverse languages},\n volume = {abs/2307.07049},\n year = {2023}\n}\n"
+    }
+}

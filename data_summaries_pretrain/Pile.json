@@ -1,0 +1,623 @@
+{
+  "Pile-c": {
+    "Unique Dataset Identifier": "Pile-c",
+    "Dataset Name": "Pile-c",
+    "Collection": "Pile",
+    "Languages": [
+      "c"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "Social Media & User-Generated Content"
+    ],
+    "Human Annotation": "",
+    "Data Format": "source code",
+    "Dataset URL": "https://huggingface.co/datasets/EleutherAI/pile",
+    "Hugging Face URL": "https://huggingface.co/datasets/EleutherAI/pile",
+    "GitHub URL": "https://github.com/EleutherAI/the-pile",
+    "Paper URL": "https://arxiv.org/abs/2101.00027",
+    "Official Dataset Identifiers": [
+      "EleutherAI/pile"
+    ],
+    "Dataset Filter IDs": [
+      "github/language=C"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "github/language=C",
+        "Part": "Github-card-example",
+        "Original Language Identifier": "c",
+        "Version": "",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Social Media & User-Generated Content"
+        ],
+        "Human Annotation": "",
+        "Data Format": "source code",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile#github"
+        ],
+        "Notes": "官方 GitHub 组件示例：.c 文件且 MIME 为 text/x-c，确认 C；示例不构成全量语言统计。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "c"
+      ],
+      "Language Type": "code / markup / structured format",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "needs_verified_stream_mapping",
+        "Reason": "EleutherAI/pile :: github/language=C",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "Pile-c++": {
+    "Unique Dataset Identifier": "Pile-c++",
+    "Dataset Name": "Pile-c++",
+    "Collection": "Pile",
+    "Languages": [
+      "c++"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "Social Media & User-Generated Content"
+    ],
+    "Human Annotation": "",
+    "Data Format": "source code",
+    "Dataset URL": "https://huggingface.co/datasets/EleutherAI/pile",
+    "Hugging Face URL": "https://huggingface.co/datasets/EleutherAI/pile",
+    "GitHub URL": "https://github.com/EleutherAI/the-pile",
+    "Paper URL": "https://arxiv.org/abs/2101.00027",
+    "Official Dataset Identifiers": [
+      "EleutherAI/pile"
+    ],
+    "Dataset Filter IDs": [
+      "Github/c++"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "Github/c++",
+        "Part": "Github",
+        "Original Language Identifier": "c++",
+        "Version": "",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Social Media & User-Generated Content"
+        ],
+        "Human Annotation": "",
+        "Data Format": "source code",
+        "Evidence URLs": [
+          "https://arxiv.org/html/2101.00027v1"
+        ],
+        "Notes": "论文附录 F.6 给出 C++ 样例，可确认存在；不据此声称完整代码语言清单。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "c++"
+      ],
+      "Language Type": "code / markup / structured format",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "needs_verified_stream_mapping",
+        "Reason": "EleutherAI/pile :: Github/c++",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  },
+  "Pile-eng": {
+    "Unique Dataset Identifier": "Pile-eng",
+    "Dataset Name": "Pile-eng",
+    "Collection": "Pile",
+    "Languages": [
+      "eng"
+    ],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "Books & Academic",
+      "General Web Scraped",
+      "Government Documents",
+      "Multi-Media Entertainment Content",
+      "Other",
+      "Social Media & User-Generated Content",
+      "Synthetic"
+    ],
+    "Human Annotation": "Yes",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/EleutherAI/pile",
+    "Hugging Face URL": "https://huggingface.co/datasets/EleutherAI/pile",
+    "GitHub URL": "https://github.com/EleutherAI/the-pile",
+    "Paper URL": "https://arxiv.org/abs/2101.00027",
+    "Official Dataset Identifiers": [
+      "EleutherAI/pile"
+    ],
+    "Dataset Filter IDs": [
+      "ArXiv",
+      "BookCorpus2",
+      "Books3",
+      "DM Mathematics",
+      "Enron Emails",
+      "EuroParl",
+      "FreeLaw",
+      "Gutenberg (PG-19)",
+      "HackerNews",
+      "NIH ExPorter",
+      "OpenSubtitles",
+      "OpenWebText2",
+      "PhilPapers",
+      "Pile-CC",
+      "PubMed Abstracts",
+      "PubMed Central",
+      "StackExchange",
+      "USPTO Backgrounds",
+      "Ubuntu IRC",
+      "Wikipedia (en)",
+      "YoutubeSubtitles"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "Pile-CC",
+        "Part": "Pile-CC",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "PubMed Central",
+        "Part": "PubMed_Central",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "Books3",
+        "Part": "Books3",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "OpenWebText2",
+        "Part": "OpenWebText2",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "ArXiv",
+        "Part": "ArXiv",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "FreeLaw",
+        "Part": "FreeLaw",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Government Documents"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "StackExchange",
+        "Part": "StackExchange",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Social Media & User-Generated Content"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "USPTO Backgrounds",
+        "Part": "USPTO_Backgrounds",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Government Documents"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "PubMed Abstracts",
+        "Part": "PubMed_Abstracts",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "Gutenberg (PG-19)",
+        "Part": "Gutenberg_(PG-19)",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "OpenSubtitles",
+        "Part": "OpenSubtitles",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Multi-Media Entertainment Content"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "Wikipedia (en)",
+        "Part": "Wikipedia_(en)",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "DM Mathematics",
+        "Part": "DM_Mathematics",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Synthetic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "Ubuntu IRC",
+        "Part": "Ubuntu_IRC",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Social Media & User-Generated Content"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "BookCorpus2",
+        "Part": "BookCorpus2",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "EuroParl",
+        "Part": "EuroParl",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Government Documents"
+        ],
+        "Human Annotation": "Yes",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "HackerNews",
+        "Part": "HackerNews",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Social Media & User-Generated Content"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "YoutubeSubtitles",
+        "Part": "YoutubeSubtitles",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Multi-Media Entertainment Content"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "PhilPapers",
+        "Part": "PhilPapers",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Books & Academic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "NIH ExPorter",
+        "Part": "NIH_ExPorter",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Government Documents"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      },
+      {
+        "Official Dataset Identifier": "EleutherAI/pile",
+        "Official Subset": "Enron Emails",
+        "Part": "Enron_Emails",
+        "Original Language Identifier": "eng",
+        "Version": "2021 paper / English view",
+        "Repository Revision": "148e1d5e8349977c76f673190424a2faf6980a1d",
+        "Text Sources": [
+          "Other"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/EleutherAI/pile"
+        ],
+        "Notes": "英语主体视图；不声称组件完全单语。上游人工翻译/修订范围未确认时 Human Annotation 留空。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "monolingual",
+      "Key Language Labels": [
+        "eng"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "contains human-transformed or annotated content; proportion unknown",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Status": "needs_verified_stream_mapping",
+        "Reason": "EleutherAI/pile :: Pile-CC",
+        "Official Totals Scope": null
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": null,
+      "Num Sentences Sampled": null,
+      "Num Bytes Sampled": null,
+      "Num WhiteSpaces Sampled": null,
+      "Num Unicode Characters Sampled": null
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "DCLM-Pool": {
+    "Unique Dataset Identifier": "DCLM-Pool",
+    "Dataset Name": "DCLM-Pool",
+    "Collection": "DCLM-Pool",
+    "Languages": [],
+    "Task Categories": [
+      "Text Pretraining"
+    ],
+    "Text Sources": [
+      "General Web Scraped"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "raw text",
+    "Dataset URL": "https://huggingface.co/datasets/mlfoundations/dclm-pool-400m-1x",
+    "Hugging Face URL": "https://huggingface.co/datasets/mlfoundations/dclm-pool-400m-1x",
+    "GitHub URL": "https://github.com/mlfoundations/dclm",
+    "Paper URL": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/19e4ea30dded58259665db375885e412-Abstract-Datasets_and_Benchmarks_Track.html",
+    "Official Dataset Identifiers": [
+      "mlfoundations/dclm-pool-400m-1x"
+    ],
+    "Dataset Filter IDs": [],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "mlfoundations/dclm-pool-400m-1x",
+        "Official Subset": "",
+        "Part": "",
+        "Original Language Identifier": "",
+        "Version": "official 400m-1x pool",
+        "Repository Revision": "f20ae752116ce7b4ab15d31e1e40b094229bf911",
+        "Text Sources": [
+          "General Web Scraped"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "raw text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/mlfoundations/dclm-pool-400m-1x"
+        ],
+        "Notes": "用户允许的数据集级占位；语言清单未知，不推断为英语。"
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "dataset placeholder",
+      "Key Language Labels": [],
+      "Language Type": "unknown",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": null,
+      "Num Tokens": null,
+      "Text Metrics Inference": {
+        "Status": "sampled_no_compatible_official_total",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "mlfoundations/dclm-pool-400m-1x",
+            "Config": "dataset-level placeholder",
+            "Split": "train",
+            "Revision": "f20ae752116ce7b4ab15d31e1e40b094229bf911",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/mlfoundations/dclm-pool-400m-1x/resolve/f20ae752116ce7b4ab15d31e1e40b094229bf911/CC_shard_00000240.jsonl.zst"
+            ],
+            "Available Files": 2828,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Sampling Note": "One deterministic shard from the user-approved dataset-level placeholder; no language decomposition.",
+            "Num Documents Sampled": 100,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": null,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/datasets/mlfoundations/dclm-pool-400m-1x",
+            "Conversion Factors": {
+              "r_byte": 0.54347242463757,
+              "r_doc": 2834.1,
+              "r_sent": 38.62750442960338,
+              "r_word": 6.203296342504433
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": []
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.54347242463757,
+          "r_doc": 2834.1,
+          "r_sent": 38.62750442960338
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "DCLM-Pool dataset-level placeholder",
+        "Elapsed Seconds": 13.32,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-27T12:59:45.235069+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size"
+      },
+      "Official Metric Components": []
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": null,
+      "Num Unicode Characters 95% LB": null,
+      "Num Unicode Characters 95% UB": null,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 7337,
+      "Num Bytes Sampled": 521480,
+      "Num WhiteSpaces Sampled": 45687,
+      "Num Unicode Characters Sampled": 283410
+    }
+  }
+}

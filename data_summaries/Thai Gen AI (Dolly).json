@@ -1,0 +1,591 @@
+{
+    "thai_gen_ai_dolly-openqa": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-openqa",
+        "Dataset Name": "open_qa",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "open_qa",
+            "general_qa"
+        ],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "Thaweewat/databricks-dolly-15k-th",
+            "HF Date": "2023-05-09",
+            "HF Downloads (May 2024)": 108,
+            "HF Likes (May 2024)": 2,
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 6162,
+            "Mean Inputs Length": 285.0307,
+            "Mean Targets Length": 323.9369,
+            "Max Inputs Length": 19515,
+            "Max Targets Length": 8786,
+            "Min Inputs Length": 5,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": ""
+    },
+    "thai_gen_ai_dolly-closedqa": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-closedqa",
+        "Dataset Name": "closed_qa",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Closed-Book Question Answering"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "closed_qa"
+        ],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "Thaweewat/databricks-dolly-15k-th",
+            "HF Date": "2023-05-09",
+            "HF Downloads (May 2024)": 108,
+            "HF Likes (May 2024)": 2,
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1776,
+            "Mean Inputs Length": 573.4955,
+            "Mean Targets Length": 265.4786,
+            "Max Inputs Length": 14907,
+            "Max Targets Length": 8487,
+            "Min Inputs Length": 11,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": ""
+    },
+    "thai_gen_ai_dolly-classification": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-classification",
+        "Dataset Name": "classification",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Text Classification"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "classification"
+        ],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "Thaweewat/databricks-dolly-15k-th",
+            "HF Date": "2023-05-09",
+            "HF Downloads (May 2024)": 108,
+            "HF Likes (May 2024)": 2,
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2059,
+            "Mean Inputs Length": 288.3681,
+            "Mean Targets Length": 253.1345,
+            "Max Inputs Length": 14768,
+            "Max Targets Length": 6709,
+            "Min Inputs Length": 9,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": ""
+    },
+    "thai_gen_ai_dolly-brainstorming": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-brainstorming",
+        "Dataset Name": "brainstorming",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Brainstorming"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "brainstorming"
+        ],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "Thaweewat/databricks-dolly-15k-th",
+            "HF Date": "2023-05-09",
+            "HF Downloads (May 2024)": 108,
+            "HF Likes (May 2024)": 2,
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1660,
+            "Mean Inputs Length": 266.6048,
+            "Mean Targets Length": 307.0657,
+            "Max Inputs Length": 10670,
+            "Max Targets Length": 4712,
+            "Min Inputs Length": 10,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": ""
+    },
+    "thai_gen_ai_dolly-infoextract": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-infoextract",
+        "Dataset Name": "infoextract",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Information Extraction"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "information_extraction"
+        ],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "Thaweewat/databricks-dolly-15k-th",
+            "HF Date": "2023-05-09",
+            "HF Downloads (May 2024)": 108,
+            "HF Likes (May 2024)": 2,
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1485,
+            "Mean Inputs Length": 593.2532,
+            "Mean Targets Length": 326.8869,
+            "Max Inputs Length": 11482,
+            "Max Targets Length": 8715,
+            "Min Inputs Length": 5,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": ""
+    },
+    "thai_gen_ai_dolly-summarization": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-summarization",
+        "Dataset Name": "summarization",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Summarization"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "summarization"
+        ],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "Thaweewat/databricks-dolly-15k-th",
+            "HF Date": "2023-05-09",
+            "HF Downloads (May 2024)": 108,
+            "HF Likes (May 2024)": 2,
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1194,
+            "Mean Inputs Length": 692.041,
+            "Mean Targets Length": 374.5754,
+            "Max Inputs Length": 21822,
+            "Max Targets Length": 22481,
+            "Min Inputs Length": 12,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": ""
+    },
+    "thai_gen_ai_dolly-creative_writing": {
+        "Unique Dataset Identifier": "thai_gen_ai_dolly-creative_writing",
+        "Dataset Name": "creative_writing",
+        "Collection": "Thai Gen AI (Dolly)",
+        "Collection URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Dataset URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "Thai"
+        ],
+        "Task Categories": [
+            "Creative Writing"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "Google Cloud Translation API"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/Thaweewat/databricks-dolly-15k-th#summary"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k#summary"
+            },
+            {
+                "License": "Google Cloud Translation API",
+                "License URL": "https://developers.google.com/terms"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "creative_writing"
+        ],
+        "Derived from Datasets": [
+            "Dolly 15k"
+        ],
+        "Human Annotation": "Yes",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "Thaweewat/databricks-dolly-15k-th",
+            "HF Date": "2023-05-09",
+            "HF Downloads (May 2024)": 108,
+            "HF Likes (May 2024)": 2,
+            "HF Yaml License": "CC BY-SA 3.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 675,
+            "Mean Inputs Length": 285.3156,
+            "Mean Targets Length": 461.6311,
+            "Max Inputs Length": 12751,
+            "Max Targets Length": 6000,
+            "Min Inputs Length": 11,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": ""
+    }
+}

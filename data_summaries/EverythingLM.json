@@ -1,0 +1,94 @@
+{
+    "everything_lm": {
+        "Unique Dataset Identifier": "everything_lm",
+        "Dataset Name": "everything_lm",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/totally-not-an-llm/EverythingLM-data-V3",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/totally-not-an-llm/EverythingLM-data-V3",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "EverythingLM",
+        "Collection URL": "https://huggingface.co/datasets/totally-not-an-llm/EverythingLM-data-V3",
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "Basic Instruct",
+            "Brainstorming",
+            "Contextual Question Answering",
+            "Creative Writing",
+            "Coding",
+            "Factual Knowledge Question Answering",
+            "General Knowledge",
+            "Greeting/Small Talk",
+            "Instruction Following",
+            "Multiple Choice Question Answering",
+            "No Context Snippet",
+            "Reasoning over Natural Language",
+            "Roleplay",
+            "Search Query",
+            "Text Modification",
+            "Trick Question"
+        ],
+        "Text Sources": [],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/totally-not-an-llm/EverythingLM-data-V3"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/totally-not-an-llm/EverythingLM-data-V3"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Manan",
+        "Dataset Filter IDs": [
+            "everything_lm"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "totally-not-an-llm/EverythingLM-data-V3",
+            "HF Date": "2023-09-08",
+            "HF Downloads (May 2024)": 72,
+            "HF Likes (May 2024)": 30,
+            "HF Yaml License": "MIT License",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": "",
+            "S2 Date": ""
+        },
+        "Text Metrics": {
+            "Num Dialogs": 1073,
+            "Mean Inputs Length": 474.5974,
+            "Mean Targets Length": 2103.2432,
+            "Max Inputs Length": 2658,
+            "Max Targets Length": 11009,
+            "Min Inputs Length": 58,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": ""
+    }
+}

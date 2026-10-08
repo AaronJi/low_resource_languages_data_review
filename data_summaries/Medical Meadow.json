@@ -1,0 +1,686 @@
+{
+    "medical-meadow-med-flashcards": {
+        "Unique Dataset Identifier": "medical-meadow-med-flashcards",
+        "Dataset Name": "medical-flashcards",
+        "Paper Title": "MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data",
+        "Dataset URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards",
+        "GitHub URL": "https://github.com/kbressem/medAlpaca",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.08247",
+        "Semantic Scholar Corpus ID": 258180068,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Anki Medical Curriculum"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_medical_flashcards/discussions/1"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/kbressem/medAlpaca"
+            }
+        ],
+        "License Notes": "HuggingFace discussion indicates it is Non Commercial, as well as OpenAI generated.",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-med-flashcards"
+        ],
+        "Bibtex": "@Article{Han2023MedAlpacaA,\n author = {T. Han and Lisa C. Adams and Jens-Michalis Papaioannou and Paul Grundmann and Tom Oberhauser and Alexander Löser and D. Truhn and K. Bressem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data},\n volume = {abs/2304.08247},\n year = {2023}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "GNU General Public License v3.0",
+            "GitHub Stars (May 2024)": 430,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "medalpaca/medical_meadow_medical_flashcards",
+            "HF Date": "2023-04-06",
+            "HF Downloads (May 2024)": 14148,
+            "HF Likes (May 2024)": 23,
+            "HF Yaml License": "CC0 1.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 115,
+            "S2 Date": "2023-04-14"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 33955,
+            "Mean Inputs Length": 123.4048,
+            "Mean Targets Length": 349.0956,
+            "Max Inputs Length": 432,
+            "Max Targets Length": 1576,
+            "Min Inputs Length": 31,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "medical-meadow-wikidoc-living-textbook": {
+        "Unique Dataset Identifier": "medical-meadow-wikidoc-living-textbook",
+        "Dataset Name": "wikidoc-living-textbook",
+        "Paper Title": "MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data",
+        "Dataset URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc",
+        "GitHub URL": "https://github.com/kbressem/medAlpaca",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.08247",
+        "Semantic Scholar Corpus ID": 258180068,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "wikidoc.org"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/kbressem/medAlpaca"
+            }
+        ],
+        "License Notes": "OpenAI re-phrased. Otherwise no explicit data license.",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-wikidoc-living-textbook"
+        ],
+        "Bibtex": "@Article{Han2023MedAlpacaA,\n author = {T. Han and Lisa C. Adams and Jens-Michalis Papaioannou and Paul Grundmann and Tom Oberhauser and Alexander Löser and D. Truhn and K. Bressem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data},\n volume = {abs/2304.08247},\n year = {2023}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "GNU General Public License v3.0",
+            "GitHub Stars (May 2024)": 430,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "medalpaca/medical_meadow_wikidoc",
+            "HF Date": "2023-04-06",
+            "HF Downloads (May 2024)": 657,
+            "HF Likes (May 2024)": 29,
+            "HF Yaml License": "CC0 1.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 115,
+            "S2 Date": "2023-04-14"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 10000,
+            "Mean Inputs Length": 95.764,
+            "Mean Targets Length": 912.8222,
+            "Max Inputs Length": 326,
+            "Max Targets Length": 68919,
+            "Min Inputs Length": 31,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "medical-meadow-wikidoc-patient-information": {
+        "Unique Dataset Identifier": "medical-meadow-wikidoc-patient-information",
+        "Dataset Name": "wikidoc-patient-information",
+        "Paper Title": "MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data",
+        "Dataset URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc_patient_information",
+        "GitHub URL": "https://github.com/kbressem/medAlpaca",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc_patient_information",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.08247",
+        "Semantic Scholar Corpus ID": 258180068,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Clinical Diagnosis Question Answering",
+            "Instructional Question Answering",
+            "Medical Diagnosis Question Answering",
+            "Medical Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Anki Medical Curriculum"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3.5-Turbo"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_wikidoc"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/kbressem/medAlpaca"
+            }
+        ],
+        "License Notes": "OpenAI re-phrased. Otherwise no explicit data license.",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-wikidoc-patient-information"
+        ],
+        "Bibtex": "@Article{Han2023MedAlpacaA,\n author = {T. Han and Lisa C. Adams and Jens-Michalis Papaioannou and Paul Grundmann and Tom Oberhauser and Alexander Löser and D. Truhn and K. Bressem},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {MedAlpaca - An Open-Source Collection of Medical Conversational AI Models and Training Data},\n volume = {abs/2304.08247},\n year = {2023}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "GNU General Public License v3.0",
+            "GitHub Stars (May 2024)": 430,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "medalpaca/medical_meadow_wikidoc_patient_information",
+            "HF Date": "2023-04-06",
+            "HF Downloads (May 2024)": 303,
+            "HF Likes (May 2024)": 17,
+            "HF Yaml License": "CC0 1.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 115,
+            "S2 Date": "2023-04-14"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 5942,
+            "Mean Inputs Length": 80.7262,
+            "Mean Targets Length": 456.1146,
+            "Max Inputs Length": 158,
+            "Max Targets Length": 15848,
+            "Min Inputs Length": 42,
+            "Min Targets Length": 7,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "medical-meadow-cord19": {
+        "Unique Dataset Identifier": "medical-meadow-cord19",
+        "Dataset Name": "cord19",
+        "Paper Title": "CORD-19: The COVID-19 Open Research Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_cord19",
+        "GitHub URL": "https://github.com/allenai/cord19",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_cord19",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2004.10706",
+        "Semantic Scholar Corpus ID": 216056360,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Text Summarization",
+            "Simplification"
+        ],
+        "Text Sources": [
+            "pubmed",
+            "arxiv.org",
+            "biorxiv.org",
+            "medrxiv.org",
+            "WHO Covid-19 Database"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "CORD-19"
+        ],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "https://github.com/allenai/cord19?tab=readme-ov-file#metadatacsv-overview"
+            }
+        ],
+        "License Notes": "Lots of licenses used for different subsets.",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-cord19"
+        ],
+        "Bibtex": "@Article{Wang2020CORD19TC,\n author = {Lucy Lu Wang and Kyle Lo and Yoganand Chandrasekhar and Russell Reas and Jiangjiang Yang and Darrin Eide and Kathryn Funk and Rodney Michael Kinney and Ziyang Liu and William Merrill and P. Mooney and D. Murdick and Devvret Rishi and J. Sheehan and Zhihong Shen and Brandon Stilson and Alex D Wade and Kuansan Wang and Christopher Wilhelm and Boya Xie and Douglas A. Raymond and Daniel S. Weld and Oren Etzioni and Sebastian Kohlmeier},\n booktitle = {NLPCOVID19},\n journal = {ArXiv},\n title = {CORD-19: The Covid-19 Open Research Dataset},\n year = {2020}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 149,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "medalpaca/medical_meadow_cord19",
+            "HF Date": "2023-04-06",
+            "HF Downloads (May 2024)": 271,
+            "HF Likes (May 2024)": 8,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 730,
+            "S2 Date": "2020-04-22"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 821007,
+            "Mean Inputs Length": 1507.5532,
+            "Mean Targets Length": 103.9682,
+            "Max Inputs Length": 122438,
+            "Max Targets Length": 1187,
+            "Min Inputs Length": 47,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "medical-meadow-health-advice": {
+        "Unique Dataset Identifier": "medical-meadow-health-advice",
+        "Dataset Name": "health-advice",
+        "Paper Title": "Detecting Causal Language Use in Science Findings",
+        "Dataset URL": "https://aclanthology.org/D19-1473/",
+        "GitHub URL": "https://github.com/junwang4/causal-language-use-in-science",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_health_advice",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 202787823,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "pubmed"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "PubMed Causal Language Use"
+        ],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/junwang4/causal-language-use-in-science"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-health-advice"
+        ],
+        "Bibtex": "@Article{Yu2019DetectingCL,\n author = {Bei Yu and Yingya Li and Jun Wang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {4663-4673},\n title = {Detecting Causal Language Use in Science Findings},\n year = {2019}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "GNU General Public License v3.0",
+            "GitHub Stars (May 2024)": 10,
+            "GitHub Topics": [
+                "causal-language",
+                "science-findings"
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "medalpaca/medical_meadow_health_advice",
+            "HF Date": "2023-04-06",
+            "HF Downloads (May 2024)": 255,
+            "HF Likes (May 2024)": 5,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 28,
+            "S2 Date": "2019-11-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 8676,
+            "Mean Inputs Length": 222.3873,
+            "Mean Targets Length": 18.2123,
+            "Max Inputs Length": 950,
+            "Max Targets Length": 23,
+            "Min Inputs Length": 77,
+            "Min Targets Length": 17,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "medical-meadow-pubmed-causal": {
+        "Unique Dataset Identifier": "medical-meadow-pubmed-causal",
+        "Dataset Name": "pubmed-causal",
+        "Paper Title": "Detecting Causal Language Use in Science Findings",
+        "Dataset URL": "https://aclanthology.org/D19-1473/",
+        "GitHub URL": "https://github.com/junwang4/causal-language-use-in-science",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_pubmed_causal",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 202787823,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "pubmed"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "PubMed Causal Language Use"
+        ],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-pubmed-causal"
+        ],
+        "Bibtex": "@Article{Yu2019DetectingCL,\n author = {Bei Yu and Yingya Li and Jun Wang},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n pages = {4663-4673},\n title = {Detecting Causal Language Use in Science Findings},\n year = {2019}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "GNU General Public License v3.0",
+            "GitHub Stars (May 2024)": 10,
+            "GitHub Topics": [
+                "causal-language",
+                "science-findings"
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "medalpaca/medical_meadow_pubmed_causal",
+            "HF Date": "2023-04-06",
+            "HF Downloads (May 2024)": 160,
+            "HF Likes (May 2024)": 5,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 28,
+            "S2 Date": "2019-11-01"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2446,
+            "Mean Inputs Length": 294.4321,
+            "Mean Targets Length": 39.6603,
+            "Max Inputs Length": 535,
+            "Max Targets Length": 46,
+            "Min Inputs Length": 184,
+            "Min Targets Length": 21,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "medical-meadow-medqa": {
+        "Unique Dataset Identifier": "medical-meadow-medqa",
+        "Dataset Name": "medqa",
+        "Paper Title": "What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams",
+        "Dataset URL": "https://github.com/jind11/MedQA",
+        "GitHub URL": "https://github.com/jind11/MedQA",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_medqa",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/medqa-usmle",
+        "ArXiv URL": "https://arxiv.org/abs/2009.13081",
+        "Semantic Scholar Corpus ID": 221970190,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "Instructional Question Answering",
+            "Medical Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "Medical Exams"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "MedQA"
+        ],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/jind11/MedQA"
+            }
+        ],
+        "License Notes": "No data license found for MedQA.",
+        "License Verified By": "Mohammed Hamdy",
+        "Dataset Filter IDs": [
+            "medical-meadow-medqa"
+        ],
+        "Bibtex": "@Article{Jin2020WhatDD,\n author = {Di Jin and Eileen Pan and Nassim Oufattole and W. Weng and Hanyi Fang and Peter Szolovits},\n booktitle = {Applied Sciences},\n journal = {ArXiv},\n title = {What Disease does this Patient Have? A Large-scale Open Domain Question Answering Dataset from Medical Exams},\n volume = {abs/2009.13081},\n year = {2020}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (May 2024)": 161,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "medalpaca/medical_meadow_medqa",
+            "HF Date": "2023-04-06",
+            "HF Downloads (May 2024)": 939,
+            "HF Likes (May 2024)": 70,
+            "HF Yaml License": "",
+            "PwC Date": "2020-09-28",
+            "PwC Description": "Multiple choice question answering based on the United States Medical License Exams (USMLE). The dataset is collected from the professional medical board exams. It covers three languages: English, simplified Chinese, and traditional Chinese, and contains 12,723, 34,251, and 14,123 questions for the three languages, respectively.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 245,
+            "S2 Date": "2020-09-28"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 10178,
+            "Mean Inputs Length": 960.3179,
+            "Mean Targets Length": 30.2735,
+            "Max Inputs Length": 4249,
+            "Max Targets Length": 233,
+            "Min Inputs Length": 260,
+            "Min Targets Length": 4,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "medical-meadow-mediqa": {
+        "Unique Dataset Identifier": "medical-meadow-mediqa",
+        "Dataset Name": "mediqa",
+        "Paper Title": "Question-Driven Summarization of Answers to Consumer Health Questions",
+        "Dataset URL": "https://osf.io/fyg46/",
+        "GitHub URL": "https://github.com/abachaa/MEDIQA2021",
+        "Hugging Face URL": "https://huggingface.co/datasets/medalpaca/medical_meadow_mediqa",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/mediqa-ans",
+        "ArXiv URL": "https://arxiv.org/abs/2005.09067",
+        "Semantic Scholar Corpus ID": 218685012,
+        "Collection": "Medical Meadow",
+        "Collection URL": "https://github.com/kbressem/medAlpaca",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "BioMedical Question Answering",
+            "BioMedical Text Summarization",
+            "Instructional Question Answering",
+            "Medical Question Answering"
+        ],
+        "Text Sources": [
+            "National Library of Medicine (NLM)",
+            "pubmed",
+            "web"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "MEDIQA"
+        ],
+        "Creators": [
+            "University Hospital Aachen",
+            "Technische Universität München",
+            "Berliner Hochschule für Technik"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": "https://osf.io/fyg46/"
+            }
+        ],
+        "License Notes": "The license given here is MEDIQA's.",
+        "License Verified By": "",
+        "Dataset Filter IDs": [
+            "medical-meadow-mediqa"
+        ],
+        "Bibtex": "@Article{Savery2020QuestiondrivenSO,\n author = {Max E. Savery and Asma Ben Abacha and Soumya Gayen and Dina Demner-Fushman},\n booktitle = {Scientific Data},\n journal = {Scientific Data},\n title = {Question-driven summarization of answers to consumer health questions},\n volume = {7},\n year = {2020}\n}\n",
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (May 2024)": 20,
+            "GitHub Topics": [
+                "answer-summarization",
+                "bionlp",
+                "medical-informatics",
+                "nlp",
+                "question-summarization",
+                "radiology-report-summarization",
+                "summarization"
+            ],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "medalpaca/medical_meadow_mediqa",
+            "HF Date": "2023-04-06",
+            "HF Downloads (May 2024)": 434,
+            "HF Likes (May 2024)": 11,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "The first summarization collection containing question-driven summaries of answers to consumer health questions. This dataset can be used to evaluate single or multi-document summaries generated by algorithms using extractive or abstractive approaches.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (May 2024)": 60,
+            "S2 Date": "2020-01-30"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 2208,
+            "Mean Inputs Length": 6510.0199,
+            "Mean Targets Length": 581.0842,
+            "Max Inputs Length": 74381,
+            "Max Targets Length": 6566,
+            "Min Inputs Length": 171,
+            "Min Targets Length": 29,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    }
+}

@@ -1,0 +1,884 @@
+{
+    "op-airoboros_1.4.1": {
+        "Unique Dataset Identifier": "op-airoboros_1.4.1",
+        "Dataset Name": "airoboros-gpt4-1.4.1",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/jondurbin/airoboros-gpt4-1.4.1",
+        "GitHub URL": "https://github.com/jondurbin/airoboros",
+        "Hugging Face URL": "https://huggingface.co/datasets/jondurbin/airoboros-gpt4-1.4.1",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "Code",
+            "English"
+        ],
+        "Task Categories": [
+            "Brainstorming",
+            "Code",
+            "Creative Writing",
+            "Question Answering",
+            "Question Understanding"
+        ],
+        "Text Sources": [],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://huggingface.co/datasets/jondurbin/airoboros-gpt4-1.4.1"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/jondurbin/airoboros"
+            }
+        ],
+        "License Notes": "Uses OpenAI to generate synthetic data.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "airoboros"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (June 2024)": 969,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "jondurbin/airoboros-gpt4-1.4.1",
+            "HF Date": "2023-06-25",
+            "HF Downloads (June 2024)": 63,
+            "HF Likes (June 2024)": 40,
+            "HF Yaml License": "CC BY-NC 4.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 2605,
+            "Mean Inputs Length": 885.5754,
+            "Mean Targets Length": 1567.1939,
+            "Max Inputs Length": 7949,
+            "Max Targets Length": 7905,
+            "Min Inputs Length": 29,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "op-arb": {
+        "Unique Dataset Identifier": "op-arb",
+        "Dataset Name": "arb",
+        "Paper Title": "ARB: Advanced Reasoning Benchmark for Large Language Models",
+        "Dataset URL": "https://arb.duckai.org",
+        "GitHub URL": "https://github.com/TheDuckAI/arb",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2307.13692",
+        "Semantic Scholar Corpus ID": 260155126,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Argumentative Reasoning",
+            "Commonsense Reasoning",
+            "Chain-of-Thought",
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "bar exam",
+            "berkeley problems in mathematics",
+            "major american universities ph.d. qualifying questions and solutions",
+            "mcat tests",
+            "textbook: putnam and beyond",
+            "undergraduate mathematics competitions (1995-2016)",
+            "world scientific: problems and solutions on electromagnetism, mechanics, optics, thermodynamics and statistical mechanics"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "DuckAI",
+            "Georgia Institute of Technology",
+            "ETH Zürich",
+            "Nomos AI",
+            "Stanford University",
+            "Montreal Institute of Learning Algorithms (Mila)"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://arxiv.org/abs/2307.13692"
+            }
+        ],
+        "License Notes": "ARB dataset is licensed under CC BY 4.0, but code is under the MIT license.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "ARB"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 43,
+            "GitHub Topics": [
+                "benchmark",
+                "dataset",
+                "llm"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Sawada2023ARBAR,\n author = {Tomohiro Sawada and Daniel Paleka and Alexander Havrilla and Pranav Tadepalli and Paula Vidas and Alexander Kranias and John J. Nay and Kshitij Gupta and Aran Komatsuzaki},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {ARB: Advanced Reasoning Benchmark for Large Language Models},\n volume = {abs/2307.13692},\n year = {2023}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 713,
+            "Mean Inputs Length": 1153.8485,
+            "Mean Targets Length": 202.9649,
+            "Max Inputs Length": 3969,
+            "Max Targets Length": 3483,
+            "Min Inputs Length": 53,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "op-ne_leetcode": {
+        "Unique Dataset Identifier": "op-ne_leetcode",
+        "Dataset Name": "leetcode-solutions-python-testgen-gpt4",
+        "Paper Title": "",
+        "Dataset URL": "",
+        "GitHub URL": "",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "Code",
+            "English"
+        ],
+        "Task Categories": [
+            "Code",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "OpenAI GPT-4"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "Northeastern University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            },
+            {
+                "License": "OpenAI",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "The name of the dataset (no longer public on HF) implies that the solutions are GPT-4 generated.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "leetcode_ne"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 1100,
+            "Mean Inputs Length": 1323.9527,
+            "Mean Targets Length": 378.1355,
+            "Max Inputs Length": 5692,
+            "Max Targets Length": 1316,
+            "Min Inputs Length": 256,
+            "Min Targets Length": 39,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "op-openassistant_guanaco": {
+        "Unique Dataset Identifier": "op-openassistant_guanaco",
+        "Dataset Name": "openassistant-guanaco",
+        "Paper Title": "QLORA: Efficient Finetuning of Quantized LLMs",
+        "Dataset URL": "https://huggingface.co/datasets/timdettmers/openassistant-guanaco",
+        "GitHub URL": "https://github.com/artidoro/qlora",
+        "Hugging Face URL": "https://huggingface.co/datasets/timdettmers/openassistant-guanaco",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2305.14314",
+        "Semantic Scholar Corpus ID": 258841328,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "Spanish",
+            "Russian",
+            "German",
+            "Polish",
+            "Thai",
+            "Vietnamese",
+            "Swedish",
+            "Bengali",
+            "Danish",
+            "Hebrew",
+            "Italian",
+            "Persian",
+            "Slovak",
+            "Indonesian",
+            "Norwegian Bokmål",
+            "Greek",
+            "Dutch",
+            "Hungarian",
+            "Basque",
+            "Chinese",
+            "Esperanto",
+            "Japanese",
+            "Catalan",
+            "Czech",
+            "Bulgarian",
+            "Finnish",
+            "Portuguese",
+            "Turkish",
+            "Romanian",
+            "Arabic",
+            "Ukrainian",
+            "Galician",
+            "French",
+            "Korean"
+        ],
+        "Task Categories": [
+            "Clarification Question Answering",
+            "Commonsense Reasoning",
+            "Instructional Question Answering",
+            "Logical and Mathematical Reasoning",
+            "Multiple Choice Question Answering",
+            "Open-Ended Question Answering",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Multi-turn Dialog"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "OpenAssistant Conversations Dataset"
+        ],
+        "Creators": [
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/OpenAssistant/oasst1"
+            }
+        ],
+        "License Notes": "Guanaco is a subset of OpenAssistant/oasst1, which is licensed under Apache License 2.0.",
+        "License Verified By": "Cole Hunter",
+        "Dataset Filter IDs": [
+            "guanaco"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 9613,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "timdettmers/openassistant-guanaco",
+            "HF Date": "2023-05-27",
+            "HF Downloads (June 2024)": 19920,
+            "HF Likes (June 2024)": 376,
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Dettmers2023QLoRAEF,\n author = {Tim Dettmers and Artidoro Pagnoni and Ari Holtzman and Luke Zettlemoyer},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {QLoRA: Efficient Finetuning of Quantized LLMs},\n volume = {abs/2305.14314},\n year = {2023}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 797,
+            "Mean Inputs Length": 274.3802,
+            "Mean Targets Length": 1822.6524,
+            "Max Inputs Length": 9785,
+            "Max Targets Length": 11174,
+            "Min Inputs Length": 10,
+            "Min Targets Length": 36,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "op-prm800k": {
+        "Unique Dataset Identifier": "op-prm800k",
+        "Dataset Name": "prm800k",
+        "Paper Title": "Let's Verify Step by Step",
+        "Dataset URL": "https://github.com/openai/prm800k",
+        "GitHub URL": "https://github.com/openai/prm800k",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/prm800k",
+        "ArXiv URL": "https://arxiv.org/abs/2305.20050",
+        "Semantic Scholar Corpus ID": 258987659,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Brainstorming",
+            "Chain-of-Thought",
+            "Explanation",
+            "Logical and Mathematical Reasoning",
+            "Question Answering",
+            "Step-by-Step Instruction Generation"
+        ],
+        "Text Sources": [
+            "mathematical association of america",
+            "OpenAI GPT-4"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Chain-of-Thought",
+            "Few-shot",
+            "Multi-turn Dialog",
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "MATH"
+        ],
+        "Creators": [
+            "OpenAI"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/openai/prm800k/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2305.20050"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate step by step solutions.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "MATH/PRM-800K"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 1317,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2023-05-31",
+            "PwC Description": "PRM800K is a process supervision dataset containing 800,000 step-level correctness labels for model-generated solutions to problems from the MATH dataset.",
+            "PwC License Name": "MIT License",
+            "PwC License URL": "https://github.com/openai/prm800k/blob/main/LICENSE",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Lightman2023LetsVS,\n author = {Hunter Lightman and V. Kosaraju and Yura Burda and Harrison Edwards and Bowen Baker and Teddy Lee and J. Leike and John Schulman and I. Sutskever and Karl Cobbe},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Let's Verify Step by Step},\n volume = {abs/2305.20050},\n year = {2023}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 12298,
+            "Mean Inputs Length": 203.6239,
+            "Mean Targets Length": 729.2572,
+            "Max Inputs Length": 4309,
+            "Max Targets Length": 6759,
+            "Min Inputs Length": 16,
+            "Min Targets Length": 33,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "op-reclor": {
+        "Unique Dataset Identifier": "op-reclor",
+        "Dataset Name": "reclor",
+        "Paper Title": "ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning",
+        "Dataset URL": "https://whyu.me/reclor",
+        "GitHub URL": "https://github.com/yuweihao/reclor",
+        "Hugging Face URL": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/reclor",
+        "ArXiv URL": "https://arxiv.org/abs/2002.04326",
+        "Semantic Scholar Corpus ID": 209485573,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Argumentative Reasoning",
+            "Commonsense Reasoning",
+            "Language Style Analysis",
+            "Multiple Choice Question Answering",
+            "Natural Language Inference",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "science textbooks",
+            "gmat",
+            "lsat",
+            "undisclosed web"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "National University of Singapore"
+        ],
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://whyu.me/reclor/"
+            }
+        ],
+        "License Notes": "Website states dataset is for non-commercial research purposes only.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "reclor"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": 73,
+            "GitHub Topics": [
+                "machine-reading-comprehension",
+                "natural-language-processing",
+                "natural-language-understanding",
+                "nlp"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2020-02-11",
+            "PwC Description": "Logical reasoning is an important ability to examine, analyze, and critically evaluate arguments as they occur in ordinary language as the definition from Law School Admission Council. ReClor is a dataset extracted from logical reasoning questions of standardized graduate admission examinations.",
+            "PwC License Name": "Unspecified",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Yu2020ReClorAR,\n author = {Weihao Yu and Zihang Jiang and Yanfei Dong and Jiashi Feng},\n booktitle = {International Conference on Learning Representations},\n journal = {ArXiv},\n title = {ReClor: A Reading Comprehension Dataset Requiring Logical Reasoning},\n volume = {abs/2002.04326},\n year = {2020}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 4530,
+            "Mean Inputs Length": 1021.8168,
+            "Mean Targets Length": 1.0,
+            "Max Inputs Length": 2085,
+            "Max Targets Length": 1,
+            "Min Inputs Length": 386,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "op-scibench": {
+        "Unique Dataset Identifier": "op-scibench",
+        "Dataset Name": "scibench",
+        "Paper Title": "SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models",
+        "Dataset URL": "https://huggingface.co/datasets/xw27/scibench",
+        "GitHub URL": "https://github.com/mandyyyyii/scibench",
+        "Hugging Face URL": "https://huggingface.co/datasets/xw27/scibench",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/scibench",
+        "ArXiv URL": "https://arxiv.org/abs/2307.10635",
+        "Semantic Scholar Corpus ID": 259991511,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "calculus: early transcendentals",
+            "classical dynamics of particles and systems",
+            "elementary differential equations and boundary value problems",
+            "fundamentals of physics",
+            "textbook: physical chemistry",
+            "textbook: physical chemistry, quanta, matter, and change",
+            "textbook: probability and statistical inference",
+            "textbook: quantum chemistry",
+            "statistical thermodynamics"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Chain-of-Thought",
+            "Few-shot",
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "UCLA",
+            "University of Washington"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "The license on GitHub is MIT and no license is provided on HF or in the paper.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "scibench"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 92,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "xw27/scibench",
+            "HF Date": "2023-07-21",
+            "HF Downloads (June 2024)": 5,
+            "HF Likes (June 2024)": 11,
+            "HF Yaml License": "MIT License",
+            "PwC Date": "2023-07-20",
+            "PwC Description": "SciBench is a large-scale scientific problem-solving benchmark suite that aims to systematically examine the reasoning capabilities required for complex scientific problem solving. SciBench contains two carefully curated datasets: an open set featuring a range of collegiate-level scientific problems drawn from mathematics, chemistry, and physics textbooks, and a closed set comprising problems from undergraduate-level exams in computer science and mathematics.",
+            "PwC License Name": "MIT License",
+            "PwC License URL": "https://github.com/mandyyyyii/scibench/blob/main/LICENSE",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Wang2023SciBenchEC,\n author = {Xiaoxuan Wang and Ziniu Hu and Pan Lu and Yanqiao Zhu and Jieyu Zhang and Satyen Subramaniam and Arjun R. Loomba and Shichang Zhang and Yizhou Sun and Wei Wang},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {SciBench: Evaluating College-Level Scientific Problem-Solving Abilities of Large Language Models},\n volume = {abs/2307.10635},\n year = {2023}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 616,
+            "Mean Inputs Length": 294.1899,
+            "Mean Targets Length": 153.763,
+            "Max Inputs Length": 1275,
+            "Max Targets Length": 3316,
+            "Min Inputs Length": 39,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "op-scienceqa": {
+        "Unique Dataset Identifier": "op-scienceqa",
+        "Dataset Name": "science-qa",
+        "Paper Title": "Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering",
+        "Dataset URL": "https://huggingface.co/datasets/derek-thomas/ScienceQA",
+        "GitHub URL": "https://github.com/lupantech/ScienceQA",
+        "Hugging Face URL": "https://huggingface.co/datasets/derek-thomas/ScienceQA",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/scienceqa",
+        "ArXiv URL": "https://arxiv.org/abs/2209.09513",
+        "Semantic Scholar Corpus ID": 252383606,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought",
+            "Explanation",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "science textbooks",
+            "exams"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Chain-of-Thought",
+            "Few-shot",
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "UCLA",
+            "Arizona State University",
+            "AI2"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://github.com/lupantech/ScienceQA/blob/main/LICENSE-DATA"
+            }
+        ],
+        "License Notes": "Both the paper and data license on GitHub are Attribution-NonCommercial-ShareAlike 4.0 International",
+        "License Verified By": "Cole Hunter",
+        "Dataset Filter IDs": [
+            "scienceqa"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 553,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "derek-thomas/ScienceQA",
+            "HF Date": "2023-02-10",
+            "HF Downloads (June 2024)": 7606,
+            "HF Likes (June 2024)": 112,
+            "HF Yaml License": "CC BY-SA 4.0",
+            "PwC Date": "2022-09-20",
+            "PwC Description": "Science Question Answering (ScienceQA) is a new benchmark that consists of 21,208 multimodal multiple choice questions with diverse science topics and annotations of their answers with corresponding lectures and explanations. Out of the questions in ScienceQA, 10,332 (48.7%) have an image context, 10,220 (48.2%) have a text context, and 6,532 (30.8%) have both. Most questions are annotated with grounded lectures (83.9%) and detailed explanations (90.5%). The lecture and explanation provide general external knowledge and specific reasons, respectively, for arriving at the correct answer. To the best of our knowledge, ScienceQA is the first large-scale multimodal dataset that annotates lectures and explanations for the answers.\n\nScienceQA, in contrast to previous datasets, has richer domain diversity from three subjects: natural science, language science, and social science. Questions in each subject are categorized first by the topic (Biology, Physics, Chemistry, etc.), then by the category (Plants, Cells, Animals, etc.), and finally by the skill (Classify fruits and vegetables as plant parts, Identify countries of Africa, etc.). ScienceQA features 26 topics, 127 categories, and 379 skills that cover a wide range of domains.",
+            "PwC License Name": "CC BY-NC-SA",
+            "PwC License URL": null,
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Lu2022LearnTE,\n author = {Pan Lu and Swaroop Mishra and Tony Xia and Liang Qiu and Kai-Wei Chang and Song-Chun Zhu and Oyvind Tafjord and Peter Clark and A. Kalyan},\n booktitle = {Neural Information Processing Systems},\n journal = {ArXiv},\n title = {Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering},\n volume = {abs/2209.09513},\n year = {2022}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 1317,
+            "Mean Inputs Length": 241.0569,
+            "Mean Targets Length": 416.202,
+            "Max Inputs Length": 2211,
+            "Max Targets Length": 1359,
+            "Min Inputs Length": 36,
+            "Min Targets Length": 181,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "op-theoremqa": {
+        "Unique Dataset Identifier": "op-theoremqa",
+        "Dataset Name": "theorem-qa",
+        "Paper Title": "TheoremQA: A Theorem-driven Question Answering Dataset",
+        "Dataset URL": "https://huggingface.co/datasets/wenhu/TheoremQA",
+        "GitHub URL": "https://github.com/wenhuchen/TheoremQA",
+        "Hugging Face URL": "https://huggingface.co/datasets/wenhu/TheoremQA",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/theoremqa",
+        "ArXiv URL": "https://arxiv.org/abs/2305.12524",
+        "Semantic Scholar Corpus ID": 258833200,
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Logical and Mathematical Reasoning",
+            "Question Answering"
+        ],
+        "Text Sources": [
+            "human",
+            "OpenAI GPT-4",
+            "undisclosed web"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Chain-of-Thought",
+            "Program of Thoughts"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "UCLA",
+            "UC Santa Barbara",
+            "University of Waterloo"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/wenhu/TheoremQA"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/pdf/2305.12524.pdf"
+            }
+        ],
+        "License Notes": "They used GPT-4 to generate university level theorems in STEM subfields and then a team of domain experts refined and reviewed the data.",
+        "License Verified By": "Ariel Lee",
+        "Dataset Filter IDs": [
+            "theoremqa"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "MIT License",
+            "GitHub Stars (June 2024)": 152,
+            "GitHub Topics": [],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (June 2024)": "",
+            "HF Likes (June 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "2023-05-21",
+            "PwC Description": "We propose the first question-answering dataset driven by STEM theorems. We annotated 800 QA pairs covering 350+ theorems spanning across Math, EE&CS, Physics and Finance. The dataset is collected by human experts with very high quality. We provide the dataset as a new benchmark to test the limit of large language models to apply theorems to solve challenging university-level questions. We provide a pipeline in the following to prompt LLMs and evaluate their outputs with WolframAlpha.",
+            "PwC License Name": "MIT License",
+            "PwC License URL": "https://raw.githubusercontent.com/wenhuchen/TheoremQA/main/LICENSE",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "@Article{Chen2023TheoremQAAT,\n author = {Wenhu Chen and Ming Yin and Max W.F. Ku and Yixin Wan and Xueguang Ma and Jianyu Xu and Tony Xia and Xinyi Wang and Pan Lu},\n booktitle = {Conference on Empirical Methods in Natural Language Processing},\n journal = {ArXiv},\n title = {TheoremQA: A Theorem-driven Question Answering dataset},\n volume = {abs/2305.12524},\n year = {2023}\n}\n",
+        "Text Metrics": {
+            "Num Dialogs": 564,
+            "Mean Inputs Length": 1913.9628,
+            "Mean Targets Length": 4.7287,
+            "Max Inputs Length": 3579,
+            "Max Targets Length": 39,
+            "Min Inputs Length": 860,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    },
+    "op-tigerbot_leetcode": {
+        "Unique Dataset Identifier": "op-tigerbot_leetcode",
+        "Dataset Name": "tigerbot-kaggle-leetcodesolutions-en-2k",
+        "Paper Title": "",
+        "Dataset URL": "https://huggingface.co/datasets/TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Collection": "Open-Platypus",
+        "Collection URL": "https://platypus-llm.github.io",
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "Code"
+        ],
+        "Text Sources": [
+            "leetcode"
+        ],
+        "Model Generated": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [
+            "Kaggle Leetcode Solutions"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k"
+            },
+            {
+                "License": "GNU General Public License v3.0",
+                "License URL": "https://www.kaggle.com/datasets/erichartford/leetcode-solutions"
+            }
+        ],
+        "License Notes": "The original dataset from Kaggle lists GNU but the HF dataset lists Apache License 2.0. Looks like the kaggle dataset was first, and then a 3rd party uploaded to HF.",
+        "License Verified By": "Cole Hunter",
+        "Dataset Filter IDs": [
+            "tigerbot-kaggle"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "",
+            "GitHub Stars (June 2024)": "",
+            "GitHub Topics": "",
+            "Github Date": "",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Dataset": "TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k",
+            "HF Date": "2023-05-30",
+            "HF Downloads (June 2024)": 7,
+            "HF Likes (June 2024)": 15,
+            "HF Yaml License": "Apache License 2.0",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (June 2024)": "",
+            "S2 Date": ""
+        },
+        "Bibtex": "",
+        "Text Metrics": {
+            "Num Dialogs": 386,
+            "Mean Inputs Length": 1015.6554,
+            "Mean Targets Length": 1200.0907,
+            "Max Inputs Length": 3326,
+            "Max Targets Length": 2765,
+            "Min Inputs Length": 230,
+            "Min Targets Length": 451,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        }
+    }
+}

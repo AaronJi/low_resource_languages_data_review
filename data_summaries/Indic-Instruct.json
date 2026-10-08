@@ -1,0 +1,821 @@
+{
+    "indic-instruct-anudesh": {
+        "Unique Dataset Identifier": "indic-instruct-anudesh",
+        "Dataset Name": "indic-instruct-data-v0.1-anudesh",
+        "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
+        "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
+        "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1/viewer/anudesh",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.15006",
+        "Semantic Scholar Corpus ID": "267301288",
+        "Collection": "Indic-Instruct",
+        "Collection URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Languages": [
+            "English",
+            "Hindi"
+        ],
+        "Task Categories": [
+            "Instructional Question Answering",
+            "Closed-Book Question Answering",
+            "Open-Ended Question Answering",
+            "Natural Language Classification",
+            "Open-Domain Question Answering",
+            "Brainstorming",
+            "Summarization",
+            "Creative Writing",
+            "Instruction Following",
+            "Translation",
+            "Information Extraction"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "IndicTrans2"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [],
+        "Creators": [
+            "AI4Bharat",
+            "Indian Institute of Technology Madras",
+            "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+            "Flipkart",
+            "University Of Surrey",
+            "Agency for Science, Technology and Research",
+            "National Institute of Information and Communication Technology",
+            "IBM",
+            "Microsoft"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://ai4bharat.github.io/airavata/"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
+            }
+        ],
+        "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
+        "License Verified By": "Vipul",
+        "Dataset Filter IDs": [
+            "anudesh"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 43,
+            "GitHub Topics": [
+                "indic-languages",
+                "instruction-tuning",
+                "multilingual"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 12811,
+            "Mean Inputs Length": 80.7287,
+            "Mean Targets Length": 1900.1471,
+            "Max Inputs Length": 4591,
+            "Max Targets Length": 12529,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 9,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
+    },
+    "indic-instruct-dolly": {
+        "Unique Dataset Identifier": "indic-instruct-dolly",
+        "Dataset Name": "indic-instruct-data-v0.1-dolly",
+        "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
+        "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
+        "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1/viewer/dolly",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.15006",
+        "Semantic Scholar Corpus ID": "267301288",
+        "Collection": "Indic-Instruct",
+        "Collection URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Languages": [
+            "English",
+            "Hindi"
+        ],
+        "Task Categories": [
+            "Instructional Question Answering",
+            "Closed-Book Question Answering",
+            "Open-Ended Question Answering",
+            "Natural Language Classification",
+            "Open-Domain Question Answering",
+            "Brainstorming",
+            "Summarization",
+            "Creative Writing",
+            "Instruction Following",
+            "Translation",
+            "Information Extraction"
+        ],
+        "Text Sources": [
+            "crowdsourced",
+            "wikipedia.org"
+        ],
+        "Model Generated": [
+            "IndicTrans2"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Databricks dolly"
+        ],
+        "Creators": [
+            "AI4Bharat",
+            "Indian Institute of Technology Madras",
+            "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+            "Flipkart",
+            "University Of Surrey",
+            "Agency for Science, Technology and Research",
+            "National Institute of Information and Communication Technology",
+            "IBM",
+            "Microsoft"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://huggingface.co/datasets/databricks/databricks-dolly-15k"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
+            }
+        ],
+        "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
+        "License Verified By": "Vipul",
+        "Dataset Filter IDs": [
+            "dolly"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 43,
+            "GitHub Topics": [
+                "indic-languages",
+                "instruction-tuning",
+                "multilingual"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 30022,
+            "Mean Inputs Length": 424.9065,
+            "Mean Targets Length": 360.2761,
+            "Max Inputs Length": 25047,
+            "Max Targets Length": 26876,
+            "Min Inputs Length": 4,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
+    },
+    "indic-instruct-flan_v2": {
+        "Unique Dataset Identifier": "indic-instruct-flan_v2",
+        "Dataset Name": "indic-instruct-data-v0.1-flanv2",
+        "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
+        "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
+        "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1/viewer/flan_v2",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.15006",
+        "Semantic Scholar Corpus ID": "267301288",
+        "Collection": "Indic-Instruct",
+        "Collection URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Languages": [
+            "English",
+            "Hindi"
+        ],
+        "Task Categories": [
+            "Instructional Question Answering",
+            "Closed-Book Question Answering",
+            "Open-Ended Question Answering",
+            "Natural Language Classification",
+            "Open-Domain Question Answering",
+            "Brainstorming",
+            "Summarization",
+            "Creative Writing",
+            "Translation",
+            "Information Extraction"
+        ],
+        "Text Sources": [
+            "Flan v2"
+        ],
+        "Model Generated": [
+            "IndicTrans2"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Flan v2"
+        ],
+        "Creators": [
+            "AI4Bharat",
+            "Indian Institute of Technology Madras",
+            "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+            "Flipkart",
+            "University Of Surrey",
+            "Agency for Science, Technology and Research",
+            "National Institute of Information and Communication Technology",
+            "IBM",
+            "Microsoft"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/google-research/FLAN/blob/main/LICENSE"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
+            },
+            {
+                "License": "Various",
+                "License URL": "https://github.com/google-research/FLAN/tree/main/flan/v2"
+            }
+        ],
+        "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
+        "License Verified By": "Vipul",
+        "Dataset Filter IDs": [
+            "flan_v2"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 43,
+            "GitHub Topics": [
+                "indic-languages",
+                "instruction-tuning",
+                "multilingual"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 134926,
+            "Mean Inputs Length": 1632.8572,
+            "Mean Targets Length": 83.1189,
+            "Max Inputs Length": 393189,
+            "Max Targets Length": 12496,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
+    },
+    "indic-instruct-hh-rlhf": {
+        "Unique Dataset Identifier": "indic-instruct-hh-rlhf",
+        "Dataset Name": "indic-instruct-data-v0.1-hhrlhf",
+        "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
+        "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
+        "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1/viewer/hh-rlhf",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.15006",
+        "Semantic Scholar Corpus ID": "267301288",
+        "Collection": "Indic-Instruct",
+        "Collection URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Languages": [
+            "English",
+            "Hindi"
+        ],
+        "Task Categories": [
+            "Instruction Following"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "IndicTrans2"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "Anthropic-HHH"
+        ],
+        "Creators": [
+            "AI4Bharat",
+            "Indian Institute of Technology Madras",
+            "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+            "Flipkart",
+            "University Of Surrey",
+            "Agency for Science, Technology and Research",
+            "National Institute of Information and Communication Technology",
+            "IBM",
+            "Microsoft"
+        ],
+        "Licenses": [
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/Anthropic/hh-rlhf"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
+            }
+        ],
+        "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
+        "License Verified By": "Vipul",
+        "Dataset Filter IDs": [
+            "hh-rlhf"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 43,
+            "GitHub Topics": [
+                "indic-languages",
+                "instruction-tuning",
+                "multilingual"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 10000,
+            "Mean Inputs Length": 72.6244,
+            "Mean Targets Length": 324.5837,
+            "Max Inputs Length": 6727,
+            "Max Targets Length": 4059,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 38,
+            "Mean Dialog Turns": 4.676
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
+    },
+    "indic-instruct-lm_sys": {
+        "Unique Dataset Identifier": "indic-instruct-lm_sys",
+        "Dataset Name": "indic-instruct-data-v0.1-lmsys",
+        "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
+        "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
+        "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1/viewer/lm_sys",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.15006",
+        "Semantic Scholar Corpus ID": "267301288",
+        "Collection": "Indic-Instruct",
+        "Collection URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Languages": [
+            "English",
+            "Hindi"
+        ],
+        "Task Categories": [
+            "Instructional Question Answering",
+            "Closed-Book Question Answering",
+            "Open-Ended Question Answering",
+            "Natural Language Classification",
+            "Open-Domain Question Answering",
+            "Brainstorming",
+            "Information Extraction",
+            "Summarization",
+            "Creative Writing",
+            "Instruction Following",
+            "Translation",
+            "Information Extraction"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "IndicTrans2",
+            "OpenAI GPT-3.5-Turbo",
+            "OpenAI GPT-4"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "LMSYS-Chat-1M"
+        ],
+        "Creators": [
+            "AI4Bharat",
+            "Indian Institute of Technology Madras",
+            "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+            "Flipkart",
+            "University Of Surrey",
+            "Agency for Science, Technology and Research",
+            "National Institute of Information and Communication Technology",
+            "IBM",
+            "Microsoft"
+        ],
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m#lmsys-chat-1m-dataset-license-agreement"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.03277"
+            }
+        ],
+        "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
+        "License Verified By": "Vipul",
+        "Dataset Filter IDs": [
+            "lm_sys"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 43,
+            "GitHub Topics": [
+                "indic-languages",
+                "instruction-tuning",
+                "multilingual"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 100000,
+            "Mean Inputs Length": 264.4187,
+            "Mean Targets Length": 861.0799,
+            "Max Inputs Length": 5162,
+            "Max Targets Length": 1577697,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 170,
+            "Mean Dialog Turns": 3.8545
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
+    },
+    "indic-instruct-nmt-seed": {
+        "Unique Dataset Identifier": "indic-instruct-nmt-seed",
+        "Dataset Name": "indic-instruct-data-v0.1-nmt",
+        "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
+        "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
+        "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1/viewer/nmt-seed",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.15006",
+        "Semantic Scholar Corpus ID": "267301288",
+        "Collection": "Indic-Instruct",
+        "Collection URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Languages": [
+            "English",
+            "Hindi"
+        ],
+        "Task Categories": [
+            "Translation"
+        ],
+        "Text Sources": [],
+        "Model Generated": [
+            "IndicTrans2"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "BPCC-Human"
+        ],
+        "Creators": [
+            "AI4Bharat",
+            "Indian Institute of Technology Madras",
+            "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+            "Flipkart",
+            "University Of Surrey",
+            "Agency for Science, Technology and Research",
+            "National Institute of Information and Communication Technology",
+            "IBM",
+            "Microsoft"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://ai4bharat.github.io/airavata/"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
+            }
+        ],
+        "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
+        "License Verified By": "Vipul",
+        "Dataset Filter IDs": [
+            "nmt-seed"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 43,
+            "GitHub Topics": [
+                "indic-languages",
+                "instruction-tuning",
+                "multilingual"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 50000,
+            "Mean Inputs Length": 98.7385,
+            "Mean Targets Length": 98.785,
+            "Max Inputs Length": 501,
+            "Max Targets Length": 447,
+            "Min Inputs Length": 20,
+            "Min Targets Length": 21,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
+    },
+    "indic-instruct-oasst1": {
+        "Unique Dataset Identifier": "indic-instruct-oasst1",
+        "Dataset Name": "indic-instruct-data-v0.1-oasst1",
+        "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
+        "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
+        "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1/viewer/oasst1",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.15006",
+        "Semantic Scholar Corpus ID": "267301288",
+        "Collection": "Indic-Instruct",
+        "Collection URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Languages": [
+            "English",
+            "Hindi"
+        ],
+        "Task Categories": [
+            "Instructional Question Answering",
+            "Closed-Book Question Answering",
+            "Open-Ended Question Answering",
+            "Natural Language Classification",
+            "Open-Domain Question Answering",
+            "Brainstorming",
+            "Information Extraction",
+            "Summarization",
+            "Creative Writing",
+            "Instruction Following",
+            "Translation",
+            "Information Extraction"
+        ],
+        "Text Sources": [
+            "crowdsourced"
+        ],
+        "Model Generated": [
+            "IndicTrans2"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "No",
+        "Derived from Datasets": [
+            "OpenAssistant"
+        ],
+        "Creators": [
+            "AI4Bharat",
+            "Indian Institute of Technology Madras",
+            "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+            "Flipkart",
+            "University Of Surrey",
+            "Agency for Science, Technology and Research",
+            "National Institute of Information and Communication Technology",
+            "IBM",
+            "Microsoft"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://github.com/google-research/FLAN/blob/main/LICENSE"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
+            }
+        ],
+        "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
+        "License Verified By": "Vipul",
+        "Dataset Filter IDs": [
+            "oasst1"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 43,
+            "GitHub Topics": [
+                "indic-languages",
+                "instruction-tuning",
+                "multilingual"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 40073,
+            "Mean Inputs Length": 133.8455,
+            "Mean Targets Length": 794.2277,
+            "Max Inputs Length": 10204,
+            "Max Targets Length": 12979,
+            "Min Inputs Length": 1,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 7,
+            "Mean Dialog Turns": 3.6223
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
+    },
+    "indic-instruct-wikihow": {
+        "Unique Dataset Identifier": "indic-instruct-wikihow",
+        "Dataset Name": "indic-instruct-data-v0.1-wikihow",
+        "Paper Title": "Airavata: Introducing Hindi Instruction-tuned LLM",
+        "Dataset URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1",
+        "GitHub URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Hugging Face URL": "https://huggingface.co/datasets/ai4bharat/indic-instruct-data-v0.1/viewer/wikihow",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2401.15006",
+        "Semantic Scholar Corpus ID": "267301288",
+        "Collection": "Indic-Instruct",
+        "Collection URL": "https://github.com/AI4Bharat/IndicInstruct",
+        "Languages": [
+            "English",
+            "Hindi"
+        ],
+        "Task Categories": [
+            "Instructional Question Answering",
+            "Closed-Book Question Answering",
+            "Open-Ended Question Answering",
+            "Open-Domain Question Answering"
+        ],
+        "Text Sources": [
+            "wikihow.com"
+        ],
+        "Model Generated": [
+            "IndicTrans2"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Human Annotation": "Yes",
+        "Derived from Datasets": [],
+        "Creators": [
+            "AI4Bharat",
+            "Indian Institute of Technology Madras",
+            "Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram",
+            "Flipkart",
+            "University Of Surrey",
+            "Agency for Science, Technology and Research",
+            "National Institute of Information and Communication Technology",
+            "IBM",
+            "Microsoft"
+        ],
+        "Licenses": [
+            {
+                "License": "CC0 1.0",
+                "License URL": "https://ai4bharat.github.io/airavata/"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://github.com/AI4Bharat/IndicTrans2/blob/main/LICENSE"
+            }
+        ],
+        "License Notes": "They utilized a variety of existing datasets, adopting diverse licenses in accordance with the licenses of the source datasets.",
+        "License Verified By": "Vipul",
+        "Dataset Filter IDs": [
+            "wikihow"
+        ],
+        "Inferred Metadata": {
+            "GitHub License": "Apache License 2.0",
+            "GitHub Stars (May 2024)": 43,
+            "GitHub Topics": [
+                "indic-languages",
+                "instruction-tuning",
+                "multilingual"
+            ],
+            "Github Date": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Dataset": "",
+            "HF Date": "",
+            "HF Downloads (May 2024)": "",
+            "HF Likes (May 2024)": "",
+            "HF Yaml License": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "S2 Citation Count (May 2024)": 2,
+            "S2 Date": "2024-01-26"
+        },
+        "Text Metrics": {
+            "Num Dialogs": 26455,
+            "Mean Inputs Length": 6976.7819,
+            "Mean Targets Length": 2947.3574,
+            "Max Inputs Length": 57356,
+            "Max Targets Length": 8969,
+            "Min Inputs Length": 115,
+            "Min Targets Length": 75,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
+        "Bibtex": "@Article{Gala2024AiravataIH,\n author = {Jay Gala and Thanmay Jayakumar and Jaavid Aktar Husain and M. AswanthKumar and Mohammed Safi Ur Rahman Khan and Diptesh Kanojia and Ratish Puduppully and Mitesh M. Khapra and Raj Dabre and Rudra Murthy and Anoop Kunchukuttan},\n booktitle = {arXiv.org},\n journal = {ArXiv},\n title = {Airavata: Introducing Hindi Instruction-tuned LLM},\n volume = {abs/2401.15006},\n year = {2024}\n}\n"
+    }
+}

@@ -1,0 +1,2234 @@
+{
+  "TransWebEdu-arb-eng": {
+    "Unique Dataset Identifier": "TransWebEdu-arb-eng",
+    "Dataset Name": "TransWebEdu-arb-eng",
+    "Collection": "TransWebEdu",
+    "Languages": [
+      "arb",
+      "eng"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "Synthetic"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "Hugging Face URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "GitHub URL": "",
+    "Paper URL": "https://arxiv.org/abs/2502.13252",
+    "Official Dataset Identifiers": [
+      "britllm/TransWebEdu"
+    ],
+    "Dataset Filter IDs": [
+      "eng-arb_Arab"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "britllm/TransWebEdu",
+        "Official Subset": "eng-arb_Arab",
+        "Part": "eng-arb_Arab",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+        "Text Sources": [
+          "General Web Scraped",
+          "Synthetic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/britllm/TransWebEdu"
+        ],
+        "Notes": "英语原文与目标语言机器译文；保留已发布的英语中心九个语对，未扩造所有目标语言组合。",
+        "Original Language Pair": [
+          "eng_Latn",
+          "arb_Arab"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "arb",
+        "eng"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "arb",
+          "Languages": [
+            "arb"
+          ]
+        },
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": 421961544816,
+      "Num Tokens": 426300000000,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_derived_fallback",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "eng_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part00_chunk_01.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part01_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part02_chunk_00.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part03_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part04_chunk_03.gz"
+            ],
+            "Available Files": 25,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 186059474835,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8331537220316078,
+              "r_doc": 2860.5,
+              "r_sent": 78.36986301369863,
+              "r_word": 5.1158922631183605
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97250423.01184434,
+            "Published Token Total (Rounded)": 114950000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1182,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          },
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "arb_Arab",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/arb_Arab.jsonl_part00_chunk_11.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/arb_Arab.jsonl_part01_chunk_08.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/arb_Arab.jsonl_part02_chunk_07.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/arb_Arab.jsonl_part03_chunk_08.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/arb_Arab.jsonl_part04_chunk_01.gz"
+            ],
+            "Available Files": 83,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 235902069981,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.4652475293260909,
+              "r_doc": 3424.38,
+              "r_sent": 70.54758961681088,
+              "r_word": 4.863485300383468
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97266479.22524211,
+            "Published Token Total (Rounded)": 311350000000.0,
+            "Published Mean Tokens per Document (Rounded)": 3201,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.5822740714936889,
+          "r_doc": 3142.44,
+          "r_sent": 73.90498588899341
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "sum of separately sampled full English and target-language releases; five hash-selected part shards per side, 50 side-document observations each; not a row-aligned pair sample",
+        "Elapsed Seconds": 66.16,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T13:10:10.408045+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Estimation Basis": "separate English and target-language approximate document totals derived from rounded published token counts and average document lengths",
+        "Denominator Source": "https://arxiv.org/pdf/2502.13252 (Table 8)",
+        "Denominator Release Match": "unverified against pinned Hugging Face release",
+        "Overlap Note": "The same published English side is included in each of nine pair elements; summing pair totals would count English nine times.",
+        "Part Weight Basis": "published compressed bytes per language and original part; document-share proxy",
+        "Uncertainty Note": "95% conditional within-shard bootstrap expanded for Table 8 rounding; excludes release-scope discrepancy, shard-selection bias, and part-weight proxy error.",
+        "Future Improvement": "Count exact per-language documents over the pinned release, then sample randomly across shards and recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "eng_Latn",
+          "Totals": {
+            "Num Tokens": 114950000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1182,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        },
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "arb_Arab",
+          "Totals": {
+            "Num Tokens": 311350000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 3201,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        }
+      ],
+      "Approximate Side Documents from Paper": {
+        "eng_Latn": 97250423,
+        "arb_Arab": 97266479
+      }
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 617449395361.3342,
+      "Num Unicode Characters 95% LB": 477719271632.052,
+      "Num Unicode Characters 95% UB": 782819150780.5519,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 4252,
+      "Num Bytes Sampled": 539684,
+      "Num WhiteSpaces Sampled": 63162,
+      "Num Unicode Characters Sampled": 314244
+    }
+  },
+  "TransWebEdu-cym-eng": {
+    "Unique Dataset Identifier": "TransWebEdu-cym-eng",
+    "Dataset Name": "TransWebEdu-cym-eng",
+    "Collection": "TransWebEdu",
+    "Languages": [
+      "cym",
+      "eng"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "Synthetic"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "Hugging Face URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "GitHub URL": "",
+    "Paper URL": "https://arxiv.org/abs/2502.13252",
+    "Official Dataset Identifiers": [
+      "britllm/TransWebEdu"
+    ],
+    "Dataset Filter IDs": [
+      "eng-cym_Latn"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "britllm/TransWebEdu",
+        "Official Subset": "eng-cym_Latn",
+        "Part": "eng-cym_Latn",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+        "Text Sources": [
+          "General Web Scraped",
+          "Synthetic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/britllm/TransWebEdu"
+        ],
+        "Notes": "英语原文与目标语言机器译文；保留已发布的英语中心九个语对，未扩造所有目标语言组合。",
+        "Original Language Pair": [
+          "eng_Latn",
+          "cym_Latn"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "cym",
+        "eng"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "cym",
+          "Languages": [
+            "cym"
+          ]
+        },
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": 352619317938,
+      "Num Tokens": 316440000000,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_derived_fallback",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "eng_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part00_chunk_01.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part01_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part02_chunk_00.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part03_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part04_chunk_03.gz"
+            ],
+            "Available Files": 25,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 186059474835,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8331537220316078,
+              "r_doc": 2860.5,
+              "r_sent": 78.36986301369863,
+              "r_word": 5.1158922631183605
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97250423.01184434,
+            "Published Token Total (Rounded)": 114950000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1182,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          },
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "cym_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/cym_Latn.jsonl_part00_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/cym_Latn.jsonl_part01_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/cym_Latn.jsonl_part02_chunk_00.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/cym_Latn.jsonl_part03_chunk_03.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/cym_Latn.jsonl_part04_chunk_03.gz"
+            ],
+            "Available Files": 24,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 166559843103,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8245442547631507,
+              "r_doc": 5010.64,
+              "r_sent": 71.0124716553288,
+              "r_word": 4.829625631337471
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97291163.68903911,
+            "Published Token Total (Rounded)": 201490000000.0,
+            "Published Mean Tokens per Document (Rounded)": 2071,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8276524153014658,
+          "r_doc": 3935.57,
+          "r_sent": 73.52082944143471
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "sum of separately sampled full English and target-language releases; five hash-selected part shards per side, 50 side-document observations each; not a row-aligned pair sample",
+        "Elapsed Seconds": 89.18,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T13:10:33.426669+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Estimation Basis": "separate English and target-language approximate document totals derived from rounded published token counts and average document lengths",
+        "Denominator Source": "https://arxiv.org/pdf/2502.13252 (Table 8)",
+        "Denominator Release Match": "unverified against pinned Hugging Face release",
+        "Overlap Note": "The same published English side is included in each of nine pair elements; summing pair totals would count English nine times.",
+        "Part Weight Basis": "published compressed bytes per language and original part; document-share proxy",
+        "Uncertainty Note": "95% conditional within-shard bootstrap expanded for Table 8 rounding; excludes release-scope discrepancy, shard-selection bias, and part-weight proxy error.",
+        "Future Improvement": "Count exact per-language documents over the pinned release, then sample randomly across shards and recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "eng_Latn",
+          "Totals": {
+            "Num Tokens": 114950000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1182,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        },
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "cym_Latn",
+          "Totals": {
+            "Num Tokens": 201490000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 2071,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        }
+      ],
+      "Approximate Side Documents from Paper": {
+        "eng_Latn": 97250423,
+        "cym_Latn": 97291164
+      }
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 767513641033.1266,
+      "Num Unicode Characters 95% LB": 566289377780.7687,
+      "Num Unicode Characters 95% UB": 1002479017678.2092,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 5353,
+      "Num Bytes Sampled": 475510,
+      "Num WhiteSpaces Sampled": 79831,
+      "Num Unicode Characters Sampled": 393557
+    }
+  },
+  "TransWebEdu-deu-eng": {
+    "Unique Dataset Identifier": "TransWebEdu-deu-eng",
+    "Dataset Name": "TransWebEdu-deu-eng",
+    "Collection": "TransWebEdu",
+    "Languages": [
+      "deu",
+      "eng"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "Synthetic"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "Hugging Face URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "GitHub URL": "",
+    "Paper URL": "https://arxiv.org/abs/2502.13252",
+    "Official Dataset Identifiers": [
+      "britllm/TransWebEdu"
+    ],
+    "Dataset Filter IDs": [
+      "eng-deu_Latn"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "britllm/TransWebEdu",
+        "Official Subset": "eng-deu_Latn",
+        "Part": "eng-deu_Latn",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+        "Text Sources": [
+          "General Web Scraped",
+          "Synthetic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/britllm/TransWebEdu"
+        ],
+        "Notes": "英语原文与目标语言机器译文；保留已发布的英语中心九个语对，未扩造所有目标语言组合。",
+        "Original Language Pair": [
+          "eng_Latn",
+          "deu_Latn"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "deu",
+        "eng"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "deu",
+          "Languages": [
+            "deu"
+          ]
+        },
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": 370258009709,
+      "Num Tokens": 255650000000,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_derived_fallback",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "eng_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part00_chunk_01.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part01_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part02_chunk_00.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part03_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part04_chunk_03.gz"
+            ],
+            "Available Files": 25,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 186059474835,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8331537220316078,
+              "r_doc": 2860.5,
+              "r_sent": 78.36986301369863,
+              "r_word": 5.1158922631183605
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97250423.01184434,
+            "Published Token Total (Rounded)": 114950000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1182,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          },
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "deu_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/deu_Latn.jsonl_part00_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/deu_Latn.jsonl_part01_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/deu_Latn.jsonl_part02_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/deu_Latn.jsonl_part03_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/deu_Latn.jsonl_part04_chunk_04.gz"
+            ],
+            "Available Files": 25,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 184198534874,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8468237455247521,
+              "r_doc": 4517.72,
+              "r_sent": 80.73123659756969,
+              "r_word": 6.166357283249618
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97235659.9861783,
+            "Published Token Total (Rounded)": 140700000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1447,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8414710363767415,
+          "r_doc": 3689.11,
+          "r_sent": 79.7990482370755
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "sum of separately sampled full English and target-language releases; five hash-selected part shards per side, 50 side-document observations each; not a row-aligned pair sample",
+        "Elapsed Seconds": 58.55,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T13:11:09.068298+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Estimation Basis": "separate English and target-language approximate document totals derived from rounded published token counts and average document lengths",
+        "Denominator Source": "https://arxiv.org/pdf/2502.13252 (Table 8)",
+        "Denominator Release Match": "unverified against pinned Hugging Face release",
+        "Overlap Note": "The same published English side is included in each of nine pair elements; summing pair totals would count English nine times.",
+        "Part Weight Basis": "published compressed bytes per language and original part; document-share proxy",
+        "Uncertainty Note": "95% conditional within-shard bootstrap expanded for Table 8 rounding; excludes release-scope discrepancy, shard-selection bias, and part-weight proxy error.",
+        "Future Improvement": "Count exact per-language documents over the pinned release, then sample randomly across shards and recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "eng_Latn",
+          "Totals": {
+            "Num Tokens": 114950000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1182,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        },
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "deu_Latn",
+          "Totals": {
+            "Num Tokens": 140700000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1447,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        }
+      ],
+      "Approximate Side Documents from Paper": {
+        "eng_Latn": 97250423,
+        "deu_Latn": 97235660
+      }
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 726172584438.3387,
+      "Num Unicode Characters 95% LB": 570847691033.8663,
+      "Num Unicode Characters 95% UB": 889800610529.6307,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 4623,
+      "Num Bytes Sampled": 438412,
+      "Num WhiteSpaces Sampled": 64589,
+      "Num Unicode Characters Sampled": 368911
+    }
+  },
+  "TransWebEdu-eng-fra": {
+    "Unique Dataset Identifier": "TransWebEdu-eng-fra",
+    "Dataset Name": "TransWebEdu-eng-fra",
+    "Collection": "TransWebEdu",
+    "Languages": [
+      "eng",
+      "fra"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "Synthetic"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "Hugging Face URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "GitHub URL": "",
+    "Paper URL": "https://arxiv.org/abs/2502.13252",
+    "Official Dataset Identifiers": [
+      "britllm/TransWebEdu"
+    ],
+    "Dataset Filter IDs": [
+      "eng-fra_Latn"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "britllm/TransWebEdu",
+        "Official Subset": "eng-fra_Latn",
+        "Part": "eng-fra_Latn",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+        "Text Sources": [
+          "General Web Scraped",
+          "Synthetic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/britllm/TransWebEdu"
+        ],
+        "Notes": "英语原文与目标语言机器译文；保留已发布的英语中心九个语对，未扩造所有目标语言组合。",
+        "Original Language Pair": [
+          "eng_Latn",
+          "fra_Latn"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "fra"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "fra",
+          "Languages": [
+            "fra"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": 370428338456,
+      "Num Tokens": 258660000000,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_derived_fallback",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "eng_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part00_chunk_01.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part01_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part02_chunk_00.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part03_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part04_chunk_03.gz"
+            ],
+            "Available Files": 25,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 186059474835,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8331537220316078,
+              "r_doc": 2860.5,
+              "r_sent": 78.36986301369863,
+              "r_word": 5.1158922631183605
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97250423.01184434,
+            "Published Token Total (Rounded)": 114950000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1182,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          },
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "fra_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/fra_Latn.jsonl_part00_chunk_01.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/fra_Latn.jsonl_part01_chunk_00.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/fra_Latn.jsonl_part02_chunk_05.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/fra_Latn.jsonl_part03_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/fra_Latn.jsonl_part04_chunk_01.gz"
+            ],
+            "Available Files": 29,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 184368863621,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8152273347801243,
+              "r_doc": 11585.0,
+              "r_sent": 81.28683693516699,
+              "r_word": 5.2572107966818535
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97167004.73292765,
+            "Published Token Total (Rounded)": 143710000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1479,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8187156046497129,
+          "r_doc": 7222.75,
+          "r_sent": 80.69210144117976
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "sum of separately sampled full English and target-language releases; five hash-selected part shards per side, 50 side-document observations each; not a row-aligned pair sample",
+        "Elapsed Seconds": 64.36,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T13:11:37.880639+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Estimation Basis": "separate English and target-language approximate document totals derived from rounded published token counts and average document lengths",
+        "Denominator Source": "https://arxiv.org/pdf/2502.13252 (Table 8)",
+        "Denominator Release Match": "unverified against pinned Hugging Face release",
+        "Overlap Note": "The same published English side is included in each of nine pair elements; summing pair totals would count English nine times.",
+        "Part Weight Basis": "published compressed bytes per language and original part; document-share proxy",
+        "Uncertainty Note": "95% conditional within-shard bootstrap expanded for Table 8 rounding; excludes release-scope discrepancy, shard-selection bias, and part-weight proxy error.",
+        "Future Improvement": "Count exact per-language documents over the pinned release, then sample randomly across shards and recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "eng_Latn",
+          "Totals": {
+            "Num Tokens": 114950000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1182,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        },
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "fra_Latn",
+          "Totals": {
+            "Num Tokens": 143710000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1479,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        }
+      ],
+      "Approximate Side Documents from Paper": {
+        "eng_Latn": 97250423,
+        "fra_Latn": 97167005
+      }
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 1346848281297.9768,
+      "Num Unicode Characters 95% LB": 681848357843.7795,
+      "Num Unicode Characters 95% UB": 2465287570336.7866,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 8951,
+      "Num Bytes Sampled": 882205,
+      "Num WhiteSpaces Sampled": 138139,
+      "Num Unicode Characters Sampled": 722275
+    }
+  },
+  "TransWebEdu-eng-ind": {
+    "Unique Dataset Identifier": "TransWebEdu-eng-ind",
+    "Dataset Name": "TransWebEdu-eng-ind",
+    "Collection": "TransWebEdu",
+    "Languages": [
+      "eng",
+      "ind"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "Synthetic"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "Hugging Face URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "GitHub URL": "",
+    "Paper URL": "https://arxiv.org/abs/2502.13252",
+    "Official Dataset Identifiers": [
+      "britllm/TransWebEdu"
+    ],
+    "Dataset Filter IDs": [
+      "eng-ind_Latn"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "britllm/TransWebEdu",
+        "Official Subset": "eng-ind_Latn",
+        "Part": "eng-ind_Latn",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+        "Text Sources": [
+          "General Web Scraped",
+          "Synthetic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/britllm/TransWebEdu"
+        ],
+        "Notes": "英语原文与目标语言机器译文；保留已发布的英语中心九个语对，未扩造所有目标语言组合。",
+        "Original Language Pair": [
+          "eng_Latn",
+          "ind_Latn"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "ind"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "ind",
+          "Languages": [
+            "ind"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": 344897626862,
+      "Num Tokens": 289070000000,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_derived_fallback",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "eng_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part00_chunk_01.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part01_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part02_chunk_00.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part03_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part04_chunk_03.gz"
+            ],
+            "Available Files": 25,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 186059474835,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8331537220316078,
+              "r_doc": 2860.5,
+              "r_sent": 78.36986301369863,
+              "r_word": 5.1158922631183605
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97250423.01184434,
+            "Published Token Total (Rounded)": 114950000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1182,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          },
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "ind_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/ind_Latn.jsonl_part00_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/ind_Latn.jsonl_part01_chunk_00.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/ind_Latn.jsonl_part02_chunk_03.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/ind_Latn.jsonl_part03_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/ind_Latn.jsonl_part04_chunk_00.gz"
+            ],
+            "Available Files": 24,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 158838152027,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8593777954477686,
+              "r_doc": 3458.48,
+              "r_sent": 87.33535353535353,
+              "r_word": 6.190892166690534
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97165178.57142857,
+            "Published Token Total (Rounded)": 174120000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1792,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8473049476114748,
+          "r_doc": 3159.49,
+          "r_sent": 83.03521681997371
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "sum of separately sampled full English and target-language releases; five hash-selected part shards per side, 50 side-document observations each; not a row-aligned pair sample",
+        "Elapsed Seconds": 52.6,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T13:12:01.778300+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Estimation Basis": "separate English and target-language approximate document totals derived from rounded published token counts and average document lengths",
+        "Denominator Source": "https://arxiv.org/pdf/2502.13252 (Table 8)",
+        "Denominator Release Match": "unverified against pinned Hugging Face release",
+        "Overlap Note": "The same published English side is included in each of nine pair elements; summing pair totals would count English nine times.",
+        "Part Weight Basis": "published compressed bytes per language and original part; document-share proxy",
+        "Uncertainty Note": "95% conditional within-shard bootstrap expanded for Table 8 rounding; excludes release-scope discrepancy, shard-selection bias, and part-weight proxy error.",
+        "Future Improvement": "Count exact per-language documents over the pinned release, then sample randomly across shards and recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "eng_Latn",
+          "Totals": {
+            "Num Tokens": 114950000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1182,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        },
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "ind_Latn",
+          "Totals": {
+            "Num Tokens": 174120000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1792,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        }
+      ],
+      "Approximate Side Documents from Paper": {
+        "eng_Latn": 97250423,
+        "ind_Latn": 97165179
+      }
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 617743971594.0751,
+      "Num Unicode Characters 95% LB": 507036553591.9811,
+      "Num Unicode Characters 95% UB": 737201976422.385,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 3805,
+      "Num Bytes Sampled": 372887,
+      "Num WhiteSpaces Sampled": 55889,
+      "Num Unicode Characters Sampled": 315949
+    }
+  },
+  "TransWebEdu-eng-ita": {
+    "Unique Dataset Identifier": "TransWebEdu-eng-ita",
+    "Dataset Name": "TransWebEdu-eng-ita",
+    "Collection": "TransWebEdu",
+    "Languages": [
+      "eng",
+      "ita"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "Synthetic"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "Hugging Face URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "GitHub URL": "",
+    "Paper URL": "https://arxiv.org/abs/2502.13252",
+    "Official Dataset Identifiers": [
+      "britllm/TransWebEdu"
+    ],
+    "Dataset Filter IDs": [
+      "eng-ita_Latn"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "britllm/TransWebEdu",
+        "Official Subset": "eng-ita_Latn",
+        "Part": "eng-ita_Latn",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+        "Text Sources": [
+          "General Web Scraped",
+          "Synthetic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/britllm/TransWebEdu"
+        ],
+        "Notes": "英语原文与目标语言机器译文；保留已发布的英语中心九个语对，未扩造所有目标语言组合。",
+        "Original Language Pair": [
+          "eng_Latn",
+          "ita_Latn"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "ita"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "ita",
+          "Languages": [
+            "ita"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": 358591916857,
+      "Num Tokens": 255270000000,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_derived_fallback",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "eng_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part00_chunk_01.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part01_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part02_chunk_00.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part03_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part04_chunk_03.gz"
+            ],
+            "Available Files": 25,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 186059474835,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8331537220316078,
+              "r_doc": 2860.5,
+              "r_sent": 78.36986301369863,
+              "r_word": 5.1158922631183605
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97250423.01184434,
+            "Published Token Total (Rounded)": 114950000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1182,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          },
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "ita_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/ita_Latn.jsonl_part00_chunk_00.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/ita_Latn.jsonl_part01_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/ita_Latn.jsonl_part02_chunk_03.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/ita_Latn.jsonl_part03_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/ita_Latn.jsonl_part04_chunk_01.gz"
+            ],
+            "Available Files": 24,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 172532442022,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8370600789521405,
+              "r_doc": 4800.64,
+              "r_sent": 81.58803535010198,
+              "r_word": 5.408074981975487
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 96973047.68486524,
+            "Published Token Total (Rounded)": 140320000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1447,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8355972540644776,
+          "r_doc": 3830.57,
+          "r_sent": 80.35598909167192
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "sum of separately sampled full English and target-language releases; five hash-selected part shards per side, 50 side-document observations each; not a row-aligned pair sample",
+        "Elapsed Seconds": 76.78,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T13:12:54.727516+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Estimation Basis": "separate English and target-language approximate document totals derived from rounded published token counts and average document lengths",
+        "Denominator Source": "https://arxiv.org/pdf/2502.13252 (Table 8)",
+        "Denominator Release Match": "unverified against pinned Hugging Face release",
+        "Overlap Note": "The same published English side is included in each of nine pair elements; summing pair totals would count English nine times.",
+        "Part Weight Basis": "published compressed bytes per language and original part; document-share proxy",
+        "Uncertainty Note": "95% conditional within-shard bootstrap expanded for Table 8 rounding; excludes release-scope discrepancy, shard-selection bias, and part-weight proxy error.",
+        "Future Improvement": "Count exact per-language documents over the pinned release, then sample randomly across shards and recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "eng_Latn",
+          "Totals": {
+            "Num Tokens": 114950000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1182,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        },
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "ita_Latn",
+          "Totals": {
+            "Num Tokens": 140320000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1447,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        }
+      ],
+      "Approximate Side Documents from Paper": {
+        "eng_Latn": 97250423,
+        "ita_Latn": 96973048
+      }
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 752439699874.4463,
+      "Num Unicode Characters 95% LB": 584237665286.6616,
+      "Num Unicode Characters 95% UB": 951856258045.2961,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 4767,
+      "Num Bytes Sampled": 458423,
+      "Num WhiteSpaces Sampled": 72341,
+      "Num Unicode Characters Sampled": 383057
+    }
+  },
+  "TransWebEdu-eng-rus": {
+    "Unique Dataset Identifier": "TransWebEdu-eng-rus",
+    "Dataset Name": "TransWebEdu-eng-rus",
+    "Collection": "TransWebEdu",
+    "Languages": [
+      "eng",
+      "rus"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "Synthetic"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "Hugging Face URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "GitHub URL": "",
+    "Paper URL": "https://arxiv.org/abs/2502.13252",
+    "Official Dataset Identifiers": [
+      "britllm/TransWebEdu"
+    ],
+    "Dataset Filter IDs": [
+      "eng-rus_Cyrl"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "britllm/TransWebEdu",
+        "Official Subset": "eng-rus_Cyrl",
+        "Part": "eng-rus_Cyrl",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+        "Text Sources": [
+          "General Web Scraped",
+          "Synthetic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/britllm/TransWebEdu"
+        ],
+        "Notes": "英语原文与目标语言机器译文；保留已发布的英语中心九个语对，未扩造所有目标语言组合。",
+        "Original Language Pair": [
+          "eng_Latn",
+          "rus_Cyrl"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "rus"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "rus",
+          "Languages": [
+            "rus"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": 465969649272,
+      "Num Tokens": 272350000000,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_derived_fallback",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "eng_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part00_chunk_01.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part01_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part02_chunk_00.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part03_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part04_chunk_03.gz"
+            ],
+            "Available Files": 25,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 186059474835,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8331537220316078,
+              "r_doc": 2860.5,
+              "r_sent": 78.36986301369863,
+              "r_word": 5.1158922631183605
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97250423.01184434,
+            "Published Token Total (Rounded)": 114950000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1182,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          },
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "rus_Cyrl",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/rus_Cyrl.jsonl_part00_chunk_14.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/rus_Cyrl.jsonl_part01_chunk_07.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/rus_Cyrl.jsonl_part02_chunk_10.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/rus_Cyrl.jsonl_part03_chunk_09.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/rus_Cyrl.jsonl_part04_chunk_04.gz"
+            ],
+            "Available Files": 103,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 279910174437,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.47478840368434516,
+              "r_doc": 4194.86,
+              "r_sent": 81.77115009746589,
+              "r_word": 6.243280250037208
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97280593.3250927,
+            "Published Token Total (Rounded)": 157400000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1618,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.5750764555905502,
+          "r_doc": 3527.68,
+          "r_sent": 80.35717539863326
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "sum of separately sampled full English and target-language releases; five hash-selected part shards per side, 50 side-document observations each; not a row-aligned pair sample",
+        "Elapsed Seconds": 67.54,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T13:13:09.424649+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Estimation Basis": "separate English and target-language approximate document totals derived from rounded published token counts and average document lengths",
+        "Denominator Source": "https://arxiv.org/pdf/2502.13252 (Table 8)",
+        "Denominator Release Match": "unverified against pinned Hugging Face release",
+        "Overlap Note": "The same published English side is included in each of nine pair elements; summing pair totals would count English nine times.",
+        "Part Weight Basis": "published compressed bytes per language and original part; document-share proxy",
+        "Uncertainty Note": "95% conditional within-shard bootstrap expanded for Table 8 rounding; excludes release-scope discrepancy, shard-selection bias, and part-weight proxy error.",
+        "Future Improvement": "Count exact per-language documents over the pinned release, then sample randomly across shards and recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "eng_Latn",
+          "Totals": {
+            "Num Tokens": 114950000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1182,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        },
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "rus_Cyrl",
+          "Totals": {
+            "Num Tokens": 157400000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1618,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        }
+      ],
+      "Approximate Side Documents from Paper": {
+        "eng_Latn": 97250423,
+        "rus_Cyrl": 97280593
+      }
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 692804185452.5991,
+      "Num Unicode Characters 95% LB": 543776708668.67346,
+      "Num Unicode Characters 95% UB": 878981760841.6852,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 4390,
+      "Num Bytes Sampled": 613428,
+      "Num WhiteSpaces Sampled": 61552,
+      "Num Unicode Characters Sampled": 352768
+    }
+  },
+  "TransWebEdu-eng-spa": {
+    "Unique Dataset Identifier": "TransWebEdu-eng-spa",
+    "Dataset Name": "TransWebEdu-eng-spa",
+    "Collection": "TransWebEdu",
+    "Languages": [
+      "eng",
+      "spa"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "Synthetic"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "Hugging Face URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "GitHub URL": "",
+    "Paper URL": "https://arxiv.org/abs/2502.13252",
+    "Official Dataset Identifiers": [
+      "britllm/TransWebEdu"
+    ],
+    "Dataset Filter IDs": [
+      "eng-spa_Latn"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "britllm/TransWebEdu",
+        "Official Subset": "eng-spa_Latn",
+        "Part": "eng-spa_Latn",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+        "Text Sources": [
+          "General Web Scraped",
+          "Synthetic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/britllm/TransWebEdu"
+        ],
+        "Notes": "英语原文与目标语言机器译文；保留已发布的英语中心九个语对，未扩造所有目标语言组合。",
+        "Original Language Pair": [
+          "eng_Latn",
+          "spa_Latn"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "spa"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "spa",
+          "Languages": [
+            "spa"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": 363953747302,
+      "Num Tokens": 255940000000,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_derived_fallback",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "eng_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part00_chunk_01.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part01_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part02_chunk_00.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part03_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part04_chunk_03.gz"
+            ],
+            "Available Files": 25,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 186059474835,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8331537220316078,
+              "r_doc": 2860.5,
+              "r_sent": 78.36986301369863,
+              "r_word": 5.1158922631183605
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97250423.01184434,
+            "Published Token Total (Rounded)": 114950000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1182,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          },
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "spa_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/spa_Latn.jsonl_part00_chunk_05.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/spa_Latn.jsonl_part01_chunk_03.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/spa_Latn.jsonl_part02_chunk_01.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/spa_Latn.jsonl_part03_chunk_03.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/spa_Latn.jsonl_part04_chunk_03.gz"
+            ],
+            "Available Files": 29,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 177894272467,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8207865669550151,
+              "r_doc": 3865.56,
+              "r_sent": 87.21931407942239,
+              "r_word": 5.13245525519146
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97301587.3015873,
+            "Published Token Total (Rounded)": 140990000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1449,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8260009922730421,
+          "r_doc": 3363.03,
+          "r_sent": 83.22271714922049
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "sum of separately sampled full English and target-language releases; five hash-selected part shards per side, 50 side-document observations each; not a row-aligned pair sample",
+        "Elapsed Seconds": 52.5,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T13:13:47.321687+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Estimation Basis": "separate English and target-language approximate document totals derived from rounded published token counts and average document lengths",
+        "Denominator Source": "https://arxiv.org/pdf/2502.13252 (Table 8)",
+        "Denominator Release Match": "unverified against pinned Hugging Face release",
+        "Overlap Note": "The same published English side is included in each of nine pair elements; summing pair totals would count English nine times.",
+        "Part Weight Basis": "published compressed bytes per language and original part; document-share proxy",
+        "Uncertainty Note": "95% conditional within-shard bootstrap expanded for Table 8 rounding; excludes release-scope discrepancy, shard-selection bias, and part-weight proxy error.",
+        "Future Improvement": "Count exact per-language documents over the pinned release, then sample randomly across shards and recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "eng_Latn",
+          "Totals": {
+            "Num Tokens": 114950000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1182,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        },
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "spa_Latn",
+          "Totals": {
+            "Num Tokens": 140990000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1449,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        }
+      ],
+      "Approximate Side Documents from Paper": {
+        "eng_Latn": 97250423,
+        "spa_Latn": 97301587
+      }
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 659365449252.3865,
+      "Num Unicode Characters 95% LB": 552038071322.1742,
+      "Num Unicode Characters 95% UB": 784936619011.5266,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 4041,
+      "Num Bytes Sampled": 407146,
+      "Num WhiteSpaces Sampled": 65615,
+      "Num Unicode Characters Sampled": 336303
+    }
+  },
+  "TransWebEdu-eng-swh": {
+    "Unique Dataset Identifier": "TransWebEdu-eng-swh",
+    "Dataset Name": "TransWebEdu-eng-swh",
+    "Collection": "TransWebEdu",
+    "Languages": [
+      "eng",
+      "swh"
+    ],
+    "Task Categories": [
+      "Translation"
+    ],
+    "Text Sources": [
+      "General Web Scraped",
+      "Synthetic"
+    ],
+    "Human Annotation": "No",
+    "Data Format": "parallel text",
+    "Dataset URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "Hugging Face URL": "https://huggingface.co/datasets/britllm/TransWebEdu",
+    "GitHub URL": "",
+    "Paper URL": "https://arxiv.org/abs/2502.13252",
+    "Official Dataset Identifiers": [
+      "britllm/TransWebEdu"
+    ],
+    "Dataset Filter IDs": [
+      "eng-swh_Latn"
+    ],
+    "Source Components": [
+      {
+        "Official Dataset Identifier": "britllm/TransWebEdu",
+        "Official Subset": "eng-swh_Latn",
+        "Part": "eng-swh_Latn",
+        "Original Language Identifier": "eng",
+        "Version": "",
+        "Repository Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+        "Text Sources": [
+          "General Web Scraped",
+          "Synthetic"
+        ],
+        "Human Annotation": "No",
+        "Data Format": "parallel text",
+        "Evidence URLs": [
+          "https://huggingface.co/datasets/britllm/TransWebEdu"
+        ],
+        "Notes": "英语原文与目标语言机器译文；保留已发布的英语中心九个语对，未扩造所有目标语言组合。",
+        "Original Language Pair": [
+          "eng_Latn",
+          "swh_Latn"
+        ]
+      }
+    ],
+    "Inferred Metadata": {
+      "Unit": "parallel",
+      "Key Language Labels": [
+        "eng",
+        "swh"
+      ],
+      "Language Type": "natural",
+      "Language Label Mapping": {},
+      "Text Sources Coverage": "identified components",
+      "Human Annotation Scope": "no confirmed content annotation in documented pipeline",
+      "Version Notes": "",
+      "Parallel Language Groups": [
+        {
+          "Label": "eng",
+          "Languages": [
+            "eng"
+          ]
+        },
+        {
+          "Label": "swh",
+          "Languages": [
+            "swh"
+          ]
+        }
+      ],
+      "Characters": null,
+      "Num Bytes": null,
+      "Num Sentences": null,
+      "Num Documents": null,
+      "Storage Size": 345481991059,
+      "Num Tokens": 298500000000,
+      "Text Metrics Inference": {
+        "Status": "estimated_paper_derived_fallback",
+        "Normalization": "NFC; count Unicode code points after excluding str.isspace() and categories Cc/Cf/Cs",
+        "Bytes": "UTF-8 encoding of original text fields, without JSON/container/metadata overhead",
+        "Words": "sum(len(text.split())); not a linguistic word count for non-space-delimited languages",
+        "Sentences": "heuristic punctuation/newline segments unless an explicit sentence-count field is supplied",
+        "Storage": "null unless exact attributable stored bytes are provided; transferred bytes and re-gzipped text are not storage size",
+        "CI": "95% percentile document bootstrap conditional on the observed sample; excludes shard/order bias and official-total error",
+        "Sample Budget": 100,
+        "Seed": 42,
+        "Shuffle Buffer": 100,
+        "Bootstrap Replicates": 2000,
+        "Strata": [
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "eng_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part00_chunk_01.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part01_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part02_chunk_00.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part03_chunk_02.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/eng_Latn.jsonl_part04_chunk_03.gz"
+            ],
+            "Available Files": 25,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 186059474835,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8331537220316078,
+              "r_doc": 2860.5,
+              "r_sent": 78.36986301369863,
+              "r_word": 5.1158922631183605
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97250423.01184434,
+            "Published Token Total (Rounded)": 114950000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1182,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          },
+          {
+            "Dataset": "britllm/TransWebEdu",
+            "Config": "swh_Latn",
+            "Split": "train",
+            "Revision": "a1c5c16ec1e2f29fbd6f557515e24f914ef4791e",
+            "Text Fields": [
+              "text"
+            ],
+            "Sampling Files": [
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/swh_Latn.jsonl_part00_chunk_04.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/swh_Latn.jsonl_part01_chunk_03.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/swh_Latn.jsonl_part02_chunk_01.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/swh_Latn.jsonl_part03_chunk_03.gz",
+              "https://huggingface.co/datasets/britllm/TransWebEdu/resolve/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e/swh_Latn.jsonl_part04_chunk_03.gz"
+            ],
+            "Available Files": 24,
+            "Census": false,
+            "Filters": null,
+            "Pooled Configurations": null,
+            "Shuffle Buffer": 0,
+            "Sampling Note": "One hash-selected shard per each of five original parts; ten documents per shard. Source and translation texts are sampled independently because their chunk boundaries and part starts differ.",
+            "Num Documents Sampled": 50,
+            "Official Totals": {
+              "Characters": null,
+              "Num Bytes": null,
+              "Num Sentences": null,
+              "Num Documents": null,
+              "Storage Size": 159422516224,
+              "Num Tokens": null
+            },
+            "Official Evidence": "https://huggingface.co/api/datasets/britllm/TransWebEdu/tree/a1c5c16ec1e2f29fbd6f557515e24f914ef4791e?recursive=true&expand=true",
+            "Conversion Factors": {
+              "r_byte": 0.8430263390489658,
+              "r_doc": 4482.86,
+              "r_sent": 76.86659807956104,
+              "r_word": 5.423776799109519
+            },
+            "Estimation Basis": null,
+            "Skipped Bases": [
+              "Storage Size: codec/container/attribution not calibrated"
+            ],
+            "Approximate Documents from Paper": 97270800.21197668,
+            "Published Token Total (Rounded)": 183550000000.0,
+            "Published Mean Tokens per Document (Rounded)": 1887,
+            "Part Weight Basis": "published gzip bytes per original part; proxy for document share"
+          }
+        ],
+        "Pooled Sample Conversion Factors": {
+          "r_byte": 0.8391529119224036,
+          "r_doc": 3671.68,
+          "r_sent": 77.44526471208606
+        },
+        "Pooled Factors Scope": "descriptive sample ratios only; stratified total estimation uses each stratum separately",
+        "Sample Shortfall": false,
+        "Scope": "sum of separately sampled full English and target-language releases; five hash-selected part shards per side, 50 side-document observations each; not a row-aligned pair sample",
+        "Elapsed Seconds": 50.89,
+        "Pipeline Version": "unicode-v1",
+        "Run Timestamp UTC": "2026-09-30T13:14:00.414159+00:00",
+        "HF Corpus Bytes Requested": 0,
+        "Read Budget Note": "64 MiB logical HF read requests; excludes metadata traffic/retries; not sampled storage size",
+        "Estimation Basis": "separate English and target-language approximate document totals derived from rounded published token counts and average document lengths",
+        "Denominator Source": "https://arxiv.org/pdf/2502.13252 (Table 8)",
+        "Denominator Release Match": "unverified against pinned Hugging Face release",
+        "Overlap Note": "The same published English side is included in each of nine pair elements; summing pair totals would count English nine times.",
+        "Part Weight Basis": "published compressed bytes per language and original part; document-share proxy",
+        "Uncertainty Note": "95% conditional within-shard bootstrap expanded for Table 8 rounding; excludes release-scope discrepancy, shard-selection bias, and part-weight proxy error.",
+        "Future Improvement": "Count exact per-language documents over the pinned release, then sample randomly across shards and recompute."
+      },
+      "Official Metric Components": [
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "eng_Latn",
+          "Totals": {
+            "Num Tokens": 114950000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1182,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        },
+        {
+          "Dataset": "TransWebEdu paper",
+          "Config": "swh_Latn",
+          "Totals": {
+            "Num Tokens": 183550000000,
+            "Num Documents": null
+          },
+          "Average Tokens per Document": 1887,
+          "Evidence": "https://arxiv.org/pdf/2502.13252"
+        }
+      ],
+      "Approximate Side Documents from Paper": {
+        "eng_Latn": 97250423,
+        "swh_Latn": 97270800
+      }
+    },
+    "Text Metrics": {
+      "Num Unicode Characters": 714353965847.9153,
+      "Num Unicode Characters 95% LB": 559562179810.9941,
+      "Num Unicode Characters 95% UB": 888552133354.7152,
+      "Storage Size Sampled": null,
+      "Num Documents Sampled": 100,
+      "Num Sentences Sampled": 4741,
+      "Num Bytes Sampled": 437546,
+      "Num WhiteSpaces Sampled": 69283,
+      "Num Unicode Characters Sampled": 367168
+    }
+  }
+}
