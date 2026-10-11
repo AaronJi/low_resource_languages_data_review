@@ -4,6 +4,7 @@
 Summary non-key columns (now including centers) are prefixed with "cluster-".
 The summary's overall row is not a cluster and is excluded from language joins.
 Legacy separate-center inputs are supported, but integrated summaries take priority.
+Stage-prefixed reports take priority; unprefixed reports remain supported.
 By default, write both stage results and a full outer language-code join in
 the project root, with "pre-"/"post-" prefixes on all non-language columns.
 Uses only the Python standard library. Original CSV files are never modified.
@@ -63,9 +64,14 @@ def index_clusters(rows, key, path, *, skip_overall=False):
     return indexed
 
 
-def prepare_join(folder):
-    result_path = folder / "cluster_results.csv"
-    summary_path = folder / "cluster_summary.csv"
+def prepare_join(folder, stage):
+    # Choose one naming scheme for the entire stage; never mix new and stale reports.
+    prefix = f"{stage}_"
+    if not any((folder / f"{prefix}{name}").exists()
+               for name in ("cluster_results.csv", "cluster_summary.csv")):
+        prefix = ""
+    result_path = folder / f"{prefix}cluster_results.csv"
+    summary_path = folder / f"{prefix}cluster_summary.csv"
     result_cols, result_key, results = read_csv(result_path)
     summary_cols, summary_key, summaries = read_csv(summary_path)
     summaries = index_clusters(summaries, summary_key, summary_path, skip_overall=True)
@@ -86,9 +92,9 @@ def prepare_join(folder):
     else:
         if any(c in summary_cols for c in center_fields):
             raise ValueError(f"{summary_path}: incomplete integrated center columns")
-        center_path = folder / "cluster_centers.csv"
+        center_path = folder / f"{prefix}cluster_centers.csv"
         if not center_path.is_file():
-            center_path = folder / "cluster_center.csv"
+            center_path = folder / f"{prefix}cluster_center.csv"
         center_cols, center_key, center_rows = read_csv(center_path)
         centers = index_clusters(center_rows, center_key, center_path)
         center_extra = [c for c in center_cols if c != center_key]
@@ -223,7 +229,7 @@ def main():
 
     # Validate both stage joins and language keys before writing any output.
     try:
-        plans = [prepare_join(root / f"meta_data_{stage}_clustered") for stage in stages]
+        plans = [prepare_join(root / f"meta_data_{stage}_clustered", stage) for stage in stages]
         combined = (
             prepare_cross_stage_join(root, plans[0], plans[1])
             if args.data_type == "all" else None

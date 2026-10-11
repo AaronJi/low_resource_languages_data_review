@@ -10,6 +10,7 @@ import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
 from matplotlib.ticker import PercentFormatter
 import numpy as np
 import pandas as pd
@@ -18,9 +19,14 @@ from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 from sklearn.metrics import adjusted_rand_score, silhouette_samples, silhouette_score
 from sklearn.preprocessing import StandardScaler
+from threadpoolctl import threadpool_limits
 
 from filter_datasets import living_language_codes
-from group_datasets import default_source_category
+from group_datasets import (
+    EXCLUDED_TASK_CATEGORY, canonical_task_category, default_source_category,
+)
+from map_datasets import source_categories
+from math_utils import gini
 
 
 ROOT = Path(__file__).resolve().parent
@@ -30,6 +36,68 @@ SOURCE_NAMES = {
     "Collect-Existed": "已有语料",
     "Human-Audited": "人工审核",
     "Machine-Generated": "机器合成",
+}
+
+# Fixed categorical colors for all Source / Task proportion figures.
+# The five Source colors come from the ICLR 2025 Data Provenance Initiative
+# Figure 2 (the original PDF uses wine-red, ochre, and blue-grey families).
+# Unlike a per-panel Matplotlib colormap, these assignments are invariant to
+# cluster ordering, the presence of a category, and the training stage.
+ICLR_FIG2_ALTAIR_SOURCE_COLORS = {
+    "Expert-Created": "#9D354F",
+    "Human-Created": "#E04C71",
+    "Collect-Existed": "#5B7F91",
+    "Human-Audited": "#82B5CF",
+    "Machine-Generated": "#9D9066",
+}
+
+# Task labels need more than Figure 2's nine swatches. Supplement its muted
+# style with Altair/Vega categorical colors (category10 + category20b).
+# Keep an explicit category->hex mapping: the same task must not change color
+# when it is absent from one stage or from a particular grid-search cell.
+# Consistent cluster-identity palette for profile boxplots and PCA.
+# The first three colors are the intermediate wine / blue-grey / ochre
+# swatches of the SAME ICLR Figure 2 palette as Source proportions, but
+# are not assigned to particular provenance or task categories.
+# Extra swatches support the K>3 sensitivity/grid-search reports.
+ICLR_FIG2_PROFILE_CLUSTER_COLORS = (
+    "#C24262", "#719DB3", "#C2B27F",
+    "#9D354F", "#5B7F91", "#9D9066",
+    "#E04C71", "#82B5CF", "#E0CD92",
+)
+
+
+def build_cluster_profile_colors(n_clusters):
+    """Stable cluster colors shared by profiles and PCA across stages."""
+    if not isinstance(n_clusters, (int, np.integer)) or n_clusters < 1:
+        raise ValueError("n_clusters must be a positive integer")
+    return [
+        ICLR_FIG2_PROFILE_CLUSTER_COLORS[k % len(ICLR_FIG2_PROFILE_CLUSTER_COLORS)]
+        for k in range(n_clusters)
+    ]
+
+
+ALTAIR_VEGA_TASK_COLORS = {
+    "pretrain": "#4C78A8",
+    "translation": "#F58518",
+    "summarization": "#E45756",
+    "QA": "#72B7B2",
+    "NLU": "#54A24B",
+    "coding": "#EECA3B",
+    "NLG": "#B279A2",
+    "dialogue": "#FF9DA6",
+    "classification": "#9D755D",
+    "math": "#393B79",
+    "evaluation": "#637939",
+    "rewriting": "#8C6D31",
+    "information_extraction": "#843C39",
+    "general_IF": "#7B4173",
+    "reasoning": "#6B6ECF",
+    "domain_specific": "#B5CF6B",
+    "safety_and_ethics": "#E7BA52",
+    "linguistic_analysis": "#D6616B",
+    "retrieval": "#BAB0AC",
+    "Other": "#D1D5DB",
 }
 
 
@@ -77,7 +145,14 @@ def read_categorical_profile(input_dir, language_index, statistic_key, fallback=
         stats = data.get(statistic_key) or {}
         row = {}
         for category, values in stats.items():
-            if not isinstance(category, str) or not category.strip() or not isinstance(values, dict):
+            if not isinstance(category, str) or not category.strip():
+                continue
+            category = category.strip()
+            if statistic_key == "Task Macro Categories Statistics":
+                category = canonical_task_category(category)
+                if category == EXCLUDED_TASK_CATEGORY:
+                    continue
+            if not isinstance(values, dict):
                 continue
             value = values.get("proportion")
             if value is None:
@@ -86,7 +161,7 @@ def read_categorical_profile(input_dir, language_index, statistic_key, fallback=
             if not np.isfinite(value) or value < 0:
                 raise ValueError(f"{code}: invalid {statistic_key} proportion for {category!r}")
             if value > 0:
-                row[category.strip()] = row.get(category.strip(), 0.0) + value
+                row[category] = row.get(category, 0.0) + value
         total = sum(row.values())
         if total > 0:
             row = {key: value / total for key, value in row.items()}
@@ -100,6 +175,20 @@ def read_categorical_profile(input_dir, language_index, statistic_key, fallback=
         frame = pd.DataFrame({fallback: np.ones(len(language_index))}, index=language_index)
         frame.index.name = "Language"
     return frame.reindex(language_index, fill_value=0.0)
+
+
+def read_source_counts(input_dir, language_index):
+    """Read per-language coverage counts without adding clustering features."""
+    fields = ("num_collection_sources", "num_dataset_sources")
+    records = {}
+    for code in language_index:
+        data = json.loads((input_dir / f"{code}.json").read_text(encoding="utf-8-sig"))
+        counts = [data[field] for field in fields]
+        if any(isinstance(value, bool) or not isinstance(value, Integral) or value < 0
+               for value in counts):
+            raise ValueError(f"{code}: source counts must be nonnegative integers")
+        records[code] = counts
+    return pd.DataFrame.from_dict(records, orient="index", columns=fields)
 
 
 def normalize_sources(frame):
@@ -193,7 +282,9 @@ def fit_clusters(features, config, random_seeds=None):
     seeds = [validate_random_seed(seed) for seed in random_seeds]
     if not seeds or len(set(seeds)) != len(seeds):
         raise ValueError("random_seeds must be nonempty and contain no duplicates")
-    models = [KMeans(**parameters, random_state=seed).fit(features) for seed in seeds]
+    # Avoid the Windows MKL/OpenMP memory leak when chunks are fewer than threads.
+    with threadpool_limits(limits=1, user_api="openmp"):
+        models = [KMeans(**parameters, random_state=seed).fit(features) for seed in seeds]
     model = models[0]
     labels = model.labels_
     if len(np.unique(labels)) != k:
@@ -341,6 +432,46 @@ def extend_cluster_summary(summary, centers, frame, totals, labels, silhouettes,
     return combined
 
 
+def extend_cluster_resource_summary(summary, source_counts, totals, assignments):
+    """Append coverage means/SDs/medians and quantity/dataset-count Ginis."""
+    result = summary.copy()
+    fields = (
+        ("num_collection_sources", "平均collection数量", "collection数量标准差",
+         "collection数量中位数"),
+        ("num_dataset_sources", "平均dataset数量", "dataset数量标准差",
+         "dataset数量中位数"),
+    )
+    columns = [column for _, mean_column, std_column, _ in fields
+               for column in (mean_column, std_column)]
+    columns += [median_column for _, _, _, median_column in fields]
+    columns += ["Gini", "gini-numDataset"]
+    # Repeated updates replace these fields and keep them at the far right.
+    result = result.drop(columns=columns, errors="ignore")
+    result[columns] = np.nan
+    # A missing language record means no sources in the current input collection.
+    counts = source_counts.reindex(assignments.index, fill_value=0)
+    for cluster in result.index:
+        overall = cluster == "整体"
+        mask = assignments.ge(0) if overall else assignments.eq(int(cluster))
+        languages = assignments.index[mask]
+        if languages.empty:
+            continue
+        for field, mean_column, std_column, median_column in fields:
+            values = counts.loc[languages, field]
+            result.loc[cluster, mean_column] = values.mean()
+            # Sample SD is undefined for a singleton and remains blank in CSV.
+            result.loc[cluster, std_column] = values.std(ddof=1)
+            result.loc[cluster, median_column] = values.median()
+        # Coverage counts remain defined for -1; all-zero vectors yield NaN.
+        result.loc[cluster, "gini-numDataset"] = gini(
+            counts.loc[languages, "num_dataset_sources"].to_numpy()
+        )
+        # Cluster -1 includes unknown quantities, not observed resource zeros.
+        if overall or int(cluster) >= 0:
+            result.loc[cluster, "Gini"] = gini(totals.reindex(languages).to_numpy())
+    return result
+
+
 def pearson_or_nan(left, right):
     """Return Pearson r; undefined correlations are blank in CSV, not zero."""
     left = np.asarray(left, dtype=float).reshape(-1)
@@ -425,16 +556,77 @@ def _profile_cluster_means(profile, labels, clusters):
     return profile.columns.to_numpy()[order], means[:, order]
 
 
-def _stacked_profile(ax, profile, labels, clusters, xlabel, cmap_name):
+def build_task_color_map():
+    """Fixed Altair/Vega categorical colors shared across stages and grid cells."""
+    categories = list(json.loads(
+        (ROOT / "task_macro_category_mapping.json").read_text(encoding="utf-8")
+    )["macro_categories"])
+    categories = [category for category in categories if category != EXCLUDED_TASK_CATEGORY]
+    categories = list(dict.fromkeys([*categories, "Other"]))
+    missing = set(categories) - ALTAIR_VEGA_TASK_COLORS.keys()
+    if missing:
+        raise ValueError(f"Missing Altair task colors for: {sorted(missing)}")
+    return {category: ALTAIR_VEGA_TASK_COLORS[category] for category in categories}
+
+
+def build_profile_legend_order():
+    """Use canonical sources and the global top ten ranked text tasks."""
+    categories = json.loads(
+        (ROOT / "task_macro_category_mapping.json").read_text(encoding="utf-8")
+    )["macro_categories"]
+    tasks = sorted(
+        (category for category in categories if category != EXCLUDED_TASK_CATEGORY),
+        key=lambda category: categories[category]["freq_ranking"]["rank"],
+    )[:10]
+    return {"Source": list(source_categories), "Task": tasks}
+
+
+def _text_task_profile(profile):
+    """Canonicalize legacy labels, hide multimodal, and normalize task shares."""
+    profile = profile.copy()
+    profile.columns = [
+        canonical_task_category(column) if isinstance(column, str) else column
+        for column in profile.columns
+    ]
+    excluded = [column for column in profile.columns
+                if column == EXCLUDED_TASK_CATEGORY]
+    profile = profile.drop(columns=excluded).astype(float)
+    values = profile.to_numpy()
+    if not np.isfinite(values).all() or (values < 0).any():
+        raise ValueError("Profile proportions must be finite and nonnegative")
+    if not profile.columns.is_unique:
+        profile = profile.T.groupby(level=0, sort=False).sum().T
+    totals = profile.sum(axis=1)
+    empty = totals.eq(0)
+    if empty.any():
+        if "Other" not in profile.columns:
+            profile["Other"] = 0.0
+        profile.loc[empty, "Other"] = 1.0
+        totals = profile.sum(axis=1)
+    return profile.div(totals, axis=0)
+
+
+def _stacked_profile(ax, profile, labels, clusters, xlabel, cmap_name,
+                     *, category_colors=None, power=None):
     categories, means = _profile_cluster_means(profile, labels, clusters)
+    if power is not None:
+        # Transform cluster means only for display; preserve zero components.
+        means = means ** power
+        means /= means.sum(axis=1, keepdims=True)
     offsets = np.zeros(len(list(clusters)))
-    cmap = plt.get_cmap(cmap_name)
-    colors = cmap(np.linspace(0.05, 0.95, max(len(categories), 2)))[:len(categories)]
+    if category_colors is None:
+        cmap = plt.get_cmap(cmap_name)
+        colors = cmap(np.linspace(0.05, 0.95, max(len(categories), 2)))[:len(categories)]
+    else:
+        missing = set(categories) - category_colors.keys()
+        if missing:
+            raise ValueError(f"Missing profile colors for: {sorted(missing)}")
+        colors = [category_colors[category] for category in categories]
     handles, legend_labels = [], []
     for index, category in enumerate(categories):
         bars = ax.barh(
             list(clusters), means[:, index], left=offsets,
-            label=str(category), color=colors[index],
+            label=str(category), color=colors[index], edgecolor="white", linewidth=0.25,
         )
         offsets += means[:, index]
         handles.append(bars[0])
@@ -445,20 +637,33 @@ def _stacked_profile(ax, profile, labels, clusters, xlabel, cmap_name):
     return handles, legend_labels
 
 
-def plot_clusters(frame, totals, features, model, output_dir, data_type,
-                  task_profile, format_profile):
-    labels = model.labels_
-    k = model.n_clusters
+def create_cluster_profile_figure(frame, totals, labels, n_clusters, data_type,
+                                  task_profile, format_profile=None, *, task_colors=None,
+                                  legend_order=None, quantity_label=None,
+                                  cluster_count_label="n", power=None):
+    """Build the shared profile figure without fitting, saving, or closing it."""
+    if power is not None and not 0 < power < 1:
+        raise ValueError("power must satisfy 0 < power < 1")
+    task_profile = _text_task_profile(task_profile)
+    if task_colors is None:
+        task_colors = build_task_color_map()
+    if legend_order is None:
+        legend_order = build_profile_legend_order()
+    k = n_clusters
     clusters = range(k)
-    cluster_colors = plt.get_cmap("tab10")(np.arange(k) % 10)
+    cluster_colors = build_cluster_profile_colors(k)
     quantity_key = frame.columns[0].removesuffix(" log10")
 
-    height = max(4, 0.6 * k)
+    # Reserve a separate band for five-row, panel-specific legends.
+    legend_height = 1.65
+    height = max(4, 0.6 * k) + legend_height
+    include_format = format_profile is not None
+    width_ratios = [1.18, 0.95, 1.05] + ([0.82] if include_format else [])
     fig, axes = plt.subplots(
-        1, 4, figsize=(18, height), sharey=True,
-        gridspec_kw={"width_ratios": [1.18, 0.95, 1.05, 0.82]},
+        1, len(width_ratios), figsize=(18 if include_format else 14, height),
+        sharey=True, gridspec_kw={"width_ratios": width_ratios},
     )
-    left, source_ax, task_ax, format_ax = axes
+    left, source_ax, task_ax = axes[:3]
 
     boxes = left.boxplot(
         [totals.to_numpy()[labels == cluster] for cluster in clusters],
@@ -468,9 +673,11 @@ def plot_clusters(frame, totals, features, model, output_dir, data_type,
         box.set_facecolor(color)
         box.set_alpha(0.6)
     left.set_xscale("log")
-    left.set_xlabel(f"{quantity_key} (log scale)")
+    left.set_xlabel(quantity_label if quantity_label is not None
+                    else f"{quantity_key} (log scale)")
     left.set_yticks(list(clusters), [
-        f"Cluster {cluster} (n={np.sum(labels == cluster)})" for cluster in clusters
+        f"Cluster {cluster} ({cluster_count_label}={np.sum(labels == cluster)})"
+        for cluster in clusters
     ])
     left.grid(axis="x", alpha=0.25)
 
@@ -479,34 +686,85 @@ def plot_clusters(frame, totals, features, model, output_dir, data_type,
         column.split("/", 1)[0] for column in source_profile.columns
     ]
     task_profile = task_profile.reindex(frame.index)
-    format_profile = format_profile.reindex(frame.index)
-
-    legend_sections = []
-    for ax, profile, xlabel, cmap_name, prefix in [
+    panels = [
         (source_ax, source_profile, "Mean normalized source proportion", "Set2", "Source"),
         (task_ax, task_profile, "Mean normalized task proportion", "tab20", "Task"),
-        (format_ax, format_profile, "Mean normalized format proportion", "Set3", "Format"),
-    ]:
-        handles, labels_text = _stacked_profile(
-            ax, profile, labels, clusters, xlabel, cmap_name
-        )
-        legend_sections.extend(
-            (handle, f"{prefix}: {label}")
-            for handle, label in zip(handles, labels_text)
-        )
+    ]
+    if include_format:
+        panels.append((axes[3], format_profile.reindex(frame.index),
+                       "Mean normalized format proportion", "Set3", "Format"))
 
-    handles = [item[0] for item in legend_sections]
-    labels_text = [item[1] for item in legend_sections]
-    ncol = min(8, max(1, len(handles)))
-    fig.legend(
-        handles, labels_text, loc="lower center", ncol=ncol,
-        fontsize=4.6, frameon=False, columnspacing=0.8, handlelength=1.4,
-        bbox_to_anchor=(0.5, 0.01),
+    legend_sections = []
+    for ax, profile, xlabel, cmap_name, prefix in panels:
+        panel_power = power if prefix in ("Source", "Task") else None
+        if panel_power is not None:
+            xlabel = f"Power-transformed {prefix.lower()} weight (power={power:g})"
+        handles, labels_text = _stacked_profile(
+            ax, profile, labels, clusters, xlabel, cmap_name,
+            category_colors=(
+                ICLR_FIG2_ALTAIR_SOURCE_COLORS if prefix == "Source"
+                else task_colors if prefix == "Task" else None
+            ),
+            power=panel_power,
+        )
+        # Reorder/filter only legend entries; every category remains in the bars.
+        if prefix in legend_order:
+            by_label = dict(zip(labels_text, handles))
+            ordered = [label for label in legend_order[prefix] if label in by_label]
+            # Pre-training is outside the post-training top ten but must remain
+            # visible in its own stage's legend. Do not mutate the cached order.
+            if (prefix == "Task" and data_type == "pretrain"
+                    and "pretrain" in by_label and "pretrain" not in ordered):
+                ordered.append("pretrain")
+            if prefix == "Source":
+                ordered.extend(label for label in labels_text if label not in ordered)
+            handles = [by_label[label] for label in ordered]
+            labels_text = ordered
+        legend_sections.append((ax, handles, labels_text, prefix))
+
+    # Lay out the panels first, then anchor legends below their x-axis labels.
+    fig.tight_layout(rect=(0.0, legend_height / height, 1.0, 1.0), w_pad=1.0)
+    legend_y = min(ax.get_position().y0 for ax in axes) - 0.60 / height
+    for ax, handles, labels_text, prefix in legend_sections:
+        if not handles:
+            continue
+        ncol = 1 if (prefix == "Source"
+                     or (prefix == "Task" and data_type == "pretrain")) else 2
+        if prefix == "Format":
+            ncol = (len(handles) + 4) // 5
+            # Matplotlib fills columns top-to-bottom. Padding gives exactly five
+            # slots per format column, with blanks only in the final column.
+            padding = ncol * 5 - len(handles)
+            handles = handles + [Patch(facecolor="none", edgecolor="none")] * padding
+            labels_text = labels_text + [""] * padding
+        position = ax.get_position()
+        x = position.x0 if prefix == "Format" else (position.x0 + position.x1) / 2
+        ax.legend(
+            handles, labels_text,
+            loc="upper left" if prefix == "Format" else "upper center",
+            ncol=ncol, fontsize=10, frameon=False, columnspacing=1.0,
+            handlelength=1.4, borderaxespad=0.0,
+            bbox_to_anchor=(x, legend_y), bbox_transform=fig.transFigure,
+        )
+    return fig
+
+
+def plot_clusters(frame, totals, features, model, output_dir, data_type,
+                  task_profile, format_profile, *, filename_prefix="", task_colors=None,
+                  legend_order=None):
+    fig = create_cluster_profile_figure(
+        frame, totals, model.labels_, model.n_clusters, data_type,
+        task_profile, format_profile, task_colors=task_colors,
+        legend_order=legend_order,
     )
-    fig.tight_layout(rect=(0.0, 0.18, 1.0, 1.0), w_pad=1.0)
-    fig.savefig(output_dir / "cluster_profiles.png", dpi=180)
+    # Format columns may extend right of the last panel; keep them in the image.
+    fig.savefig(output_dir / f"{filename_prefix}cluster_profiles.png", dpi=180,
+                bbox_inches="tight")
     plt.close(fig)
 
+    labels = model.labels_
+    clusters = range(model.n_clusters)
+    cluster_colors = build_cluster_profile_colors(model.n_clusters)
     pca = PCA(n_components=2)
     coordinates = pca.fit_transform(features)
     fig, ax = plt.subplots(figsize=(8, 6))
@@ -529,7 +787,7 @@ def plot_clusters(frame, totals, features, model, output_dir, data_type,
     ax.legend()
     ax.grid(alpha=0.2)
     fig.tight_layout()
-    fig.savefig(output_dir / "cluster_pca.png", dpi=180)
+    fig.savefig(output_dir / f"{filename_prefix}cluster_pca.png", dpi=180)
     plt.close(fig)
     pca_summary = summarize_pca(frame, coordinates, variance, labels, data_type)
     return variance.tolist(), representatives, pca_summary
@@ -552,6 +810,7 @@ class ClusteringInput:
     zero_sources: pd.Series
     task_profile: pd.DataFrame
     format_profile: pd.DataFrame
+    source_counts: pd.DataFrame = None
 
 
 @dataclass
@@ -594,11 +853,13 @@ def prepare_clustering(input_folder=None, data_type="pretrain", *, root=None):
     format_profile = read_categorical_profile(
         input_dir, frame.index, "Format Statistics"
     )
+    source_counts = read_source_counts(input_dir, frame.index)
     if not usable.any():
         raise ValueError("No ISO-Type-L languages with usable positive quantities")
     return ClusteringInput(
         input_dir, data_type, config, language_codes, frame, totals, usable,
         excluded, zero_sources, task_profile, format_profile,
+        source_counts,
     )
 
 
@@ -645,20 +906,27 @@ def run_clustering(alpha, n_clusters, *, data_type, input_folder=None,
     return ClusteringRun(prepared, config, selected, features, model, metrics, label_mapping)
 
 
-def save_clustering_run(run, output_folder, *, print_results=True):
+def save_clustering_run(run, output_folder, *, print_results=True, prefix_filenames=False,
+                        task_colors=None, legend_order=None):
     """Save the normal seven reports from an already fitted ClusteringRun.
 
     Does NOT fit KMeans or read YAML again. Cluster labels, config and scalar
     silhouette describe this run's reference seed. A grid caller may supply
     explicit multi-seed stability metrics in a copied run.metrics dictionary.
     Ordinary main() and grid search share this reporting implementation.
+    The CLI enables stage-prefixed filenames; grid reports retain their names.
+    Task colors use the shared canonical mapping, optionally supplied by a grid caller.
+    Legend ordering is shared with grid reports and does not filter plotted data.
     """
     if not isinstance(run, ClusteringRun):
         raise TypeError("run must be a ClusteringRun")
     if not isinstance(print_results, bool):
         raise ValueError("print_results must be a boolean")
+    if not isinstance(prefix_filenames, bool):
+        raise ValueError("prefix_filenames must be a boolean")
     prepared = run.prepared
     data_type = prepared.data_type
+    filename_prefix = f"{data_type}_" if prefix_filenames else ""
     output_dir = (ROOT / Path(output_folder).expanduser()).resolve()
     if output_dir == prepared.input_dir.resolve():
         raise ValueError("Input and output folders must be different")
@@ -687,11 +955,20 @@ def save_clustering_run(run, output_folder, *, print_results=True):
     result.loc[frame.index, "Cluster Status"] = "Insufficient data"
     result.loc[selected.index, "Cluster"] = model.labels_
     result.loc[selected.index, "Cluster Status"] = "Clustered"
+    source_counts = prepared.source_counts
+    if source_counts is None:
+        source_counts = read_source_counts(prepared.input_dir, frame.index)
+    summary = extend_cluster_resource_summary(
+        summary, source_counts, totals, result["Cluster"]
+    )
     output_dir.mkdir(parents=True, exist_ok=True)
     variance, representatives, pca_summary = plot_clusters(
         selected, totals.loc[usable], features, model, output_dir, data_type,
         prepared.task_profile.loc[selected.index],
         prepared.format_profile.loc[selected.index],
+        filename_prefix=filename_prefix,
+        task_colors=task_colors,
+        legend_order=legend_order,
     )
     metrics.update({
         "data_type": data_type,
@@ -714,6 +991,9 @@ def save_clustering_run(run, output_folder, *, print_results=True):
             "silhouette": "per-language Euclidean silhouettes in the full weighted feature space, averaged within each cluster or over all fitted languages",
             "pure_source_count": "exact one-hot normalized source vector; includes upstream default assignments, not necessarily independently observed provenance",
             "pure_source_category": "Collect-Existed" if data_type == "pretrain" else "Machine-Generated",
+            "coverage_counts": "language-equal means, sample standard deviations (ddof=1), and medians of reduced num_collection_sources and num_dataset_sources; absent language records count as zero; singleton standard deviations are undefined",
+            "quantity_gini": "math_utils.gini on raw NCC/Num Dialogs for fitted languages; Cluster -1 is undefined; overall is recomputed over all fitted languages",
+            "dataset_count_gini": "math_utils.gini on num_dataset_sources for each cluster, including -1; absent records count as zero; all-zero vectors are undefined; overall includes fitted languages only",
         },
         "registry_languages": len(language_codes),
         "registry_policy": "ISO_639_3_Type == L only",
@@ -751,18 +1031,18 @@ def save_clustering_run(run, output_folder, *, print_results=True):
         "negative_silhouette_languages": int((full_silhouettes < 0).sum()),
         "representative_languages": representatives,
     })
-    result.to_csv(output_dir / "cluster_results.csv", encoding="utf-8-sig")
-    features.to_csv(output_dir / "clustering_matrix.csv", encoding="utf-8-sig")
-    summary.to_csv(output_dir / "cluster_summary.csv", encoding="utf-8-sig")
-    pca_summary.to_csv(output_dir / "PCA_summary.csv", encoding="utf-8-sig", na_rep="")
-    (output_dir / "cluster_metrics.json").write_text(
+    result.to_csv(output_dir / f"{filename_prefix}cluster_results.csv", encoding="utf-8-sig")
+    features.to_csv(output_dir / f"{filename_prefix}clustering_matrix.csv", encoding="utf-8-sig")
+    summary.to_csv(output_dir / f"{filename_prefix}cluster_summary.csv", encoding="utf-8-sig")
+    pca_summary.to_csv(output_dir / f"{filename_prefix}PCA_summary.csv", encoding="utf-8-sig", na_rep="")
+    (output_dir / f"{filename_prefix}cluster_metrics.json").write_text(
         json.dumps(metrics, ensure_ascii=False, indent=2, allow_nan=False) + "\n",
         encoding="utf-8",
     )
     # Centers are now part of cluster_summary.csv. Clean only these known
     # legacy generated files, and only after all new reports were saved.
     for legacy_name in ("cluster_centers.csv", "cluster_center.csv"):
-        legacy_path = output_dir / legacy_name
+        legacy_path = output_dir / f"{filename_prefix}{legacy_name}"
         if legacy_path.is_file():
             legacy_path.unlink()
     if print_results:
@@ -795,7 +1075,7 @@ def main(input_folder, output_folder, data_type):
         prepared.config["alpha"], prepared.config["n_clusters"],
         data_type=data_type, prepared=prepared, evaluate_stability=True,
     )
-    save_clustering_run(run, output_dir)
+    save_clustering_run(run, output_dir, prefix_filenames=True)
 
 
 if __name__ == "__main__":

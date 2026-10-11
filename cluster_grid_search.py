@@ -4,7 +4,10 @@
 Imports the compute-only wrapper in cluster_analysis.py. Reads reduced JSONs
 and clustering.yaml. Save one complete reference-seed report per parameter
 pair and stage under cluster_grid_search_results, then print the grids and
-save one alpha line-and-marker PDF per selected stage in that same root.
+save one alpha line-and-marker PDF and one four-R-score CSV grid per selected
+stage in that same root.
+Cluster summaries reuse shared coverage means, sample SDs (ddof=1), medians,
+and quantity/dataset-count Gini indices.
 No extra KMeans fits are needed.
 Use both --no-save-results and --no-save-alpha-curves for a print-only run.
 The normal cluster_analysis.py CLI and pipeline.sh remain separate.
@@ -27,6 +30,8 @@ from sklearn.preprocessing import StandardScaler
 
 from cluster_analysis import (
     build_features,
+    build_profile_legend_order,
+    build_task_color_map,
     prepare_clustering,
     run_clustering,
     save_clustering_run,
@@ -231,6 +236,18 @@ def format_resource_explained_variance(r_q_matrix, r_s_matrix,
     return pd.DataFrame(rows, index=r_q_matrix.index, columns=r_q_matrix.columns)
 
 
+def save_alpha_sensitivity_csv(matrix, output_path):
+    """Save the printed alpha x K grid: R_Q / R_S / R_balanced / R_joint."""
+    table = format_resource_explained_variance(*(
+        matrix.attrs[f"{name}_mean"]
+        for name in ("R_Q", "R_S", "R_balanced", "R_joint")
+    ))
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    table.to_csv(output_path, index_label="alpha", encoding="utf-8-sig")
+    return output_path
+
+
 
 def save_alpha_curves_pdf(stage, matrix, output_path):
     """One PDF page per stage, one panel per K, four seed-mean lines with markers.
@@ -373,7 +390,7 @@ def json_finite_or_none(value):
 
 def save_grid_cell_reports(results_root, stage, alpha, k, reference_run,
                            seed_runs, pairs, ari_mean, ari_min, resource_scores,
-                           total_q, total_s):
+                           total_q, total_s, *, task_colors=None, legend_order=None):
     """Publish all seven standard reports for the FIRST supplied seed.
 
     Keep ordinary summary/PCA/label semantics: never average cluster IDs,
@@ -448,7 +465,14 @@ def save_grid_cell_reports(results_root, stage, alpha, k, reference_run,
         for filename in GRID_REPORT_FILES + ('cluster_centers.csv', 'cluster_center.csv'):
             if (staged / filename).is_symlink():
                 raise ValueError(f"Refusing a symlink for generated report: {filename}")
-        save_clustering_run(report_run, staged, print_results=False)
+        # Use the CLI's shared profile renderer: canonical Source order, ranked
+        # top-ten Tasks, and larger vertical legends below each matching panel.
+        # Pre-training additionally shows pretrain in a single vertical Task column.
+        # Formats use five entries per column and extend right without clipping.
+        save_clustering_run(
+            report_run, staged, print_results=False, task_colors=task_colors,
+            legend_order=legend_order,
+        )
         for filename in GRID_REPORT_FILES:
             path = staged / filename
             if not path.is_file() or path.stat().st_size == 0:
@@ -491,7 +515,8 @@ def run_grid_search(alphas, n_clusters_list, random_seeds, *, root=None,
     Return values remain the Silhouette DataFrames for backward compatibility.
     Their attrs additionally contain pairwise_ARI_mean and pairwise_ARI_min
     (numeric DataFrames), per_seed_pair_ARI, and pairwise_ARI_pairs_per_cell.
-    Numerical matrices remain in memory; per-cell reports and alpha PDFs are optional outputs.
+    Numerical matrices remain in memory; per-cell reports, R-score CSV grids,
+    and alpha PDFs are optional outputs.
     Changing alpha changes the distance
     metric: a maximum across alpha rows is not by itself proof of the most
     substantively appropriate weighting. Seed ARI tests initialization
@@ -516,6 +541,9 @@ def run_grid_search(alphas, n_clusters_list, random_seeds, *, root=None,
     seed, while grid means and all supplied seeds' stability diagnostics are
     also preserved in cluster_metrics.json. Save each cell after its seeds
     finish, without additional fits. print_results=False only suppresses stdout.
+    When save_results=True, also save alpha_sensitivity_results_{stage}.csv:
+    rows are alpha, columns are K, and each cell uses the printed four-score
+    format with three decimals and N/A for undefined components.
     Set BOTH save_results=False and save_alpha_curves=False for no file writes.
     Figure panels follow caller K order; x uses actual alpha values sorted for
     plotting only. Matrices and their precision are unchanged.
@@ -532,9 +560,13 @@ def run_grid_search(alphas, n_clusters_list, random_seeds, *, root=None,
     project_root = Path(__file__).resolve().parent if root is None else Path(root).expanduser().resolve()
     stages = ("pretrain", "posttrain") if data_type == "all" else (data_type,)
 
+    # The shared profile reader/plotter omits multimodal task labels without error.
     # Read each stage only once. Alpha changes require reconstructing weighted
     # features, never reusing a matrix saved under a different alpha.
     inputs = {stage: prepare_clustering(data_type=stage, root=project_root) for stage in stages}
+    # One fixed tab20 palette for allowed tasks across both stages and all cells.
+    task_colors = build_task_color_map() if save_results else None
+    legend_order = build_profile_legend_order() if save_results else None
     reference_blocks = {}
     for stage, prepared in inputs.items():
         selected = prepared.frame.loc[prepared.usable]
@@ -668,7 +700,8 @@ def run_grid_search(alphas, n_clusters_list, random_seeds, *, root=None,
                         path = save_grid_cell_reports(
                             results_root, stage, alpha, k, reference_run,
                             cell_seed_runs, pairs, mean, minimum, cell_resource_scores,
-                            total_q, total_s,
+                            total_q, total_s, task_colors=task_colors,
+                            legend_order=legend_order,
                         )
                     except (OSError, ValueError, TypeError, KeyError) as error:
                         raise ValueError(
@@ -740,6 +773,13 @@ def run_grid_search(alphas, n_clusters_list, random_seeds, *, root=None,
         count = len(stages) * len(alphas) * len(n_clusters_list)
         print(f"Saved {count} complete stage reports under {results_root}; "
               f"reference_seed={random_seeds[0]}; multi-seed means/stability in cluster_metrics.json")
+    if save_results:
+        for stage, matrix in matrices.items():
+            path = save_alpha_sensitivity_csv(
+                matrix, results_root / f"alpha_sensitivity_results_{stage}.csv"
+            )
+            if print_results:
+                print(f"Saved alpha sensitivity CSV: {path}")
     # Render only final seed-mean alpha diagnostics; per-cell reports are already saved.
     if save_alpha_curves:
         # Curves can be saved even when per-parameter reports are disabled.
@@ -769,7 +809,7 @@ def main(argv=None):
     parser.add_argument("--no-save-alpha-curves", action="store_true",
                         help="Do not create or update alpha PDFs in cluster_grid_search_results")
     parser.add_argument("--no-save-results", action="store_true",
-                        help="Do not create per-parameter clustering reports; combine with --no-save-alpha-curves for no writes")
+                        help="Do not create per-parameter clustering reports or R-score CSV grids; combine with --no-save-alpha-curves for no writes")
     args = parser.parse_args(argv)
     try:
         run_grid_search(args.alphas, args.n_clusters_list, args.seeds,

@@ -2,6 +2,8 @@ import argparse
 import json
 from pathlib import Path
 
+from group_datasets import canonical_task_category
+
 root = Path(__file__).resolve().parent
 language_info = json.loads((root / "language_639-3_info.json").read_text(encoding="utf-8"))
 language_name_to_code = {
@@ -20,6 +22,14 @@ def read_all_constants(constants_dir):
 
 def invert_dict_of_lists(values):
     return {item: group for group, items in values.items() for item in items}
+
+source_categories = [
+    "Expert-Created",
+    "Human-Created",
+    "Collect-Existed",
+    "Human-Audited",
+    "Machine-Generated",
+]
 
 
 source_type_to_category = {
@@ -148,11 +158,12 @@ def map_task(dataset, task_to_macro_category):
         dataset.get("Task Categories"), "Task Categories"
     )
     mapped = [
-        task_to_macro_category.get(task, task)
+        canonical_task_category(task_to_macro_category.get(task, task))
         for task in task_categories
         if task != DEFAULT_LIST_CATEGORY
     ]
-    dataset["Task Macro Categories"] = mapped or [DEFAULT_LIST_CATEGORY]
+    # Multiple source tasks may now share one merged macro category.
+    dataset["Task Macro Categories"] = list(dict.fromkeys(mapped)) or [DEFAULT_LIST_CATEGORY]
 
 
 def map_format(dataset):

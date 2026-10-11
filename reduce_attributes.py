@@ -5,7 +5,7 @@ from pathlib import Path
 
 from group_datasets import (
     DEFAULT_LIST_CATEGORY, categories_or_default, default_source_category,
-    field_paths, read_value,
+    field_paths, read_value, task_categories_or_default,
 )
 from math_utils import aggregate_size_ci
 
@@ -71,7 +71,8 @@ def reduce_attributes(group, config):
     main_values = aligned_values(group, main_quantity, size)
     fallback = default_source_category(main_quantity[-1])
     # Repair missing categorical lists in legacy grouped inputs. Use fresh
-    # lists: do not mutate the grouped input or replace observed labels.
+    # lists: do not mutate the grouped input. Task labels additionally exclude
+    # multimodal/speech categories and remove duplicates before allocation.
     categorical_fallbacks = {
         "Text Source Categories": fallback,
         "Task Macro Categories": DEFAULT_LIST_CATEGORY,
@@ -80,7 +81,9 @@ def reduce_attributes(group, config):
     for field, field_fallback in categorical_fallbacks.items():
         labels = aligned_values(group, (field,), size)
         result[field] = [
-            categories_or_default(
+            task_categories_or_default(value)
+            if field == "Task Macro Categories"
+            else categories_or_default(
                 value, field_fallback, field_name=field
             )
             for value in labels

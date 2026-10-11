@@ -2,6 +2,8 @@ import argparse
 import json
 from pathlib import Path
 
+from group_datasets import EXCLUDED_TASK_CATEGORY, task_categories_or_default
+
 
 ROOT = Path(__file__).resolve().parent
 
@@ -63,6 +65,16 @@ def filter_format(datasets):
     return removed
 
 
+def filter_tasks(datasets):
+    """Remove subsets whose only explicit task category is excluded."""
+    removed = []
+    for name, dataset in list(datasets.items()):
+        if not task_categories_or_default(dataset.get("Task Macro Categories")):
+            del datasets[name]
+            removed.append(name)
+    return removed
+
+
 def main(input_folder, output_folder=None):
     input_dir = (ROOT / input_folder).resolve()
     output_dir = input_dir if output_folder is None else (ROOT / output_folder).resolve()
@@ -79,6 +91,7 @@ def main(input_folder, output_folder=None):
     total_language_entries = 0
     excluded_language_entries = 0
     removed_language_subsets = 0
+    removed_task_subsets = 0
 
     for path in sorted(input_dir.iterdir()):
         if not path.is_file() or path.suffix.lower() != ".json":
@@ -97,11 +110,15 @@ def main(input_folder, output_folder=None):
         excluded_language_entries += excluded
         removed_language_subsets += len(removed_languages)
         removed_formats = filter_format(datasets)
+        removed_tasks = filter_tasks(datasets)
+        removed_task_subsets += len(removed_tasks)
 
         if not datasets:
             reasons = []
             if removed_formats:
                 reasons.append("format: " + ", ".join(removed_formats))
+            if removed_tasks:
+                reasons.append("tasks: " + ", ".join(removed_tasks))
             if not removed_languages and not reasons:
                 reasons.append("empty")
             if reasons:
@@ -125,6 +142,10 @@ def main(input_folder, output_folder=None):
         f"{excluded_language_entries}/{total_language_entries} language entries "
         f"({ratio:.2%}); {removed_language_subsets} subsets removed because "
         f"no ISO-Type-L language entries remained"
+    )
+    print(
+        f"TASK EXCLUSION SUMMARY: {removed_task_subsets} subsets removed because "
+        f"their only task category was {EXCLUDED_TASK_CATEGORY}"
     )
 
 

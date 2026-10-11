@@ -35,7 +35,8 @@ python reduce_attributes.py meta_data_pretrain_grouped meta_data_pretrain_reduce
 python reduce_attributes.py meta_data_posttrain_grouped meta_data_posttrain_reduced --data_type posttrain
 
 # grid search the best clustering parameter
-#/Users/jiluo-wendu/anaconda3/bin/python -B cluster_grid_search.py --alphas 0.025 0.05 0.075 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 --n-clusters 2 3 4 5 6 --seeds 42 43 44 45 46 47 48 49 50 51
+#python -B cluster_grid_search.py --alphas 0.025 0.05 0.075 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 --n-clusters 2 3 4 5 6 --seeds 42 43 44 45 46 47 48 49 50 51
+#python -B cluster_grid_search.py --alphas 0.05 0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.6 --n-clusters 2 3 4 5 6 --seeds 42 43 44 45 46 47 48 49 50 51
 #--data-type pretrain
 
 # cluster
@@ -47,3 +48,7 @@ python cluster_analysis.py meta_data_posttrain_reduced meta_data_posttrain_clust
 #python -B join_language_clusters.py --data-type pretrain
 #python -B join_language_clusters.py --data-type posttrain
 python -B join_language_clusters.py
+
+# plot
+python -B plot_results.py
+

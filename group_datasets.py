@@ -21,6 +21,16 @@ def default_source_category(quantity_key):
 
 
 DEFAULT_LIST_CATEGORY = "Other"
+EXCLUDED_TASK_CATEGORY = "multimodal"
+TASK_CATEGORY_ALIASES = json.loads(
+    (ROOT / "task_macro_category_mapping.json").read_text(encoding="utf-8")
+).get("macro_category_aliases", {})
+
+
+def canonical_task_category(category):
+    """Accept legacy macro labels without rewriting existing metadata files."""
+    category = category.strip()
+    return TASK_CATEGORY_ALIASES.get(category, category)
 
 
 def categories_or_default(categories, fallback, field_name="categorical field"):
@@ -50,6 +60,15 @@ def source_categories_or_default(categories, fallback):
     return categories_or_default(
         categories, fallback, field_name="Text Source Categories"
     )
+
+
+def task_categories_or_default(categories):
+    """Remove multimodal tasks before allocation; missing tasks still use Other."""
+    labels = categories_or_default(
+        categories, DEFAULT_LIST_CATEGORY, field_name="Task Macro Categories"
+    )
+    labels = dict.fromkeys(canonical_task_category(label) for label in labels)
+    return [label for label in labels if label != EXCLUDED_TASK_CATEGORY]
 
 
 def list_field_fallback(path, source_fallback):
@@ -111,8 +130,14 @@ def group_datasets(datasets, config):
     grouped = {}
     null_stats = {path: {"total": 0, "null": 0} for _, path in fields}
     skipped = 0
+    skipped_tasks = 0
     records = datasets.items() if isinstance(datasets, dict) else datasets
     for dataset_id, dataset in records:
+        task_categories = task_categories_or_default(dataset.get("Task Macro Categories"))
+        if not task_categories:
+            # Match Filter when Group is called directly on unfiltered records.
+            skipped_tasks += 1
+            continue
         group_ids = dataset.get(config["group id list"], [])
         if not isinstance(group_ids, list):
             raise TypeError(f"{dataset_id}: {config['group id list']} must be a list")
@@ -138,7 +163,9 @@ def group_datasets(datasets, config):
             # denominator. Multi-label records keep all labels and are split
             # equally during Reduce.
             list_fallback = list_field_fallback(path, fallback)
-            if list_fallback is not None:
+            if path == ("Task Macro Categories",):
+                value = task_categories
+            elif list_fallback is not None:
                 value = categories_or_default(
                     value, list_fallback, field_name=path[-1]
                 )
@@ -168,6 +195,8 @@ def group_datasets(datasets, config):
         print(f"{' / '.join(path)}: total={total}, null={null}, null_ratio={ratio}")
     if skipped:
         print(f"SKIP: {skipped} subsets with empty {config['group id list']}")
+    if skipped_tasks:
+        print(f"SKIP: {skipped_tasks} subsets with only {EXCLUDED_TASK_CATEGORY} tasks")
     return grouped
 
 
