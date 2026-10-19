@@ -51,4 +51,11 @@ python -B join_language_clusters.py
 
 # plot
 python -B plot_results.py
+python -B plot_results.py --power 0.5
+
+# for website
+#python -B export_web_data.py
+#cd /d D:\Git\websites\MAPP
+#python -B scripts/update_resource_profiles.py --source-root D:\Projects\low-resource-language-review
+# 会更新 assets/ 中的 PNG、SVG、PDF，并生成审计 JSON，记录数据版本、文件哈希和每个点对应的 ISO。命令末尾加 --check 可仅检查输入，加 --verify 可校验已生成图片。
 

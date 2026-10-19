@@ -607,7 +607,7 @@ def _text_task_profile(profile):
 
 
 def _stacked_profile(ax, profile, labels, clusters, xlabel, cmap_name,
-                     *, category_colors=None, power=None):
+                     *, category_colors=None, power=None, height=0.8):
     categories, means = _profile_cluster_means(profile, labels, clusters)
     if power is not None:
         # Transform cluster means only for display; preserve zero components.
@@ -625,7 +625,7 @@ def _stacked_profile(ax, profile, labels, clusters, xlabel, cmap_name,
     handles, legend_labels = [], []
     for index, category in enumerate(categories):
         bars = ax.barh(
-            list(clusters), means[:, index], left=offsets,
+            list(clusters), means[:, index], left=offsets, height=height,
             label=str(category), color=colors[index], edgecolor="white", linewidth=0.25,
         )
         offsets += means[:, index]
@@ -640,10 +640,22 @@ def _stacked_profile(ax, profile, labels, clusters, xlabel, cmap_name,
 def create_cluster_profile_figure(frame, totals, labels, n_clusters, data_type,
                                   task_profile, format_profile=None, *, task_colors=None,
                                   legend_order=None, quantity_label=None,
-                                  cluster_count_label="n", power=None):
-    """Build the shared profile figure without fitting, saving, or closing it."""
+                                  cluster_count_label="n", power=None, axes=None,
+                                  row_height=None, bar_height=None, flier_fraction=1.0):
+    """Build profiles; flier_fraction is scalar or one value per cluster.
+
+    Supplied axes defer layout and legends to their caller.
+    """
     if power is not None and not 0 < power < 1:
         raise ValueError("power must satisfy 0 < power < 1")
+    if row_height is not None and not 0 < row_height < 1:
+        raise ValueError("row_height must satisfy 0 < row_height < 1")
+    if bar_height is not None and not 0 < bar_height < 1:
+        raise ValueError("bar_height must satisfy 0 < bar_height < 1")
+    flier_fractions = np.broadcast_to(np.asarray(flier_fraction, dtype=float), (n_clusters,))
+    if not (np.isfinite(flier_fractions) & (flier_fractions > 0)
+            & (flier_fractions <= 1)).all():
+        raise ValueError("Each flier_fraction must satisfy 0 < fraction <= 1")
     task_profile = _text_task_profile(task_profile)
     if task_colors is None:
         task_colors = build_task_color_map()
@@ -659,19 +671,40 @@ def create_cluster_profile_figure(frame, totals, labels, n_clusters, data_type,
     height = max(4, 0.6 * k) + legend_height
     include_format = format_profile is not None
     width_ratios = [1.18, 0.95, 1.05] + ([0.82] if include_format else [])
-    fig, axes = plt.subplots(
-        1, len(width_ratios), figsize=(18 if include_format else 14, height),
-        sharey=True, gridspec_kw={"width_ratios": width_ratios},
-    )
+    standalone = axes is None
+    if standalone:
+        fig, axes = plt.subplots(
+            1, len(width_ratios), figsize=(18 if include_format else 14, height),
+            sharey=True, gridspec_kw={"width_ratios": width_ratios},
+        )
+    else:
+        if len(axes) != len(width_ratios):
+            raise ValueError("Supplied axes must match the number of profile panels")
+        fig = axes[0].figure
     left, source_ax, task_ax = axes[:3]
 
     boxes = left.boxplot(
         [totals.to_numpy()[labels == cluster] for cluster in clusters],
         orientation="horizontal", positions=list(clusters), patch_artist=True,
+        widths=row_height,
     )
     for box, color in zip(boxes["boxes"], cluster_colors):
         box.set_facecolor(color)
         box.set_alpha(0.6)
+    if (flier_fractions < 1).any():
+        # Thin only rendered markers, after all box statistics and limits use
+        # the full data. Keep tail extrema when the sample size permits.
+        rng = np.random.default_rng(42)
+        for flier, fraction in zip(boxes["fliers"], flier_fractions):
+            x, y = np.asarray(flier.get_xdata()), np.asarray(flier.get_ydata())
+            if not x.size or fraction == 1:
+                continue
+            count = max(1, int(np.ceil(x.size * fraction)))
+            extremes = list(dict.fromkeys([int(x.argmax()), int(x.argmin())]))[:count]
+            candidates = np.setdiff1d(np.arange(x.size), extremes)
+            sampled = rng.choice(candidates, count - len(extremes), replace=False)
+            keep = np.sort(np.concatenate([extremes, sampled]).astype(int))
+            flier.set_data(x[keep], y[keep])
     left.set_xscale("log")
     left.set_xlabel(quantity_label if quantity_label is not None
                     else f"{quantity_key} (log scale)")
@@ -705,7 +738,8 @@ def create_cluster_profile_figure(frame, totals, labels, n_clusters, data_type,
                 ICLR_FIG2_ALTAIR_SOURCE_COLORS if prefix == "Source"
                 else task_colors if prefix == "Task" else None
             ),
-            power=panel_power,
+            power=panel_power, height=(bar_height if bar_height is not None
+                                      else 0.8 if row_height is None else row_height),
         )
         # Reorder/filter only legend entries; every category remains in the bars.
         if prefix in legend_order:
@@ -721,6 +755,9 @@ def create_cluster_profile_figure(frame, totals, labels, n_clusters, data_type,
             handles = [by_label[label] for label in ordered]
             labels_text = ordered
         legend_sections.append((ax, handles, labels_text, prefix))
+
+    if not standalone:
+        return fig
 
     # Lay out the panels first, then anchor legends below their x-axis labels.
     fig.tight_layout(rect=(0.0, legend_height / height, 1.0, 1.0), w_pad=1.0)
