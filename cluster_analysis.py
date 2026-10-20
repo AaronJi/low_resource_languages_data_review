@@ -396,7 +396,7 @@ def extend_cluster_summary(summary, centers, frame, totals, labels, silhouettes,
     negative_column = "Silhouette为负的语言数"
 
     # Preserve all old summary fields and all old center fields, including the
-    # original-unit quantity column (which equals Num均值 for each fitted row).
+    # original-unit quantity column (which equals the mean Num value for each fitted row).
     combined = summary.join(centers, how="left", validate="one_to_one")
     combined[count_column] = pd.Series(pd.NA, index=combined.index, dtype="Int64")
     combined[silhouette_column] = np.nan

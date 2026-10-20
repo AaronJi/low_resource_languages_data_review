@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 
 #root = Path(".")
 
-project_path = r"D:\Projects\low-resource-language-review"
-root_path = Path(project_path)
+root_path = Path(__file__).resolve().parent
 
 level_order = {"S": 0, "A": 1, "B": 2, "C": 3, "D": 4, "uncovered": 5} # , "E": 5
 

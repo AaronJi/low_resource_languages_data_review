@@ -2,7 +2,7 @@ from math import sqrt
 import numpy as np
 
 def aggregate_size_ci(sizes, lowers, uppers):
-    # 假设：误差独立，各区间为近似正态的对称 95% CI
+    # Assume independent errors and symmetric 95% CIs based on a normal approximation.
     total = sum(sizes)
     ses = [(u - l) / (2 * 1.96) for l, u in zip(lowers, uppers)]
     total_se = sqrt(sum(se**2 for se in ses))
